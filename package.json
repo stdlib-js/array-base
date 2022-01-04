@@ -36,6 +36,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/array-base-arraylike2object": "^0.0.x",
     "@stdlib/array-base-filled": "^0.0.x",
     "@stdlib/array-base-incrspace": "^0.0.x",
     "@stdlib/array-base-linspace": "^0.0.x",
@@ -45,10 +46,16 @@
     "@stdlib/utils-define-read-only-property": "^0.0.x"
   },
   "devDependencies": {
+    "@stdlib/array-complex64": "^0.0.x",
+    "@stdlib/array-float64": "^0.0.x",
     "@stdlib/assert-is-array": "^0.0.x",
+    "@stdlib/assert-is-collection": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
     "@stdlib/blas-base-gscal": "^0.0.x",
     "@stdlib/blas-ext-base-gfill": "^0.0.x",
+    "@stdlib/complex-float32": "^0.0.x",
+    "@stdlib/complex-imagf": "^0.0.x",
+    "@stdlib/complex-realf": "^0.0.x",
     "@stdlib/math-base-special-ceil": "^0.0.x",
     "@stdlib/math-base-special-pow": "^0.0.x",
     "@stdlib/utils-keys": "^0.0.x",
