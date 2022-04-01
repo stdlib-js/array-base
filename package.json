@@ -1,0 +1,38 @@
+{
+  "name": "@stdlib/array-base",
+  "version": "0.0.0",
+  "description": "Base (i.e., lower-level) array utilities.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/array-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "types",
+    "data",
+    "structures",
+    "typed",
+    "arrays",
+    "array",
+    "typed-array",
+    "typed array",
+    "vector",
+    "matrix",
+    "ndarray",
+    "buffer",
+    "namespace",
+    "ns"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
