@@ -63,6 +63,21 @@ The namespace exports the following:
 
 <!-- <toc pattern="*"> -->
 
+<div class="namespace-toc">
+
+-   <span class="signature">[`arraylike2object( x )`][@stdlib/array/base/arraylike2object]</span><span class="delimiter">: </span><span class="description">convert an array-like object to an object likely to have the same "shape".</span>
+-   <span class="signature">[`copy( x )`][@stdlib/array/base/copy]</span><span class="delimiter">: </span><span class="description">copy the elements of an array-like object to a new "generic" array.</span>
+-   <span class="signature">[`filledBy( len, clbk[, thisArg] )`][@stdlib/array/base/filled-by]</span><span class="delimiter">: </span><span class="description">create a filled "generic" array according to a provided callback function.</span>
+-   <span class="signature">[`filled( value, len )`][@stdlib/array/base/filled]</span><span class="delimiter">: </span><span class="description">create a filled "generic" array.</span>
+-   <span class="signature">[`incrspace( start, stop, increment )`][@stdlib/array/base/incrspace]</span><span class="delimiter">: </span><span class="description">generate a linearly spaced numeric array according to a provided increment.</span>
+-   <span class="signature">[`linspace( start, stop, length )`][@stdlib/array/base/linspace]</span><span class="delimiter">: </span><span class="description">generate a linearly spaced numeric array.</span>
+-   <span class="signature">[`logspace( a, b, length )`][@stdlib/array/base/logspace]</span><span class="delimiter">: </span><span class="description">generate a logarithmically spaced numeric array.</span>
+-   <span class="signature">[`ones( len )`][@stdlib/array/base/ones]</span><span class="delimiter">: </span><span class="description">create a "generic" array filled with ones.</span>
+-   <span class="signature">[`unitspace( start, stop, increment )`][@stdlib/array/base/unitspace]</span><span class="delimiter">: </span><span class="description">generate a linearly spaced numeric array whose elements increment by 1.</span>
+-   <span class="signature">[`zeros( len )`][@stdlib/array/base/zeros]</span><span class="delimiter">: </span><span class="description">create a zero-filled "generic" array.</span>
+
+</div>
+
 <!-- </toc> -->
 
 </section>
@@ -164,6 +179,30 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/array-base/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-base/main/LICENSE
+
+<!-- <toc-links> -->
+
+[@stdlib/array/base/arraylike2object]: https://github.com/stdlib-js/array-base-arraylike2object
+
+[@stdlib/array/base/copy]: https://github.com/stdlib-js/array-base-copy
+
+[@stdlib/array/base/filled-by]: https://github.com/stdlib-js/array-base-filled-by
+
+[@stdlib/array/base/filled]: https://github.com/stdlib-js/array-base-filled
+
+[@stdlib/array/base/incrspace]: https://github.com/stdlib-js/array-base-incrspace
+
+[@stdlib/array/base/linspace]: https://github.com/stdlib-js/array-base-linspace
+
+[@stdlib/array/base/logspace]: https://github.com/stdlib-js/array-base-logspace
+
+[@stdlib/array/base/ones]: https://github.com/stdlib-js/array-base-ones
+
+[@stdlib/array/base/unitspace]: https://github.com/stdlib-js/array-base-unitspace
+
+[@stdlib/array/base/zeros]: https://github.com/stdlib-js/array-base-zeros
+
+<!-- </toc-links> -->
 
 </section>
 
