@@ -58,6 +58,7 @@
     "@stdlib/blas-base-gscal": "^0.0.x",
     "@stdlib/blas-ext-base-gfill": "^0.0.x",
     "@stdlib/blas-ext-base-gsort2hp": "^0.0.x",
+    "@stdlib/boolean-ctor": "^0.0.x",
     "@stdlib/complex-float32": "^0.0.x",
     "@stdlib/complex-imagf": "^0.0.x",
     "@stdlib/complex-realf": "^0.0.x",
