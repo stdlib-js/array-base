@@ -44,7 +44,6 @@
     "@stdlib/array-base-linspace": "^0.0.x",
     "@stdlib/array-base-logspace": "^0.0.x",
     "@stdlib/array-base-ones": "^0.0.x",
-    "@stdlib/array-base-reorder": "^0.0.x",
     "@stdlib/array-base-unitspace": "^0.0.x",
     "@stdlib/array-base-zero-to": "^0.0.x",
     "@stdlib/array-base-zeros": "^0.0.x",
