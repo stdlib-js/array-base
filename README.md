@@ -52,7 +52,7 @@ var ns = require( '@stdlib/array-base' );
 
 #### ns
 
-Arrays.
+Array utilities.
 
 ```javascript
 var o = ns;
