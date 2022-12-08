@@ -41,6 +41,7 @@
     "@stdlib/array-base-accessors": "^0.0.x",
     "@stdlib/array-base-arraylike2object": "^0.0.x",
     "@stdlib/array-base-assert": "^0.0.x",
+    "@stdlib/array-base-cartesian-product": "^0.0.x",
     "@stdlib/array-base-copy": "^0.0.x",
     "@stdlib/array-base-copy-indexed": "^0.0.x",
     "@stdlib/array-base-filled": "^0.0.x",
