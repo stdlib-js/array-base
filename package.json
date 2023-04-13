@@ -36,7 +36,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-accessor": "^null",
+    "@stdlib/array-base-accessor": "^0.0.1",
     "@stdlib/array-base-accessor-getter": "^0.0.1",
     "@stdlib/array-base-accessor-setter": "^0.0.1",
     "@stdlib/array-base-accessors": "^0.0.2",
@@ -57,13 +57,14 @@
     "@stdlib/array-base-ones": "^0.0.2",
     "@stdlib/array-base-setter": "^0.0.1",
     "@stdlib/array-base-take": "^0.0.1",
-    "@stdlib/array-base-to-accessor-array": "^null",
+    "@stdlib/array-base-to-accessor-array": "^0.0.1",
     "@stdlib/array-base-unitspace": "^0.0.1",
     "@stdlib/array-base-zero-to": "^0.0.6",
     "@stdlib/array-base-zeros": "^0.0.2",
     "@stdlib/utils-define-read-only-property": "^0.0.8"
   },
   "devDependencies": {
+    "@stdlib/array-base-assert-contains": "github:stdlib-js/array-base-assert-contains#main",
     "@stdlib/array-base-assert-is-accessor-array": "^0.0.1",
     "@stdlib/array-complex128": "^0.0.6",
     "@stdlib/array-complex64": "^0.0.6",
