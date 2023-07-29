@@ -55,6 +55,7 @@
     "@stdlib/array-base-flatten3d": "github:stdlib-js/array-base-flatten3d#main",
     "@stdlib/array-base-flatten3d-by": "github:stdlib-js/array-base-flatten3d-by#main",
     "@stdlib/array-base-flatten4d": "github:stdlib-js/array-base-flatten4d#main",
+    "@stdlib/array-base-flatten4d-by": "github:stdlib-js/array-base-flatten4d-by#main",
     "@stdlib/array-base-flatten5d": "github:stdlib-js/array-base-flatten5d#main",
     "@stdlib/array-base-getter": "^0.0.1",
     "@stdlib/array-base-incrspace": "^0.0.2",
