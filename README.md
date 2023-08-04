@@ -24,20 +24,30 @@ limitations under the License.
 
 > Base (i.e., lower-level) array utilities.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { AccessorArray, accessorGetter, accessorSetter, accessors, arraylike2object, assert, cartesianPower, cartesianProduct, cartesianSquare, copy, copyIndexed, filled, filledBy, flatten, flatten2d, flatten2dBy, flatten3d, flatten3dBy, flatten4d, flatten4dBy, flatten5d, flatten5dBy, getter, incrspace, last, linspace, logspace, nCartesianProduct, ones, setter, take, toAccessorArray, unitspace, zeroTo, zeros } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base@esm/index.mjs';
+var ns = require( '@stdlib/array-base' );
 ```
 
 #### ns
@@ -68,8 +78,18 @@ The namespace exports the following:
 -   <span class="signature">[`copy( x )`][@stdlib/array/base/copy]</span><span class="delimiter">: </span><span class="description">copy the elements of an array-like object to a new "generic" array.</span>
 -   <span class="signature">[`filledBy( len, clbk[, thisArg] )`][@stdlib/array/base/filled-by]</span><span class="delimiter">: </span><span class="description">create a filled "generic" array according to a provided callback function.</span>
 -   <span class="signature">[`filled( value, len )`][@stdlib/array/base/filled]</span><span class="delimiter">: </span><span class="description">create a filled "generic" array.</span>
+-   <span class="signature">[`flatten( x, shape, colexicographic )`][@stdlib/array/base/flatten]</span><span class="delimiter">: </span><span class="description">flatten an n-dimensional nested array.</span>
+-   <span class="signature">[`flatten2dBy( x, shape, colexicographic, clbk[, thisArg] )`][@stdlib/array/base/flatten2d-by]</span><span class="delimiter">: </span><span class="description">flatten a two-dimensional nested array according to a callback function.</span>
+-   <span class="signature">[`flatten2d( x, shape, colexicographic )`][@stdlib/array/base/flatten2d]</span><span class="delimiter">: </span><span class="description">flatten a two-dimensional nested array.</span>
+-   <span class="signature">[`flatten3dBy( x, shape, colexicographic, clbk[, thisArg] )`][@stdlib/array/base/flatten3d-by]</span><span class="delimiter">: </span><span class="description">flatten a three-dimensional nested array according to a callback function.</span>
+-   <span class="signature">[`flatten3d( x, shape, colexicographic )`][@stdlib/array/base/flatten3d]</span><span class="delimiter">: </span><span class="description">flatten a three-dimensional nested array.</span>
+-   <span class="signature">[`flatten4dBy( x, shape, colexicographic, clbk[, thisArg] )`][@stdlib/array/base/flatten4d-by]</span><span class="delimiter">: </span><span class="description">flatten a four-dimensional nested array according to a callback function.</span>
+-   <span class="signature">[`flatten4d( x, shape, colexicographic )`][@stdlib/array/base/flatten4d]</span><span class="delimiter">: </span><span class="description">flatten a four-dimensional nested array.</span>
+-   <span class="signature">[`flatten5dBy( x, shape, colexicographic, clbk[, thisArg] )`][@stdlib/array/base/flatten5d-by]</span><span class="delimiter">: </span><span class="description">flatten a five-dimensional nested array according to a callback function.</span>
+-   <span class="signature">[`flatten5d( x, shape, colexicographic )`][@stdlib/array/base/flatten5d]</span><span class="delimiter">: </span><span class="description">flatten a five-dimensional nested array.</span>
 -   <span class="signature">[`getter( dtype )`][@stdlib/array/base/getter]</span><span class="delimiter">: </span><span class="description">return an accessor function for retrieving an element from an indexed array-like object.</span>
 -   <span class="signature">[`incrspace( start, stop, increment )`][@stdlib/array/base/incrspace]</span><span class="delimiter">: </span><span class="description">generate a linearly spaced numeric array according to a provided increment.</span>
+-   <span class="signature">[`last( x )`][@stdlib/array/base/last]</span><span class="delimiter">: </span><span class="description">return the last element of an array-like object.</span>
 -   <span class="signature">[`linspace( start, stop, length )`][@stdlib/array/base/linspace]</span><span class="delimiter">: </span><span class="description">generate a linearly spaced numeric array.</span>
 -   <span class="signature">[`logspace( a, b, length )`][@stdlib/array/base/logspace]</span><span class="delimiter">: </span><span class="description">generate a logarithmically spaced numeric array.</span>
 -   <span class="signature">[`nCartesianProduct( x1, x2[, ...xN] )`][@stdlib/array/base/n-cartesian-product]</span><span class="delimiter">: </span><span class="description">return the n-fold Cartesian product.</span>
@@ -97,20 +117,11 @@ The namespace exports the following:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/array-base' );
 
 console.log( objectKeys( ns ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -134,7 +145,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -196,55 +207,75 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/array/base/accessor-getter]: https://github.com/stdlib-js/array-base-accessor-getter/tree/esm
+[@stdlib/array/base/accessor-getter]: https://github.com/stdlib-js/array-base-accessor-getter
 
-[@stdlib/array/base/accessor-setter]: https://github.com/stdlib-js/array-base-accessor-setter/tree/esm
+[@stdlib/array/base/accessor-setter]: https://github.com/stdlib-js/array-base-accessor-setter
 
-[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor/tree/esm
+[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
 
-[@stdlib/array/base/accessors]: https://github.com/stdlib-js/array-base-accessors/tree/esm
+[@stdlib/array/base/accessors]: https://github.com/stdlib-js/array-base-accessors
 
-[@stdlib/array/base/arraylike2object]: https://github.com/stdlib-js/array-base-arraylike2object/tree/esm
+[@stdlib/array/base/arraylike2object]: https://github.com/stdlib-js/array-base-arraylike2object
 
-[@stdlib/array/base/assert]: https://github.com/stdlib-js/array-base-assert/tree/esm
+[@stdlib/array/base/assert]: https://github.com/stdlib-js/array-base-assert
 
-[@stdlib/array/base/cartesian-power]: https://github.com/stdlib-js/array-base-cartesian-power/tree/esm
+[@stdlib/array/base/cartesian-power]: https://github.com/stdlib-js/array-base-cartesian-power
 
-[@stdlib/array/base/cartesian-product]: https://github.com/stdlib-js/array-base-cartesian-product/tree/esm
+[@stdlib/array/base/cartesian-product]: https://github.com/stdlib-js/array-base-cartesian-product
 
-[@stdlib/array/base/cartesian-square]: https://github.com/stdlib-js/array-base-cartesian-square/tree/esm
+[@stdlib/array/base/cartesian-square]: https://github.com/stdlib-js/array-base-cartesian-square
 
-[@stdlib/array/base/copy-indexed]: https://github.com/stdlib-js/array-base-copy-indexed/tree/esm
+[@stdlib/array/base/copy-indexed]: https://github.com/stdlib-js/array-base-copy-indexed
 
-[@stdlib/array/base/copy]: https://github.com/stdlib-js/array-base-copy/tree/esm
+[@stdlib/array/base/copy]: https://github.com/stdlib-js/array-base-copy
 
-[@stdlib/array/base/filled-by]: https://github.com/stdlib-js/array-base-filled-by/tree/esm
+[@stdlib/array/base/filled-by]: https://github.com/stdlib-js/array-base-filled-by
 
-[@stdlib/array/base/filled]: https://github.com/stdlib-js/array-base-filled/tree/esm
+[@stdlib/array/base/filled]: https://github.com/stdlib-js/array-base-filled
 
-[@stdlib/array/base/getter]: https://github.com/stdlib-js/array-base-getter/tree/esm
+[@stdlib/array/base/flatten]: https://github.com/stdlib-js/array-base-flatten
 
-[@stdlib/array/base/incrspace]: https://github.com/stdlib-js/array-base-incrspace/tree/esm
+[@stdlib/array/base/flatten2d-by]: https://github.com/stdlib-js/array-base-flatten2d-by
 
-[@stdlib/array/base/linspace]: https://github.com/stdlib-js/array-base-linspace/tree/esm
+[@stdlib/array/base/flatten2d]: https://github.com/stdlib-js/array-base-flatten2d
 
-[@stdlib/array/base/logspace]: https://github.com/stdlib-js/array-base-logspace/tree/esm
+[@stdlib/array/base/flatten3d-by]: https://github.com/stdlib-js/array-base-flatten3d-by
 
-[@stdlib/array/base/n-cartesian-product]: https://github.com/stdlib-js/array-base-n-cartesian-product/tree/esm
+[@stdlib/array/base/flatten3d]: https://github.com/stdlib-js/array-base-flatten3d
 
-[@stdlib/array/base/ones]: https://github.com/stdlib-js/array-base-ones/tree/esm
+[@stdlib/array/base/flatten4d-by]: https://github.com/stdlib-js/array-base-flatten4d-by
 
-[@stdlib/array/base/setter]: https://github.com/stdlib-js/array-base-setter/tree/esm
+[@stdlib/array/base/flatten4d]: https://github.com/stdlib-js/array-base-flatten4d
 
-[@stdlib/array/base/take]: https://github.com/stdlib-js/array-base-take/tree/esm
+[@stdlib/array/base/flatten5d-by]: https://github.com/stdlib-js/array-base-flatten5d-by
 
-[@stdlib/array/base/to-accessor-array]: https://github.com/stdlib-js/array-base-to-accessor-array/tree/esm
+[@stdlib/array/base/flatten5d]: https://github.com/stdlib-js/array-base-flatten5d
 
-[@stdlib/array/base/unitspace]: https://github.com/stdlib-js/array-base-unitspace/tree/esm
+[@stdlib/array/base/getter]: https://github.com/stdlib-js/array-base-getter
 
-[@stdlib/array/base/zero-to]: https://github.com/stdlib-js/array-base-zero-to/tree/esm
+[@stdlib/array/base/incrspace]: https://github.com/stdlib-js/array-base-incrspace
 
-[@stdlib/array/base/zeros]: https://github.com/stdlib-js/array-base-zeros/tree/esm
+[@stdlib/array/base/last]: https://github.com/stdlib-js/array-base-last
+
+[@stdlib/array/base/linspace]: https://github.com/stdlib-js/array-base-linspace
+
+[@stdlib/array/base/logspace]: https://github.com/stdlib-js/array-base-logspace
+
+[@stdlib/array/base/n-cartesian-product]: https://github.com/stdlib-js/array-base-n-cartesian-product
+
+[@stdlib/array/base/ones]: https://github.com/stdlib-js/array-base-ones
+
+[@stdlib/array/base/setter]: https://github.com/stdlib-js/array-base-setter
+
+[@stdlib/array/base/take]: https://github.com/stdlib-js/array-base-take
+
+[@stdlib/array/base/to-accessor-array]: https://github.com/stdlib-js/array-base-to-accessor-array
+
+[@stdlib/array/base/unitspace]: https://github.com/stdlib-js/array-base-unitspace
+
+[@stdlib/array/base/zero-to]: https://github.com/stdlib-js/array-base-zero-to
+
+[@stdlib/array/base/zeros]: https://github.com/stdlib-js/array-base-zeros
 
 <!-- </toc-links> -->
 
