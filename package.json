@@ -72,6 +72,7 @@
     "@stdlib/array-base-unitspace": "^0.0.1",
     "@stdlib/array-base-zero-to": "^0.0.6",
     "@stdlib/array-base-zeros": "^0.0.2",
+    "@stdlib/array-base-zeros2d": "github:stdlib-js/array-base-zeros2d#main",
     "@stdlib/utils-define-read-only-property": "^0.0.8"
   },
   "devDependencies": {
