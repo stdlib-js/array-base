@@ -74,6 +74,7 @@
     "@stdlib/array-base-ones": "^0.0.2",
     "@stdlib/array-base-ones2d": "^0.0.1",
     "@stdlib/array-base-ones3d": "github:stdlib-js/array-base-ones3d#main",
+    "@stdlib/array-base-ones4d": "github:stdlib-js/array-base-ones4d#main",
     "@stdlib/array-base-onesnd": "github:stdlib-js/array-base-onesnd#main",
     "@stdlib/array-base-setter": "^0.0.1",
     "@stdlib/array-base-take": "^0.0.1",
