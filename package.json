@@ -75,6 +75,7 @@
     "@stdlib/array-base-linspace": "^0.0.3",
     "@stdlib/array-base-logspace": "^0.0.2",
     "@stdlib/array-base-n-cartesian-product": "^0.0.1",
+    "@stdlib/array-base-one-to": "github:stdlib-js/array-base-one-to#main",
     "@stdlib/array-base-ones": "^0.0.2",
     "@stdlib/array-base-ones2d": "^0.0.1",
     "@stdlib/array-base-ones3d": "github:stdlib-js/array-base-ones3d#main",
