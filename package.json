@@ -57,6 +57,7 @@
     "@stdlib/array-base-filled4d": "github:stdlib-js/array-base-filled4d#main",
     "@stdlib/array-base-filled4d-by": "github:stdlib-js/array-base-filled4d-by#main",
     "@stdlib/array-base-filled5d": "github:stdlib-js/array-base-filled5d#main",
+    "@stdlib/array-base-filled5d-by": "github:stdlib-js/array-base-filled5d-by#main",
     "@stdlib/array-base-fillednd": "github:stdlib-js/array-base-fillednd#main",
     "@stdlib/array-base-flatten": "^0.0.1",
     "@stdlib/array-base-flatten-by": "github:stdlib-js/array-base-flatten-by#main",
