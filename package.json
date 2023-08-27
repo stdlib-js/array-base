@@ -89,6 +89,7 @@
     "@stdlib/array-base-take": "^0.0.1",
     "@stdlib/array-base-to-accessor-array": "^0.0.1",
     "@stdlib/array-base-unary2d": "^0.0.1",
+    "@stdlib/array-base-unary3d": "github:stdlib-js/array-base-unary3d#main",
     "@stdlib/array-base-unitspace": "^0.0.1",
     "@stdlib/array-base-zero-to": "^0.0.6",
     "@stdlib/array-base-zeros": "^0.0.2",
