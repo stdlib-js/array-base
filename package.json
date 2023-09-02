@@ -46,6 +46,7 @@
     "@stdlib/array-base-broadcast-array": "^0.0.1",
     "@stdlib/array-base-broadcasted-binary2d": "github:stdlib-js/array-base-broadcasted-binary2d#main",
     "@stdlib/array-base-broadcasted-unary2d": "github:stdlib-js/array-base-broadcasted-unary2d#main",
+    "@stdlib/array-base-broadcasted-unary3d": "github:stdlib-js/array-base-broadcasted-unary3d#main",
     "@stdlib/array-base-cartesian-power": "^0.0.1",
     "@stdlib/array-base-cartesian-product": "^0.0.1",
     "@stdlib/array-base-cartesian-square": "^0.0.3",
