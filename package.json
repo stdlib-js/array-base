@@ -46,6 +46,7 @@
     "@stdlib/array-base-binary3d": "github:stdlib-js/array-base-binary3d#main",
     "@stdlib/array-base-binary4d": "github:stdlib-js/array-base-binary4d#main",
     "@stdlib/array-base-binary5d": "github:stdlib-js/array-base-binary5d#main",
+    "@stdlib/array-base-binarynd": "github:stdlib-js/array-base-binarynd#main",
     "@stdlib/array-base-broadcast-array": "^0.0.1",
     "@stdlib/array-base-broadcasted-binary2d": "github:stdlib-js/array-base-broadcasted-binary2d#main",
     "@stdlib/array-base-broadcasted-binary3d": "github:stdlib-js/array-base-broadcasted-binary3d#main",
