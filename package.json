@@ -102,6 +102,7 @@
     "@stdlib/array-base-take": "^0.0.1",
     "@stdlib/array-base-to-accessor-array": "^0.0.1",
     "@stdlib/array-base-unary2d": "^0.0.1",
+    "@stdlib/array-base-unary2d-by": "github:stdlib-js/array-base-unary2d-by#main",
     "@stdlib/array-base-unary3d": "github:stdlib-js/array-base-unary3d#main",
     "@stdlib/array-base-unary4d": "github:stdlib-js/array-base-unary4d#main",
     "@stdlib/array-base-unary5d": "github:stdlib-js/array-base-unary5d#main",
