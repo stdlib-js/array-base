@@ -90,6 +90,7 @@
     "@stdlib/array-base-logspace": "^0.0.2",
     "@stdlib/array-base-mskbinary2d": "github:stdlib-js/array-base-mskbinary2d#main",
     "@stdlib/array-base-mskunary2d": "github:stdlib-js/array-base-mskunary2d#main",
+    "@stdlib/array-base-mskunary3d": "github:stdlib-js/array-base-mskunary3d#main",
     "@stdlib/array-base-n-cartesian-product": "^0.0.1",
     "@stdlib/array-base-one-to": "^0.0.0",
     "@stdlib/array-base-ones": "^0.0.2",
