@@ -35,20 +35,30 @@ limitations under the License.
 
 > Base (i.e., lower-level) array utilities.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { AccessorArray, accessorGetter, accessorSetter, accessors, arraylike2object, assert, bbinary2d, bbinary3d, bbinary4d, bbinary5d, binary2d, binary3d, binary4d, binary5d, binarynd, broadcastArray, bunary2d, bunary3d, bunary4d, bunary5d, cartesianPower, cartesianProduct, cartesianSquare, copy, copyIndexed, filled, filled2d, filled2dBy, filled3d, filled3dBy, filled4d, filled4dBy, filled5d, filled5dBy, filledBy, fillednd, filledndBy, flatten, flatten2d, flatten2dBy, flatten3d, flatten3dBy, flatten4d, flatten4dBy, flatten5d, flatten5dBy, flattenBy, getter, incrspace, last, linspace, logspace, mskbinary2d, mskunary2d, mskunary3d, nCartesianProduct, oneTo, ones, ones2d, ones3d, ones4d, ones5d, onesnd, setter, take, toAccessorArray, unary2d, unary2dBy, unary3d, unary4d, unary5d, unarynd, unitspace, zeroTo, zeros, zeros2d, zeros3d, zeros4d, zeros5d, zerosnd } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base@esm/index.mjs';
+var ns = require( '@stdlib/array-base' );
 ```
 
 #### ns
@@ -72,7 +82,20 @@ The namespace exports the following:
 -   <span class="signature">[`accessors( x )`][@stdlib/array/base/accessors]</span><span class="delimiter">: </span><span class="description">return element accessors for a provided array-like object.</span>
 -   <span class="signature">[`arraylike2object( x )`][@stdlib/array/base/arraylike2object]</span><span class="delimiter">: </span><span class="description">convert an array-like object to an object likely to have the same "shape".</span>
 -   <span class="signature">[`assert`][@stdlib/array/base/assert]</span><span class="delimiter">: </span><span class="description">base array assertion utilities.</span>
+-   <span class="signature">[`binary2d( arrays, shape, fcn )`][@stdlib/array/base/binary2d]</span><span class="delimiter">: </span><span class="description">apply a binary callback to elements in two two-dimensional nested input arrays and assign results to elements in a two-dimensional nested output array.</span>
+-   <span class="signature">[`binary3d( arrays, shape, fcn )`][@stdlib/array/base/binary3d]</span><span class="delimiter">: </span><span class="description">apply a binary callback to elements in two three-dimensional nested input arrays and assign results to elements in a three-dimensional nested output array.</span>
+-   <span class="signature">[`binary4d( arrays, shape, fcn )`][@stdlib/array/base/binary4d]</span><span class="delimiter">: </span><span class="description">apply a binary callback to elements in two four-dimensional nested input arrays and assign results to elements in a four-dimensional nested output array.</span>
+-   <span class="signature">[`binary5d( arrays, shape, fcn )`][@stdlib/array/base/binary5d]</span><span class="delimiter">: </span><span class="description">apply a binary callback to elements in two five-dimensional nested input arrays and assign results to elements in a five-dimensional nested output array.</span>
+-   <span class="signature">[`binarynd( arrays, shape, fcn )`][@stdlib/array/base/binarynd]</span><span class="delimiter">: </span><span class="description">apply a binary callback to elements in two n-dimensional nested input arrays and assign results to elements in an n-dimensional nested output array.</span>
 -   <span class="signature">[`broadcastArray( x, inShape, outShape )`][@stdlib/array/base/broadcast-array]</span><span class="delimiter">: </span><span class="description">broadcast an array to a specified shape.</span>
+-   <span class="signature">[`bbinary2d( arrays, shapes, fcn )`][@stdlib/array/base/broadcasted-binary2d]</span><span class="delimiter">: </span><span class="description">apply a binary callback to elements in two broadcasted nested input arrays and assign results to elements in a two-dimensional nested output array.</span>
+-   <span class="signature">[`bbinary3d( arrays, shapes, fcn )`][@stdlib/array/base/broadcasted-binary3d]</span><span class="delimiter">: </span><span class="description">apply a binary callback to elements in two broadcasted nested input arrays and assign results to elements in a three-dimensional nested output array.</span>
+-   <span class="signature">[`bbinary4d( arrays, shapes, fcn )`][@stdlib/array/base/broadcasted-binary4d]</span><span class="delimiter">: </span><span class="description">apply a binary callback to elements in two broadcasted nested input arrays and assign results to elements in a four-dimensional nested output array.</span>
+-   <span class="signature">[`bbinary5d( arrays, shapes, fcn )`][@stdlib/array/base/broadcasted-binary5d]</span><span class="delimiter">: </span><span class="description">apply a binary callback to elements in two broadcasted nested input arrays and assign results to elements in a five-dimensional nested output array.</span>
+-   <span class="signature">[`bunary2d( arrays, shapes, fcn )`][@stdlib/array/base/broadcasted-unary2d]</span><span class="delimiter">: </span><span class="description">apply a unary callback to elements in a broadcasted nested input array and assign results to elements in a two-dimensional nested output array.</span>
+-   <span class="signature">[`bunary3d( arrays, shapes, fcn )`][@stdlib/array/base/broadcasted-unary3d]</span><span class="delimiter">: </span><span class="description">apply a unary callback to elements in a broadcasted nested input array and assign results to elements in a three-dimensional nested output array.</span>
+-   <span class="signature">[`bunary4d( arrays, shapes, fcn )`][@stdlib/array/base/broadcasted-unary4d]</span><span class="delimiter">: </span><span class="description">apply a unary callback to elements in a broadcasted nested input array and assign results to elements in a four-dimensional nested output array.</span>
+-   <span class="signature">[`bunary5d( arrays, shapes, fcn )`][@stdlib/array/base/broadcasted-unary5d]</span><span class="delimiter">: </span><span class="description">apply a unary callback to elements in a broadcasted nested input array and assign results to elements in a five-dimensional nested output array.</span>
 -   <span class="signature">[`cartesianPower( x, n )`][@stdlib/array/base/cartesian-power]</span><span class="delimiter">: </span><span class="description">return the Cartesian power.</span>
 -   <span class="signature">[`cartesianProduct( x1, x2 )`][@stdlib/array/base/cartesian-product]</span><span class="delimiter">: </span><span class="description">return the Cartesian product.</span>
 -   <span class="signature">[`cartesianSquare( x )`][@stdlib/array/base/cartesian-square]</span><span class="delimiter">: </span><span class="description">return the Cartesian square.</span>
@@ -80,14 +103,15 @@ The namespace exports the following:
 -   <span class="signature">[`copy( x )`][@stdlib/array/base/copy]</span><span class="delimiter">: </span><span class="description">copy the elements of an array-like object to a new "generic" array.</span>
 -   <span class="signature">[`filledBy( len, clbk[, thisArg] )`][@stdlib/array/base/filled-by]</span><span class="delimiter">: </span><span class="description">create a filled "generic" array according to a provided callback function.</span>
 -   <span class="signature">[`filled( value, len )`][@stdlib/array/base/filled]</span><span class="delimiter">: </span><span class="description">create a filled "generic" array.</span>
--   <span class="signature">[`filled2dBy( len, clbk[, thisArg] )`][@stdlib/array/base/filled2d-by]</span><span class="delimiter">: </span><span class="description">create a filled two-dimensional nested array according to a provided callback function.</span>
+-   <span class="signature">[`filled2dBy( shape, clbk[, thisArg] )`][@stdlib/array/base/filled2d-by]</span><span class="delimiter">: </span><span class="description">create a filled two-dimensional nested array according to a provided callback function.</span>
 -   <span class="signature">[`filled2d( value, shape )`][@stdlib/array/base/filled2d]</span><span class="delimiter">: </span><span class="description">create a filled two-dimensional nested array.</span>
--   <span class="signature">[`filled3dBy( len, clbk[, thisArg] )`][@stdlib/array/base/filled3d-by]</span><span class="delimiter">: </span><span class="description">create a filled three-dimensional nested array according to a provided callback function.</span>
+-   <span class="signature">[`filled3dBy( shape, clbk[, thisArg] )`][@stdlib/array/base/filled3d-by]</span><span class="delimiter">: </span><span class="description">create a filled three-dimensional nested array according to a provided callback function.</span>
 -   <span class="signature">[`filled3d( value, shape )`][@stdlib/array/base/filled3d]</span><span class="delimiter">: </span><span class="description">create a filled three-dimensional nested array.</span>
--   <span class="signature">[`filled4dBy( len, clbk[, thisArg] )`][@stdlib/array/base/filled4d-by]</span><span class="delimiter">: </span><span class="description">create a filled four-dimensional nested array according to a provided callback function.</span>
+-   <span class="signature">[`filled4dBy( shape, clbk[, thisArg] )`][@stdlib/array/base/filled4d-by]</span><span class="delimiter">: </span><span class="description">create a filled four-dimensional nested array according to a provided callback function.</span>
 -   <span class="signature">[`filled4d( value, shape )`][@stdlib/array/base/filled4d]</span><span class="delimiter">: </span><span class="description">create a filled four-dimensional nested array.</span>
--   <span class="signature">[`filled5dBy( len, clbk[, thisArg] )`][@stdlib/array/base/filled5d-by]</span><span class="delimiter">: </span><span class="description">create a filled five-dimensional nested array according to a provided callback function.</span>
+-   <span class="signature">[`filled5dBy( shape, clbk[, thisArg] )`][@stdlib/array/base/filled5d-by]</span><span class="delimiter">: </span><span class="description">create a filled five-dimensional nested array according to a provided callback function.</span>
 -   <span class="signature">[`filled5d( value, shape )`][@stdlib/array/base/filled5d]</span><span class="delimiter">: </span><span class="description">create a filled five-dimensional nested array.</span>
+-   <span class="signature">[`filledndBy( shape, clbk[, thisArg] )`][@stdlib/array/base/fillednd-by]</span><span class="delimiter">: </span><span class="description">create a filled n-dimensional nested array according to a provided callback function.</span>
 -   <span class="signature">[`fillednd( value, shape )`][@stdlib/array/base/fillednd]</span><span class="delimiter">: </span><span class="description">create a filled n-dimensional nested array.</span>
 -   <span class="signature">[`flattenBy( x, shape, colexicographic, clbk[, thisArg] )`][@stdlib/array/base/flatten-by]</span><span class="delimiter">: </span><span class="description">flatten an n-dimensional nested array according to a callback function.</span>
 -   <span class="signature">[`flatten( x, shape, colexicographic )`][@stdlib/array/base/flatten]</span><span class="delimiter">: </span><span class="description">flatten an n-dimensional nested array.</span>
@@ -104,6 +128,9 @@ The namespace exports the following:
 -   <span class="signature">[`last( x )`][@stdlib/array/base/last]</span><span class="delimiter">: </span><span class="description">return the last element of an array-like object.</span>
 -   <span class="signature">[`linspace( start, stop, length )`][@stdlib/array/base/linspace]</span><span class="delimiter">: </span><span class="description">generate a linearly spaced numeric array.</span>
 -   <span class="signature">[`logspace( a, b, length )`][@stdlib/array/base/logspace]</span><span class="delimiter">: </span><span class="description">generate a logarithmically spaced numeric array.</span>
+-   <span class="signature">[`mskbinary2d( arrays, shape, fcn )`][@stdlib/array/base/mskbinary2d]</span><span class="delimiter">: </span><span class="description">apply a binary callback to elements in two two-dimensional nested input arrays according to elements in a two-dimensional nested mask array and assign results to elements in a two-dimensional nested output array.</span>
+-   <span class="signature">[`mskunary2d( arrays, shape, fcn )`][@stdlib/array/base/mskunary2d]</span><span class="delimiter">: </span><span class="description">apply a unary callback to elements in a two-dimensional nested input array according to elements in a two-dimensional nested mask array and assign results to elements in a two-dimensional nested output array.</span>
+-   <span class="signature">[`mskunary3d( arrays, shape, fcn )`][@stdlib/array/base/mskunary3d]</span><span class="delimiter">: </span><span class="description">apply a unary callback to elements in a three-dimensional nested input array according to elements in a three-dimensional nested mask array and assign results to elements in a three-dimensional nested output array.</span>
 -   <span class="signature">[`nCartesianProduct( x1, x2[, ...xN] )`][@stdlib/array/base/n-cartesian-product]</span><span class="delimiter">: </span><span class="description">return the n-fold Cartesian product.</span>
 -   <span class="signature">[`oneTo( n )`][@stdlib/array/base/one-to]</span><span class="delimiter">: </span><span class="description">generate a linearly spaced numeric array whose elements increment by 1 starting from one.</span>
 -   <span class="signature">[`ones( len )`][@stdlib/array/base/ones]</span><span class="delimiter">: </span><span class="description">create a "generic" array filled with ones.</span>
@@ -115,6 +142,12 @@ The namespace exports the following:
 -   <span class="signature">[`setter( dtype )`][@stdlib/array/base/setter]</span><span class="delimiter">: </span><span class="description">return an accessor function for setting an element in an indexed array-like object.</span>
 -   <span class="signature">[`take( x, indices )`][@stdlib/array/base/take]</span><span class="delimiter">: </span><span class="description">take elements from an array.</span>
 -   <span class="signature">[`toAccessorArray( arr )`][@stdlib/array/base/to-accessor-array]</span><span class="delimiter">: </span><span class="description">convert an array-like object to a minimal array-like object supporting the accessor protocol.</span>
+-   <span class="signature">[`unary2dBy( arrays, shape, fcn, clbk[, thisArg] )`][@stdlib/array/base/unary2d-by]</span><span class="delimiter">: </span><span class="description">apply a unary function to each element retrieved from a two-dimensional nested input array according to a callback function and assign results to elements in a two-dimensional nested output array.</span>
+-   <span class="signature">[`unary2d( arrays, shape, fcn )`][@stdlib/array/base/unary2d]</span><span class="delimiter">: </span><span class="description">apply a unary callback to elements in a two-dimensional nested input array and assign results to elements in a two-dimensional nested output array.</span>
+-   <span class="signature">[`unary3d( arrays, shape, fcn )`][@stdlib/array/base/unary3d]</span><span class="delimiter">: </span><span class="description">apply a unary callback to elements in a three-dimensional nested input array and assign results to elements in a three-dimensional nested output array.</span>
+-   <span class="signature">[`unary4d( arrays, shape, fcn )`][@stdlib/array/base/unary4d]</span><span class="delimiter">: </span><span class="description">apply a unary callback to elements in a four-dimensional nested input array and assign results to elements in a four-dimensional nested output array.</span>
+-   <span class="signature">[`unary5d( arrays, shape, fcn )`][@stdlib/array/base/unary5d]</span><span class="delimiter">: </span><span class="description">apply a unary callback to elements in a five-dimensional nested input array and assign results to elements in a five-dimensional nested output array.</span>
+-   <span class="signature">[`unarynd( arrays, shape, fcn )`][@stdlib/array/base/unarynd]</span><span class="delimiter">: </span><span class="description">apply a unary callback to elements in an n-dimensional nested input array and assign results to elements in an n-dimensional nested output array.</span>
 -   <span class="signature">[`unitspace( start, stop )`][@stdlib/array/base/unitspace]</span><span class="delimiter">: </span><span class="description">generate a linearly spaced numeric array whose elements increment by 1.</span>
 -   <span class="signature">[`zeroTo( n )`][@stdlib/array/base/zero-to]</span><span class="delimiter">: </span><span class="description">generate a linearly spaced numeric array whose elements increment by 1 starting from zero.</span>
 -   <span class="signature">[`zeros( len )`][@stdlib/array/base/zeros]</span><span class="delimiter">: </span><span class="description">create a zero-filled "generic" array.</span>
@@ -140,20 +173,11 @@ The namespace exports the following:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/array-base' );
 
 console.log( objectKeys( ns ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -177,7 +201,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -239,119 +263,165 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/array/base/accessor-getter]: https://github.com/stdlib-js/array-base-accessor-getter/tree/esm
+[@stdlib/array/base/accessor-getter]: https://github.com/stdlib-js/array-base-accessor-getter
 
-[@stdlib/array/base/accessor-setter]: https://github.com/stdlib-js/array-base-accessor-setter/tree/esm
+[@stdlib/array/base/accessor-setter]: https://github.com/stdlib-js/array-base-accessor-setter
 
-[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor/tree/esm
+[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
 
-[@stdlib/array/base/accessors]: https://github.com/stdlib-js/array-base-accessors/tree/esm
+[@stdlib/array/base/accessors]: https://github.com/stdlib-js/array-base-accessors
 
-[@stdlib/array/base/arraylike2object]: https://github.com/stdlib-js/array-base-arraylike2object/tree/esm
+[@stdlib/array/base/arraylike2object]: https://github.com/stdlib-js/array-base-arraylike2object
 
-[@stdlib/array/base/assert]: https://github.com/stdlib-js/array-base-assert/tree/esm
+[@stdlib/array/base/assert]: https://github.com/stdlib-js/array-base-assert
 
-[@stdlib/array/base/broadcast-array]: https://github.com/stdlib-js/array-base-broadcast-array/tree/esm
+[@stdlib/array/base/binary2d]: https://github.com/stdlib-js/array-base-binary2d
 
-[@stdlib/array/base/cartesian-power]: https://github.com/stdlib-js/array-base-cartesian-power/tree/esm
+[@stdlib/array/base/binary3d]: https://github.com/stdlib-js/array-base-binary3d
 
-[@stdlib/array/base/cartesian-product]: https://github.com/stdlib-js/array-base-cartesian-product/tree/esm
+[@stdlib/array/base/binary4d]: https://github.com/stdlib-js/array-base-binary4d
 
-[@stdlib/array/base/cartesian-square]: https://github.com/stdlib-js/array-base-cartesian-square/tree/esm
+[@stdlib/array/base/binary5d]: https://github.com/stdlib-js/array-base-binary5d
 
-[@stdlib/array/base/copy-indexed]: https://github.com/stdlib-js/array-base-copy-indexed/tree/esm
+[@stdlib/array/base/binarynd]: https://github.com/stdlib-js/array-base-binarynd
 
-[@stdlib/array/base/copy]: https://github.com/stdlib-js/array-base-copy/tree/esm
+[@stdlib/array/base/broadcast-array]: https://github.com/stdlib-js/array-base-broadcast-array
 
-[@stdlib/array/base/filled-by]: https://github.com/stdlib-js/array-base-filled-by/tree/esm
+[@stdlib/array/base/broadcasted-binary2d]: https://github.com/stdlib-js/array-base-broadcasted-binary2d
 
-[@stdlib/array/base/filled]: https://github.com/stdlib-js/array-base-filled/tree/esm
+[@stdlib/array/base/broadcasted-binary3d]: https://github.com/stdlib-js/array-base-broadcasted-binary3d
 
-[@stdlib/array/base/filled2d-by]: https://github.com/stdlib-js/array-base-filled2d-by/tree/esm
+[@stdlib/array/base/broadcasted-binary4d]: https://github.com/stdlib-js/array-base-broadcasted-binary4d
 
-[@stdlib/array/base/filled2d]: https://github.com/stdlib-js/array-base-filled2d/tree/esm
+[@stdlib/array/base/broadcasted-binary5d]: https://github.com/stdlib-js/array-base-broadcasted-binary5d
 
-[@stdlib/array/base/filled3d-by]: https://github.com/stdlib-js/array-base-filled3d-by/tree/esm
+[@stdlib/array/base/broadcasted-unary2d]: https://github.com/stdlib-js/array-base-broadcasted-unary2d
 
-[@stdlib/array/base/filled3d]: https://github.com/stdlib-js/array-base-filled3d/tree/esm
+[@stdlib/array/base/broadcasted-unary3d]: https://github.com/stdlib-js/array-base-broadcasted-unary3d
 
-[@stdlib/array/base/filled4d-by]: https://github.com/stdlib-js/array-base-filled4d-by/tree/esm
+[@stdlib/array/base/broadcasted-unary4d]: https://github.com/stdlib-js/array-base-broadcasted-unary4d
 
-[@stdlib/array/base/filled4d]: https://github.com/stdlib-js/array-base-filled4d/tree/esm
+[@stdlib/array/base/broadcasted-unary5d]: https://github.com/stdlib-js/array-base-broadcasted-unary5d
 
-[@stdlib/array/base/filled5d-by]: https://github.com/stdlib-js/array-base-filled5d-by/tree/esm
+[@stdlib/array/base/cartesian-power]: https://github.com/stdlib-js/array-base-cartesian-power
 
-[@stdlib/array/base/filled5d]: https://github.com/stdlib-js/array-base-filled5d/tree/esm
+[@stdlib/array/base/cartesian-product]: https://github.com/stdlib-js/array-base-cartesian-product
 
-[@stdlib/array/base/fillednd]: https://github.com/stdlib-js/array-base-fillednd/tree/esm
+[@stdlib/array/base/cartesian-square]: https://github.com/stdlib-js/array-base-cartesian-square
 
-[@stdlib/array/base/flatten-by]: https://github.com/stdlib-js/array-base-flatten-by/tree/esm
+[@stdlib/array/base/copy-indexed]: https://github.com/stdlib-js/array-base-copy-indexed
 
-[@stdlib/array/base/flatten]: https://github.com/stdlib-js/array-base-flatten/tree/esm
+[@stdlib/array/base/copy]: https://github.com/stdlib-js/array-base-copy
 
-[@stdlib/array/base/flatten2d-by]: https://github.com/stdlib-js/array-base-flatten2d-by/tree/esm
+[@stdlib/array/base/filled-by]: https://github.com/stdlib-js/array-base-filled-by
 
-[@stdlib/array/base/flatten2d]: https://github.com/stdlib-js/array-base-flatten2d/tree/esm
+[@stdlib/array/base/filled]: https://github.com/stdlib-js/array-base-filled
 
-[@stdlib/array/base/flatten3d-by]: https://github.com/stdlib-js/array-base-flatten3d-by/tree/esm
+[@stdlib/array/base/filled2d-by]: https://github.com/stdlib-js/array-base-filled2d-by
 
-[@stdlib/array/base/flatten3d]: https://github.com/stdlib-js/array-base-flatten3d/tree/esm
+[@stdlib/array/base/filled2d]: https://github.com/stdlib-js/array-base-filled2d
 
-[@stdlib/array/base/flatten4d-by]: https://github.com/stdlib-js/array-base-flatten4d-by/tree/esm
+[@stdlib/array/base/filled3d-by]: https://github.com/stdlib-js/array-base-filled3d-by
 
-[@stdlib/array/base/flatten4d]: https://github.com/stdlib-js/array-base-flatten4d/tree/esm
+[@stdlib/array/base/filled3d]: https://github.com/stdlib-js/array-base-filled3d
 
-[@stdlib/array/base/flatten5d-by]: https://github.com/stdlib-js/array-base-flatten5d-by/tree/esm
+[@stdlib/array/base/filled4d-by]: https://github.com/stdlib-js/array-base-filled4d-by
 
-[@stdlib/array/base/flatten5d]: https://github.com/stdlib-js/array-base-flatten5d/tree/esm
+[@stdlib/array/base/filled4d]: https://github.com/stdlib-js/array-base-filled4d
 
-[@stdlib/array/base/getter]: https://github.com/stdlib-js/array-base-getter/tree/esm
+[@stdlib/array/base/filled5d-by]: https://github.com/stdlib-js/array-base-filled5d-by
 
-[@stdlib/array/base/incrspace]: https://github.com/stdlib-js/array-base-incrspace/tree/esm
+[@stdlib/array/base/filled5d]: https://github.com/stdlib-js/array-base-filled5d
 
-[@stdlib/array/base/last]: https://github.com/stdlib-js/array-base-last/tree/esm
+[@stdlib/array/base/fillednd-by]: https://github.com/stdlib-js/array-base-fillednd-by
 
-[@stdlib/array/base/linspace]: https://github.com/stdlib-js/array-base-linspace/tree/esm
+[@stdlib/array/base/fillednd]: https://github.com/stdlib-js/array-base-fillednd
 
-[@stdlib/array/base/logspace]: https://github.com/stdlib-js/array-base-logspace/tree/esm
+[@stdlib/array/base/flatten-by]: https://github.com/stdlib-js/array-base-flatten-by
 
-[@stdlib/array/base/n-cartesian-product]: https://github.com/stdlib-js/array-base-n-cartesian-product/tree/esm
+[@stdlib/array/base/flatten]: https://github.com/stdlib-js/array-base-flatten
 
-[@stdlib/array/base/one-to]: https://github.com/stdlib-js/array-base-one-to/tree/esm
+[@stdlib/array/base/flatten2d-by]: https://github.com/stdlib-js/array-base-flatten2d-by
 
-[@stdlib/array/base/ones]: https://github.com/stdlib-js/array-base-ones/tree/esm
+[@stdlib/array/base/flatten2d]: https://github.com/stdlib-js/array-base-flatten2d
 
-[@stdlib/array/base/ones2d]: https://github.com/stdlib-js/array-base-ones2d/tree/esm
+[@stdlib/array/base/flatten3d-by]: https://github.com/stdlib-js/array-base-flatten3d-by
 
-[@stdlib/array/base/ones3d]: https://github.com/stdlib-js/array-base-ones3d/tree/esm
+[@stdlib/array/base/flatten3d]: https://github.com/stdlib-js/array-base-flatten3d
 
-[@stdlib/array/base/ones4d]: https://github.com/stdlib-js/array-base-ones4d/tree/esm
+[@stdlib/array/base/flatten4d-by]: https://github.com/stdlib-js/array-base-flatten4d-by
 
-[@stdlib/array/base/ones5d]: https://github.com/stdlib-js/array-base-ones5d/tree/esm
+[@stdlib/array/base/flatten4d]: https://github.com/stdlib-js/array-base-flatten4d
 
-[@stdlib/array/base/onesnd]: https://github.com/stdlib-js/array-base-onesnd/tree/esm
+[@stdlib/array/base/flatten5d-by]: https://github.com/stdlib-js/array-base-flatten5d-by
 
-[@stdlib/array/base/setter]: https://github.com/stdlib-js/array-base-setter/tree/esm
+[@stdlib/array/base/flatten5d]: https://github.com/stdlib-js/array-base-flatten5d
 
-[@stdlib/array/base/take]: https://github.com/stdlib-js/array-base-take/tree/esm
+[@stdlib/array/base/getter]: https://github.com/stdlib-js/array-base-getter
 
-[@stdlib/array/base/to-accessor-array]: https://github.com/stdlib-js/array-base-to-accessor-array/tree/esm
+[@stdlib/array/base/incrspace]: https://github.com/stdlib-js/array-base-incrspace
 
-[@stdlib/array/base/unitspace]: https://github.com/stdlib-js/array-base-unitspace/tree/esm
+[@stdlib/array/base/last]: https://github.com/stdlib-js/array-base-last
 
-[@stdlib/array/base/zero-to]: https://github.com/stdlib-js/array-base-zero-to/tree/esm
+[@stdlib/array/base/linspace]: https://github.com/stdlib-js/array-base-linspace
 
-[@stdlib/array/base/zeros]: https://github.com/stdlib-js/array-base-zeros/tree/esm
+[@stdlib/array/base/logspace]: https://github.com/stdlib-js/array-base-logspace
 
-[@stdlib/array/base/zeros2d]: https://github.com/stdlib-js/array-base-zeros2d/tree/esm
+[@stdlib/array/base/mskbinary2d]: https://github.com/stdlib-js/array-base-mskbinary2d
 
-[@stdlib/array/base/zeros3d]: https://github.com/stdlib-js/array-base-zeros3d/tree/esm
+[@stdlib/array/base/mskunary2d]: https://github.com/stdlib-js/array-base-mskunary2d
 
-[@stdlib/array/base/zeros4d]: https://github.com/stdlib-js/array-base-zeros4d/tree/esm
+[@stdlib/array/base/mskunary3d]: https://github.com/stdlib-js/array-base-mskunary3d
 
-[@stdlib/array/base/zeros5d]: https://github.com/stdlib-js/array-base-zeros5d/tree/esm
+[@stdlib/array/base/n-cartesian-product]: https://github.com/stdlib-js/array-base-n-cartesian-product
 
-[@stdlib/array/base/zerosnd]: https://github.com/stdlib-js/array-base-zerosnd/tree/esm
+[@stdlib/array/base/one-to]: https://github.com/stdlib-js/array-base-one-to
+
+[@stdlib/array/base/ones]: https://github.com/stdlib-js/array-base-ones
+
+[@stdlib/array/base/ones2d]: https://github.com/stdlib-js/array-base-ones2d
+
+[@stdlib/array/base/ones3d]: https://github.com/stdlib-js/array-base-ones3d
+
+[@stdlib/array/base/ones4d]: https://github.com/stdlib-js/array-base-ones4d
+
+[@stdlib/array/base/ones5d]: https://github.com/stdlib-js/array-base-ones5d
+
+[@stdlib/array/base/onesnd]: https://github.com/stdlib-js/array-base-onesnd
+
+[@stdlib/array/base/setter]: https://github.com/stdlib-js/array-base-setter
+
+[@stdlib/array/base/take]: https://github.com/stdlib-js/array-base-take
+
+[@stdlib/array/base/to-accessor-array]: https://github.com/stdlib-js/array-base-to-accessor-array
+
+[@stdlib/array/base/unary2d-by]: https://github.com/stdlib-js/array-base-unary2d-by
+
+[@stdlib/array/base/unary2d]: https://github.com/stdlib-js/array-base-unary2d
+
+[@stdlib/array/base/unary3d]: https://github.com/stdlib-js/array-base-unary3d
+
+[@stdlib/array/base/unary4d]: https://github.com/stdlib-js/array-base-unary4d
+
+[@stdlib/array/base/unary5d]: https://github.com/stdlib-js/array-base-unary5d
+
+[@stdlib/array/base/unarynd]: https://github.com/stdlib-js/array-base-unarynd
+
+[@stdlib/array/base/unitspace]: https://github.com/stdlib-js/array-base-unitspace
+
+[@stdlib/array/base/zero-to]: https://github.com/stdlib-js/array-base-zero-to
+
+[@stdlib/array/base/zeros]: https://github.com/stdlib-js/array-base-zeros
+
+[@stdlib/array/base/zeros2d]: https://github.com/stdlib-js/array-base-zeros2d
+
+[@stdlib/array/base/zeros3d]: https://github.com/stdlib-js/array-base-zeros3d
+
+[@stdlib/array/base/zeros4d]: https://github.com/stdlib-js/array-base-zeros4d
+
+[@stdlib/array/base/zeros5d]: https://github.com/stdlib-js/array-base-zeros5d
+
+[@stdlib/array/base/zerosnd]: https://github.com/stdlib-js/array-base-zerosnd
 
 <!-- </toc-links> -->
 
