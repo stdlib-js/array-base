@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { AccessorArray, accessorGetter, accessorSetter, accessors, arraylike2object, assert, bbinary2d, bbinary3d, bbinary4d, bbinary5d, binary2d, binary3d, binary4d, binary5d, binarynd, broadcastArray, bunary2d, bunary3d, bunary4d, bunary5d, cartesianPower, cartesianProduct, cartesianSquare, copy, copyIndexed, filled, filled2d, filled2dBy, filled3d, filled3dBy, filled4d, filled4dBy, filled5d, filled5dBy, filledBy, fillednd, filledndBy, flatten, flatten2d, flatten2dBy, flatten3d, flatten3dBy, flatten4d, flatten4dBy, flatten5d, flatten5dBy, flattenBy, getter, incrspace, last, linspace, logspace, mskbinary2d, mskunary2d, mskunary3d, nCartesianProduct, oneTo, ones, ones2d, ones3d, ones4d, ones5d, onesnd, setter, take, toAccessorArray, unary2d, unary2dBy, unary3d, unary4d, unary5d, unarynd, unitspace, zeroTo, zeros, zeros2d, zeros3d, zeros4d, zeros5d, zerosnd } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base@deno/mod.js';
+import { AccessorArray, accessorGetter, accessorSetter, accessors, arraylike2object, assert, bbinary2d, bbinary3d, bbinary4d, bbinary5d, binary2d, binary3d, binary4d, binary5d, binarynd, broadcastArray, bunary2d, bunary3d, bunary4d, bunary5d, cartesianPower, cartesianProduct, cartesianSquare, copy, copyIndexed, filled, filled2d, filled2dBy, filled3d, filled3dBy, filled4d, filled4dBy, filled5d, filled5dBy, filledBy, fillednd, filledndBy, flatten, flatten2d, flatten2dBy, flatten3d, flatten3dBy, flatten4d, flatten4dBy, flatten5d, flatten5dBy, flattenBy, getter, incrspace, last, linspace, logspace, mskbinary2d, mskunary2d, mskunary3d, nCartesianProduct, oneTo, ones, ones2d, ones3d, ones4d, ones5d, onesnd, setter, take, toAccessorArray, unary2d, unary2dBy, unary3d, unary4d, unary5d, unarynd, unitspace, zeroTo, zeros, zeros2d, zeros3d, zeros4d, zeros5d, zerosnd } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base@v0.1.0-deno/mod.js';
 ```
 
 #### ns
@@ -165,7 +165,7 @@ The namespace exports the following:
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base@v0.1.0-deno/mod.js';
 
 console.log( objectKeys( ns ) );
 ```
