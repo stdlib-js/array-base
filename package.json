@@ -104,6 +104,8 @@
     "@stdlib/array-base-take": "^0.1.0",
     "@stdlib/array-base-ternary2d": "github:stdlib-js/array-base-ternary2d#main",
     "@stdlib/array-base-ternary3d": "github:stdlib-js/array-base-ternary3d#main",
+    "@stdlib/array-base-ternary4d": "github:stdlib-js/array-base-ternary4d#main",
+    "@stdlib/array-base-ternary5d": "github:stdlib-js/array-base-ternary5d#main",
     "@stdlib/array-base-to-accessor-array": "^0.1.0",
     "@stdlib/array-base-unary2d": "^0.1.0",
     "@stdlib/array-base-unary2d-by": "^0.1.0",
