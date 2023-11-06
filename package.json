@@ -101,6 +101,7 @@
     "@stdlib/array-base-ones5d": "^0.1.0",
     "@stdlib/array-base-onesnd": "^0.1.0",
     "@stdlib/array-base-quaternary2d": "github:stdlib-js/array-base-quaternary2d#main",
+    "@stdlib/array-base-quinary2d": "github:stdlib-js/array-base-quinary2d#main",
     "@stdlib/array-base-setter": "^0.1.0",
     "@stdlib/array-base-take": "^0.1.0",
     "@stdlib/array-base-ternary2d": "^0.1.0",
