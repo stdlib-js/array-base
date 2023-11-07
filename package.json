@@ -106,6 +106,7 @@
     "@stdlib/array-base-strided2array2d": "github:stdlib-js/array-base-strided2array2d#main",
     "@stdlib/array-base-strided2array3d": "github:stdlib-js/array-base-strided2array3d#main",
     "@stdlib/array-base-strided2array4d": "github:stdlib-js/array-base-strided2array4d#main",
+    "@stdlib/array-base-strided2array5d": "github:stdlib-js/array-base-strided2array5d#main",
     "@stdlib/array-base-take": "^0.1.0",
     "@stdlib/array-base-ternary2d": "^0.1.0",
     "@stdlib/array-base-ternary3d": "^0.1.0",
