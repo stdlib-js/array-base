@@ -52,6 +52,7 @@
     "@stdlib/array-base-broadcasted-binary3d": "^0.1.0",
     "@stdlib/array-base-broadcasted-binary4d": "^0.1.0",
     "@stdlib/array-base-broadcasted-binary5d": "^0.1.0",
+    "@stdlib/array-base-broadcasted-quaternary2d": "github:stdlib-js/array-base-broadcasted-quaternary2d#main",
     "@stdlib/array-base-broadcasted-ternary2d": "^0.1.0",
     "@stdlib/array-base-broadcasted-unary2d": "^0.1.0",
     "@stdlib/array-base-broadcasted-unary3d": "^0.1.0",
