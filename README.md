@@ -35,38 +35,30 @@ limitations under the License.
 
 > Base (i.e., lower-level) array utilities.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ns = require( 'path/to/vendor/umd/array-base/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ns;
-})();
-</script>
+var ns = require( '@stdlib/array-base' );
 ```
 
 #### ns
@@ -194,21 +186,11 @@ The namespace exports the following:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/array-base' );
 
 console.log( objectKeys( ns ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -294,191 +276,191 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/array/base/accessor-getter]: https://github.com/stdlib-js/array-base-accessor-getter/tree/umd
+[@stdlib/array/base/accessor-getter]: https://github.com/stdlib-js/array-base-accessor-getter
 
-[@stdlib/array/base/accessor-setter]: https://github.com/stdlib-js/array-base-accessor-setter/tree/umd
+[@stdlib/array/base/accessor-setter]: https://github.com/stdlib-js/array-base-accessor-setter
 
-[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor/tree/umd
+[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
 
-[@stdlib/array/base/accessors]: https://github.com/stdlib-js/array-base-accessors/tree/umd
+[@stdlib/array/base/accessors]: https://github.com/stdlib-js/array-base-accessors
 
-[@stdlib/array/base/arraylike2object]: https://github.com/stdlib-js/array-base-arraylike2object/tree/umd
+[@stdlib/array/base/arraylike2object]: https://github.com/stdlib-js/array-base-arraylike2object
 
-[@stdlib/array/base/assert]: https://github.com/stdlib-js/array-base-assert/tree/umd
+[@stdlib/array/base/assert]: https://github.com/stdlib-js/array-base-assert
 
-[@stdlib/array/base/binary2d]: https://github.com/stdlib-js/array-base-binary2d/tree/umd
+[@stdlib/array/base/binary2d]: https://github.com/stdlib-js/array-base-binary2d
 
-[@stdlib/array/base/binary3d]: https://github.com/stdlib-js/array-base-binary3d/tree/umd
+[@stdlib/array/base/binary3d]: https://github.com/stdlib-js/array-base-binary3d
 
-[@stdlib/array/base/binary4d]: https://github.com/stdlib-js/array-base-binary4d/tree/umd
+[@stdlib/array/base/binary4d]: https://github.com/stdlib-js/array-base-binary4d
 
-[@stdlib/array/base/binary5d]: https://github.com/stdlib-js/array-base-binary5d/tree/umd
+[@stdlib/array/base/binary5d]: https://github.com/stdlib-js/array-base-binary5d
 
-[@stdlib/array/base/binarynd]: https://github.com/stdlib-js/array-base-binarynd/tree/umd
+[@stdlib/array/base/binarynd]: https://github.com/stdlib-js/array-base-binarynd
 
-[@stdlib/array/base/broadcast-array]: https://github.com/stdlib-js/array-base-broadcast-array/tree/umd
+[@stdlib/array/base/broadcast-array]: https://github.com/stdlib-js/array-base-broadcast-array
 
-[@stdlib/array/base/broadcasted-binary2d]: https://github.com/stdlib-js/array-base-broadcasted-binary2d/tree/umd
+[@stdlib/array/base/broadcasted-binary2d]: https://github.com/stdlib-js/array-base-broadcasted-binary2d
 
-[@stdlib/array/base/broadcasted-binary3d]: https://github.com/stdlib-js/array-base-broadcasted-binary3d/tree/umd
+[@stdlib/array/base/broadcasted-binary3d]: https://github.com/stdlib-js/array-base-broadcasted-binary3d
 
-[@stdlib/array/base/broadcasted-binary4d]: https://github.com/stdlib-js/array-base-broadcasted-binary4d/tree/umd
+[@stdlib/array/base/broadcasted-binary4d]: https://github.com/stdlib-js/array-base-broadcasted-binary4d
 
-[@stdlib/array/base/broadcasted-binary5d]: https://github.com/stdlib-js/array-base-broadcasted-binary5d/tree/umd
+[@stdlib/array/base/broadcasted-binary5d]: https://github.com/stdlib-js/array-base-broadcasted-binary5d
 
-[@stdlib/array/base/broadcasted-quaternary2d]: https://github.com/stdlib-js/array-base-broadcasted-quaternary2d/tree/umd
+[@stdlib/array/base/broadcasted-quaternary2d]: https://github.com/stdlib-js/array-base-broadcasted-quaternary2d
 
-[@stdlib/array/base/broadcasted-quinary2d]: https://github.com/stdlib-js/array-base-broadcasted-quinary2d/tree/umd
+[@stdlib/array/base/broadcasted-quinary2d]: https://github.com/stdlib-js/array-base-broadcasted-quinary2d
 
-[@stdlib/array/base/broadcasted-ternary2d]: https://github.com/stdlib-js/array-base-broadcasted-ternary2d/tree/umd
+[@stdlib/array/base/broadcasted-ternary2d]: https://github.com/stdlib-js/array-base-broadcasted-ternary2d
 
-[@stdlib/array/base/broadcasted-unary2d]: https://github.com/stdlib-js/array-base-broadcasted-unary2d/tree/umd
+[@stdlib/array/base/broadcasted-unary2d]: https://github.com/stdlib-js/array-base-broadcasted-unary2d
 
-[@stdlib/array/base/broadcasted-unary3d]: https://github.com/stdlib-js/array-base-broadcasted-unary3d/tree/umd
+[@stdlib/array/base/broadcasted-unary3d]: https://github.com/stdlib-js/array-base-broadcasted-unary3d
 
-[@stdlib/array/base/broadcasted-unary4d]: https://github.com/stdlib-js/array-base-broadcasted-unary4d/tree/umd
+[@stdlib/array/base/broadcasted-unary4d]: https://github.com/stdlib-js/array-base-broadcasted-unary4d
 
-[@stdlib/array/base/broadcasted-unary5d]: https://github.com/stdlib-js/array-base-broadcasted-unary5d/tree/umd
+[@stdlib/array/base/broadcasted-unary5d]: https://github.com/stdlib-js/array-base-broadcasted-unary5d
 
-[@stdlib/array/base/cartesian-power]: https://github.com/stdlib-js/array-base-cartesian-power/tree/umd
+[@stdlib/array/base/cartesian-power]: https://github.com/stdlib-js/array-base-cartesian-power
 
-[@stdlib/array/base/cartesian-product]: https://github.com/stdlib-js/array-base-cartesian-product/tree/umd
+[@stdlib/array/base/cartesian-product]: https://github.com/stdlib-js/array-base-cartesian-product
 
-[@stdlib/array/base/cartesian-square]: https://github.com/stdlib-js/array-base-cartesian-square/tree/umd
+[@stdlib/array/base/cartesian-square]: https://github.com/stdlib-js/array-base-cartesian-square
 
-[@stdlib/array/base/copy-indexed]: https://github.com/stdlib-js/array-base-copy-indexed/tree/umd
+[@stdlib/array/base/copy-indexed]: https://github.com/stdlib-js/array-base-copy-indexed
 
-[@stdlib/array/base/copy]: https://github.com/stdlib-js/array-base-copy/tree/umd
+[@stdlib/array/base/copy]: https://github.com/stdlib-js/array-base-copy
 
-[@stdlib/array/base/filled-by]: https://github.com/stdlib-js/array-base-filled-by/tree/umd
+[@stdlib/array/base/filled-by]: https://github.com/stdlib-js/array-base-filled-by
 
-[@stdlib/array/base/filled]: https://github.com/stdlib-js/array-base-filled/tree/umd
+[@stdlib/array/base/filled]: https://github.com/stdlib-js/array-base-filled
 
-[@stdlib/array/base/filled2d-by]: https://github.com/stdlib-js/array-base-filled2d-by/tree/umd
+[@stdlib/array/base/filled2d-by]: https://github.com/stdlib-js/array-base-filled2d-by
 
-[@stdlib/array/base/filled2d]: https://github.com/stdlib-js/array-base-filled2d/tree/umd
+[@stdlib/array/base/filled2d]: https://github.com/stdlib-js/array-base-filled2d
 
-[@stdlib/array/base/filled3d-by]: https://github.com/stdlib-js/array-base-filled3d-by/tree/umd
+[@stdlib/array/base/filled3d-by]: https://github.com/stdlib-js/array-base-filled3d-by
 
-[@stdlib/array/base/filled3d]: https://github.com/stdlib-js/array-base-filled3d/tree/umd
+[@stdlib/array/base/filled3d]: https://github.com/stdlib-js/array-base-filled3d
 
-[@stdlib/array/base/filled4d-by]: https://github.com/stdlib-js/array-base-filled4d-by/tree/umd
+[@stdlib/array/base/filled4d-by]: https://github.com/stdlib-js/array-base-filled4d-by
 
-[@stdlib/array/base/filled4d]: https://github.com/stdlib-js/array-base-filled4d/tree/umd
+[@stdlib/array/base/filled4d]: https://github.com/stdlib-js/array-base-filled4d
 
-[@stdlib/array/base/filled5d-by]: https://github.com/stdlib-js/array-base-filled5d-by/tree/umd
+[@stdlib/array/base/filled5d-by]: https://github.com/stdlib-js/array-base-filled5d-by
 
-[@stdlib/array/base/filled5d]: https://github.com/stdlib-js/array-base-filled5d/tree/umd
+[@stdlib/array/base/filled5d]: https://github.com/stdlib-js/array-base-filled5d
 
-[@stdlib/array/base/fillednd-by]: https://github.com/stdlib-js/array-base-fillednd-by/tree/umd
+[@stdlib/array/base/fillednd-by]: https://github.com/stdlib-js/array-base-fillednd-by
 
-[@stdlib/array/base/fillednd]: https://github.com/stdlib-js/array-base-fillednd/tree/umd
+[@stdlib/array/base/fillednd]: https://github.com/stdlib-js/array-base-fillednd
 
-[@stdlib/array/base/flatten-by]: https://github.com/stdlib-js/array-base-flatten-by/tree/umd
+[@stdlib/array/base/flatten-by]: https://github.com/stdlib-js/array-base-flatten-by
 
-[@stdlib/array/base/flatten]: https://github.com/stdlib-js/array-base-flatten/tree/umd
+[@stdlib/array/base/flatten]: https://github.com/stdlib-js/array-base-flatten
 
-[@stdlib/array/base/flatten2d-by]: https://github.com/stdlib-js/array-base-flatten2d-by/tree/umd
+[@stdlib/array/base/flatten2d-by]: https://github.com/stdlib-js/array-base-flatten2d-by
 
-[@stdlib/array/base/flatten2d]: https://github.com/stdlib-js/array-base-flatten2d/tree/umd
+[@stdlib/array/base/flatten2d]: https://github.com/stdlib-js/array-base-flatten2d
 
-[@stdlib/array/base/flatten3d-by]: https://github.com/stdlib-js/array-base-flatten3d-by/tree/umd
+[@stdlib/array/base/flatten3d-by]: https://github.com/stdlib-js/array-base-flatten3d-by
 
-[@stdlib/array/base/flatten3d]: https://github.com/stdlib-js/array-base-flatten3d/tree/umd
+[@stdlib/array/base/flatten3d]: https://github.com/stdlib-js/array-base-flatten3d
 
-[@stdlib/array/base/flatten4d-by]: https://github.com/stdlib-js/array-base-flatten4d-by/tree/umd
+[@stdlib/array/base/flatten4d-by]: https://github.com/stdlib-js/array-base-flatten4d-by
 
-[@stdlib/array/base/flatten4d]: https://github.com/stdlib-js/array-base-flatten4d/tree/umd
+[@stdlib/array/base/flatten4d]: https://github.com/stdlib-js/array-base-flatten4d
 
-[@stdlib/array/base/flatten5d-by]: https://github.com/stdlib-js/array-base-flatten5d-by/tree/umd
+[@stdlib/array/base/flatten5d-by]: https://github.com/stdlib-js/array-base-flatten5d-by
 
-[@stdlib/array/base/flatten5d]: https://github.com/stdlib-js/array-base-flatten5d/tree/umd
+[@stdlib/array/base/flatten5d]: https://github.com/stdlib-js/array-base-flatten5d
 
-[@stdlib/array/base/getter]: https://github.com/stdlib-js/array-base-getter/tree/umd
+[@stdlib/array/base/getter]: https://github.com/stdlib-js/array-base-getter
 
-[@stdlib/array/base/incrspace]: https://github.com/stdlib-js/array-base-incrspace/tree/umd
+[@stdlib/array/base/incrspace]: https://github.com/stdlib-js/array-base-incrspace
 
-[@stdlib/array/base/last]: https://github.com/stdlib-js/array-base-last/tree/umd
+[@stdlib/array/base/last]: https://github.com/stdlib-js/array-base-last
 
-[@stdlib/array/base/linspace]: https://github.com/stdlib-js/array-base-linspace/tree/umd
+[@stdlib/array/base/linspace]: https://github.com/stdlib-js/array-base-linspace
 
-[@stdlib/array/base/logspace]: https://github.com/stdlib-js/array-base-logspace/tree/umd
+[@stdlib/array/base/logspace]: https://github.com/stdlib-js/array-base-logspace
 
-[@stdlib/array/base/mskbinary2d]: https://github.com/stdlib-js/array-base-mskbinary2d/tree/umd
+[@stdlib/array/base/mskbinary2d]: https://github.com/stdlib-js/array-base-mskbinary2d
 
-[@stdlib/array/base/mskunary2d]: https://github.com/stdlib-js/array-base-mskunary2d/tree/umd
+[@stdlib/array/base/mskunary2d]: https://github.com/stdlib-js/array-base-mskunary2d
 
-[@stdlib/array/base/mskunary3d]: https://github.com/stdlib-js/array-base-mskunary3d/tree/umd
+[@stdlib/array/base/mskunary3d]: https://github.com/stdlib-js/array-base-mskunary3d
 
-[@stdlib/array/base/n-cartesian-product]: https://github.com/stdlib-js/array-base-n-cartesian-product/tree/umd
+[@stdlib/array/base/n-cartesian-product]: https://github.com/stdlib-js/array-base-n-cartesian-product
 
-[@stdlib/array/base/one-to]: https://github.com/stdlib-js/array-base-one-to/tree/umd
+[@stdlib/array/base/one-to]: https://github.com/stdlib-js/array-base-one-to
 
-[@stdlib/array/base/ones]: https://github.com/stdlib-js/array-base-ones/tree/umd
+[@stdlib/array/base/ones]: https://github.com/stdlib-js/array-base-ones
 
-[@stdlib/array/base/ones2d]: https://github.com/stdlib-js/array-base-ones2d/tree/umd
+[@stdlib/array/base/ones2d]: https://github.com/stdlib-js/array-base-ones2d
 
-[@stdlib/array/base/ones3d]: https://github.com/stdlib-js/array-base-ones3d/tree/umd
+[@stdlib/array/base/ones3d]: https://github.com/stdlib-js/array-base-ones3d
 
-[@stdlib/array/base/ones4d]: https://github.com/stdlib-js/array-base-ones4d/tree/umd
+[@stdlib/array/base/ones4d]: https://github.com/stdlib-js/array-base-ones4d
 
-[@stdlib/array/base/ones5d]: https://github.com/stdlib-js/array-base-ones5d/tree/umd
+[@stdlib/array/base/ones5d]: https://github.com/stdlib-js/array-base-ones5d
 
-[@stdlib/array/base/onesnd]: https://github.com/stdlib-js/array-base-onesnd/tree/umd
+[@stdlib/array/base/onesnd]: https://github.com/stdlib-js/array-base-onesnd
 
-[@stdlib/array/base/quaternary2d]: https://github.com/stdlib-js/array-base-quaternary2d/tree/umd
+[@stdlib/array/base/quaternary2d]: https://github.com/stdlib-js/array-base-quaternary2d
 
-[@stdlib/array/base/quinary2d]: https://github.com/stdlib-js/array-base-quinary2d/tree/umd
+[@stdlib/array/base/quinary2d]: https://github.com/stdlib-js/array-base-quinary2d
 
-[@stdlib/array/base/setter]: https://github.com/stdlib-js/array-base-setter/tree/umd
+[@stdlib/array/base/setter]: https://github.com/stdlib-js/array-base-setter
 
-[@stdlib/array/base/strided2array2d]: https://github.com/stdlib-js/array-base-strided2array2d/tree/umd
+[@stdlib/array/base/strided2array2d]: https://github.com/stdlib-js/array-base-strided2array2d
 
-[@stdlib/array/base/strided2array3d]: https://github.com/stdlib-js/array-base-strided2array3d/tree/umd
+[@stdlib/array/base/strided2array3d]: https://github.com/stdlib-js/array-base-strided2array3d
 
-[@stdlib/array/base/strided2array4d]: https://github.com/stdlib-js/array-base-strided2array4d/tree/umd
+[@stdlib/array/base/strided2array4d]: https://github.com/stdlib-js/array-base-strided2array4d
 
-[@stdlib/array/base/strided2array5d]: https://github.com/stdlib-js/array-base-strided2array5d/tree/umd
+[@stdlib/array/base/strided2array5d]: https://github.com/stdlib-js/array-base-strided2array5d
 
-[@stdlib/array/base/take]: https://github.com/stdlib-js/array-base-take/tree/umd
+[@stdlib/array/base/take]: https://github.com/stdlib-js/array-base-take
 
-[@stdlib/array/base/ternary2d]: https://github.com/stdlib-js/array-base-ternary2d/tree/umd
+[@stdlib/array/base/ternary2d]: https://github.com/stdlib-js/array-base-ternary2d
 
-[@stdlib/array/base/ternary3d]: https://github.com/stdlib-js/array-base-ternary3d/tree/umd
+[@stdlib/array/base/ternary3d]: https://github.com/stdlib-js/array-base-ternary3d
 
-[@stdlib/array/base/ternary4d]: https://github.com/stdlib-js/array-base-ternary4d/tree/umd
+[@stdlib/array/base/ternary4d]: https://github.com/stdlib-js/array-base-ternary4d
 
-[@stdlib/array/base/ternary5d]: https://github.com/stdlib-js/array-base-ternary5d/tree/umd
+[@stdlib/array/base/ternary5d]: https://github.com/stdlib-js/array-base-ternary5d
 
-[@stdlib/array/base/to-accessor-array]: https://github.com/stdlib-js/array-base-to-accessor-array/tree/umd
+[@stdlib/array/base/to-accessor-array]: https://github.com/stdlib-js/array-base-to-accessor-array
 
-[@stdlib/array/base/unary2d-by]: https://github.com/stdlib-js/array-base-unary2d-by/tree/umd
+[@stdlib/array/base/unary2d-by]: https://github.com/stdlib-js/array-base-unary2d-by
 
-[@stdlib/array/base/unary2d]: https://github.com/stdlib-js/array-base-unary2d/tree/umd
+[@stdlib/array/base/unary2d]: https://github.com/stdlib-js/array-base-unary2d
 
-[@stdlib/array/base/unary3d]: https://github.com/stdlib-js/array-base-unary3d/tree/umd
+[@stdlib/array/base/unary3d]: https://github.com/stdlib-js/array-base-unary3d
 
-[@stdlib/array/base/unary4d]: https://github.com/stdlib-js/array-base-unary4d/tree/umd
+[@stdlib/array/base/unary4d]: https://github.com/stdlib-js/array-base-unary4d
 
-[@stdlib/array/base/unary5d]: https://github.com/stdlib-js/array-base-unary5d/tree/umd
+[@stdlib/array/base/unary5d]: https://github.com/stdlib-js/array-base-unary5d
 
-[@stdlib/array/base/unarynd]: https://github.com/stdlib-js/array-base-unarynd/tree/umd
+[@stdlib/array/base/unarynd]: https://github.com/stdlib-js/array-base-unarynd
 
-[@stdlib/array/base/unitspace]: https://github.com/stdlib-js/array-base-unitspace/tree/umd
+[@stdlib/array/base/unitspace]: https://github.com/stdlib-js/array-base-unitspace
 
-[@stdlib/array/base/zero-to]: https://github.com/stdlib-js/array-base-zero-to/tree/umd
+[@stdlib/array/base/zero-to]: https://github.com/stdlib-js/array-base-zero-to
 
-[@stdlib/array/base/zeros]: https://github.com/stdlib-js/array-base-zeros/tree/umd
+[@stdlib/array/base/zeros]: https://github.com/stdlib-js/array-base-zeros
 
-[@stdlib/array/base/zeros2d]: https://github.com/stdlib-js/array-base-zeros2d/tree/umd
+[@stdlib/array/base/zeros2d]: https://github.com/stdlib-js/array-base-zeros2d
 
-[@stdlib/array/base/zeros3d]: https://github.com/stdlib-js/array-base-zeros3d/tree/umd
+[@stdlib/array/base/zeros3d]: https://github.com/stdlib-js/array-base-zeros3d
 
-[@stdlib/array/base/zeros4d]: https://github.com/stdlib-js/array-base-zeros4d/tree/umd
+[@stdlib/array/base/zeros4d]: https://github.com/stdlib-js/array-base-zeros4d
 
-[@stdlib/array/base/zeros5d]: https://github.com/stdlib-js/array-base-zeros5d/tree/umd
+[@stdlib/array/base/zeros5d]: https://github.com/stdlib-js/array-base-zeros5d
 
-[@stdlib/array/base/zerosnd]: https://github.com/stdlib-js/array-base-zerosnd/tree/umd
+[@stdlib/array/base/zerosnd]: https://github.com/stdlib-js/array-base-zerosnd
 
 <!-- </toc-links> -->
 
