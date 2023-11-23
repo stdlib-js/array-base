@@ -86,6 +86,7 @@
     "@stdlib/array-base-flatten4d-by": "^0.1.0",
     "@stdlib/array-base-flatten5d": "^0.1.0",
     "@stdlib/array-base-flatten5d-by": "^0.1.0",
+    "@stdlib/array-base-fliplr2d": "github:stdlib-js/array-base-fliplr2d#main",
     "@stdlib/array-base-flipud2d": "github:stdlib-js/array-base-flipud2d#main",
     "@stdlib/array-base-from-strided": "^0.1.0",
     "@stdlib/array-base-getter": "^0.1.0",
