@@ -117,6 +117,7 @@
     "@stdlib/array-base-strided2array4d": "^0.1.0",
     "@stdlib/array-base-strided2array5d": "^0.1.0",
     "@stdlib/array-base-take": "^0.1.0",
+    "@stdlib/array-base-take-indexed": "github:stdlib-js/array-base-take-indexed#main",
     "@stdlib/array-base-ternary2d": "^0.1.0",
     "@stdlib/array-base-ternary3d": "^0.1.0",
     "@stdlib/array-base-ternary4d": "^0.1.0",
