@@ -86,6 +86,7 @@
     "@stdlib/array-base-flatten4d-by": "^0.1.0",
     "@stdlib/array-base-flatten5d": "^0.1.0",
     "@stdlib/array-base-flatten5d-by": "^0.1.0",
+    "@stdlib/array-base-from-strided": "github:stdlib-js/array-base-from-strided#main",
     "@stdlib/array-base-getter": "^0.1.0",
     "@stdlib/array-base-incrspace": "^0.1.0",
     "@stdlib/array-base-last": "^0.1.0",
