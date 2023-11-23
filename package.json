@@ -110,6 +110,7 @@
     "@stdlib/array-base-quaternary4d": "github:stdlib-js/array-base-quaternary4d#main",
     "@stdlib/array-base-quaternary5d": "github:stdlib-js/array-base-quaternary5d#main",
     "@stdlib/array-base-quinary2d": "^0.1.0",
+    "@stdlib/array-base-resolve-getter": "github:stdlib-js/array-base-resolve-getter#main",
     "@stdlib/array-base-setter": "^0.1.0",
     "@stdlib/array-base-strided2array2d": "^0.1.0",
     "@stdlib/array-base-strided2array3d": "^0.1.0",
