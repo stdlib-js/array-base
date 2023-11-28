@@ -121,6 +121,7 @@
     "@stdlib/array-base-take": "^0.1.0",
     "@stdlib/array-base-take-indexed": "^0.1.0",
     "@stdlib/array-base-take2d": "github:stdlib-js/array-base-take2d#main",
+    "@stdlib/array-base-take3d": "github:stdlib-js/array-base-take3d#main",
     "@stdlib/array-base-ternary2d": "^0.1.0",
     "@stdlib/array-base-ternary3d": "^0.1.0",
     "@stdlib/array-base-ternary4d": "^0.1.0",
