@@ -97,6 +97,7 @@
     "@stdlib/array-base-map2d": "^0.1.0",
     "@stdlib/array-base-map3d": "^0.1.0",
     "@stdlib/array-base-map4d": "github:stdlib-js/array-base-map4d#main",
+    "@stdlib/array-base-map5d": "github:stdlib-js/array-base-map5d#main",
     "@stdlib/array-base-mskbinary2d": "^0.1.0",
     "@stdlib/array-base-mskunary2d": "^0.1.0",
     "@stdlib/array-base-mskunary3d": "^0.1.0",
