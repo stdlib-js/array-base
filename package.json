@@ -89,7 +89,6 @@
     "@stdlib/array-base-fliplr2d": "github:stdlib-js/array-base-fliplr2d#main",
     "@stdlib/array-base-fliplr3d": "github:stdlib-js/array-base-fliplr3d#main",
     "@stdlib/array-base-fliplr4d": "github:stdlib-js/array-base-fliplr4d#main",
-    "@stdlib/array-base-fliplr5d": "github:stdlib-js/array-base-fliplr5d#main",
     "@stdlib/array-base-flipud2d": "github:stdlib-js/array-base-flipud2d#main",
     "@stdlib/array-base-from-strided": "^0.1.0",
     "@stdlib/array-base-getter": "^0.1.0",
