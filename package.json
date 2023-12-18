@@ -76,6 +76,7 @@
     "@stdlib/array-base-filled5d-by": "^0.1.0",
     "@stdlib/array-base-fillednd": "^0.1.0",
     "@stdlib/array-base-fillednd-by": "^0.1.0",
+    "@stdlib/array-base-first": "github:stdlib-js/array-base-first#main",
     "@stdlib/array-base-flatten": "^0.1.0",
     "@stdlib/array-base-flatten-by": "^0.1.0",
     "@stdlib/array-base-flatten2d": "^0.1.0",
@@ -119,6 +120,7 @@
     "@stdlib/array-base-quinary2d": "^0.1.0",
     "@stdlib/array-base-resolve-getter": "^0.1.0",
     "@stdlib/array-base-setter": "^0.1.0",
+    "@stdlib/array-base-slice": "github:stdlib-js/array-base-slice#main",
     "@stdlib/array-base-strided2array2d": "^0.1.0",
     "@stdlib/array-base-strided2array3d": "^0.1.0",
     "@stdlib/array-base-strided2array4d": "^0.1.0",
@@ -175,8 +177,8 @@
     "@stdlib/assert-is-complex64": "^0.1.1",
     "@stdlib/assert-is-float64array": "^0.1.1",
     "@stdlib/assert-is-function": "^0.1.1",
+    "@stdlib/assert-is-int32array": "^0.1.1",
     "@stdlib/assert-is-plain-object": "^0.1.1",
-    "@stdlib/bench": "^0.2.1",
     "@stdlib/blas-base-gscal": "^0.1.1",
     "@stdlib/blas-ext-base-gfill": "^0.1.0",
     "@stdlib/blas-ext-base-grev": "^0.1.0",
@@ -220,7 +222,8 @@
     "@stdlib/utils-nary-function": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
-    "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
+    "@stdlib/bench-harness": "^0.1.2"
   },
   "engines": {
     "node": ">=0.10.0",
