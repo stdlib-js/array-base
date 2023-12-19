@@ -97,6 +97,7 @@
     "@stdlib/array-base-incrspace": "^0.1.0",
     "@stdlib/array-base-index-of": "github:stdlib-js/array-base-index-of#main",
     "@stdlib/array-base-last": "^0.1.0",
+    "@stdlib/array-base-last-index-of": "github:stdlib-js/array-base-last-index-of#main",
     "@stdlib/array-base-linspace": "^0.1.0",
     "@stdlib/array-base-logspace": "^0.1.0",
     "@stdlib/array-base-map2d": "^0.1.0",
