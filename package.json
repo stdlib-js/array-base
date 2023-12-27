@@ -94,6 +94,7 @@
     "@stdlib/array-base-flipud2d": "^0.1.0",
     "@stdlib/array-base-flipud3d": "github:stdlib-js/array-base-flipud3d#main",
     "@stdlib/array-base-flipud4d": "github:stdlib-js/array-base-flipud4d#main",
+    "@stdlib/array-base-flipud5d": "github:stdlib-js/array-base-flipud5d#main",
     "@stdlib/array-base-from-strided": "^0.1.0",
     "@stdlib/array-base-getter": "^0.1.0",
     "@stdlib/array-base-incrspace": "^0.1.0",
