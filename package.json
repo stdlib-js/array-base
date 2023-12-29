@@ -125,6 +125,7 @@
     "@stdlib/array-base-quinary2d": "^0.1.0",
     "@stdlib/array-base-quinary3d": "github:stdlib-js/array-base-quinary3d#main",
     "@stdlib/array-base-quinary4d": "github:stdlib-js/array-base-quinary4d#main",
+    "@stdlib/array-base-quinary5d": "github:stdlib-js/array-base-quinary5d#main",
     "@stdlib/array-base-resolve-getter": "^0.1.0",
     "@stdlib/array-base-setter": "^0.1.0",
     "@stdlib/array-base-slice": "^0.1.0",
