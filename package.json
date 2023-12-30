@@ -143,6 +143,7 @@
     "@stdlib/array-base-ternary4d": "^0.1.0",
     "@stdlib/array-base-ternary5d": "^0.1.0",
     "@stdlib/array-base-to-accessor-array": "^0.1.0",
+    "@stdlib/array-base-to-deduped": "github:stdlib-js/array-base-to-deduped#main",
     "@stdlib/array-base-unary2d": "^0.1.0",
     "@stdlib/array-base-unary2d-by": "^0.1.0",
     "@stdlib/array-base-unary3d": "^0.1.0",
