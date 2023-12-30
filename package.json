@@ -42,6 +42,7 @@
     "@stdlib/array-base-accessors": "^0.1.0",
     "@stdlib/array-base-arraylike2object": "^0.1.0",
     "@stdlib/array-base-assert": "^0.1.0",
+    "@stdlib/array-base-bifurcate-values": "github:stdlib-js/array-base-bifurcate-values#main",
     "@stdlib/array-base-binary2d": "^0.1.0",
     "@stdlib/array-base-binary3d": "^0.1.0",
     "@stdlib/array-base-binary4d": "^0.1.0",
