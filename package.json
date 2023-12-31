@@ -43,6 +43,7 @@
     "@stdlib/array-base-arraylike2object": "^0.1.0",
     "@stdlib/array-base-assert": "^0.1.0",
     "@stdlib/array-base-bifurcate-entries": "github:stdlib-js/array-base-bifurcate-entries#main",
+    "@stdlib/array-base-bifurcate-entries-by": "github:stdlib-js/array-base-bifurcate-entries-by#main",
     "@stdlib/array-base-bifurcate-indices": "github:stdlib-js/array-base-bifurcate-indices#main",
     "@stdlib/array-base-bifurcate-indices-by": "github:stdlib-js/array-base-bifurcate-indices-by#main",
     "@stdlib/array-base-bifurcate-values": "github:stdlib-js/array-base-bifurcate-values#main",
