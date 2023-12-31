@@ -102,6 +102,7 @@
     "@stdlib/array-base-from-strided": "^0.1.0",
     "@stdlib/array-base-getter": "^0.1.0",
     "@stdlib/array-base-group-entries": "github:stdlib-js/array-base-group-entries#main",
+    "@stdlib/array-base-group-entries-by": "github:stdlib-js/array-base-group-entries-by#main",
     "@stdlib/array-base-group-indices": "github:stdlib-js/array-base-group-indices#main",
     "@stdlib/array-base-group-indices-by": "github:stdlib-js/array-base-group-indices-by#main",
     "@stdlib/array-base-group-values": "github:stdlib-js/array-base-group-values#main",
