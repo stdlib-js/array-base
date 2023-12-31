@@ -104,6 +104,7 @@
     "@stdlib/array-base-group-entries": "github:stdlib-js/array-base-group-entries#main",
     "@stdlib/array-base-group-indices": "github:stdlib-js/array-base-group-indices#main",
     "@stdlib/array-base-group-values": "github:stdlib-js/array-base-group-values#main",
+    "@stdlib/array-base-group-values-by": "github:stdlib-js/array-base-group-values-by#main",
     "@stdlib/array-base-incrspace": "^0.1.0",
     "@stdlib/array-base-index-of": "^0.1.0",
     "@stdlib/array-base-last": "^0.1.0",
