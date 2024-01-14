@@ -248,7 +248,7 @@
     "@stdlib/random-base-uniform": "^0.1.0",
     "@stdlib/strided-base-reinterpret-complex128": "^0.1.1",
     "@stdlib/strided-base-reinterpret-complex64": "^0.1.1",
-    "@stdlib/string-format": "^0.1.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1",
     "@stdlib/utils-constant-function": "^0.1.1",
     "@stdlib/utils-constructor-name": "^0.1.1",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1",
