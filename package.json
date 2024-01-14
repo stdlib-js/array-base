@@ -128,6 +128,7 @@
     "@stdlib/array-base-mskunary3d": "^0.1.0",
     "@stdlib/array-base-n-cartesian-product": "^0.1.0",
     "@stdlib/array-base-none": "github:stdlib-js/array-base-none#main",
+    "@stdlib/array-base-none-by": "github:stdlib-js/array-base-none-by#main",
     "@stdlib/array-base-one-to": "^0.1.0",
     "@stdlib/array-base-ones": "^0.1.0",
     "@stdlib/array-base-ones2d": "^0.1.0",
