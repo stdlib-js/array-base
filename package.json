@@ -73,6 +73,7 @@
     "@stdlib/array-base-dedupe": "^0.1.0",
     "@stdlib/array-base-every": "github:stdlib-js/array-base-every#main",
     "@stdlib/array-base-every-by": "github:stdlib-js/array-base-every-by#main",
+    "@stdlib/array-base-every-by-right": "github:stdlib-js/array-base-every-by-right#main",
     "@stdlib/array-base-filled": "^0.1.0",
     "@stdlib/array-base-filled-by": "^0.1.0",
     "@stdlib/array-base-filled2d": "^0.1.0",
