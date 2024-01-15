@@ -40,6 +40,7 @@
     "@stdlib/array-base-accessor-getter": "^0.1.0",
     "@stdlib/array-base-accessor-setter": "^0.1.0",
     "@stdlib/array-base-accessors": "^0.1.0",
+    "@stdlib/array-base-any": "github:stdlib-js/array-base-any#main",
     "@stdlib/array-base-arraylike2object": "^0.1.0",
     "@stdlib/array-base-assert": "^0.1.0",
     "@stdlib/array-base-bifurcate-entries": "^0.1.0",
