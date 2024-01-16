@@ -42,6 +42,7 @@
     "@stdlib/array-base-accessors": "^0.1.0",
     "@stdlib/array-base-any": "github:stdlib-js/array-base-any#main",
     "@stdlib/array-base-any-by": "github:stdlib-js/array-base-any-by#main",
+    "@stdlib/array-base-any-by-right": "github:stdlib-js/array-base-any-by-right#main",
     "@stdlib/array-base-arraylike2object": "^0.1.0",
     "@stdlib/array-base-assert": "^0.1.0",
     "@stdlib/array-base-bifurcate-entries": "^0.1.0",
