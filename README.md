@@ -35,30 +35,20 @@ limitations under the License.
 
 > Base (i.e., lower-level) array utilities.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/array-base
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var ns = require( '@stdlib/array-base' );
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base@esm/index.mjs';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { AccessorArray, accessorGetter, accessorSetter, accessors, any, anyBy, arraylike2object, assert, bbinary2d, bbinary3d, bbinary4d, bbinary5d, bifurcateEntries, bifurcateEntriesBy, bifurcateIndices, bifurcateIndicesBy, bifurcateValues, bifurcateValuesBy, binary2d, binary3d, binary4d, binary5d, binarynd, bquaternary2d, bquinary2d, broadcastArray, bternary2d, bunary2d, bunary3d, bunary4d, bunary5d, cartesianPower, cartesianProduct, cartesianSquare, copy, copyIndexed, dedupe, every, everyBy, everyByRight, filled, filled2d, filled2dBy, filled3d, filled3dBy, filled4d, filled4dBy, filled5d, filled5dBy, filledBy, fillednd, filledndBy, first, flatten, flatten2d, flatten2dBy, flatten3d, flatten3dBy, flatten4d, flatten4dBy, flatten5d, flatten5dBy, flattenBy, fliplr2d, fliplr3d, fliplr4d, fliplr5d, flipud2d, flipud3d, flipud4d, flipud5d, getter, groupEntries, groupEntriesBy, groupIndices, groupIndicesBy, groupValues, groupValuesBy, incrspace, indexOf, last, lastIndexOf, linspace, logspace, map2d, map3d, map4d, map5d, mskbinary2d, mskunary2d, mskunary3d, nCartesianProduct, none, noneBy, noneByRight, oneTo, ones, ones2d, ones3d, ones4d, ones5d, onesnd, quaternary2d, quaternary3d, quaternary4d, quaternary5d, quinary2d, quinary3d, quinary4d, quinary5d, resolveGetter, reverse, setter, slice, strided2array, strided2array2d, strided2array3d, strided2array4d, strided2array5d, take, take2d, take3d, takeIndexed, ternary2d, ternary3d, ternary4d, ternary5d, toAccessorArray, toDeduped, toReversed, unary2d, unary2dBy, unary3d, unary4d, unary5d, unarynd, unitspace, zeroTo, zeros, zeros2d, zeros3d, zeros4d, zeros5d, zerosnd } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base@esm/index.mjs';
 ```
 
 #### ns
@@ -227,11 +217,20 @@ The namespace exports the following:
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var ns = require( '@stdlib/array-base' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base@esm/index.mjs';
 
 console.log( objectKeys( ns ) );
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -255,7 +254,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -317,273 +316,273 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/array/base/accessor-getter]: https://github.com/stdlib-js/array-base-accessor-getter
+[@stdlib/array/base/accessor-getter]: https://github.com/stdlib-js/array-base-accessor-getter/tree/esm
 
-[@stdlib/array/base/accessor-setter]: https://github.com/stdlib-js/array-base-accessor-setter
+[@stdlib/array/base/accessor-setter]: https://github.com/stdlib-js/array-base-accessor-setter/tree/esm
 
-[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
+[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor/tree/esm
 
-[@stdlib/array/base/accessors]: https://github.com/stdlib-js/array-base-accessors
+[@stdlib/array/base/accessors]: https://github.com/stdlib-js/array-base-accessors/tree/esm
 
-[@stdlib/array/base/arraylike2object]: https://github.com/stdlib-js/array-base-arraylike2object
+[@stdlib/array/base/arraylike2object]: https://github.com/stdlib-js/array-base-arraylike2object/tree/esm
 
-[@stdlib/array/base/assert]: https://github.com/stdlib-js/array-base-assert
+[@stdlib/array/base/assert]: https://github.com/stdlib-js/array-base-assert/tree/esm
 
-[@stdlib/array/base/bifurcate-entries-by]: https://github.com/stdlib-js/array-base-bifurcate-entries-by
+[@stdlib/array/base/bifurcate-entries-by]: https://github.com/stdlib-js/array-base-bifurcate-entries-by/tree/esm
 
-[@stdlib/array/base/bifurcate-entries]: https://github.com/stdlib-js/array-base-bifurcate-entries
+[@stdlib/array/base/bifurcate-entries]: https://github.com/stdlib-js/array-base-bifurcate-entries/tree/esm
 
-[@stdlib/array/base/bifurcate-indices-by]: https://github.com/stdlib-js/array-base-bifurcate-indices-by
+[@stdlib/array/base/bifurcate-indices-by]: https://github.com/stdlib-js/array-base-bifurcate-indices-by/tree/esm
 
-[@stdlib/array/base/bifurcate-indices]: https://github.com/stdlib-js/array-base-bifurcate-indices
+[@stdlib/array/base/bifurcate-indices]: https://github.com/stdlib-js/array-base-bifurcate-indices/tree/esm
 
-[@stdlib/array/base/bifurcate-values-by]: https://github.com/stdlib-js/array-base-bifurcate-values-by
+[@stdlib/array/base/bifurcate-values-by]: https://github.com/stdlib-js/array-base-bifurcate-values-by/tree/esm
 
-[@stdlib/array/base/bifurcate-values]: https://github.com/stdlib-js/array-base-bifurcate-values
+[@stdlib/array/base/bifurcate-values]: https://github.com/stdlib-js/array-base-bifurcate-values/tree/esm
 
-[@stdlib/array/base/binary2d]: https://github.com/stdlib-js/array-base-binary2d
+[@stdlib/array/base/binary2d]: https://github.com/stdlib-js/array-base-binary2d/tree/esm
 
-[@stdlib/array/base/binary3d]: https://github.com/stdlib-js/array-base-binary3d
+[@stdlib/array/base/binary3d]: https://github.com/stdlib-js/array-base-binary3d/tree/esm
 
-[@stdlib/array/base/binary4d]: https://github.com/stdlib-js/array-base-binary4d
+[@stdlib/array/base/binary4d]: https://github.com/stdlib-js/array-base-binary4d/tree/esm
 
-[@stdlib/array/base/binary5d]: https://github.com/stdlib-js/array-base-binary5d
+[@stdlib/array/base/binary5d]: https://github.com/stdlib-js/array-base-binary5d/tree/esm
 
-[@stdlib/array/base/binarynd]: https://github.com/stdlib-js/array-base-binarynd
+[@stdlib/array/base/binarynd]: https://github.com/stdlib-js/array-base-binarynd/tree/esm
 
-[@stdlib/array/base/broadcast-array]: https://github.com/stdlib-js/array-base-broadcast-array
+[@stdlib/array/base/broadcast-array]: https://github.com/stdlib-js/array-base-broadcast-array/tree/esm
 
-[@stdlib/array/base/broadcasted-binary2d]: https://github.com/stdlib-js/array-base-broadcasted-binary2d
+[@stdlib/array/base/broadcasted-binary2d]: https://github.com/stdlib-js/array-base-broadcasted-binary2d/tree/esm
 
-[@stdlib/array/base/broadcasted-binary3d]: https://github.com/stdlib-js/array-base-broadcasted-binary3d
+[@stdlib/array/base/broadcasted-binary3d]: https://github.com/stdlib-js/array-base-broadcasted-binary3d/tree/esm
 
-[@stdlib/array/base/broadcasted-binary4d]: https://github.com/stdlib-js/array-base-broadcasted-binary4d
+[@stdlib/array/base/broadcasted-binary4d]: https://github.com/stdlib-js/array-base-broadcasted-binary4d/tree/esm
 
-[@stdlib/array/base/broadcasted-binary5d]: https://github.com/stdlib-js/array-base-broadcasted-binary5d
+[@stdlib/array/base/broadcasted-binary5d]: https://github.com/stdlib-js/array-base-broadcasted-binary5d/tree/esm
 
-[@stdlib/array/base/broadcasted-quaternary2d]: https://github.com/stdlib-js/array-base-broadcasted-quaternary2d
+[@stdlib/array/base/broadcasted-quaternary2d]: https://github.com/stdlib-js/array-base-broadcasted-quaternary2d/tree/esm
 
-[@stdlib/array/base/broadcasted-quinary2d]: https://github.com/stdlib-js/array-base-broadcasted-quinary2d
+[@stdlib/array/base/broadcasted-quinary2d]: https://github.com/stdlib-js/array-base-broadcasted-quinary2d/tree/esm
 
-[@stdlib/array/base/broadcasted-ternary2d]: https://github.com/stdlib-js/array-base-broadcasted-ternary2d
+[@stdlib/array/base/broadcasted-ternary2d]: https://github.com/stdlib-js/array-base-broadcasted-ternary2d/tree/esm
 
-[@stdlib/array/base/broadcasted-unary2d]: https://github.com/stdlib-js/array-base-broadcasted-unary2d
+[@stdlib/array/base/broadcasted-unary2d]: https://github.com/stdlib-js/array-base-broadcasted-unary2d/tree/esm
 
-[@stdlib/array/base/broadcasted-unary3d]: https://github.com/stdlib-js/array-base-broadcasted-unary3d
+[@stdlib/array/base/broadcasted-unary3d]: https://github.com/stdlib-js/array-base-broadcasted-unary3d/tree/esm
 
-[@stdlib/array/base/broadcasted-unary4d]: https://github.com/stdlib-js/array-base-broadcasted-unary4d
+[@stdlib/array/base/broadcasted-unary4d]: https://github.com/stdlib-js/array-base-broadcasted-unary4d/tree/esm
 
-[@stdlib/array/base/broadcasted-unary5d]: https://github.com/stdlib-js/array-base-broadcasted-unary5d
+[@stdlib/array/base/broadcasted-unary5d]: https://github.com/stdlib-js/array-base-broadcasted-unary5d/tree/esm
 
-[@stdlib/array/base/cartesian-power]: https://github.com/stdlib-js/array-base-cartesian-power
+[@stdlib/array/base/cartesian-power]: https://github.com/stdlib-js/array-base-cartesian-power/tree/esm
 
-[@stdlib/array/base/cartesian-product]: https://github.com/stdlib-js/array-base-cartesian-product
+[@stdlib/array/base/cartesian-product]: https://github.com/stdlib-js/array-base-cartesian-product/tree/esm
 
-[@stdlib/array/base/cartesian-square]: https://github.com/stdlib-js/array-base-cartesian-square
+[@stdlib/array/base/cartesian-square]: https://github.com/stdlib-js/array-base-cartesian-square/tree/esm
 
-[@stdlib/array/base/copy-indexed]: https://github.com/stdlib-js/array-base-copy-indexed
+[@stdlib/array/base/copy-indexed]: https://github.com/stdlib-js/array-base-copy-indexed/tree/esm
 
-[@stdlib/array/base/copy]: https://github.com/stdlib-js/array-base-copy
+[@stdlib/array/base/copy]: https://github.com/stdlib-js/array-base-copy/tree/esm
 
-[@stdlib/array/base/dedupe]: https://github.com/stdlib-js/array-base-dedupe
+[@stdlib/array/base/dedupe]: https://github.com/stdlib-js/array-base-dedupe/tree/esm
 
-[@stdlib/array/base/filled-by]: https://github.com/stdlib-js/array-base-filled-by
+[@stdlib/array/base/filled-by]: https://github.com/stdlib-js/array-base-filled-by/tree/esm
 
-[@stdlib/array/base/filled]: https://github.com/stdlib-js/array-base-filled
+[@stdlib/array/base/filled]: https://github.com/stdlib-js/array-base-filled/tree/esm
 
-[@stdlib/array/base/filled2d-by]: https://github.com/stdlib-js/array-base-filled2d-by
+[@stdlib/array/base/filled2d-by]: https://github.com/stdlib-js/array-base-filled2d-by/tree/esm
 
-[@stdlib/array/base/filled2d]: https://github.com/stdlib-js/array-base-filled2d
+[@stdlib/array/base/filled2d]: https://github.com/stdlib-js/array-base-filled2d/tree/esm
 
-[@stdlib/array/base/filled3d-by]: https://github.com/stdlib-js/array-base-filled3d-by
+[@stdlib/array/base/filled3d-by]: https://github.com/stdlib-js/array-base-filled3d-by/tree/esm
 
-[@stdlib/array/base/filled3d]: https://github.com/stdlib-js/array-base-filled3d
+[@stdlib/array/base/filled3d]: https://github.com/stdlib-js/array-base-filled3d/tree/esm
 
-[@stdlib/array/base/filled4d-by]: https://github.com/stdlib-js/array-base-filled4d-by
+[@stdlib/array/base/filled4d-by]: https://github.com/stdlib-js/array-base-filled4d-by/tree/esm
 
-[@stdlib/array/base/filled4d]: https://github.com/stdlib-js/array-base-filled4d
+[@stdlib/array/base/filled4d]: https://github.com/stdlib-js/array-base-filled4d/tree/esm
 
-[@stdlib/array/base/filled5d-by]: https://github.com/stdlib-js/array-base-filled5d-by
+[@stdlib/array/base/filled5d-by]: https://github.com/stdlib-js/array-base-filled5d-by/tree/esm
 
-[@stdlib/array/base/filled5d]: https://github.com/stdlib-js/array-base-filled5d
+[@stdlib/array/base/filled5d]: https://github.com/stdlib-js/array-base-filled5d/tree/esm
 
-[@stdlib/array/base/fillednd-by]: https://github.com/stdlib-js/array-base-fillednd-by
+[@stdlib/array/base/fillednd-by]: https://github.com/stdlib-js/array-base-fillednd-by/tree/esm
 
-[@stdlib/array/base/fillednd]: https://github.com/stdlib-js/array-base-fillednd
+[@stdlib/array/base/fillednd]: https://github.com/stdlib-js/array-base-fillednd/tree/esm
 
-[@stdlib/array/base/first]: https://github.com/stdlib-js/array-base-first
+[@stdlib/array/base/first]: https://github.com/stdlib-js/array-base-first/tree/esm
 
-[@stdlib/array/base/flatten-by]: https://github.com/stdlib-js/array-base-flatten-by
+[@stdlib/array/base/flatten-by]: https://github.com/stdlib-js/array-base-flatten-by/tree/esm
 
-[@stdlib/array/base/flatten]: https://github.com/stdlib-js/array-base-flatten
+[@stdlib/array/base/flatten]: https://github.com/stdlib-js/array-base-flatten/tree/esm
 
-[@stdlib/array/base/flatten2d-by]: https://github.com/stdlib-js/array-base-flatten2d-by
+[@stdlib/array/base/flatten2d-by]: https://github.com/stdlib-js/array-base-flatten2d-by/tree/esm
 
-[@stdlib/array/base/flatten2d]: https://github.com/stdlib-js/array-base-flatten2d
+[@stdlib/array/base/flatten2d]: https://github.com/stdlib-js/array-base-flatten2d/tree/esm
 
-[@stdlib/array/base/flatten3d-by]: https://github.com/stdlib-js/array-base-flatten3d-by
+[@stdlib/array/base/flatten3d-by]: https://github.com/stdlib-js/array-base-flatten3d-by/tree/esm
 
-[@stdlib/array/base/flatten3d]: https://github.com/stdlib-js/array-base-flatten3d
+[@stdlib/array/base/flatten3d]: https://github.com/stdlib-js/array-base-flatten3d/tree/esm
 
-[@stdlib/array/base/flatten4d-by]: https://github.com/stdlib-js/array-base-flatten4d-by
+[@stdlib/array/base/flatten4d-by]: https://github.com/stdlib-js/array-base-flatten4d-by/tree/esm
 
-[@stdlib/array/base/flatten4d]: https://github.com/stdlib-js/array-base-flatten4d
+[@stdlib/array/base/flatten4d]: https://github.com/stdlib-js/array-base-flatten4d/tree/esm
 
-[@stdlib/array/base/flatten5d-by]: https://github.com/stdlib-js/array-base-flatten5d-by
+[@stdlib/array/base/flatten5d-by]: https://github.com/stdlib-js/array-base-flatten5d-by/tree/esm
 
-[@stdlib/array/base/flatten5d]: https://github.com/stdlib-js/array-base-flatten5d
+[@stdlib/array/base/flatten5d]: https://github.com/stdlib-js/array-base-flatten5d/tree/esm
 
-[@stdlib/array/base/fliplr2d]: https://github.com/stdlib-js/array-base-fliplr2d
+[@stdlib/array/base/fliplr2d]: https://github.com/stdlib-js/array-base-fliplr2d/tree/esm
 
-[@stdlib/array/base/fliplr3d]: https://github.com/stdlib-js/array-base-fliplr3d
+[@stdlib/array/base/fliplr3d]: https://github.com/stdlib-js/array-base-fliplr3d/tree/esm
 
-[@stdlib/array/base/fliplr4d]: https://github.com/stdlib-js/array-base-fliplr4d
+[@stdlib/array/base/fliplr4d]: https://github.com/stdlib-js/array-base-fliplr4d/tree/esm
 
-[@stdlib/array/base/fliplr5d]: https://github.com/stdlib-js/array-base-fliplr5d
+[@stdlib/array/base/fliplr5d]: https://github.com/stdlib-js/array-base-fliplr5d/tree/esm
 
-[@stdlib/array/base/flipud2d]: https://github.com/stdlib-js/array-base-flipud2d
+[@stdlib/array/base/flipud2d]: https://github.com/stdlib-js/array-base-flipud2d/tree/esm
 
-[@stdlib/array/base/flipud3d]: https://github.com/stdlib-js/array-base-flipud3d
+[@stdlib/array/base/flipud3d]: https://github.com/stdlib-js/array-base-flipud3d/tree/esm
 
-[@stdlib/array/base/flipud4d]: https://github.com/stdlib-js/array-base-flipud4d
+[@stdlib/array/base/flipud4d]: https://github.com/stdlib-js/array-base-flipud4d/tree/esm
 
-[@stdlib/array/base/flipud5d]: https://github.com/stdlib-js/array-base-flipud5d
+[@stdlib/array/base/flipud5d]: https://github.com/stdlib-js/array-base-flipud5d/tree/esm
 
-[@stdlib/array/base/from-strided]: https://github.com/stdlib-js/array-base-from-strided
+[@stdlib/array/base/from-strided]: https://github.com/stdlib-js/array-base-from-strided/tree/esm
 
-[@stdlib/array/base/getter]: https://github.com/stdlib-js/array-base-getter
+[@stdlib/array/base/getter]: https://github.com/stdlib-js/array-base-getter/tree/esm
 
-[@stdlib/array/base/group-entries-by]: https://github.com/stdlib-js/array-base-group-entries-by
+[@stdlib/array/base/group-entries-by]: https://github.com/stdlib-js/array-base-group-entries-by/tree/esm
 
-[@stdlib/array/base/group-entries]: https://github.com/stdlib-js/array-base-group-entries
+[@stdlib/array/base/group-entries]: https://github.com/stdlib-js/array-base-group-entries/tree/esm
 
-[@stdlib/array/base/group-indices-by]: https://github.com/stdlib-js/array-base-group-indices-by
+[@stdlib/array/base/group-indices-by]: https://github.com/stdlib-js/array-base-group-indices-by/tree/esm
 
-[@stdlib/array/base/group-indices]: https://github.com/stdlib-js/array-base-group-indices
+[@stdlib/array/base/group-indices]: https://github.com/stdlib-js/array-base-group-indices/tree/esm
 
-[@stdlib/array/base/group-values-by]: https://github.com/stdlib-js/array-base-group-values-by
+[@stdlib/array/base/group-values-by]: https://github.com/stdlib-js/array-base-group-values-by/tree/esm
 
-[@stdlib/array/base/group-values]: https://github.com/stdlib-js/array-base-group-values
+[@stdlib/array/base/group-values]: https://github.com/stdlib-js/array-base-group-values/tree/esm
 
-[@stdlib/array/base/incrspace]: https://github.com/stdlib-js/array-base-incrspace
+[@stdlib/array/base/incrspace]: https://github.com/stdlib-js/array-base-incrspace/tree/esm
 
-[@stdlib/array/base/index-of]: https://github.com/stdlib-js/array-base-index-of
+[@stdlib/array/base/index-of]: https://github.com/stdlib-js/array-base-index-of/tree/esm
 
-[@stdlib/array/base/last-index-of]: https://github.com/stdlib-js/array-base-last-index-of
+[@stdlib/array/base/last-index-of]: https://github.com/stdlib-js/array-base-last-index-of/tree/esm
 
-[@stdlib/array/base/last]: https://github.com/stdlib-js/array-base-last
+[@stdlib/array/base/last]: https://github.com/stdlib-js/array-base-last/tree/esm
 
-[@stdlib/array/base/linspace]: https://github.com/stdlib-js/array-base-linspace
+[@stdlib/array/base/linspace]: https://github.com/stdlib-js/array-base-linspace/tree/esm
 
-[@stdlib/array/base/logspace]: https://github.com/stdlib-js/array-base-logspace
+[@stdlib/array/base/logspace]: https://github.com/stdlib-js/array-base-logspace/tree/esm
 
-[@stdlib/array/base/map2d]: https://github.com/stdlib-js/array-base-map2d
+[@stdlib/array/base/map2d]: https://github.com/stdlib-js/array-base-map2d/tree/esm
 
-[@stdlib/array/base/map3d]: https://github.com/stdlib-js/array-base-map3d
+[@stdlib/array/base/map3d]: https://github.com/stdlib-js/array-base-map3d/tree/esm
 
-[@stdlib/array/base/map4d]: https://github.com/stdlib-js/array-base-map4d
+[@stdlib/array/base/map4d]: https://github.com/stdlib-js/array-base-map4d/tree/esm
 
-[@stdlib/array/base/map5d]: https://github.com/stdlib-js/array-base-map5d
+[@stdlib/array/base/map5d]: https://github.com/stdlib-js/array-base-map5d/tree/esm
 
-[@stdlib/array/base/mskbinary2d]: https://github.com/stdlib-js/array-base-mskbinary2d
+[@stdlib/array/base/mskbinary2d]: https://github.com/stdlib-js/array-base-mskbinary2d/tree/esm
 
-[@stdlib/array/base/mskunary2d]: https://github.com/stdlib-js/array-base-mskunary2d
+[@stdlib/array/base/mskunary2d]: https://github.com/stdlib-js/array-base-mskunary2d/tree/esm
 
-[@stdlib/array/base/mskunary3d]: https://github.com/stdlib-js/array-base-mskunary3d
+[@stdlib/array/base/mskunary3d]: https://github.com/stdlib-js/array-base-mskunary3d/tree/esm
 
-[@stdlib/array/base/n-cartesian-product]: https://github.com/stdlib-js/array-base-n-cartesian-product
+[@stdlib/array/base/n-cartesian-product]: https://github.com/stdlib-js/array-base-n-cartesian-product/tree/esm
 
-[@stdlib/array/base/one-to]: https://github.com/stdlib-js/array-base-one-to
+[@stdlib/array/base/one-to]: https://github.com/stdlib-js/array-base-one-to/tree/esm
 
-[@stdlib/array/base/ones]: https://github.com/stdlib-js/array-base-ones
+[@stdlib/array/base/ones]: https://github.com/stdlib-js/array-base-ones/tree/esm
 
-[@stdlib/array/base/ones2d]: https://github.com/stdlib-js/array-base-ones2d
+[@stdlib/array/base/ones2d]: https://github.com/stdlib-js/array-base-ones2d/tree/esm
 
-[@stdlib/array/base/ones3d]: https://github.com/stdlib-js/array-base-ones3d
+[@stdlib/array/base/ones3d]: https://github.com/stdlib-js/array-base-ones3d/tree/esm
 
-[@stdlib/array/base/ones4d]: https://github.com/stdlib-js/array-base-ones4d
+[@stdlib/array/base/ones4d]: https://github.com/stdlib-js/array-base-ones4d/tree/esm
 
-[@stdlib/array/base/ones5d]: https://github.com/stdlib-js/array-base-ones5d
+[@stdlib/array/base/ones5d]: https://github.com/stdlib-js/array-base-ones5d/tree/esm
 
-[@stdlib/array/base/onesnd]: https://github.com/stdlib-js/array-base-onesnd
+[@stdlib/array/base/onesnd]: https://github.com/stdlib-js/array-base-onesnd/tree/esm
 
-[@stdlib/array/base/quaternary2d]: https://github.com/stdlib-js/array-base-quaternary2d
+[@stdlib/array/base/quaternary2d]: https://github.com/stdlib-js/array-base-quaternary2d/tree/esm
 
-[@stdlib/array/base/quaternary3d]: https://github.com/stdlib-js/array-base-quaternary3d
+[@stdlib/array/base/quaternary3d]: https://github.com/stdlib-js/array-base-quaternary3d/tree/esm
 
-[@stdlib/array/base/quaternary4d]: https://github.com/stdlib-js/array-base-quaternary4d
+[@stdlib/array/base/quaternary4d]: https://github.com/stdlib-js/array-base-quaternary4d/tree/esm
 
-[@stdlib/array/base/quaternary5d]: https://github.com/stdlib-js/array-base-quaternary5d
+[@stdlib/array/base/quaternary5d]: https://github.com/stdlib-js/array-base-quaternary5d/tree/esm
 
-[@stdlib/array/base/quinary2d]: https://github.com/stdlib-js/array-base-quinary2d
+[@stdlib/array/base/quinary2d]: https://github.com/stdlib-js/array-base-quinary2d/tree/esm
 
-[@stdlib/array/base/quinary3d]: https://github.com/stdlib-js/array-base-quinary3d
+[@stdlib/array/base/quinary3d]: https://github.com/stdlib-js/array-base-quinary3d/tree/esm
 
-[@stdlib/array/base/quinary4d]: https://github.com/stdlib-js/array-base-quinary4d
+[@stdlib/array/base/quinary4d]: https://github.com/stdlib-js/array-base-quinary4d/tree/esm
 
-[@stdlib/array/base/quinary5d]: https://github.com/stdlib-js/array-base-quinary5d
+[@stdlib/array/base/quinary5d]: https://github.com/stdlib-js/array-base-quinary5d/tree/esm
 
-[@stdlib/array/base/resolve-getter]: https://github.com/stdlib-js/array-base-resolve-getter
+[@stdlib/array/base/resolve-getter]: https://github.com/stdlib-js/array-base-resolve-getter/tree/esm
 
-[@stdlib/array/base/setter]: https://github.com/stdlib-js/array-base-setter
+[@stdlib/array/base/setter]: https://github.com/stdlib-js/array-base-setter/tree/esm
 
-[@stdlib/array/base/slice]: https://github.com/stdlib-js/array-base-slice
+[@stdlib/array/base/slice]: https://github.com/stdlib-js/array-base-slice/tree/esm
 
-[@stdlib/array/base/strided2array2d]: https://github.com/stdlib-js/array-base-strided2array2d
+[@stdlib/array/base/strided2array2d]: https://github.com/stdlib-js/array-base-strided2array2d/tree/esm
 
-[@stdlib/array/base/strided2array3d]: https://github.com/stdlib-js/array-base-strided2array3d
+[@stdlib/array/base/strided2array3d]: https://github.com/stdlib-js/array-base-strided2array3d/tree/esm
 
-[@stdlib/array/base/strided2array4d]: https://github.com/stdlib-js/array-base-strided2array4d
+[@stdlib/array/base/strided2array4d]: https://github.com/stdlib-js/array-base-strided2array4d/tree/esm
 
-[@stdlib/array/base/strided2array5d]: https://github.com/stdlib-js/array-base-strided2array5d
+[@stdlib/array/base/strided2array5d]: https://github.com/stdlib-js/array-base-strided2array5d/tree/esm
 
-[@stdlib/array/base/take-indexed]: https://github.com/stdlib-js/array-base-take-indexed
+[@stdlib/array/base/take-indexed]: https://github.com/stdlib-js/array-base-take-indexed/tree/esm
 
-[@stdlib/array/base/take]: https://github.com/stdlib-js/array-base-take
+[@stdlib/array/base/take]: https://github.com/stdlib-js/array-base-take/tree/esm
 
-[@stdlib/array/base/take2d]: https://github.com/stdlib-js/array-base-take2d
+[@stdlib/array/base/take2d]: https://github.com/stdlib-js/array-base-take2d/tree/esm
 
-[@stdlib/array/base/take3d]: https://github.com/stdlib-js/array-base-take3d
+[@stdlib/array/base/take3d]: https://github.com/stdlib-js/array-base-take3d/tree/esm
 
-[@stdlib/array/base/ternary2d]: https://github.com/stdlib-js/array-base-ternary2d
+[@stdlib/array/base/ternary2d]: https://github.com/stdlib-js/array-base-ternary2d/tree/esm
 
-[@stdlib/array/base/ternary3d]: https://github.com/stdlib-js/array-base-ternary3d
+[@stdlib/array/base/ternary3d]: https://github.com/stdlib-js/array-base-ternary3d/tree/esm
 
-[@stdlib/array/base/ternary4d]: https://github.com/stdlib-js/array-base-ternary4d
+[@stdlib/array/base/ternary4d]: https://github.com/stdlib-js/array-base-ternary4d/tree/esm
 
-[@stdlib/array/base/ternary5d]: https://github.com/stdlib-js/array-base-ternary5d
+[@stdlib/array/base/ternary5d]: https://github.com/stdlib-js/array-base-ternary5d/tree/esm
 
-[@stdlib/array/base/to-accessor-array]: https://github.com/stdlib-js/array-base-to-accessor-array
+[@stdlib/array/base/to-accessor-array]: https://github.com/stdlib-js/array-base-to-accessor-array/tree/esm
 
-[@stdlib/array/base/to-deduped]: https://github.com/stdlib-js/array-base-to-deduped
+[@stdlib/array/base/to-deduped]: https://github.com/stdlib-js/array-base-to-deduped/tree/esm
 
-[@stdlib/array/base/unary2d-by]: https://github.com/stdlib-js/array-base-unary2d-by
+[@stdlib/array/base/unary2d-by]: https://github.com/stdlib-js/array-base-unary2d-by/tree/esm
 
-[@stdlib/array/base/unary2d]: https://github.com/stdlib-js/array-base-unary2d
+[@stdlib/array/base/unary2d]: https://github.com/stdlib-js/array-base-unary2d/tree/esm
 
-[@stdlib/array/base/unary3d]: https://github.com/stdlib-js/array-base-unary3d
+[@stdlib/array/base/unary3d]: https://github.com/stdlib-js/array-base-unary3d/tree/esm
 
-[@stdlib/array/base/unary4d]: https://github.com/stdlib-js/array-base-unary4d
+[@stdlib/array/base/unary4d]: https://github.com/stdlib-js/array-base-unary4d/tree/esm
 
-[@stdlib/array/base/unary5d]: https://github.com/stdlib-js/array-base-unary5d
+[@stdlib/array/base/unary5d]: https://github.com/stdlib-js/array-base-unary5d/tree/esm
 
-[@stdlib/array/base/unarynd]: https://github.com/stdlib-js/array-base-unarynd
+[@stdlib/array/base/unarynd]: https://github.com/stdlib-js/array-base-unarynd/tree/esm
 
-[@stdlib/array/base/unitspace]: https://github.com/stdlib-js/array-base-unitspace
+[@stdlib/array/base/unitspace]: https://github.com/stdlib-js/array-base-unitspace/tree/esm
 
-[@stdlib/array/base/zero-to]: https://github.com/stdlib-js/array-base-zero-to
+[@stdlib/array/base/zero-to]: https://github.com/stdlib-js/array-base-zero-to/tree/esm
 
-[@stdlib/array/base/zeros]: https://github.com/stdlib-js/array-base-zeros
+[@stdlib/array/base/zeros]: https://github.com/stdlib-js/array-base-zeros/tree/esm
 
-[@stdlib/array/base/zeros2d]: https://github.com/stdlib-js/array-base-zeros2d
+[@stdlib/array/base/zeros2d]: https://github.com/stdlib-js/array-base-zeros2d/tree/esm
 
-[@stdlib/array/base/zeros3d]: https://github.com/stdlib-js/array-base-zeros3d
+[@stdlib/array/base/zeros3d]: https://github.com/stdlib-js/array-base-zeros3d/tree/esm
 
-[@stdlib/array/base/zeros4d]: https://github.com/stdlib-js/array-base-zeros4d
+[@stdlib/array/base/zeros4d]: https://github.com/stdlib-js/array-base-zeros4d/tree/esm
 
-[@stdlib/array/base/zeros5d]: https://github.com/stdlib-js/array-base-zeros5d
+[@stdlib/array/base/zeros5d]: https://github.com/stdlib-js/array-base-zeros5d/tree/esm
 
-[@stdlib/array/base/zerosnd]: https://github.com/stdlib-js/array-base-zerosnd
+[@stdlib/array/base/zerosnd]: https://github.com/stdlib-js/array-base-zerosnd/tree/esm
 
 <!-- </toc-links> -->
 
