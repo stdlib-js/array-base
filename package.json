@@ -147,6 +147,7 @@
     "@stdlib/array-base-quinary4d": "^0.1.0",
     "@stdlib/array-base-quinary5d": "^0.1.0",
     "@stdlib/array-base-resolve-getter": "^0.1.0",
+    "@stdlib/array-base-reverse": "github:stdlib-js/array-base-reverse#main",
     "@stdlib/array-base-setter": "^0.1.0",
     "@stdlib/array-base-slice": "^0.1.0",
     "@stdlib/array-base-strided2array2d": "^0.1.0",
