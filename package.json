@@ -164,6 +164,7 @@
     "@stdlib/array-base-ternary5d": "^0.1.0",
     "@stdlib/array-base-to-accessor-array": "^0.1.0",
     "@stdlib/array-base-to-deduped": "^0.1.0",
+    "@stdlib/array-base-to-reversed": "github:stdlib-js/array-base-to-reversed#main",
     "@stdlib/array-base-unary2d": "^0.1.0",
     "@stdlib/array-base-unary2d-by": "^0.1.0",
     "@stdlib/array-base-unary3d": "^0.1.0",
