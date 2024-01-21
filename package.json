@@ -46,6 +46,7 @@
     "@stdlib/array-base-arraylike2object": "^0.1.0",
     "@stdlib/array-base-assert": "^0.1.0",
     "@stdlib/array-base-at2d": "github:stdlib-js/array-base-at2d#main",
+    "@stdlib/array-base-at3d": "github:stdlib-js/array-base-at3d#main",
     "@stdlib/array-base-bifurcate-entries": "^0.1.0",
     "@stdlib/array-base-bifurcate-entries-by": "^0.1.0",
     "@stdlib/array-base-bifurcate-indices": "^0.1.0",
