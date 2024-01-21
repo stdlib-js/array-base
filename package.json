@@ -49,6 +49,7 @@
     "@stdlib/array-base-at3d": "github:stdlib-js/array-base-at3d#main",
     "@stdlib/array-base-at4d": "github:stdlib-js/array-base-at4d#main",
     "@stdlib/array-base-at5d": "github:stdlib-js/array-base-at5d#main",
+    "@stdlib/array-base-atnd": "github:stdlib-js/array-base-atnd#main",
     "@stdlib/array-base-bifurcate-entries": "^0.1.0",
     "@stdlib/array-base-bifurcate-entries-by": "^0.1.0",
     "@stdlib/array-base-bifurcate-indices": "^0.1.0",
