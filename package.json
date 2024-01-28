@@ -135,6 +135,7 @@
     "@stdlib/array-base-map5d": "^0.1.0",
     "@stdlib/array-base-mskbinary2d": "^0.1.0",
     "@stdlib/array-base-mskfilter": "^0.1.0",
+    "@stdlib/array-base-mskreject": "github:stdlib-js/array-base-mskreject#main",
     "@stdlib/array-base-mskunary2d": "^0.1.0",
     "@stdlib/array-base-mskunary3d": "^0.1.0",
     "@stdlib/array-base-n-cartesian-product": "^0.1.0",
