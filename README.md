@@ -35,38 +35,32 @@ limitations under the License.
 
 > Base (i.e., lower-level) array utilities.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ns = require( 'path/to/vendor/umd/array-base/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ns;
-})();
-</script>
+var ns = require( '@stdlib/array-base' );
 ```
 
 #### ns
@@ -88,8 +82,23 @@ The namespace exports the following:
 -   <span class="signature">[`accessorSetter( dtype )`][@stdlib/array/base/accessor-setter]</span><span class="delimiter">: </span><span class="description">return an accessor function for setting an element in an array-like object supporting the get/set protocol.</span>
 -   <span class="signature">[`AccessorArray( arr )`][@stdlib/array/base/accessor]</span><span class="delimiter">: </span><span class="description">create a minimal array-like object supporting the accessor protocol from another array-like object.</span>
 -   <span class="signature">[`accessors( x )`][@stdlib/array/base/accessors]</span><span class="delimiter">: </span><span class="description">return element accessors for a provided array-like object.</span>
+-   <span class="signature">[`anyByRight( x, predicate[, thisArg] )`][@stdlib/array/base/any-by-right]</span><span class="delimiter">: </span><span class="description">test whether at least one element in an array passes a test implemented by a predicate function, while iterating from right to left.</span>
+-   <span class="signature">[`anyBy( x, predicate[, thisArg] )`][@stdlib/array/base/any-by]</span><span class="delimiter">: </span><span class="description">test whether at least one element in an array passes a test implemented by a predicate function.</span>
+-   <span class="signature">[`any( x )`][@stdlib/array/base/any]</span><span class="delimiter">: </span><span class="description">test whether at least one element in an array is truthy.</span>
 -   <span class="signature">[`arraylike2object( x )`][@stdlib/array/base/arraylike2object]</span><span class="delimiter">: </span><span class="description">convert an array-like object to an object likely to have the same "shape".</span>
 -   <span class="signature">[`assert`][@stdlib/array/base/assert]</span><span class="delimiter">: </span><span class="description">base array assertion utilities.</span>
+-   <span class="signature">[`at( x, index )`][@stdlib/array/base/at]</span><span class="delimiter">: </span><span class="description">return an element from an array.</span>
+-   <span class="signature">[`at2d( x, i0, i1 )`][@stdlib/array/base/at2d]</span><span class="delimiter">: </span><span class="description">return an element from a two-dimensional nested array.</span>
+-   <span class="signature">[`at3d( x, i0, i1, i2 )`][@stdlib/array/base/at3d]</span><span class="delimiter">: </span><span class="description">return an element from a three-dimensional nested array.</span>
+-   <span class="signature">[`at4d( x, i0, i1, i2, i3 )`][@stdlib/array/base/at4d]</span><span class="delimiter">: </span><span class="description">return an element from a four-dimensional nested array.</span>
+-   <span class="signature">[`at5d( x, i0, i1, i2, i3, i4 )`][@stdlib/array/base/at5d]</span><span class="delimiter">: </span><span class="description">return an element from a five-dimensional nested array.</span>
+-   <span class="signature">[`atnd( x, i0[, ...indices] )`][@stdlib/array/base/atnd]</span><span class="delimiter">: </span><span class="description">return an element from an n-dimensional nested array.</span>
+-   <span class="signature">[`bifurcateEntriesBy( x, predicate[, thisArg] )`][@stdlib/array/base/bifurcate-entries-by]</span><span class="delimiter">: </span><span class="description">split element entries into two groups according to a predicate function.</span>
+-   <span class="signature">[`bifurcateEntries( x, filter )`][@stdlib/array/base/bifurcate-entries]</span><span class="delimiter">: </span><span class="description">split array element entries into two groups.</span>
+-   <span class="signature">[`bifurcateIndicesBy( x, predicate[, thisArg] )`][@stdlib/array/base/bifurcate-indices-by]</span><span class="delimiter">: </span><span class="description">split element indices into two groups according to a predicate function.</span>
+-   <span class="signature">[`bifurcateIndices( x, filter )`][@stdlib/array/base/bifurcate-indices]</span><span class="delimiter">: </span><span class="description">split array element indices into two groups.</span>
+-   <span class="signature">[`bifurcateValuesBy( x, predicate[, thisArg] )`][@stdlib/array/base/bifurcate-values-by]</span><span class="delimiter">: </span><span class="description">split element values into two groups according to a predicate function.</span>
+-   <span class="signature">[`bifurcateValues( x, filter )`][@stdlib/array/base/bifurcate-values]</span><span class="delimiter">: </span><span class="description">split array element values into two groups.</span>
 -   <span class="signature">[`binary2d( arrays, shape, fcn )`][@stdlib/array/base/binary2d]</span><span class="delimiter">: </span><span class="description">apply a binary callback to elements in two two-dimensional nested input arrays and assign results to elements in a two-dimensional nested output array.</span>
 -   <span class="signature">[`binary3d( arrays, shape, fcn )`][@stdlib/array/base/binary3d]</span><span class="delimiter">: </span><span class="description">apply a binary callback to elements in two three-dimensional nested input arrays and assign results to elements in a three-dimensional nested output array.</span>
 -   <span class="signature">[`binary4d( arrays, shape, fcn )`][@stdlib/array/base/binary4d]</span><span class="delimiter">: </span><span class="description">apply a binary callback to elements in two four-dimensional nested input arrays and assign results to elements in a four-dimensional nested output array.</span>
@@ -112,6 +121,10 @@ The namespace exports the following:
 -   <span class="signature">[`cartesianSquare( x )`][@stdlib/array/base/cartesian-square]</span><span class="delimiter">: </span><span class="description">return the Cartesian square.</span>
 -   <span class="signature">[`copyIndexed( x )`][@stdlib/array/base/copy-indexed]</span><span class="delimiter">: </span><span class="description">copy the elements of an indexed array-like object to a new "generic" array.</span>
 -   <span class="signature">[`copy( x )`][@stdlib/array/base/copy]</span><span class="delimiter">: </span><span class="description">copy the elements of an array-like object to a new "generic" array.</span>
+-   <span class="signature">[`dedupe( x, limit, equalNaNs )`][@stdlib/array/base/dedupe]</span><span class="delimiter">: </span><span class="description">remove consecutive duplicated values.</span>
+-   <span class="signature">[`everyByRight( x, predicate[, thisArg] )`][@stdlib/array/base/every-by-right]</span><span class="delimiter">: </span><span class="description">test whether all elements in an array pass a test implemented by a predicate function, iterating from right to left.</span>
+-   <span class="signature">[`everyBy( x, predicate[, thisArg] )`][@stdlib/array/base/every-by]</span><span class="delimiter">: </span><span class="description">test whether all elements in an array pass a test implemented by a predicate function.</span>
+-   <span class="signature">[`every( x )`][@stdlib/array/base/every]</span><span class="delimiter">: </span><span class="description">test whether all elements in an array are truthy.</span>
 -   <span class="signature">[`filledBy( len, clbk[, thisArg] )`][@stdlib/array/base/filled-by]</span><span class="delimiter">: </span><span class="description">create a filled "generic" array according to a provided callback function.</span>
 -   <span class="signature">[`filled( value, len )`][@stdlib/array/base/filled]</span><span class="delimiter">: </span><span class="description">create a filled "generic" array.</span>
 -   <span class="signature">[`filled2dBy( shape, clbk[, thisArg] )`][@stdlib/array/base/filled2d-by]</span><span class="delimiter">: </span><span class="description">create a filled two-dimensional nested array according to a provided callback function.</span>
@@ -124,6 +137,8 @@ The namespace exports the following:
 -   <span class="signature">[`filled5d( value, shape )`][@stdlib/array/base/filled5d]</span><span class="delimiter">: </span><span class="description">create a filled five-dimensional nested array.</span>
 -   <span class="signature">[`filledndBy( shape, clbk[, thisArg] )`][@stdlib/array/base/fillednd-by]</span><span class="delimiter">: </span><span class="description">create a filled n-dimensional nested array according to a provided callback function.</span>
 -   <span class="signature">[`fillednd( value, shape )`][@stdlib/array/base/fillednd]</span><span class="delimiter">: </span><span class="description">create a filled n-dimensional nested array.</span>
+-   <span class="signature">[`filter( x, predicate[, thisArg] )`][@stdlib/array/base/filter]</span><span class="delimiter">: </span><span class="description">return a shallow copy of an array containing only those elements which pass a test implemented by a predicate function.</span>
+-   <span class="signature">[`first( x )`][@stdlib/array/base/first]</span><span class="delimiter">: </span><span class="description">return the first element of an array-like object.</span>
 -   <span class="signature">[`flattenBy( x, shape, colexicographic, clbk[, thisArg] )`][@stdlib/array/base/flatten-by]</span><span class="delimiter">: </span><span class="description">flatten an n-dimensional nested array according to a callback function.</span>
 -   <span class="signature">[`flatten( x, shape, colexicographic )`][@stdlib/array/base/flatten]</span><span class="delimiter">: </span><span class="description">flatten an n-dimensional nested array.</span>
 -   <span class="signature">[`flatten2dBy( x, shape, colexicographic, clbk[, thisArg] )`][@stdlib/array/base/flatten2d-by]</span><span class="delimiter">: </span><span class="description">flatten a two-dimensional nested array according to a callback function.</span>
@@ -135,19 +150,40 @@ The namespace exports the following:
 -   <span class="signature">[`flatten5dBy( x, shape, colexicographic, clbk[, thisArg] )`][@stdlib/array/base/flatten5d-by]</span><span class="delimiter">: </span><span class="description">flatten a five-dimensional nested array according to a callback function.</span>
 -   <span class="signature">[`flatten5d( x, shape, colexicographic )`][@stdlib/array/base/flatten5d]</span><span class="delimiter">: </span><span class="description">flatten a five-dimensional nested array.</span>
 -   <span class="signature">[`fliplr2d( x )`][@stdlib/array/base/fliplr2d]</span><span class="delimiter">: </span><span class="description">reverse the order of elements along the last dimension of a two-dimensional nested input array.</span>
+-   <span class="signature">[`fliplr3d( x )`][@stdlib/array/base/fliplr3d]</span><span class="delimiter">: </span><span class="description">reverse the order of elements along the last dimension of a three-dimensional nested input array.</span>
+-   <span class="signature">[`fliplr4d( x )`][@stdlib/array/base/fliplr4d]</span><span class="delimiter">: </span><span class="description">reverse the order of elements along the last dimension of a four-dimensional nested input array.</span>
+-   <span class="signature">[`fliplr5d( x )`][@stdlib/array/base/fliplr5d]</span><span class="delimiter">: </span><span class="description">reverse the order of elements along the last dimension of a five-dimensional nested input array.</span>
 -   <span class="signature">[`flipud2d( x )`][@stdlib/array/base/flipud2d]</span><span class="delimiter">: </span><span class="description">reverse the order of elements along the first dimension of a two-dimensional nested input array.</span>
+-   <span class="signature">[`flipud3d( x )`][@stdlib/array/base/flipud3d]</span><span class="delimiter">: </span><span class="description">reverse the order of elements along the second-to-last dimension of a three-dimensional nested input array.</span>
+-   <span class="signature">[`flipud4d( x )`][@stdlib/array/base/flipud4d]</span><span class="delimiter">: </span><span class="description">reverse the order of elements along the second-to-last dimension of a four-dimensional nested input array.</span>
+-   <span class="signature">[`flipud5d( x )`][@stdlib/array/base/flipud5d]</span><span class="delimiter">: </span><span class="description">reverse the order of elements along the second-to-last dimension of a five-dimensional nested input array.</span>
 -   <span class="signature">[`strided2array( N, x, stride, offset )`][@stdlib/array/base/from-strided]</span><span class="delimiter">: </span><span class="description">convert a strided array to a non-strided generic array.</span>
 -   <span class="signature">[`getter( dtype )`][@stdlib/array/base/getter]</span><span class="delimiter">: </span><span class="description">return an accessor function for retrieving an element from an indexed array-like object.</span>
+-   <span class="signature">[`groupEntriesBy( x, indicator[, thisArg] )`][@stdlib/array/base/group-entries-by]</span><span class="delimiter">: </span><span class="description">group element entries according to an indicator function.</span>
+-   <span class="signature">[`groupEntries( x, groups )`][@stdlib/array/base/group-entries]</span><span class="delimiter">: </span><span class="description">group element entries as arrays associated with distinct keys.</span>
+-   <span class="signature">[`groupIndicesBy( x, indicator[, thisArg] )`][@stdlib/array/base/group-indices-by]</span><span class="delimiter">: </span><span class="description">group element indices according to an indicator function.</span>
+-   <span class="signature">[`groupIndices( x, groups )`][@stdlib/array/base/group-indices]</span><span class="delimiter">: </span><span class="description">group element indices as arrays associated with distinct keys.</span>
+-   <span class="signature">[`groupValuesBy( x, indicator[, thisArg] )`][@stdlib/array/base/group-values-by]</span><span class="delimiter">: </span><span class="description">group element values according to an indicator function.</span>
+-   <span class="signature">[`groupValues( x, groups )`][@stdlib/array/base/group-values]</span><span class="delimiter">: </span><span class="description">group elements as arrays associated with distinct keys.</span>
 -   <span class="signature">[`incrspace( start, stop, increment )`][@stdlib/array/base/incrspace]</span><span class="delimiter">: </span><span class="description">generate a linearly spaced numeric array according to a provided increment.</span>
+-   <span class="signature">[`indexOf( x, searchElement, fromIndex, equalNaNs )`][@stdlib/array/base/index-of]</span><span class="delimiter">: </span><span class="description">return the index of the first element which equals a provided search element.</span>
+-   <span class="signature">[`lastIndexOf( x, searchElement, fromIndex, equalNaNs )`][@stdlib/array/base/last-index-of]</span><span class="delimiter">: </span><span class="description">return the index of the last element which equals a provided search element.</span>
 -   <span class="signature">[`last( x )`][@stdlib/array/base/last]</span><span class="delimiter">: </span><span class="description">return the last element of an array-like object.</span>
 -   <span class="signature">[`linspace( start, stop, length )`][@stdlib/array/base/linspace]</span><span class="delimiter">: </span><span class="description">generate a linearly spaced numeric array.</span>
 -   <span class="signature">[`logspace( a, b, length )`][@stdlib/array/base/logspace]</span><span class="delimiter">: </span><span class="description">generate a logarithmically spaced numeric array.</span>
 -   <span class="signature">[`map2d( x, shape, fcn[, thisArg] )`][@stdlib/array/base/map2d]</span><span class="delimiter">: </span><span class="description">apply a function to elements in a two-dimensional nested input array and assign results to elements in a new two-dimensional nested output array.</span>
 -   <span class="signature">[`map3d( x, shape, fcn[, thisArg] )`][@stdlib/array/base/map3d]</span><span class="delimiter">: </span><span class="description">apply a function to elements in a three-dimensional nested input array and assign results to elements in a new three-dimensional nested output array.</span>
+-   <span class="signature">[`map4d( x, shape, fcn[, thisArg] )`][@stdlib/array/base/map4d]</span><span class="delimiter">: </span><span class="description">apply a function to elements in a four-dimensional nested input array and assign results to elements in a new four-dimensional nested output array.</span>
+-   <span class="signature">[`map5d( x, shape, fcn[, thisArg] )`][@stdlib/array/base/map5d]</span><span class="delimiter">: </span><span class="description">apply a function to elements in a five-dimensional nested input array and assign results to elements in a new five-dimensional nested output array.</span>
 -   <span class="signature">[`mskbinary2d( arrays, shape, fcn )`][@stdlib/array/base/mskbinary2d]</span><span class="delimiter">: </span><span class="description">apply a binary callback to elements in two two-dimensional nested input arrays according to elements in a two-dimensional nested mask array and assign results to elements in a two-dimensional nested output array.</span>
+-   <span class="signature">[`mskfilter( x, mask )`][@stdlib/array/base/mskfilter]</span><span class="delimiter">: </span><span class="description">return a new array by applying a mask to a provided input array.</span>
+-   <span class="signature">[`mskreject( x, mask )`][@stdlib/array/base/mskreject]</span><span class="delimiter">: </span><span class="description">return a new array by applying a mask to a provided input array.</span>
 -   <span class="signature">[`mskunary2d( arrays, shape, fcn )`][@stdlib/array/base/mskunary2d]</span><span class="delimiter">: </span><span class="description">apply a unary callback to elements in a two-dimensional nested input array according to elements in a two-dimensional nested mask array and assign results to elements in a two-dimensional nested output array.</span>
 -   <span class="signature">[`mskunary3d( arrays, shape, fcn )`][@stdlib/array/base/mskunary3d]</span><span class="delimiter">: </span><span class="description">apply a unary callback to elements in a three-dimensional nested input array according to elements in a three-dimensional nested mask array and assign results to elements in a three-dimensional nested output array.</span>
 -   <span class="signature">[`nCartesianProduct( x1, x2[, ...xN] )`][@stdlib/array/base/n-cartesian-product]</span><span class="delimiter">: </span><span class="description">return the n-fold Cartesian product.</span>
+-   <span class="signature">[`noneByRight( x, predicate[, thisArg] )`][@stdlib/array/base/none-by-right]</span><span class="delimiter">: </span><span class="description">test whether all elements in an array fail a test implemented by a predicate function, iterating from right to left.</span>
+-   <span class="signature">[`noneBy( x, predicate[, thisArg] )`][@stdlib/array/base/none-by]</span><span class="delimiter">: </span><span class="description">test whether all elements in an array fail a test implemented by a predicate function.</span>
+-   <span class="signature">[`none( x )`][@stdlib/array/base/none]</span><span class="delimiter">: </span><span class="description">test whether all elements in an array are falsy.</span>
 -   <span class="signature">[`oneTo( n )`][@stdlib/array/base/one-to]</span><span class="delimiter">: </span><span class="description">generate a linearly spaced numeric array whose elements increment by 1 starting from one.</span>
 -   <span class="signature">[`ones( len )`][@stdlib/array/base/ones]</span><span class="delimiter">: </span><span class="description">create a "generic" array filled with ones.</span>
 -   <span class="signature">[`ones2d( shape )`][@stdlib/array/base/ones2d]</span><span class="delimiter">: </span><span class="description">create a two-dimensional nested array filled with ones.</span>
@@ -160,19 +196,30 @@ The namespace exports the following:
 -   <span class="signature">[`quaternary4d( arrays, shape, fcn )`][@stdlib/array/base/quaternary4d]</span><span class="delimiter">: </span><span class="description">apply a quaternary callback to elements in four four-dimensional nested input arrays and assign results to elements in a four-dimensional nested output array.</span>
 -   <span class="signature">[`quaternary5d( arrays, shape, fcn )`][@stdlib/array/base/quaternary5d]</span><span class="delimiter">: </span><span class="description">apply a quaternary callback to elements in four five-dimensional nested input arrays and assign results to elements in a five-dimensional nested output array.</span>
 -   <span class="signature">[`quinary2d( arrays, shape, fcn )`][@stdlib/array/base/quinary2d]</span><span class="delimiter">: </span><span class="description">apply a quinary callback to elements in five two-dimensional nested input arrays and assign results to elements in a two-dimensional nested output array.</span>
+-   <span class="signature">[`quinary3d( arrays, shape, fcn )`][@stdlib/array/base/quinary3d]</span><span class="delimiter">: </span><span class="description">apply a quinary callback to elements in five three-dimensional nested input arrays and assign results to elements in a three-dimensional nested output array.</span>
+-   <span class="signature">[`quinary4d( arrays, shape, fcn )`][@stdlib/array/base/quinary4d]</span><span class="delimiter">: </span><span class="description">apply a quinary callback to elements in five four-dimensional nested input arrays and assign results to elements in a four-dimensional nested output array.</span>
+-   <span class="signature">[`quinary5d( arrays, shape, fcn )`][@stdlib/array/base/quinary5d]</span><span class="delimiter">: </span><span class="description">apply a quinary callback to elements in five five-dimensional nested input arrays and assign results to elements in a five-dimensional nested output array.</span>
+-   <span class="signature">[`reject( x, predicate[, thisArg] )`][@stdlib/array/base/reject]</span><span class="delimiter">: </span><span class="description">return a shallow copy of an array containing only those elements which fail a test implemented by a predicate function.</span>
 -   <span class="signature">[`resolveGetter( x )`][@stdlib/array/base/resolve-getter]</span><span class="delimiter">: </span><span class="description">return an accessor function for retrieving an element from an array-like object.</span>
+-   <span class="signature">[`resolveSetter( x )`][@stdlib/array/base/resolve-setter]</span><span class="delimiter">: </span><span class="description">return an accessor function for setting an element in an array-like object.</span>
+-   <span class="signature">[`reverse( x )`][@stdlib/array/base/reverse]</span><span class="delimiter">: </span><span class="description">reverse an array in-place.</span>
 -   <span class="signature">[`setter( dtype )`][@stdlib/array/base/setter]</span><span class="delimiter">: </span><span class="description">return an accessor function for setting an element in an indexed array-like object.</span>
+-   <span class="signature">[`slice( x, start, end )`][@stdlib/array/base/slice]</span><span class="delimiter">: </span><span class="description">return a shallow copy of a portion of an array.</span>
 -   <span class="signature">[`strided2array2d( x, shape, strides, offset )`][@stdlib/array/base/strided2array2d]</span><span class="delimiter">: </span><span class="description">convert a strided array to a two-dimensional nested array.</span>
 -   <span class="signature">[`strided2array3d( x, shape, strides, offset )`][@stdlib/array/base/strided2array3d]</span><span class="delimiter">: </span><span class="description">convert a strided array to a three-dimensional nested array.</span>
 -   <span class="signature">[`strided2array4d( x, shape, strides, offset )`][@stdlib/array/base/strided2array4d]</span><span class="delimiter">: </span><span class="description">convert a strided array to a four-dimensional nested array.</span>
 -   <span class="signature">[`strided2array5d( x, shape, strides, offset )`][@stdlib/array/base/strided2array5d]</span><span class="delimiter">: </span><span class="description">convert a strided array to a five-dimensional nested array.</span>
 -   <span class="signature">[`takeIndexed( x, indices )`][@stdlib/array/base/take-indexed]</span><span class="delimiter">: </span><span class="description">take elements from an indexed array.</span>
 -   <span class="signature">[`take( x, indices )`][@stdlib/array/base/take]</span><span class="delimiter">: </span><span class="description">take elements from an array.</span>
+-   <span class="signature">[`take2d( x, indices, dimension, mode )`][@stdlib/array/base/take2d]</span><span class="delimiter">: </span><span class="description">take elements from a two-dimensional nested array.</span>
+-   <span class="signature">[`take3d( x, indices, dimension, mode )`][@stdlib/array/base/take3d]</span><span class="delimiter">: </span><span class="description">take elements from a three-dimensional nested array.</span>
 -   <span class="signature">[`ternary2d( arrays, shape, fcn )`][@stdlib/array/base/ternary2d]</span><span class="delimiter">: </span><span class="description">apply a ternary callback to elements in three two-dimensional nested input arrays and assign results to elements in a two-dimensional nested output array.</span>
 -   <span class="signature">[`ternary3d( arrays, shape, fcn )`][@stdlib/array/base/ternary3d]</span><span class="delimiter">: </span><span class="description">apply a ternary callback to elements in three three-dimensional nested input arrays and assign results to elements in a three-dimensional nested output array.</span>
 -   <span class="signature">[`ternary4d( arrays, shape, fcn )`][@stdlib/array/base/ternary4d]</span><span class="delimiter">: </span><span class="description">apply a ternary callback to elements in three four-dimensional nested input arrays and assign results to elements in a four-dimensional nested output array.</span>
 -   <span class="signature">[`ternary5d( arrays, shape, fcn )`][@stdlib/array/base/ternary5d]</span><span class="delimiter">: </span><span class="description">apply a ternary callback to elements in three five-dimensional nested input arrays and assign results to elements in a five-dimensional nested output array.</span>
 -   <span class="signature">[`toAccessorArray( arr )`][@stdlib/array/base/to-accessor-array]</span><span class="delimiter">: </span><span class="description">convert an array-like object to a minimal array-like object supporting the accessor protocol.</span>
+-   <span class="signature">[`toDeduped( x, limit, equalNaNs )`][@stdlib/array/base/to-deduped]</span><span class="delimiter">: </span><span class="description">copy elements to a new "generic" array after removing consecutive duplicated values.</span>
+-   <span class="signature">[`toReversed( x )`][@stdlib/array/base/to-reversed]</span><span class="delimiter">: </span><span class="description">return a new array with elements in reverse order.</span>
 -   <span class="signature">[`unary2dBy( arrays, shape, fcn, clbk[, thisArg] )`][@stdlib/array/base/unary2d-by]</span><span class="delimiter">: </span><span class="description">apply a unary function to each element retrieved from a two-dimensional nested input array according to a callback function and assign results to elements in a two-dimensional nested output array.</span>
 -   <span class="signature">[`unary2d( arrays, shape, fcn )`][@stdlib/array/base/unary2d]</span><span class="delimiter">: </span><span class="description">apply a unary callback to elements in a two-dimensional nested input array and assign results to elements in a two-dimensional nested output array.</span>
 -   <span class="signature">[`unary3d( arrays, shape, fcn )`][@stdlib/array/base/unary3d]</span><span class="delimiter">: </span><span class="description">apply a unary callback to elements in a three-dimensional nested input array and assign results to elements in a three-dimensional nested output array.</span>
@@ -204,21 +251,11 @@ The namespace exports the following:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/array-base' );
 
 console.log( objectKeys( ns ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -259,7 +296,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -272,8 +309,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/array-base.svg
 [npm-url]: https://npmjs.org/package/@stdlib/array-base
 
-[test-image]: https://github.com/stdlib-js/array-base/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/array-base/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/array-base/actions/workflows/test.yml/badge.svg?branch=v0.2.0
+[test-url]: https://github.com/stdlib-js/array-base/actions/workflows/test.yml?query=branch:v0.2.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/array-base/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/array-base?branch=main
@@ -296,219 +333,328 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
 [deno-url]: https://github.com/stdlib-js/array-base/tree/deno
+[deno-readme]: https://github.com/stdlib-js/array-base/blob/deno/README.md
 [umd-url]: https://github.com/stdlib-js/array-base/tree/umd
+[umd-readme]: https://github.com/stdlib-js/array-base/blob/umd/README.md
 [esm-url]: https://github.com/stdlib-js/array-base/tree/esm
+[esm-readme]: https://github.com/stdlib-js/array-base/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/array-base/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-base/main/LICENSE
 
 <!-- <toc-links> -->
 
-[@stdlib/array/base/accessor-getter]: https://github.com/stdlib-js/array-base-accessor-getter/tree/umd
+[@stdlib/array/base/accessor-getter]: https://github.com/stdlib-js/array-base-accessor-getter
 
-[@stdlib/array/base/accessor-setter]: https://github.com/stdlib-js/array-base-accessor-setter/tree/umd
+[@stdlib/array/base/accessor-setter]: https://github.com/stdlib-js/array-base-accessor-setter
 
-[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor/tree/umd
+[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
 
-[@stdlib/array/base/accessors]: https://github.com/stdlib-js/array-base-accessors/tree/umd
+[@stdlib/array/base/accessors]: https://github.com/stdlib-js/array-base-accessors
 
-[@stdlib/array/base/arraylike2object]: https://github.com/stdlib-js/array-base-arraylike2object/tree/umd
+[@stdlib/array/base/any-by-right]: https://github.com/stdlib-js/array-base-any-by-right
 
-[@stdlib/array/base/assert]: https://github.com/stdlib-js/array-base-assert/tree/umd
+[@stdlib/array/base/any-by]: https://github.com/stdlib-js/array-base-any-by
 
-[@stdlib/array/base/binary2d]: https://github.com/stdlib-js/array-base-binary2d/tree/umd
+[@stdlib/array/base/any]: https://github.com/stdlib-js/array-base-any
 
-[@stdlib/array/base/binary3d]: https://github.com/stdlib-js/array-base-binary3d/tree/umd
+[@stdlib/array/base/arraylike2object]: https://github.com/stdlib-js/array-base-arraylike2object
 
-[@stdlib/array/base/binary4d]: https://github.com/stdlib-js/array-base-binary4d/tree/umd
+[@stdlib/array/base/assert]: https://github.com/stdlib-js/array-base-assert
 
-[@stdlib/array/base/binary5d]: https://github.com/stdlib-js/array-base-binary5d/tree/umd
+[@stdlib/array/base/at]: https://github.com/stdlib-js/array-base-at
 
-[@stdlib/array/base/binarynd]: https://github.com/stdlib-js/array-base-binarynd/tree/umd
+[@stdlib/array/base/at2d]: https://github.com/stdlib-js/array-base-at2d
 
-[@stdlib/array/base/broadcast-array]: https://github.com/stdlib-js/array-base-broadcast-array/tree/umd
+[@stdlib/array/base/at3d]: https://github.com/stdlib-js/array-base-at3d
 
-[@stdlib/array/base/broadcasted-binary2d]: https://github.com/stdlib-js/array-base-broadcasted-binary2d/tree/umd
+[@stdlib/array/base/at4d]: https://github.com/stdlib-js/array-base-at4d
 
-[@stdlib/array/base/broadcasted-binary3d]: https://github.com/stdlib-js/array-base-broadcasted-binary3d/tree/umd
+[@stdlib/array/base/at5d]: https://github.com/stdlib-js/array-base-at5d
 
-[@stdlib/array/base/broadcasted-binary4d]: https://github.com/stdlib-js/array-base-broadcasted-binary4d/tree/umd
+[@stdlib/array/base/atnd]: https://github.com/stdlib-js/array-base-atnd
 
-[@stdlib/array/base/broadcasted-binary5d]: https://github.com/stdlib-js/array-base-broadcasted-binary5d/tree/umd
+[@stdlib/array/base/bifurcate-entries-by]: https://github.com/stdlib-js/array-base-bifurcate-entries-by
 
-[@stdlib/array/base/broadcasted-quaternary2d]: https://github.com/stdlib-js/array-base-broadcasted-quaternary2d/tree/umd
+[@stdlib/array/base/bifurcate-entries]: https://github.com/stdlib-js/array-base-bifurcate-entries
 
-[@stdlib/array/base/broadcasted-quinary2d]: https://github.com/stdlib-js/array-base-broadcasted-quinary2d/tree/umd
+[@stdlib/array/base/bifurcate-indices-by]: https://github.com/stdlib-js/array-base-bifurcate-indices-by
 
-[@stdlib/array/base/broadcasted-ternary2d]: https://github.com/stdlib-js/array-base-broadcasted-ternary2d/tree/umd
+[@stdlib/array/base/bifurcate-indices]: https://github.com/stdlib-js/array-base-bifurcate-indices
 
-[@stdlib/array/base/broadcasted-unary2d]: https://github.com/stdlib-js/array-base-broadcasted-unary2d/tree/umd
+[@stdlib/array/base/bifurcate-values-by]: https://github.com/stdlib-js/array-base-bifurcate-values-by
 
-[@stdlib/array/base/broadcasted-unary3d]: https://github.com/stdlib-js/array-base-broadcasted-unary3d/tree/umd
+[@stdlib/array/base/bifurcate-values]: https://github.com/stdlib-js/array-base-bifurcate-values
 
-[@stdlib/array/base/broadcasted-unary4d]: https://github.com/stdlib-js/array-base-broadcasted-unary4d/tree/umd
+[@stdlib/array/base/binary2d]: https://github.com/stdlib-js/array-base-binary2d
 
-[@stdlib/array/base/broadcasted-unary5d]: https://github.com/stdlib-js/array-base-broadcasted-unary5d/tree/umd
+[@stdlib/array/base/binary3d]: https://github.com/stdlib-js/array-base-binary3d
 
-[@stdlib/array/base/cartesian-power]: https://github.com/stdlib-js/array-base-cartesian-power/tree/umd
+[@stdlib/array/base/binary4d]: https://github.com/stdlib-js/array-base-binary4d
 
-[@stdlib/array/base/cartesian-product]: https://github.com/stdlib-js/array-base-cartesian-product/tree/umd
+[@stdlib/array/base/binary5d]: https://github.com/stdlib-js/array-base-binary5d
 
-[@stdlib/array/base/cartesian-square]: https://github.com/stdlib-js/array-base-cartesian-square/tree/umd
+[@stdlib/array/base/binarynd]: https://github.com/stdlib-js/array-base-binarynd
 
-[@stdlib/array/base/copy-indexed]: https://github.com/stdlib-js/array-base-copy-indexed/tree/umd
+[@stdlib/array/base/broadcast-array]: https://github.com/stdlib-js/array-base-broadcast-array
 
-[@stdlib/array/base/copy]: https://github.com/stdlib-js/array-base-copy/tree/umd
+[@stdlib/array/base/broadcasted-binary2d]: https://github.com/stdlib-js/array-base-broadcasted-binary2d
 
-[@stdlib/array/base/filled-by]: https://github.com/stdlib-js/array-base-filled-by/tree/umd
+[@stdlib/array/base/broadcasted-binary3d]: https://github.com/stdlib-js/array-base-broadcasted-binary3d
 
-[@stdlib/array/base/filled]: https://github.com/stdlib-js/array-base-filled/tree/umd
+[@stdlib/array/base/broadcasted-binary4d]: https://github.com/stdlib-js/array-base-broadcasted-binary4d
 
-[@stdlib/array/base/filled2d-by]: https://github.com/stdlib-js/array-base-filled2d-by/tree/umd
+[@stdlib/array/base/broadcasted-binary5d]: https://github.com/stdlib-js/array-base-broadcasted-binary5d
 
-[@stdlib/array/base/filled2d]: https://github.com/stdlib-js/array-base-filled2d/tree/umd
+[@stdlib/array/base/broadcasted-quaternary2d]: https://github.com/stdlib-js/array-base-broadcasted-quaternary2d
 
-[@stdlib/array/base/filled3d-by]: https://github.com/stdlib-js/array-base-filled3d-by/tree/umd
+[@stdlib/array/base/broadcasted-quinary2d]: https://github.com/stdlib-js/array-base-broadcasted-quinary2d
 
-[@stdlib/array/base/filled3d]: https://github.com/stdlib-js/array-base-filled3d/tree/umd
+[@stdlib/array/base/broadcasted-ternary2d]: https://github.com/stdlib-js/array-base-broadcasted-ternary2d
 
-[@stdlib/array/base/filled4d-by]: https://github.com/stdlib-js/array-base-filled4d-by/tree/umd
+[@stdlib/array/base/broadcasted-unary2d]: https://github.com/stdlib-js/array-base-broadcasted-unary2d
 
-[@stdlib/array/base/filled4d]: https://github.com/stdlib-js/array-base-filled4d/tree/umd
+[@stdlib/array/base/broadcasted-unary3d]: https://github.com/stdlib-js/array-base-broadcasted-unary3d
 
-[@stdlib/array/base/filled5d-by]: https://github.com/stdlib-js/array-base-filled5d-by/tree/umd
+[@stdlib/array/base/broadcasted-unary4d]: https://github.com/stdlib-js/array-base-broadcasted-unary4d
 
-[@stdlib/array/base/filled5d]: https://github.com/stdlib-js/array-base-filled5d/tree/umd
+[@stdlib/array/base/broadcasted-unary5d]: https://github.com/stdlib-js/array-base-broadcasted-unary5d
 
-[@stdlib/array/base/fillednd-by]: https://github.com/stdlib-js/array-base-fillednd-by/tree/umd
+[@stdlib/array/base/cartesian-power]: https://github.com/stdlib-js/array-base-cartesian-power
 
-[@stdlib/array/base/fillednd]: https://github.com/stdlib-js/array-base-fillednd/tree/umd
+[@stdlib/array/base/cartesian-product]: https://github.com/stdlib-js/array-base-cartesian-product
 
-[@stdlib/array/base/flatten-by]: https://github.com/stdlib-js/array-base-flatten-by/tree/umd
+[@stdlib/array/base/cartesian-square]: https://github.com/stdlib-js/array-base-cartesian-square
 
-[@stdlib/array/base/flatten]: https://github.com/stdlib-js/array-base-flatten/tree/umd
+[@stdlib/array/base/copy-indexed]: https://github.com/stdlib-js/array-base-copy-indexed
 
-[@stdlib/array/base/flatten2d-by]: https://github.com/stdlib-js/array-base-flatten2d-by/tree/umd
+[@stdlib/array/base/copy]: https://github.com/stdlib-js/array-base-copy
 
-[@stdlib/array/base/flatten2d]: https://github.com/stdlib-js/array-base-flatten2d/tree/umd
+[@stdlib/array/base/dedupe]: https://github.com/stdlib-js/array-base-dedupe
 
-[@stdlib/array/base/flatten3d-by]: https://github.com/stdlib-js/array-base-flatten3d-by/tree/umd
+[@stdlib/array/base/every-by-right]: https://github.com/stdlib-js/array-base-every-by-right
 
-[@stdlib/array/base/flatten3d]: https://github.com/stdlib-js/array-base-flatten3d/tree/umd
+[@stdlib/array/base/every-by]: https://github.com/stdlib-js/array-base-every-by
 
-[@stdlib/array/base/flatten4d-by]: https://github.com/stdlib-js/array-base-flatten4d-by/tree/umd
+[@stdlib/array/base/every]: https://github.com/stdlib-js/array-base-every
 
-[@stdlib/array/base/flatten4d]: https://github.com/stdlib-js/array-base-flatten4d/tree/umd
+[@stdlib/array/base/filled-by]: https://github.com/stdlib-js/array-base-filled-by
 
-[@stdlib/array/base/flatten5d-by]: https://github.com/stdlib-js/array-base-flatten5d-by/tree/umd
+[@stdlib/array/base/filled]: https://github.com/stdlib-js/array-base-filled
 
-[@stdlib/array/base/flatten5d]: https://github.com/stdlib-js/array-base-flatten5d/tree/umd
+[@stdlib/array/base/filled2d-by]: https://github.com/stdlib-js/array-base-filled2d-by
 
-[@stdlib/array/base/fliplr2d]: https://github.com/stdlib-js/array-base-fliplr2d/tree/umd
+[@stdlib/array/base/filled2d]: https://github.com/stdlib-js/array-base-filled2d
 
-[@stdlib/array/base/flipud2d]: https://github.com/stdlib-js/array-base-flipud2d/tree/umd
+[@stdlib/array/base/filled3d-by]: https://github.com/stdlib-js/array-base-filled3d-by
 
-[@stdlib/array/base/from-strided]: https://github.com/stdlib-js/array-base-from-strided/tree/umd
+[@stdlib/array/base/filled3d]: https://github.com/stdlib-js/array-base-filled3d
 
-[@stdlib/array/base/getter]: https://github.com/stdlib-js/array-base-getter/tree/umd
+[@stdlib/array/base/filled4d-by]: https://github.com/stdlib-js/array-base-filled4d-by
 
-[@stdlib/array/base/incrspace]: https://github.com/stdlib-js/array-base-incrspace/tree/umd
+[@stdlib/array/base/filled4d]: https://github.com/stdlib-js/array-base-filled4d
 
-[@stdlib/array/base/last]: https://github.com/stdlib-js/array-base-last/tree/umd
+[@stdlib/array/base/filled5d-by]: https://github.com/stdlib-js/array-base-filled5d-by
 
-[@stdlib/array/base/linspace]: https://github.com/stdlib-js/array-base-linspace/tree/umd
+[@stdlib/array/base/filled5d]: https://github.com/stdlib-js/array-base-filled5d
 
-[@stdlib/array/base/logspace]: https://github.com/stdlib-js/array-base-logspace/tree/umd
+[@stdlib/array/base/fillednd-by]: https://github.com/stdlib-js/array-base-fillednd-by
 
-[@stdlib/array/base/map2d]: https://github.com/stdlib-js/array-base-map2d/tree/umd
+[@stdlib/array/base/fillednd]: https://github.com/stdlib-js/array-base-fillednd
 
-[@stdlib/array/base/map3d]: https://github.com/stdlib-js/array-base-map3d/tree/umd
+[@stdlib/array/base/filter]: https://github.com/stdlib-js/array-base-filter
 
-[@stdlib/array/base/mskbinary2d]: https://github.com/stdlib-js/array-base-mskbinary2d/tree/umd
+[@stdlib/array/base/first]: https://github.com/stdlib-js/array-base-first
 
-[@stdlib/array/base/mskunary2d]: https://github.com/stdlib-js/array-base-mskunary2d/tree/umd
+[@stdlib/array/base/flatten-by]: https://github.com/stdlib-js/array-base-flatten-by
 
-[@stdlib/array/base/mskunary3d]: https://github.com/stdlib-js/array-base-mskunary3d/tree/umd
+[@stdlib/array/base/flatten]: https://github.com/stdlib-js/array-base-flatten
 
-[@stdlib/array/base/n-cartesian-product]: https://github.com/stdlib-js/array-base-n-cartesian-product/tree/umd
+[@stdlib/array/base/flatten2d-by]: https://github.com/stdlib-js/array-base-flatten2d-by
 
-[@stdlib/array/base/one-to]: https://github.com/stdlib-js/array-base-one-to/tree/umd
+[@stdlib/array/base/flatten2d]: https://github.com/stdlib-js/array-base-flatten2d
 
-[@stdlib/array/base/ones]: https://github.com/stdlib-js/array-base-ones/tree/umd
+[@stdlib/array/base/flatten3d-by]: https://github.com/stdlib-js/array-base-flatten3d-by
 
-[@stdlib/array/base/ones2d]: https://github.com/stdlib-js/array-base-ones2d/tree/umd
+[@stdlib/array/base/flatten3d]: https://github.com/stdlib-js/array-base-flatten3d
 
-[@stdlib/array/base/ones3d]: https://github.com/stdlib-js/array-base-ones3d/tree/umd
+[@stdlib/array/base/flatten4d-by]: https://github.com/stdlib-js/array-base-flatten4d-by
 
-[@stdlib/array/base/ones4d]: https://github.com/stdlib-js/array-base-ones4d/tree/umd
+[@stdlib/array/base/flatten4d]: https://github.com/stdlib-js/array-base-flatten4d
 
-[@stdlib/array/base/ones5d]: https://github.com/stdlib-js/array-base-ones5d/tree/umd
+[@stdlib/array/base/flatten5d-by]: https://github.com/stdlib-js/array-base-flatten5d-by
 
-[@stdlib/array/base/onesnd]: https://github.com/stdlib-js/array-base-onesnd/tree/umd
+[@stdlib/array/base/flatten5d]: https://github.com/stdlib-js/array-base-flatten5d
 
-[@stdlib/array/base/quaternary2d]: https://github.com/stdlib-js/array-base-quaternary2d/tree/umd
+[@stdlib/array/base/fliplr2d]: https://github.com/stdlib-js/array-base-fliplr2d
 
-[@stdlib/array/base/quaternary3d]: https://github.com/stdlib-js/array-base-quaternary3d/tree/umd
+[@stdlib/array/base/fliplr3d]: https://github.com/stdlib-js/array-base-fliplr3d
 
-[@stdlib/array/base/quaternary4d]: https://github.com/stdlib-js/array-base-quaternary4d/tree/umd
+[@stdlib/array/base/fliplr4d]: https://github.com/stdlib-js/array-base-fliplr4d
 
-[@stdlib/array/base/quaternary5d]: https://github.com/stdlib-js/array-base-quaternary5d/tree/umd
+[@stdlib/array/base/fliplr5d]: https://github.com/stdlib-js/array-base-fliplr5d
 
-[@stdlib/array/base/quinary2d]: https://github.com/stdlib-js/array-base-quinary2d/tree/umd
+[@stdlib/array/base/flipud2d]: https://github.com/stdlib-js/array-base-flipud2d
 
-[@stdlib/array/base/resolve-getter]: https://github.com/stdlib-js/array-base-resolve-getter/tree/umd
+[@stdlib/array/base/flipud3d]: https://github.com/stdlib-js/array-base-flipud3d
 
-[@stdlib/array/base/setter]: https://github.com/stdlib-js/array-base-setter/tree/umd
+[@stdlib/array/base/flipud4d]: https://github.com/stdlib-js/array-base-flipud4d
 
-[@stdlib/array/base/strided2array2d]: https://github.com/stdlib-js/array-base-strided2array2d/tree/umd
+[@stdlib/array/base/flipud5d]: https://github.com/stdlib-js/array-base-flipud5d
 
-[@stdlib/array/base/strided2array3d]: https://github.com/stdlib-js/array-base-strided2array3d/tree/umd
+[@stdlib/array/base/from-strided]: https://github.com/stdlib-js/array-base-from-strided
 
-[@stdlib/array/base/strided2array4d]: https://github.com/stdlib-js/array-base-strided2array4d/tree/umd
+[@stdlib/array/base/getter]: https://github.com/stdlib-js/array-base-getter
 
-[@stdlib/array/base/strided2array5d]: https://github.com/stdlib-js/array-base-strided2array5d/tree/umd
+[@stdlib/array/base/group-entries-by]: https://github.com/stdlib-js/array-base-group-entries-by
 
-[@stdlib/array/base/take-indexed]: https://github.com/stdlib-js/array-base-take-indexed/tree/umd
+[@stdlib/array/base/group-entries]: https://github.com/stdlib-js/array-base-group-entries
 
-[@stdlib/array/base/take]: https://github.com/stdlib-js/array-base-take/tree/umd
+[@stdlib/array/base/group-indices-by]: https://github.com/stdlib-js/array-base-group-indices-by
 
-[@stdlib/array/base/ternary2d]: https://github.com/stdlib-js/array-base-ternary2d/tree/umd
+[@stdlib/array/base/group-indices]: https://github.com/stdlib-js/array-base-group-indices
 
-[@stdlib/array/base/ternary3d]: https://github.com/stdlib-js/array-base-ternary3d/tree/umd
+[@stdlib/array/base/group-values-by]: https://github.com/stdlib-js/array-base-group-values-by
 
-[@stdlib/array/base/ternary4d]: https://github.com/stdlib-js/array-base-ternary4d/tree/umd
+[@stdlib/array/base/group-values]: https://github.com/stdlib-js/array-base-group-values
 
-[@stdlib/array/base/ternary5d]: https://github.com/stdlib-js/array-base-ternary5d/tree/umd
+[@stdlib/array/base/incrspace]: https://github.com/stdlib-js/array-base-incrspace
 
-[@stdlib/array/base/to-accessor-array]: https://github.com/stdlib-js/array-base-to-accessor-array/tree/umd
+[@stdlib/array/base/index-of]: https://github.com/stdlib-js/array-base-index-of
 
-[@stdlib/array/base/unary2d-by]: https://github.com/stdlib-js/array-base-unary2d-by/tree/umd
+[@stdlib/array/base/last-index-of]: https://github.com/stdlib-js/array-base-last-index-of
 
-[@stdlib/array/base/unary2d]: https://github.com/stdlib-js/array-base-unary2d/tree/umd
+[@stdlib/array/base/last]: https://github.com/stdlib-js/array-base-last
 
-[@stdlib/array/base/unary3d]: https://github.com/stdlib-js/array-base-unary3d/tree/umd
+[@stdlib/array/base/linspace]: https://github.com/stdlib-js/array-base-linspace
 
-[@stdlib/array/base/unary4d]: https://github.com/stdlib-js/array-base-unary4d/tree/umd
+[@stdlib/array/base/logspace]: https://github.com/stdlib-js/array-base-logspace
 
-[@stdlib/array/base/unary5d]: https://github.com/stdlib-js/array-base-unary5d/tree/umd
+[@stdlib/array/base/map2d]: https://github.com/stdlib-js/array-base-map2d
 
-[@stdlib/array/base/unarynd]: https://github.com/stdlib-js/array-base-unarynd/tree/umd
+[@stdlib/array/base/map3d]: https://github.com/stdlib-js/array-base-map3d
 
-[@stdlib/array/base/unitspace]: https://github.com/stdlib-js/array-base-unitspace/tree/umd
+[@stdlib/array/base/map4d]: https://github.com/stdlib-js/array-base-map4d
 
-[@stdlib/array/base/zero-to]: https://github.com/stdlib-js/array-base-zero-to/tree/umd
+[@stdlib/array/base/map5d]: https://github.com/stdlib-js/array-base-map5d
 
-[@stdlib/array/base/zeros]: https://github.com/stdlib-js/array-base-zeros/tree/umd
+[@stdlib/array/base/mskbinary2d]: https://github.com/stdlib-js/array-base-mskbinary2d
 
-[@stdlib/array/base/zeros2d]: https://github.com/stdlib-js/array-base-zeros2d/tree/umd
+[@stdlib/array/base/mskfilter]: https://github.com/stdlib-js/array-base-mskfilter
 
-[@stdlib/array/base/zeros3d]: https://github.com/stdlib-js/array-base-zeros3d/tree/umd
+[@stdlib/array/base/mskreject]: https://github.com/stdlib-js/array-base-mskreject
 
-[@stdlib/array/base/zeros4d]: https://github.com/stdlib-js/array-base-zeros4d/tree/umd
+[@stdlib/array/base/mskunary2d]: https://github.com/stdlib-js/array-base-mskunary2d
 
-[@stdlib/array/base/zeros5d]: https://github.com/stdlib-js/array-base-zeros5d/tree/umd
+[@stdlib/array/base/mskunary3d]: https://github.com/stdlib-js/array-base-mskunary3d
 
-[@stdlib/array/base/zerosnd]: https://github.com/stdlib-js/array-base-zerosnd/tree/umd
+[@stdlib/array/base/n-cartesian-product]: https://github.com/stdlib-js/array-base-n-cartesian-product
+
+[@stdlib/array/base/none-by-right]: https://github.com/stdlib-js/array-base-none-by-right
+
+[@stdlib/array/base/none-by]: https://github.com/stdlib-js/array-base-none-by
+
+[@stdlib/array/base/none]: https://github.com/stdlib-js/array-base-none
+
+[@stdlib/array/base/one-to]: https://github.com/stdlib-js/array-base-one-to
+
+[@stdlib/array/base/ones]: https://github.com/stdlib-js/array-base-ones
+
+[@stdlib/array/base/ones2d]: https://github.com/stdlib-js/array-base-ones2d
+
+[@stdlib/array/base/ones3d]: https://github.com/stdlib-js/array-base-ones3d
+
+[@stdlib/array/base/ones4d]: https://github.com/stdlib-js/array-base-ones4d
+
+[@stdlib/array/base/ones5d]: https://github.com/stdlib-js/array-base-ones5d
+
+[@stdlib/array/base/onesnd]: https://github.com/stdlib-js/array-base-onesnd
+
+[@stdlib/array/base/quaternary2d]: https://github.com/stdlib-js/array-base-quaternary2d
+
+[@stdlib/array/base/quaternary3d]: https://github.com/stdlib-js/array-base-quaternary3d
+
+[@stdlib/array/base/quaternary4d]: https://github.com/stdlib-js/array-base-quaternary4d
+
+[@stdlib/array/base/quaternary5d]: https://github.com/stdlib-js/array-base-quaternary5d
+
+[@stdlib/array/base/quinary2d]: https://github.com/stdlib-js/array-base-quinary2d
+
+[@stdlib/array/base/quinary3d]: https://github.com/stdlib-js/array-base-quinary3d
+
+[@stdlib/array/base/quinary4d]: https://github.com/stdlib-js/array-base-quinary4d
+
+[@stdlib/array/base/quinary5d]: https://github.com/stdlib-js/array-base-quinary5d
+
+[@stdlib/array/base/reject]: https://github.com/stdlib-js/array-base-reject
+
+[@stdlib/array/base/resolve-getter]: https://github.com/stdlib-js/array-base-resolve-getter
+
+[@stdlib/array/base/resolve-setter]: https://github.com/stdlib-js/array-base-resolve-setter
+
+[@stdlib/array/base/reverse]: https://github.com/stdlib-js/array-base-reverse
+
+[@stdlib/array/base/setter]: https://github.com/stdlib-js/array-base-setter
+
+[@stdlib/array/base/slice]: https://github.com/stdlib-js/array-base-slice
+
+[@stdlib/array/base/strided2array2d]: https://github.com/stdlib-js/array-base-strided2array2d
+
+[@stdlib/array/base/strided2array3d]: https://github.com/stdlib-js/array-base-strided2array3d
+
+[@stdlib/array/base/strided2array4d]: https://github.com/stdlib-js/array-base-strided2array4d
+
+[@stdlib/array/base/strided2array5d]: https://github.com/stdlib-js/array-base-strided2array5d
+
+[@stdlib/array/base/take-indexed]: https://github.com/stdlib-js/array-base-take-indexed
+
+[@stdlib/array/base/take]: https://github.com/stdlib-js/array-base-take
+
+[@stdlib/array/base/take2d]: https://github.com/stdlib-js/array-base-take2d
+
+[@stdlib/array/base/take3d]: https://github.com/stdlib-js/array-base-take3d
+
+[@stdlib/array/base/ternary2d]: https://github.com/stdlib-js/array-base-ternary2d
+
+[@stdlib/array/base/ternary3d]: https://github.com/stdlib-js/array-base-ternary3d
+
+[@stdlib/array/base/ternary4d]: https://github.com/stdlib-js/array-base-ternary4d
+
+[@stdlib/array/base/ternary5d]: https://github.com/stdlib-js/array-base-ternary5d
+
+[@stdlib/array/base/to-accessor-array]: https://github.com/stdlib-js/array-base-to-accessor-array
+
+[@stdlib/array/base/to-deduped]: https://github.com/stdlib-js/array-base-to-deduped
+
+[@stdlib/array/base/to-reversed]: https://github.com/stdlib-js/array-base-to-reversed
+
+[@stdlib/array/base/unary2d-by]: https://github.com/stdlib-js/array-base-unary2d-by
+
+[@stdlib/array/base/unary2d]: https://github.com/stdlib-js/array-base-unary2d
+
+[@stdlib/array/base/unary3d]: https://github.com/stdlib-js/array-base-unary3d
+
+[@stdlib/array/base/unary4d]: https://github.com/stdlib-js/array-base-unary4d
+
+[@stdlib/array/base/unary5d]: https://github.com/stdlib-js/array-base-unary5d
+
+[@stdlib/array/base/unarynd]: https://github.com/stdlib-js/array-base-unarynd
+
+[@stdlib/array/base/unitspace]: https://github.com/stdlib-js/array-base-unitspace
+
+[@stdlib/array/base/zero-to]: https://github.com/stdlib-js/array-base-zero-to
+
+[@stdlib/array/base/zeros]: https://github.com/stdlib-js/array-base-zeros
+
+[@stdlib/array/base/zeros2d]: https://github.com/stdlib-js/array-base-zeros2d
+
+[@stdlib/array/base/zeros3d]: https://github.com/stdlib-js/array-base-zeros3d
+
+[@stdlib/array/base/zeros4d]: https://github.com/stdlib-js/array-base-zeros4d
+
+[@stdlib/array/base/zeros5d]: https://github.com/stdlib-js/array-base-zeros5d
+
+[@stdlib/array/base/zerosnd]: https://github.com/stdlib-js/array-base-zerosnd
 
 <!-- </toc-links> -->
 
