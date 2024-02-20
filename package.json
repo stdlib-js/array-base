@@ -79,6 +79,7 @@
     "@stdlib/array-base-cartesian-square": "^0.2.0",
     "@stdlib/array-base-copy": "^0.2.0",
     "@stdlib/array-base-copy-indexed": "^0.2.0",
+    "@stdlib/array-base-count-falsy": "github:stdlib-js/array-base-count-falsy#main",
     "@stdlib/array-base-count-truthy": "github:stdlib-js/array-base-count-truthy#main",
     "@stdlib/array-base-dedupe": "^0.2.0",
     "@stdlib/array-base-every": "^0.2.0",
