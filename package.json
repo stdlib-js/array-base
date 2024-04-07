@@ -80,6 +80,7 @@
     "@stdlib/array-base-copy": "^0.2.1",
     "@stdlib/array-base-copy-indexed": "^0.2.1",
     "@stdlib/array-base-count-falsy": "^0.1.1",
+    "@stdlib/array-base-count-if": "github:stdlib-js/array-base-count-if#main",
     "@stdlib/array-base-count-same-value": "^0.1.1",
     "@stdlib/array-base-count-same-value-zero": "github:stdlib-js/array-base-count-same-value-zero#main",
     "@stdlib/array-base-count-truthy": "^0.1.1",

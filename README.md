@@ -235,6 +235,7 @@ The namespace exports the following:
 -   <span class="signature">[`unary5d( arrays, shape, fcn )`][@stdlib/array/base/unary5d]</span><span class="delimiter">: </span><span class="description">apply a unary callback to elements in a five-dimensional nested input array and assign results to elements in a five-dimensional nested output array.</span>
 -   <span class="signature">[`unarynd( arrays, shape, fcn )`][@stdlib/array/base/unarynd]</span><span class="delimiter">: </span><span class="description">apply a unary callback to elements in an n-dimensional nested input array and assign results to elements in an n-dimensional nested output array.</span>
 -   <span class="signature">[`unitspace( start, stop )`][@stdlib/array/base/unitspace]</span><span class="delimiter">: </span><span class="description">generate a linearly spaced numeric array whose elements increment by 1.</span>
+-   <span class="signature">[`arrayWith( x, index, value )`][@stdlib/array/base/with]</span><span class="delimiter">: </span><span class="description">return a new array with the element at the specified index replaced with a provided value.</span>
 -   <span class="signature">[`zeroTo( n )`][@stdlib/array/base/zero-to]</span><span class="delimiter">: </span><span class="description">generate a linearly spaced numeric array whose elements increment by 1 starting from zero.</span>
 -   <span class="signature">[`zeros( len )`][@stdlib/array/base/zeros]</span><span class="delimiter">: </span><span class="description">create a zero-filled "generic" array.</span>
 -   <span class="signature">[`zeros2d( shape )`][@stdlib/array/base/zeros2d]</span><span class="delimiter">: </span><span class="description">create a zero-filled two-dimensional nested array.</span>
@@ -297,6 +298,11 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
+## License
+
+See [LICENSE][stdlib-license].
+
+
 ## Copyright
 
 Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
@@ -342,6 +348,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/array-base/tree/esm
 [esm-readme]: https://github.com/stdlib-js/array-base/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/array-base/blob/main/branches.md
+
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-base/main/LICENSE
 
 <!-- <toc-links> -->
 
@@ -658,6 +666,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [@stdlib/array/base/unarynd]: https://github.com/stdlib-js/array-base-unarynd
 
 [@stdlib/array/base/unitspace]: https://github.com/stdlib-js/array-base-unitspace
+
+[@stdlib/array/base/with]: https://github.com/stdlib-js/array-base-with
 
 [@stdlib/array/base/zero-to]: https://github.com/stdlib-js/array-base-zero-to
 
