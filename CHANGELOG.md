@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-17)
+## Unreleased (2024-06-19)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`2827035`](https://github.com/stdlib-js/stdlib/commit/2827035933c44ebb301a44200ff9cd5ad73e9ef0) - add `where` to namespace
 -   [`d626ffa`](https://github.com/stdlib-js/stdlib/commit/d626ffac9f0504be236c94afd4b920032272c8bf) - update namespace TypeScript declarations [(#2394)](https://github.com/stdlib-js/stdlib/pull/2394)
 -   [`60fa5ac`](https://github.com/stdlib-js/stdlib/commit/60fa5ac214d2e5dfe310f93928a07515eeeb4a3b) - add `cuevery` to namespace
 -   [`0a0ba83`](https://github.com/stdlib-js/stdlib/commit/0a0ba837315759799d35a24a8d9ded4af82622e0) - add `cuany` to namespace
@@ -66,6 +67,28 @@
 -   [`d626ffa`](https://github.com/stdlib-js/stdlib/commit/d626ffac9f0504be236c94afd4b920032272c8bf) - update namespace TypeScript declarations [(#2394)](https://github.com/stdlib-js/stdlib/pull/2394)
 -   [`4fdb218`](https://github.com/stdlib-js/stdlib/commit/4fdb218a0272d18ce2f70d769695bceca33a7653) - add `isBooleanArray` to namespace
 -   [`57347fd`](https://github.com/stdlib-js/stdlib/commit/57347fdd4382c4a71935e7ae06d992d04d08f802) - add `isBooleanDataType` to namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-assert-has-same-values-unreleased">
+
+#### [@stdlib/array/base/assert/has-same-values](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/assert/has-same-values)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a7947d0`](https://github.com/stdlib-js/stdlib/commit/a7947d0856e5c65f863841b0205c05b6f6cc2eec) - add boolean dtype support to `array/base/assert/has-same-values` [(#2404)](https://github.com/stdlib-js/stdlib/pull/2404)
 
 </section>
 
@@ -377,6 +400,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="array-base-take-unreleased">
+
+#### [@stdlib/array/base/take](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/take)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`1093407`](https://github.com/stdlib-js/stdlib/commit/1093407be970c29959b40c2537166b4db897d070) - add missing type
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="array-base-take-map-unreleased">
 
 #### [@stdlib/array/base/take-map](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/take-map)
@@ -388,6 +433,28 @@ This release closes the following issue:
 ##### Features
 
 -   [`0bc38ac`](https://github.com/stdlib-js/stdlib/commit/0bc38ac50d13c505f66231c576c72b40848fd0a7) - add `array/base/take-map`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-where-unreleased">
+
+#### [@stdlib/array/base/where](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/where)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`52e6dc7`](https://github.com/stdlib-js/stdlib/commit/52e6dc7a9aedf2f4e7ef0e7147c973533a830710) - add `array/base/where`
 
 </section>
 
@@ -477,6 +544,14 @@ A total of 11 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`2827035`](https://github.com/stdlib-js/stdlib/commit/2827035933c44ebb301a44200ff9cd5ad73e9ef0) - **feat:** add `where` to namespace _(by Athan Reines)_
+-   [`52e6dc7`](https://github.com/stdlib-js/stdlib/commit/52e6dc7a9aedf2f4e7ef0e7147c973533a830710) - **feat:** add `array/base/where` _(by Athan Reines)_
+-   [`1093407`](https://github.com/stdlib-js/stdlib/commit/1093407be970c29959b40c2537166b4db897d070) - **fix:** add missing type _(by Athan Reines)_
+-   [`a7947d0`](https://github.com/stdlib-js/stdlib/commit/a7947d0856e5c65f863841b0205c05b6f6cc2eec) - **feat:** add boolean dtype support to `array/base/assert/has-same-values` [(#2404)](https://github.com/stdlib-js/stdlib/pull/2404) _(by Jaysukh Makvana, Athan Reines)_
+-   [`1c809a5`](https://github.com/stdlib-js/stdlib/commit/1c809a5492dd9dc592bda2dbe6a4a6a1bf156bf1) - **docs:** add note _(by Athan Reines)_
+-   [`0a4b603`](https://github.com/stdlib-js/stdlib/commit/0a4b6039c6ab0468f01e96db98157fe6c516c2a5) - **docs:** add note _(by Athan Reines)_
+-   [`ca3bd75`](https://github.com/stdlib-js/stdlib/commit/ca3bd752ba18c92d006ebba9c927e2ee9afefacd) - **test:** update description _(by Athan Reines)_
+-   [`2d3329c`](https://github.com/stdlib-js/stdlib/commit/2d3329cd56424e2cea94fc50b3ffcf21af50fcca) - **docs:** fix return type _(by Athan Reines)_
 -   [`d626ffa`](https://github.com/stdlib-js/stdlib/commit/d626ffac9f0504be236c94afd4b920032272c8bf) - **feat:** update namespace TypeScript declarations [(#2394)](https://github.com/stdlib-js/stdlib/pull/2394) _(by stdlib-bot, Athan Reines)_
 -   [`915d3e7`](https://github.com/stdlib-js/stdlib/commit/915d3e77ccd6bdb8a8145e5be832e0db50854613) - **docs:** fix missing asterisk _(by Athan Reines)_
 -   [`6adfd9a`](https://github.com/stdlib-js/stdlib/commit/6adfd9a5b8df1771ac41681f1167c480e8d89c1d) - **docs:** fix missing asterisk _(by Athan Reines)_
