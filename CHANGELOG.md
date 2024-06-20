@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`00fd68d`](https://github.com/stdlib-js/stdlib/commit/00fd68ddf80a71b08e5353c63c297fca4daaf873) - update namespace TypeScript declarations [(#2415)](https://github.com/stdlib-js/stdlib/pull/2415)
 -   [`fd71d8a`](https://github.com/stdlib-js/stdlib/commit/fd71d8a39d9dc53b0d941945d26178e2e079edbc) - add `place` to namespace
 -   [`20cd086`](https://github.com/stdlib-js/stdlib/commit/20cd0868236daf523fcd659d027e2277f7e1cb56) - add `mskput` to namespace
 -   [`2827035`](https://github.com/stdlib-js/stdlib/commit/2827035933c44ebb301a44200ff9cd5ad73e9ef0) - add `where` to namespace
@@ -711,6 +712,7 @@ A total of 11 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`00fd68d`](https://github.com/stdlib-js/stdlib/commit/00fd68ddf80a71b08e5353c63c297fca4daaf873) - **feat:** update namespace TypeScript declarations [(#2415)](https://github.com/stdlib-js/stdlib/pull/2415) _(by stdlib-bot, Athan Reines)_
 -   [`d903fc9`](https://github.com/stdlib-js/stdlib/commit/d903fc907ddaacc144a97edaaed0f05abadc470c) - **fix:** require broadcast compatibility _(by Athan Reines)_
 -   [`2769ce9`](https://github.com/stdlib-js/stdlib/commit/2769ce9e876c2a6de5735ffdbc4c79b3d26347b6) - **fix:** require broadcast compatibility _(by Athan Reines)_
 -   [`fdb5d94`](https://github.com/stdlib-js/stdlib/commit/fdb5d94eee5fc019bc358d799025cb2b5966d820) - **feat:** add support for additional modes _(by Athan Reines)_
