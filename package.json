@@ -162,6 +162,7 @@
     "@stdlib/array-base-ones4d": "^0.2.1",
     "@stdlib/array-base-ones5d": "^0.2.1",
     "@stdlib/array-base-onesnd": "^0.2.1",
+    "@stdlib/array-base-place": "github:stdlib-js/array-base-place#main",
     "@stdlib/array-base-put": "^0.0.1",
     "@stdlib/array-base-quaternary2d": "^0.2.1",
     "@stdlib/array-base-quaternary3d": "^0.2.1",
