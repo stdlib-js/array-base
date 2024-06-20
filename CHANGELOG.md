@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-19)
+## Unreleased (2024-06-20)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`20cd086`](https://github.com/stdlib-js/stdlib/commit/20cd0868236daf523fcd659d027e2277f7e1cb56) - add `mskput` to namespace
 -   [`2827035`](https://github.com/stdlib-js/stdlib/commit/2827035933c44ebb301a44200ff9cd5ad73e9ef0) - add `where` to namespace
 -   [`d626ffa`](https://github.com/stdlib-js/stdlib/commit/d626ffac9f0504be236c94afd4b920032272c8bf) - update namespace TypeScript declarations [(#2394)](https://github.com/stdlib-js/stdlib/pull/2394)
 -   [`60fa5ac`](https://github.com/stdlib-js/stdlib/commit/60fa5ac214d2e5dfe310f93928a07515eeeb4a3b) - add `cuevery` to namespace
@@ -144,6 +145,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="array-base-count-falsy-unreleased">
+
+#### [@stdlib/array/base/count-falsy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/count-falsy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`299be6a`](https://github.com/stdlib-js/stdlib/commit/299be6aa293d738d6be5ef6c4a1aa2efb4cbb8d9) - add boolean dtype support to `array/base/count-falsy`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="array-base-count-if-unreleased">
 
 #### [@stdlib/array/base/count-if](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/count-if)
@@ -256,6 +279,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="array-base-count-truthy-unreleased">
+
+#### [@stdlib/array/base/count-truthy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/count-truthy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`09f1e11`](https://github.com/stdlib-js/stdlib/commit/09f1e11557f76c8fc6a8e3f9b60b06a8701ded3e) - add boolean dtype support to `array/base/count-truthy`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="array-base-cuany-unreleased">
 
 #### [@stdlib/array/base/cuany](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/cuany)
@@ -345,6 +390,28 @@ This release closes the following issue:
 ##### Features
 
 -   [`23e158b`](https://github.com/stdlib-js/stdlib/commit/23e158b7de87ff40b2fbdc75f1842bbd55641016) - add `array/base/mskfilter-map`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-mskput-unreleased">
+
+#### [@stdlib/array/base/mskput](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/mskput)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e9bf843`](https://github.com/stdlib-js/stdlib/commit/e9bf843b45b204ca61eca213575aa4933026b09b) - add `array/base/mskput`
 
 </section>
 
@@ -460,6 +527,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`ff8652b`](https://github.com/stdlib-js/stdlib/commit/ff8652b09457da367683ff80fecdf787b470207f) - reassign `condition` to ensure proper iteration when a BooleanArray
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -544,6 +621,12 @@ A total of 11 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`20cd086`](https://github.com/stdlib-js/stdlib/commit/20cd0868236daf523fcd659d027e2277f7e1cb56) - **feat:** add `mskput` to namespace _(by Athan Reines)_
+-   [`e9bf843`](https://github.com/stdlib-js/stdlib/commit/e9bf843b45b204ca61eca213575aa4933026b09b) - **feat:** add `array/base/mskput` _(by Athan Reines)_
+-   [`7879bf0`](https://github.com/stdlib-js/stdlib/commit/7879bf0ecd89e0b274fb687ff090dd2b863346a3) - **docs:** fix example _(by Athan Reines)_
+-   [`299be6a`](https://github.com/stdlib-js/stdlib/commit/299be6aa293d738d6be5ef6c4a1aa2efb4cbb8d9) - **feat:** add boolean dtype support to `array/base/count-falsy` _(by Athan Reines)_
+-   [`09f1e11`](https://github.com/stdlib-js/stdlib/commit/09f1e11557f76c8fc6a8e3f9b60b06a8701ded3e) - **feat:** add boolean dtype support to `array/base/count-truthy` _(by Athan Reines)_
+-   [`ff8652b`](https://github.com/stdlib-js/stdlib/commit/ff8652b09457da367683ff80fecdf787b470207f) - **fix:** reassign `condition` to ensure proper iteration when a BooleanArray _(by Athan Reines)_
 -   [`2827035`](https://github.com/stdlib-js/stdlib/commit/2827035933c44ebb301a44200ff9cd5ad73e9ef0) - **feat:** add `where` to namespace _(by Athan Reines)_
 -   [`52e6dc7`](https://github.com/stdlib-js/stdlib/commit/52e6dc7a9aedf2f4e7ef0e7147c973533a830710) - **feat:** add `array/base/where` _(by Athan Reines)_
 -   [`1093407`](https://github.com/stdlib-js/stdlib/commit/1093407be970c29959b40c2537166b4db897d070) - **fix:** add missing type _(by Athan Reines)_
