@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-20)
+## Unreleased (2024-07-07)
 
 <section class="packages">
 
@@ -50,6 +50,28 @@
 </section>
 
 <!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-any-unreleased">
+
+#### [@stdlib/array/base/any](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/any)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`28023eb`](https://github.com/stdlib-js/stdlib/commit/28023ebdf7066bd28597809ff1c603f8b17e2ac1) - add boolean dtype support to `array/base/any` [(#2422)](https://github.com/stdlib-js/stdlib/pull/2422)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -213,6 +235,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="array-base-count-same-value-unreleased">
+
+#### [@stdlib/array/base/count-same-value](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/count-same-value)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fd396b3`](https://github.com/stdlib-js/stdlib/commit/fd396b360cbca9c4c000d3f33eed5dfc18de6d6b) - add boolean dtype support to `array/base/count-same-value` [(#2473)](https://github.com/stdlib-js/stdlib/pull/2473)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="array-base-count-same-value-zero-unreleased">
 
 #### [@stdlib/array/base/count-same-value-zero](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/count-same-value-zero)
@@ -223,6 +267,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`d1ef4ee`](https://github.com/stdlib-js/stdlib/commit/d1ef4ee589cb2a7a0d8bbc0b37be3cf3b7a6aad2) - add boolean dtype support to `array/base/count-same-value-zero` [(#2474)](https://github.com/stdlib-js/stdlib/pull/2474)
 -   [`1ed81b7`](https://github.com/stdlib-js/stdlib/commit/1ed81b78fd6469d374c7b033f258e709934539b2) - add `array/base/count-same-value-zero` [(##1384)](#1384)
 
 </section>
@@ -313,6 +358,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`c41435f`](https://github.com/stdlib-js/stdlib/commit/c41435fa51e75a6329d78b8e801590476ece06af) - add boolean dtype support to `array/base/cuany` [(#2446)](https://github.com/stdlib-js/stdlib/pull/2446)
 -   [`d9ef2aa`](https://github.com/stdlib-js/stdlib/commit/d9ef2aa6d8d5c22025ad552a21780b07462f3079) - add `array/base/cuany` [(#2375)](https://github.com/stdlib-js/stdlib/pull/2375)
 
 </section>
@@ -335,6 +381,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`3c451db`](https://github.com/stdlib-js/stdlib/commit/3c451db98b94e5d89a2aaffca29c4ca93835605f) - add boolean dtype support to `array/base/cuevery` [(#2447)](https://github.com/stdlib-js/stdlib/pull/2447)
 -   [`9445e22`](https://github.com/stdlib-js/stdlib/commit/9445e22fabf3546afe9a6dd33c9131917f960b2a) - add `array/base/cuevery` (#2380) [(#2380)](https://github.com/stdlib-js/stdlib/pull/2380)
 
 </section>
@@ -359,6 +406,62 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="array-base-cunone-unreleased">
+
+#### [@stdlib/array/base/cunone](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/cunone)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1443ba6`](https://github.com/stdlib-js/stdlib/commit/1443ba64ce5a5bbc0ba23e826246f99622eead7e) - add `array/base/cunone` [(#2527)](https://github.com/stdlib-js/stdlib/pull/2527)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#2321](https://github.com/stdlib-js/stdlib/issues/2321)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-every-unreleased">
+
+#### [@stdlib/array/base/every](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/every)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`0c57587`](https://github.com/stdlib-js/stdlib/commit/0c575877d0644a9464272aa8f12535a4180be175) - add boolean dtype support to `array/base/every` [(#2423)](https://github.com/stdlib-js/stdlib/pull/2423)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="array-base-join-unreleased">
 
 #### [@stdlib/array/base/join](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/join)
@@ -370,6 +473,28 @@ This release closes the following issue:
 ##### Features
 
 -   [`bb7817f`](https://github.com/stdlib-js/stdlib/commit/bb7817f0a8bbae01c92ef0490194017f181b81c5) - add `array/base/join`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-mskfilter-unreleased">
+
+#### [@stdlib/array/base/mskfilter](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/mskfilter)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c04e29b`](https://github.com/stdlib-js/stdlib/commit/c04e29bf919dcc5f1368fecd977db696041ff8db) - add boolean dtype support to `array/base/mskfilter` [(#2450)](https://github.com/stdlib-js/stdlib/pull/2450)
 
 </section>
 
@@ -450,6 +575,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="array-base-mskreject-unreleased">
+
+#### [@stdlib/array/base/mskreject](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/mskreject)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b586995`](https://github.com/stdlib-js/stdlib/commit/b586995441d335964383ac2d3195ab9a55e091f4) - add boolean dtype support to `array/base/mskreject` [(#2452)](https://github.com/stdlib-js/stdlib/pull/2452)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="array-base-mskreject-map-unreleased">
 
 #### [@stdlib/array/base/mskreject-map](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/mskreject-map)
@@ -461,6 +608,28 @@ This release closes the following issue:
 ##### Features
 
 -   [`8b7f927`](https://github.com/stdlib-js/stdlib/commit/8b7f9274b4aeffe7344fad3e8186f7b4e13f7b2c) - add `array/base/mskreject-map`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-none-unreleased">
+
+#### [@stdlib/array/base/none](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/none)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4d54abb`](https://github.com/stdlib-js/stdlib/commit/4d54abb0b5e5d2f146e85f2a65799907fbb5bd0c) - add boolean dtype support to `array/base/none` [(#2424)](https://github.com/stdlib-js/stdlib/pull/2424)
 
 </section>
 
@@ -545,6 +714,16 @@ This release closes the following issue:
 #### [@stdlib/array/base/take](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/take)
 
 <details>
+
+<section class="features">
+
+##### Features
+
+-   [`760979b`](https://github.com/stdlib-js/stdlib/commit/760979b6efafb5c235daa718c17d7eb5cef82237) - add boolean dtype support to `array/base/take` [(#2453)](https://github.com/stdlib-js/stdlib/pull/2453)
+
+</section>
+
+<!-- /.features -->
 
 <section class="bug-fixes">
 
@@ -676,9 +855,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 4 issues were closed in this release:
+A total of 5 issues were closed in this release:
 
-[#2320](https://github.com/stdlib-js/stdlib/issues/2320), [##1324](#1324), [##1326](#1326), [##1328 ](#1328 )
+[#2320](https://github.com/stdlib-js/stdlib/issues/2320), [#2321](https://github.com/stdlib-js/stdlib/issues/2321), [##1324](#1324), [##1326](#1326), [##1328 ](#1328 )
 
 </section>
 
@@ -712,6 +891,19 @@ A total of 11 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`4708d70`](https://github.com/stdlib-js/stdlib/commit/4708d704db87214af36a82e77072e3aade8c29fd) - **docs:** update namespace table of contents [(#2532)](2532) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`1443ba6`](https://github.com/stdlib-js/stdlib/commit/1443ba64ce5a5bbc0ba23e826246f99622eead7e) - **feat:** add `array/base/cunone` [(#2527)](https://github.com/stdlib-js/stdlib/pull/2527) _(by Aditya Sapra, Athan Reines)_
+-   [`4059e11`](https://github.com/stdlib-js/stdlib/commit/4059e1125ea8e16467e28ea4523aa06b3345b620) - **docs:** remove blank line _(by Athan Reines)_
+-   [`d1ef4ee`](https://github.com/stdlib-js/stdlib/commit/d1ef4ee589cb2a7a0d8bbc0b37be3cf3b7a6aad2) - **feat:** add boolean dtype support to `array/base/count-same-value-zero` [(#2474)](https://github.com/stdlib-js/stdlib/pull/2474) _(by Jaysukh Makvana, Athan Reines)_
+-   [`fd396b3`](https://github.com/stdlib-js/stdlib/commit/fd396b360cbca9c4c000d3f33eed5dfc18de6d6b) - **feat:** add boolean dtype support to `array/base/count-same-value` [(#2473)](https://github.com/stdlib-js/stdlib/pull/2473) _(by Jaysukh Makvana, Athan Reines)_
+-   [`b586995`](https://github.com/stdlib-js/stdlib/commit/b586995441d335964383ac2d3195ab9a55e091f4) - **feat:** add boolean dtype support to `array/base/mskreject` [(#2452)](https://github.com/stdlib-js/stdlib/pull/2452) _(by Jaysukh Makvana, Athan Reines)_
+-   [`c04e29b`](https://github.com/stdlib-js/stdlib/commit/c04e29bf919dcc5f1368fecd977db696041ff8db) - **feat:** add boolean dtype support to `array/base/mskfilter` [(#2450)](https://github.com/stdlib-js/stdlib/pull/2450) _(by Jaysukh Makvana, Athan Reines)_
+-   [`760979b`](https://github.com/stdlib-js/stdlib/commit/760979b6efafb5c235daa718c17d7eb5cef82237) - **feat:** add boolean dtype support to `array/base/take` [(#2453)](https://github.com/stdlib-js/stdlib/pull/2453) _(by Jaysukh Makvana, Athan Reines)_
+-   [`c41435f`](https://github.com/stdlib-js/stdlib/commit/c41435fa51e75a6329d78b8e801590476ece06af) - **feat:** add boolean dtype support to `array/base/cuany` [(#2446)](https://github.com/stdlib-js/stdlib/pull/2446) _(by Jaysukh Makvana)_
+-   [`3c451db`](https://github.com/stdlib-js/stdlib/commit/3c451db98b94e5d89a2aaffca29c4ca93835605f) - **feat:** add boolean dtype support to `array/base/cuevery` [(#2447)](https://github.com/stdlib-js/stdlib/pull/2447) _(by Jaysukh Makvana)_
+-   [`4d54abb`](https://github.com/stdlib-js/stdlib/commit/4d54abb0b5e5d2f146e85f2a65799907fbb5bd0c) - **feat:** add boolean dtype support to `array/base/none` [(#2424)](https://github.com/stdlib-js/stdlib/pull/2424) _(by Jaysukh Makvana, Athan Reines)_
+-   [`28023eb`](https://github.com/stdlib-js/stdlib/commit/28023ebdf7066bd28597809ff1c603f8b17e2ac1) - **feat:** add boolean dtype support to `array/base/any` [(#2422)](https://github.com/stdlib-js/stdlib/pull/2422) _(by Jaysukh Makvana)_
+-   [`0c57587`](https://github.com/stdlib-js/stdlib/commit/0c575877d0644a9464272aa8f12535a4180be175) - **feat:** add boolean dtype support to `array/base/every` [(#2423)](https://github.com/stdlib-js/stdlib/pull/2423) _(by Jaysukh Makvana, Athan Reines)_
 -   [`00fd68d`](https://github.com/stdlib-js/stdlib/commit/00fd68ddf80a71b08e5353c63c297fca4daaf873) - **feat:** update namespace TypeScript declarations [(#2415)](https://github.com/stdlib-js/stdlib/pull/2415) _(by stdlib-bot, Athan Reines)_
 -   [`d903fc9`](https://github.com/stdlib-js/stdlib/commit/d903fc907ddaacc144a97edaaed0f05abadc470c) - **fix:** require broadcast compatibility _(by Athan Reines)_
 -   [`2769ce9`](https://github.com/stdlib-js/stdlib/commit/2769ce9e876c2a6de5735ffdbc4c79b3d26347b6) - **fix:** require broadcast compatibility _(by Athan Reines)_

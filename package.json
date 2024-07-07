@@ -277,6 +277,7 @@
     "@stdlib/assert-is-nonnegative-integer": "^0.2.1",
     "@stdlib/assert-is-plain-object": "^0.2.1",
     "@stdlib/assert-is-positive-integer": "^0.2.1",
+    "@stdlib/assert-is-same-booleanarray": "github:stdlib-js/assert-is-same-booleanarray#main",
     "@stdlib/assert-is-same-complex128": "^0.2.1",
     "@stdlib/assert-is-same-complex128array": "^0.2.1",
     "@stdlib/assert-is-same-complex64": "^0.2.1",
