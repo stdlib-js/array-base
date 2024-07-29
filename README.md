@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base@v0.3.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { AccessorArray, accessorGetter, accessorSetter, accessors, any, anyBy, anyByRight, arrayWith, arraylike2object, assert, at, at2d, at3d, at4d, at5d, atnd, bbinary2d, bbinary3d, bbinary4d, bbinary5d, bifurcateEntries, bifurcateEntriesBy, bifurcateIndices, bifurcateIndicesBy, bifurcateValues, bifurcateValuesBy, binary2d, binary3d, binary4d, binary5d, binarynd, bquaternary2d, bquinary2d, broadcastArray, bternary2d, bunary2d, bunary3d, bunary4d, bunary5d, cartesianPower, cartesianProduct, cartesianSquare, copy, copyIndexed, countFalsy, countIf, countSameValue, countSameValueZero, countTruthy, cuany, cuevery, dedupe, every, everyBy, everyByRight, fancySlice, fancySliceAssign, filled, filled2d, filled2dBy, filled3d, filled3dBy, filled4d, filled4dBy, filled5d, filled5dBy, filledBy, fillednd, filledndBy, filter, first, flatten, flatten2d, flatten2dBy, flatten3d, flatten3dBy, flatten4d, flatten4dBy, flatten5d, flatten5dBy, flattenBy, fliplr2d, fliplr3d, fliplr4d, fliplr5d, flipud2d, flipud3d, flipud4d, flipud5d, getter, groupEntries, groupEntriesBy, groupIndices, groupIndicesBy, groupValues, groupValuesBy, incrspace, indexOf, join, last, lastIndexOf, linspace, logspace, map2d, map3d, map4d, map5d, minSignedIntegerDataType, minUnsignedIntegerDataType, mskbinary2d, mskfilter, mskput, mskreject, mskunary2d, mskunary3d, nCartesianProduct, none, noneBy, noneByRight, oneTo, ones, ones2d, ones3d, ones4d, ones5d, onesnd, place, put, quaternary2d, quaternary3d, quaternary4d, quaternary5d, quinary2d, quinary3d, quinary4d, quinary5d, reject, resolveGetter, resolveSetter, reverse, setter, slice, strided2array, strided2array2d, strided2array3d, strided2array4d, strided2array5d, take, take2d, take3d, takeIndexed, ternary2d, ternary3d, ternary4d, ternary5d, toAccessorArray, toDeduped, toReversed, unary2d, unary2dBy, unary3d, unary4d, unary5d, unarynd, unitspace, where, zeroTo, zeros, zeros2d, zeros3d, zeros4d, zeros5d, zerosnd } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base@deno/mod.js';
+import { AccessorArray, accessorGetter, accessorSetter, accessors, any, anyBy, anyByRight, arrayWith, arraylike2object, assert, at, at2d, at3d, at4d, at5d, atnd, bbinary2d, bbinary3d, bbinary4d, bbinary5d, bifurcateEntries, bifurcateEntriesBy, bifurcateIndices, bifurcateIndicesBy, bifurcateValues, bifurcateValuesBy, binary2d, binary3d, binary4d, binary5d, binarynd, bquaternary2d, bquinary2d, broadcastArray, bternary2d, bunary2d, bunary3d, bunary4d, bunary5d, cartesianPower, cartesianProduct, cartesianSquare, copy, copyIndexed, countFalsy, countIf, countSameValue, countSameValueZero, countTruthy, cuany, cuevery, dedupe, every, everyBy, everyByRight, fancySlice, fancySliceAssign, filled, filled2d, filled2dBy, filled3d, filled3dBy, filled4d, filled4dBy, filled5d, filled5dBy, filledBy, fillednd, filledndBy, filter, first, flatten, flatten2d, flatten2dBy, flatten3d, flatten3dBy, flatten4d, flatten4dBy, flatten5d, flatten5dBy, flattenBy, fliplr2d, fliplr3d, fliplr4d, fliplr5d, flipud2d, flipud3d, flipud4d, flipud5d, getter, groupEntries, groupEntriesBy, groupIndices, groupIndicesBy, groupValues, groupValuesBy, incrspace, indexOf, join, last, lastIndexOf, linspace, logspace, map2d, map3d, map4d, map5d, minSignedIntegerDataType, minUnsignedIntegerDataType, mskbinary2d, mskfilter, mskput, mskreject, mskunary2d, mskunary3d, nCartesianProduct, none, noneBy, noneByRight, oneTo, ones, ones2d, ones3d, ones4d, ones5d, onesnd, place, put, quaternary2d, quaternary3d, quaternary4d, quaternary5d, quinary2d, quinary3d, quinary4d, quinary5d, reject, resolveGetter, resolveSetter, reverse, setter, slice, strided2array, strided2array2d, strided2array3d, strided2array4d, strided2array5d, take, take2d, take3d, takeIndexed, ternary2d, ternary3d, ternary4d, ternary5d, toAccessorArray, toDeduped, toReversed, unary2d, unary2dBy, unary3d, unary4d, unary5d, unarynd, unitspace, where, zeroTo, zeros, zeros2d, zeros3d, zeros4d, zeros5d, zerosnd } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base@v0.3.0-deno/mod.js';
 ```
 
 #### ns
@@ -258,7 +258,7 @@ The namespace exports the following:
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base@v0.3.0-deno/mod.js';
 
 console.log( objectKeys( ns ) );
 ```
