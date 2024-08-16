@@ -2,6 +2,96 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2024-08-16)
+
+<section class="packages">
+
+### Packages
+
+<section class="package" id="array-base-unreleased">
+
+#### [@stdlib/array/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`29641e1`](https://github.com/stdlib-js/stdlib/commit/29641e155d07e3aa7e71340d47ada3e43d1edaa5) - add `cunone` to namespace
+-   [`a596d0c`](https://github.com/stdlib-js/stdlib/commit/a596d0c68b97049ec249e9c51caf7e2d34190f4a) - add `removeAt` to namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-remove-at-unreleased">
+
+#### [@stdlib/array/base/remove-at](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/remove-at)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3dc813f`](https://github.com/stdlib-js/stdlib/commit/3dc813f651cb17221a93968b772795b7b9a1c5e6) - add `array/base/remove-at`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+</section>
+
+<!-- /.packages -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`29641e1`](https://github.com/stdlib-js/stdlib/commit/29641e155d07e3aa7e71340d47ada3e43d1edaa5) - **feat:** add `cunone` to namespace _(by Athan Reines)_
+-   [`a596d0c`](https://github.com/stdlib-js/stdlib/commit/a596d0c68b97049ec249e9c51caf7e2d34190f4a) - **feat:** add `removeAt` to namespace _(by Athan Reines)_
+-   [`400fcbb`](https://github.com/stdlib-js/stdlib/commit/400fcbb91753cc2a47d428a65a29ee455a208768) - **refactor:** avoid unnecessary copies, update examples, and refactor benchmarks _(by Athan Reines)_
+-   [`3dc813f`](https://github.com/stdlib-js/stdlib/commit/3dc813f651cb17221a93968b772795b7b9a1c5e6) - **feat:** add `array/base/remove-at` _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.0">
 
 ## 0.3.0 (2024-07-29)
@@ -10,7 +100,7 @@
 
 ### Packages
 
-<section class="package" id="array-base-unreleased">
+<section class="package" id="array-base-v0.3.0">
 
 #### [@stdlib/array/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base)
 
@@ -57,43 +147,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="array-base-accessor-getter-unreleased">
-
-#### [@stdlib/array/base/accessor-getter](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/accessor-getter)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-accessor-setter-unreleased">
-
-#### [@stdlib/array/base/accessor-setter](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/accessor-setter)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-accessors-unreleased">
-
-#### [@stdlib/array/base/accessors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/accessors)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-any-unreleased">
+<section class="package" id="array-base-any-v0.3.0">
 
 #### [@stdlib/array/base/any](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/any)
 
@@ -115,19 +169,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-arraylike2object-unreleased">
-
-#### [@stdlib/array/base/arraylike2object](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/arraylike2object)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-assert-unreleased">
+<section class="package" id="array-base-assert-v0.3.0">
 
 #### [@stdlib/array/base/assert](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/assert)
 
@@ -151,7 +193,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-assert-has-same-values-unreleased">
+<section class="package" id="array-base-assert-has-same-values-v0.3.0">
 
 #### [@stdlib/array/base/assert/has-same-values](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/assert/has-same-values)
 
@@ -173,19 +215,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-assert-is-accessor-array-unreleased">
-
-#### [@stdlib/array/base/assert/is-accessor-array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/assert/is-accessor-array)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-assert-is-boolean--unreleased">
+<section class="package" id="array-base-assert-is-boolean--v0.3.0">
 
 #### [@stdlib/array/base/assert/is-boolean-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/assert/is-boolean-)
 
@@ -207,7 +237,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-assert-is-booleanarray-unreleased">
+<section class="package" id="array-base-assert-is-booleanarray-v0.3.0">
 
 #### [@stdlib/array/base/assert/is-booleanarray](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/assert/is-booleanarray)
 
@@ -229,31 +259,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-at-unreleased">
-
-#### [@stdlib/array/base/at](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/at)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-copy-unreleased">
-
-#### [@stdlib/array/base/copy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/copy)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-count-falsy-unreleased">
+<section class="package" id="array-base-count-falsy-v0.3.0">
 
 #### [@stdlib/array/base/count-falsy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/count-falsy)
 
@@ -275,7 +281,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-count-if-unreleased">
+<section class="package" id="array-base-count-if-v0.3.0">
 
 #### [@stdlib/array/base/count-if](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/count-if)
 
@@ -319,7 +325,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="array-base-count-same-value-unreleased">
+<section class="package" id="array-base-count-same-value-v0.3.0">
 
 #### [@stdlib/array/base/count-same-value](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/count-same-value)
 
@@ -341,7 +347,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="array-base-count-same-value-zero-unreleased">
+<section class="package" id="array-base-count-same-value-zero-v0.3.0">
 
 #### [@stdlib/array/base/count-same-value-zero](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/count-same-value-zero)
 
@@ -376,7 +382,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="array-base-count-same-value-zero-example-unreleased">
+<section class="package" id="array-base-count-same-value-zero-example-v0.3.0">
 
 #### [@stdlib/array/base/count-same-value-zero/example](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/count-same-value-zero/example)
 
@@ -410,7 +416,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="array-base-count-truthy-unreleased">
+<section class="package" id="array-base-count-truthy-v0.3.0">
 
 #### [@stdlib/array/base/count-truthy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/count-truthy)
 
@@ -432,7 +438,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="array-base-cuany-unreleased">
+<section class="package" id="array-base-cuany-v0.3.0">
 
 #### [@stdlib/array/base/cuany](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/cuany)
 
@@ -455,7 +461,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="array-base-cuevery-unreleased">
+<section class="package" id="array-base-cuevery-v0.3.0">
 
 #### [@stdlib/array/base/cuevery](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/cuevery)
 
@@ -490,7 +496,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="array-base-cunone-unreleased">
+<section class="package" id="array-base-cunone-v0.3.0">
 
 #### [@stdlib/array/base/cunone](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/cunone)
 
@@ -524,7 +530,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="array-base-every-unreleased">
+<section class="package" id="array-base-every-v0.3.0">
 
 #### [@stdlib/array/base/every](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/every)
 
@@ -546,103 +552,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="array-base-filter-unreleased">
-
-#### [@stdlib/array/base/filter](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/filter)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-first-unreleased">
-
-#### [@stdlib/array/base/first](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/first)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-flatten-unreleased">
-
-#### [@stdlib/array/base/flatten](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/flatten)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-flatten-by-unreleased">
-
-#### [@stdlib/array/base/flatten-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/flatten-by)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-flatten3d-unreleased">
-
-#### [@stdlib/array/base/flatten3d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/flatten3d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-flatten4d-unreleased">
-
-#### [@stdlib/array/base/flatten4d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/flatten4d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-fliplr2d-unreleased">
-
-#### [@stdlib/array/base/fliplr2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/fliplr2d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-flipud2d-unreleased">
-
-#### [@stdlib/array/base/flipud2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/flipud2d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-join-unreleased">
+<section class="package" id="array-base-join-v0.3.0">
 
 #### [@stdlib/array/base/join](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/join)
 
@@ -664,31 +574,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-last-unreleased">
-
-#### [@stdlib/array/base/last](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/last)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-last-index-of-unreleased">
-
-#### [@stdlib/array/base/last-index-of](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/last-index-of)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-mskfilter-unreleased">
+<section class="package" id="array-base-mskfilter-v0.3.0">
 
 #### [@stdlib/array/base/mskfilter](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/mskfilter)
 
@@ -710,7 +596,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-mskfilter-map-unreleased">
+<section class="package" id="array-base-mskfilter-map-v0.3.0">
 
 #### [@stdlib/array/base/mskfilter-map](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/mskfilter-map)
 
@@ -732,7 +618,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-mskput-unreleased">
+<section class="package" id="array-base-mskput-v0.3.0">
 
 #### [@stdlib/array/base/mskput](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/mskput)
 
@@ -764,8 +650,7 @@ No changes reported for this release.</details>
 
 ##### BREAKING CHANGES
 
--   [`7c3729c`](https://github.com/stdlib-js/stdlib/commit/7c3729c19fdda77bfb15009ab4e52a4dfb59f73d): add support for additional modes
--   [`7c3729c`](https://github.com/stdlib-js/stdlib/commit/7c3729c19fdda77bfb15009ab4e52a4dfb59f73d): rename 'throw' mode to 'strict' 
+-   [`7c3729c`](https://github.com/stdlib-js/stdlib/commit/7c3729c19fdda77bfb15009ab4e52a4dfb59f73d): rename 'throw' mode to 'strict'
 
     -   To migrate, users should simply update 'throw' to 'strict'.
 
@@ -779,7 +664,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-mskreject-unreleased">
+<section class="package" id="array-base-mskreject-v0.3.0">
 
 #### [@stdlib/array/base/mskreject](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/mskreject)
 
@@ -801,7 +686,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-mskreject-map-unreleased">
+<section class="package" id="array-base-mskreject-map-v0.3.0">
 
 #### [@stdlib/array/base/mskreject-map](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/mskreject-map)
 
@@ -823,7 +708,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-none-unreleased">
+<section class="package" id="array-base-none-v0.3.0">
 
 #### [@stdlib/array/base/none](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/none)
 
@@ -845,43 +730,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-one-to-unreleased">
-
-#### [@stdlib/array/base/one-to](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/one-to)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-ones5d-unreleased">
-
-#### [@stdlib/array/base/ones5d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/ones5d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-onesnd-unreleased">
-
-#### [@stdlib/array/base/onesnd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/onesnd)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-place-unreleased">
+<section class="package" id="array-base-place-v0.3.0">
 
 #### [@stdlib/array/base/place](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/place)
 
@@ -912,8 +761,7 @@ No changes reported for this release.</details>
 
 ##### BREAKING CHANGES
 
--   [`fdb5d94`](https://github.com/stdlib-js/stdlib/commit/fdb5d94eee5fc019bc358d799025cb2b5966d820): add support for additional modes
--   [`fdb5d94`](https://github.com/stdlib-js/stdlib/commit/fdb5d94eee5fc019bc358d799025cb2b5966d820): rename 'throw' mode to 'strict' 
+-   [`fdb5d94`](https://github.com/stdlib-js/stdlib/commit/fdb5d94eee5fc019bc358d799025cb2b5966d820): rename 'throw' mode to 'strict'
 
     -   To migrate, users should simply replace 'throw' with 'strict'.
 
@@ -927,7 +775,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-put-unreleased">
+<section class="package" id="array-base-put-v0.3.0">
 
 #### [@stdlib/array/base/put](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/put)
 
@@ -949,43 +797,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-reject-unreleased">
-
-#### [@stdlib/array/base/reject](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/reject)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-resolve-getter-unreleased">
-
-#### [@stdlib/array/base/resolve-getter](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/resolve-getter)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-resolve-setter-unreleased">
-
-#### [@stdlib/array/base/resolve-setter](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/resolve-setter)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-take-unreleased">
+<section class="package" id="array-base-take-v0.3.0">
 
 #### [@stdlib/array/base/take](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/take)
 
@@ -1017,7 +829,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-take-map-unreleased">
+<section class="package" id="array-base-take-map-v0.3.0">
 
 #### [@stdlib/array/base/take-map](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/take-map)
 
@@ -1039,7 +851,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-where-unreleased">
+<section class="package" id="array-base-where-v0.3.0">
 
 #### [@stdlib/array/base/where](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/where)
 
@@ -1071,7 +883,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-with-unreleased">
+<section class="package" id="array-base-with-v0.3.0">
 
 #### [@stdlib/array/base/with](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/with)
 
@@ -1087,43 +899,7 @@ No changes reported for this release.</details>
 
 <!-- /.features -->
 
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#1328 ](https://github.com/stdlib-js/stdlib/issues/1328 )
-
-</section>
-
-<!-- /.issues -->
-
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-zero-to-unreleased">
-
-#### [@stdlib/array/base/zero-to](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/zero-to)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-zerosnd-unreleased">
-
-#### [@stdlib/array/base/zerosnd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/zerosnd)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -1137,13 +913,11 @@ No changes reported for this release.</details>
 
 ### BREAKING CHANGES
 
--   [`fdb5d94`](https://github.com/stdlib-js/stdlib/commit/fdb5d94eee5fc019bc358d799025cb2b5966d820): add support for additional modes
--   [`fdb5d94`](https://github.com/stdlib-js/stdlib/commit/fdb5d94eee5fc019bc358d799025cb2b5966d820): rename 'throw' mode to 'strict' 
+-   [`fdb5d94`](https://github.com/stdlib-js/stdlib/commit/fdb5d94eee5fc019bc358d799025cb2b5966d820): rename 'throw' mode to 'strict'
 
     -   To migrate, users should simply replace 'throw' with 'strict'.
 
--   [`7c3729c`](https://github.com/stdlib-js/stdlib/commit/7c3729c19fdda77bfb15009ab4e52a4dfb59f73d): add support for additional modes
--   [`7c3729c`](https://github.com/stdlib-js/stdlib/commit/7c3729c19fdda77bfb15009ab4e52a4dfb59f73d): rename 'throw' mode to 'strict' 
+-   [`7c3729c`](https://github.com/stdlib-js/stdlib/commit/7c3729c19fdda77bfb15009ab4e52a4dfb59f73d): rename 'throw' mode to 'strict'
 
     -   To migrate, users should simply update 'throw' to 'strict'.
 
@@ -1155,9 +929,9 @@ No changes reported for this release.</details>
 
 ### Closed Issues
 
-A total of 5 issues were closed in this release:
+A total of 4 issues were closed in this release:
 
-[#1324](https://github.com/stdlib-js/stdlib/issues/1324), [#1326](https://github.com/stdlib-js/stdlib/issues/1326), [#1328 ](https://github.com/stdlib-js/stdlib/issues/1328 ), [#2320](https://github.com/stdlib-js/stdlib/issues/2320), [#2321](https://github.com/stdlib-js/stdlib/issues/2321)
+[#1324](https://github.com/stdlib-js/stdlib/issues/1324), [#1326](https://github.com/stdlib-js/stdlib/issues/1326), [#2320](https://github.com/stdlib-js/stdlib/issues/2320), [#2321](https://github.com/stdlib-js/stdlib/issues/2321)
 
 </section>
 
@@ -1167,15 +941,13 @@ A total of 5 issues were closed in this release:
 
 ### Contributors
 
-A total of 11 people contributed to this release. Thank you to the following contributors:
+A total of 9 people contributed to this release. Thank you to the following contributors:
 
 -   Aditya Sapra
 -   AgPriyanshu18
 -   Athan Reines
 -   Golden Kumar
 -   Jaysukh Makvana
--   Jaysukh Makvana
--   Philipp Burckhardt
 -   Philipp Burckhardt
 -   Pratik
 -   Utkarsh
@@ -1307,6 +1079,8 @@ A total of 11 people contributed to this release. Thank you to the following con
 
 <!-- /.release -->
 
+<section class="release" id="v0.2.1">
+
 ## 0.2.1 (2024-02-25)
 
 <section class="packages">
@@ -1335,8 +1109,7 @@ A total of 11 people contributed to this release. Thank you to the following con
 
 ##### BREAKING CHANGES
 
--   [`0adcae5`](https://github.com/stdlib-js/stdlib/commit/0adcae51386086e2ef5fb5d78402389cff776deb): update namespace TypeScript declarations
--   [`0adcae5`](https://github.com/stdlib-js/stdlib/commit/0adcae51386086e2ef5fb5d78402389cff776deb): rename exported aliases 
+-   [`0adcae5`](https://github.com/stdlib-js/stdlib/commit/0adcae51386086e2ef5fb5d78402389cff776deb): rename exported aliases
 
     -   To migrate, users should consult the relevant namespace documentation and associated commits in order to determine which aliases have been renamed.
 
@@ -1371,8 +1144,7 @@ A total of 11 people contributed to this release. Thank you to the following con
 
 ##### BREAKING CHANGES
 
--   [`0adcae5`](https://github.com/stdlib-js/stdlib/commit/0adcae51386086e2ef5fb5d78402389cff776deb): update namespace TypeScript declarations
--   [`0adcae5`](https://github.com/stdlib-js/stdlib/commit/0adcae51386086e2ef5fb5d78402389cff776deb): rename exported aliases 
+-   [`0adcae5`](https://github.com/stdlib-js/stdlib/commit/0adcae51386086e2ef5fb5d78402389cff776deb): rename exported aliases
 
     -   To migrate, users should consult the relevant namespace documentation and associated commits in order to determine which aliases have been renamed.
 
@@ -1403,18 +1175,6 @@ A total of 11 people contributed to this release. Thank you to the following con
 <!-- /.features -->
 
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-copy-indexed-v0.2.1">
-
-#### [@stdlib/array/base/copy-indexed](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/copy-indexed)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -1542,30 +1302,6 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="array-base-slice-v0.2.1">
-
-#### [@stdlib/array/base/slice](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/slice)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-take-v0.2.1">
-
-#### [@stdlib/array/base/take](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/take)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 </section>
 
 <!-- /.packages -->
@@ -1574,8 +1310,7 @@ No changes reported for this release.</details>
 
 ### BREAKING CHANGES
 
--   [`0adcae5`](https://github.com/stdlib-js/stdlib/commit/0adcae51386086e2ef5fb5d78402389cff776deb): update namespace TypeScript declarations
--   [`0adcae5`](https://github.com/stdlib-js/stdlib/commit/0adcae51386086e2ef5fb5d78402389cff776deb): rename exported aliases 
+-   [`0adcae5`](https://github.com/stdlib-js/stdlib/commit/0adcae51386086e2ef5fb5d78402389cff776deb): rename exported aliases
 
     -   To migrate, users should consult the relevant namespace documentation and associated commits in order to determine which aliases have been renamed.
 
@@ -1638,6 +1373,12 @@ A total of 3 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.2.0">
 
 ## 0.2.0 (2024-02-15)
 
@@ -1748,54 +1489,6 @@ A total of 3 people contributed to this release. Thank you to the following cont
 <!-- /.features -->
 
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-accessor-v0.2.0">
-
-#### [@stdlib/array/base/accessor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/accessor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-accessor-getter-v0.2.0">
-
-#### [@stdlib/array/base/accessor-getter](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/accessor-getter)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-accessor-setter-v0.2.0">
-
-#### [@stdlib/array/base/accessor-setter](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/accessor-setter)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-accessors-v0.2.0">
-
-#### [@stdlib/array/base/accessors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/accessors)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -1965,18 +1658,6 @@ No changes reported for this release.</details>
 <!-- /.features -->
 
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-assert-is-accessor-array-v0.2.0">
-
-#### [@stdlib/array/base/assert/is-accessor-array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/assert/is-accessor-array)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -2542,18 +2223,6 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-broadcasted--v0.2.0">
-
-#### [@stdlib/array/base/broadcasted-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/broadcasted-)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 <section class="package" id="array-base-broadcasted-quaternary2d-v0.2.0">
 
 #### [@stdlib/array/base/broadcasted-quaternary2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/broadcasted-quaternary2d)
@@ -2615,54 +2284,6 @@ No changes reported for this release.</details>
 <!-- /.features -->
 
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-broadcasted-unary2d-v0.2.0">
-
-#### [@stdlib/array/base/broadcasted-unary2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/broadcasted-unary2d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-broadcasted-unary3d-v0.2.0">
-
-#### [@stdlib/array/base/broadcasted-unary3d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/broadcasted-unary3d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-broadcasted-unary4d-v0.2.0">
-
-#### [@stdlib/array/base/broadcasted-unary4d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/broadcasted-unary4d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-broadcasted-unary5d-v0.2.0">
-
-#### [@stdlib/array/base/broadcasted-unary5d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/broadcasted-unary5d)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -2751,18 +2372,6 @@ No changes reported for this release.</details>
 <!-- /.features -->
 
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-copy-indexed-v0.2.0">
-
-#### [@stdlib/array/base/copy-indexed](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/copy-indexed)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -2910,90 +2519,6 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-filled-by-v0.2.0">
-
-#### [@stdlib/array/base/filled-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/filled-by)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-filled2d-by-v0.2.0">
-
-#### [@stdlib/array/base/filled2d-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/filled2d-by)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-filled3d-by-v0.2.0">
-
-#### [@stdlib/array/base/filled3d-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/filled3d-by)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-filled4d-by-v0.2.0">
-
-#### [@stdlib/array/base/filled4d-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/filled4d-by)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-filled5d-by-v0.2.0">
-
-#### [@stdlib/array/base/filled5d-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/filled5d-by)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-fillednd-v0.2.0">
-
-#### [@stdlib/array/base/fillednd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/fillednd)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-fillednd-by-v0.2.0">
-
-#### [@stdlib/array/base/fillednd-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/fillednd-by)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 <section class="package" id="array-base-filter-v0.2.0">
 
 #### [@stdlib/array/base/filter](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/filter)
@@ -3045,126 +2570,6 @@ This release closes the following issue:
 <!-- /.issues -->
 
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-flatten-v0.2.0">
-
-#### [@stdlib/array/base/flatten](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/flatten)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-flatten-by-v0.2.0">
-
-#### [@stdlib/array/base/flatten-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/flatten-by)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-flatten2d-v0.2.0">
-
-#### [@stdlib/array/base/flatten2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/flatten2d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-flatten2d-by-v0.2.0">
-
-#### [@stdlib/array/base/flatten2d-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/flatten2d-by)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-flatten3d-v0.2.0">
-
-#### [@stdlib/array/base/flatten3d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/flatten3d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-flatten3d-by-v0.2.0">
-
-#### [@stdlib/array/base/flatten3d-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/flatten3d-by)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-flatten4d-v0.2.0">
-
-#### [@stdlib/array/base/flatten4d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/flatten4d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-flatten4d-by-v0.2.0">
-
-#### [@stdlib/array/base/flatten4d-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/flatten4d-by)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-flatten5d-v0.2.0">
-
-#### [@stdlib/array/base/flatten5d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/flatten5d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-flatten5d-by-v0.2.0">
-
-#### [@stdlib/array/base/flatten5d-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/flatten5d-by)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -3369,18 +2774,6 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-getter-v0.2.0">
-
-#### [@stdlib/array/base/getter](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/getter)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 <section class="package" id="array-base-group-entries-v0.2.0">
 
 #### [@stdlib/array/base/group-entries](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/group-entries)
@@ -3513,18 +2906,6 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-incrspace-v0.2.0">
-
-#### [@stdlib/array/base/incrspace](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/incrspace)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 <section class="package" id="array-base-index-of-v0.2.0">
 
 #### [@stdlib/array/base/index-of](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/index-of)
@@ -3542,18 +2923,6 @@ No changes reported for this release.</details>
 <!-- /.features -->
 
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-last-v0.2.0">
-
-#### [@stdlib/array/base/last](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/last)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -3713,18 +3082,6 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-msk-v0.2.0">
-
-#### [@stdlib/array/base/msk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/msk)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 <section class="package" id="array-base-mskfilter-v0.2.0">
 
 #### [@stdlib/array/base/mskfilter](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/mskfilter)
@@ -3764,30 +3121,6 @@ No changes reported for this release.</details>
 <!-- /.features -->
 
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-mskunary2d-v0.2.0">
-
-#### [@stdlib/array/base/mskunary2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/mskunary2d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-mskunary3d-v0.2.0">
-
-#### [@stdlib/array/base/mskunary3d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/mskunary3d)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -3876,66 +3209,6 @@ No changes reported for this release.</details>
 <!-- /.features -->
 
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-ones2d-v0.2.0">
-
-#### [@stdlib/array/base/ones2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/ones2d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-ones3d-v0.2.0">
-
-#### [@stdlib/array/base/ones3d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/ones3d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-ones4d-v0.2.0">
-
-#### [@stdlib/array/base/ones4d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/ones4d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-ones5d-v0.2.0">
-
-#### [@stdlib/array/base/ones5d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/ones5d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-onesnd-v0.2.0">
-
-#### [@stdlib/array/base/onesnd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/onesnd)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -4200,18 +3473,6 @@ No changes reported for this release.</details>
 <!-- /.features -->
 
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-setter-v0.2.0">
-
-#### [@stdlib/array/base/setter](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/setter)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -4528,18 +3789,6 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-to-accessor-array-v0.2.0">
-
-#### [@stdlib/array/base/to-accessor-array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/to-accessor-array)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 <section class="package" id="array-base-to-deduped-v0.2.0">
 
 #### [@stdlib/array/base/to-deduped](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/to-deduped)
@@ -4584,90 +3833,6 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="array-base-unary2d-v0.2.0">
-
-#### [@stdlib/array/base/unary2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/unary2d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-unary2d-by-v0.2.0">
-
-#### [@stdlib/array/base/unary2d-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/unary2d-by)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-unary3d-v0.2.0">
-
-#### [@stdlib/array/base/unary3d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/unary3d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-unary4d-v0.2.0">
-
-#### [@stdlib/array/base/unary4d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/unary4d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-unary5d-v0.2.0">
-
-#### [@stdlib/array/base/unary5d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/unary5d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-unarynd-v0.2.0">
-
-#### [@stdlib/array/base/unarynd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/unarynd)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-unitspace-v0.2.0">
-
-#### [@stdlib/array/base/unitspace](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/unitspace)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 <section class="package" id="array-base-zero-to-v0.2.0">
 
 #### [@stdlib/array/base/zero-to](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/zero-to)
@@ -4685,66 +3850,6 @@ No changes reported for this release.</details>
 <!-- /.features -->
 
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-zeros2d-v0.2.0">
-
-#### [@stdlib/array/base/zeros2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/zeros2d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-zeros3d-v0.2.0">
-
-#### [@stdlib/array/base/zeros3d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/zeros3d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-zeros4d-v0.2.0">
-
-#### [@stdlib/array/base/zeros4d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/zeros4d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-zeros5d-v0.2.0">
-
-#### [@stdlib/array/base/zeros5d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/zeros5d)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="array-base-zerosnd-v0.2.0">
-
-#### [@stdlib/array/base/zerosnd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/zerosnd)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -4770,12 +3875,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
--   Athan Reines
 -   Jaysukh Makvana
--   Philipp Burckhardt
 -   Philipp Burckhardt
 -   Planeshifter
 
@@ -5131,6 +4234,12 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.0">
+
 ## 0.1.0 (2023-09-24)
 
 <section class="packages">
@@ -5220,8 +4329,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1 
+-   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5255,8 +4363,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1 
+-   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5301,8 +4408,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1 
+-   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5347,8 +4453,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1 
+-   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5440,8 +4545,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1 
+-   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5478,8 +4582,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1 
+-   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5809,8 +4912,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1 
+-   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5976,8 +5078,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1 
+-   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6012,8 +5113,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1 
+-   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6734,8 +5834,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1 
+-   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6828,8 +5927,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1 
+-   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6863,8 +5961,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1 
+-   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7029,8 +6126,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1 
+-   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7075,8 +6171,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1 
+-   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7280,8 +6375,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1 
+-   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7315,8 +6409,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1 
+-   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7492,8 +6585,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1 
+-   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7527,8 +6619,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1 
+-   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7562,8 +6653,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1 
+-   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7608,8 +6698,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1 
+-   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7759,8 +6848,7 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version
--   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1 
+-   [`e29732d`](https://github.com/stdlib-js/stdlib/commit/e29732dee616e2d94e91f87f78afd8aceb806017): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7801,9 +6889,8 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
--   Athan Reines
 -   Athan Reines
 -   Naresh Jagadeesan
 -   Philipp Burckhardt
@@ -8076,25 +7163,17 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.1">
+
 ## 0.0.1 (2022-02-16)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<!-- /.release -->
 
