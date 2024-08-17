@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-16)
+## Unreleased (2024-08-17)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`297e4d5`](https://github.com/stdlib-js/stdlib/commit/297e4d5c9c1b015ccf8c7bb77c672e9ac1328898) - add `without` to namespace
 -   [`29641e1`](https://github.com/stdlib-js/stdlib/commit/29641e155d07e3aa7e71340d47ada3e43d1edaa5) - add `cunone` to namespace
 -   [`a596d0c`](https://github.com/stdlib-js/stdlib/commit/a596d0c68b97049ec249e9c51caf7e2d34190f4a) - add `removeAt` to namespace
 
@@ -55,6 +56,60 @@
 
 <!-- /.package -->
 
+<section class="package" id="array-base-with-unreleased">
+
+#### [@stdlib/array/base/with](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/with)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`15c9b0e`](https://github.com/stdlib-js/stdlib/commit/15c9b0e711e44c7e06ba768ab577d8cffdc5647d) - add support for assigning to an output array
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`45bfdb6`](https://github.com/stdlib-js/stdlib/commit/45bfdb698f5b5b31e1782efe846b76ee64ab032a) - update error messages to accommodate signed integers
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-without-unreleased">
+
+#### [@stdlib/array/base/without](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/without)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f6df528`](https://github.com/stdlib-js/stdlib/commit/f6df52818f504fd55987a80f586ad55b40405d58) - add `array/base/without`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -77,6 +132,12 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`297e4d5`](https://github.com/stdlib-js/stdlib/commit/297e4d5c9c1b015ccf8c7bb77c672e9ac1328898) - **feat:** add `without` to namespace _(by Athan Reines)_
+-   [`f6df528`](https://github.com/stdlib-js/stdlib/commit/f6df52818f504fd55987a80f586ad55b40405d58) - **feat:** add `array/base/without` _(by Athan Reines)_
+-   [`e22b37a`](https://github.com/stdlib-js/stdlib/commit/e22b37aaf13a81aa9c8536d54b8a43871e4bdd16) - **docs:** add example _(by Athan Reines)_
+-   [`1f1c2df`](https://github.com/stdlib-js/stdlib/commit/1f1c2dfc7314a343282c8d4904a8ad05c500f80d) - **docs:** fix example _(by Athan Reines)_
+-   [`15c9b0e`](https://github.com/stdlib-js/stdlib/commit/15c9b0e711e44c7e06ba768ab577d8cffdc5647d) - **feat:** add support for assigning to an output array _(by Athan Reines)_
+-   [`45bfdb6`](https://github.com/stdlib-js/stdlib/commit/45bfdb698f5b5b31e1782efe846b76ee64ab032a) - **fix:** update error messages to accommodate signed integers _(by Athan Reines)_
 -   [`29641e1`](https://github.com/stdlib-js/stdlib/commit/29641e155d07e3aa7e71340d47ada3e43d1edaa5) - **feat:** add `cunone` to namespace _(by Athan Reines)_
 -   [`a596d0c`](https://github.com/stdlib-js/stdlib/commit/a596d0c68b97049ec249e9c51caf7e2d34190f4a) - **feat:** add `removeAt` to namespace _(by Athan Reines)_
 -   [`400fcbb`](https://github.com/stdlib-js/stdlib/commit/400fcbb91753cc2a47d428a65a29ee455a208768) - **refactor:** avoid unnecessary copies, update examples, and refactor benchmarks _(by Athan Reines)_
