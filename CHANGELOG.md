@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-17)
+## Unreleased (2024-09-07)
 
 <section class="packages">
 
@@ -118,9 +118,11 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Philipp Burckhardt
+-   ProCoderVP
 
 </section>
 
@@ -132,6 +134,10 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`bff7edc`](https://github.com/stdlib-js/stdlib/commit/bff7edc7371b591931b00bbfa3c80233ad839c6f) - **docs:** update examples of `array/base` _(by ProCoderVP, Philipp Burckhardt)_
+-   [`6c76e49`](https://github.com/stdlib-js/stdlib/commit/6c76e49ef8864be363b016070187459ce8f3ef12) - **test:** refactor sample values _(by Athan Reines)_
+-   [`921a9fe`](https://github.com/stdlib-js/stdlib/commit/921a9fe9a5bd423dc5153e7aabf645fd05a175d8) - **test:** add boolean array tests _(by Athan Reines)_
+-   [`756afa3`](https://github.com/stdlib-js/stdlib/commit/756afa3daa3d10466283aacaf50d0adb1ba186fe) - **test:** add boolean array tests _(by Athan Reines)_
 -   [`df3ed1e`](https://github.com/stdlib-js/stdlib/commit/df3ed1ee7fdc62c9f49bfa38eb1df240fb752a6e) - **docs:** update namespace ToCs _(by Athan Reines)_
 -   [`297e4d5`](https://github.com/stdlib-js/stdlib/commit/297e4d5c9c1b015ccf8c7bb77c672e9ac1328898) - **feat:** add `without` to namespace _(by Athan Reines)_
 -   [`f6df528`](https://github.com/stdlib-js/stdlib/commit/f6df52818f504fd55987a80f586ad55b40405d58) - **feat:** add `array/base/without` _(by Athan Reines)_
