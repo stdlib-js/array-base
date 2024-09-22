@@ -156,6 +156,7 @@
     "@stdlib/array-base-none": "^0.3.0",
     "@stdlib/array-base-none-by": "^0.2.2",
     "@stdlib/array-base-none-by-right": "^0.2.2",
+    "@stdlib/array-base-nulls": "github:stdlib-js/array-base-nulls#main",
     "@stdlib/array-base-one-to": "^0.2.2",
     "@stdlib/array-base-ones": "^0.2.2",
     "@stdlib/array-base-ones2d": "^0.2.2",
@@ -216,6 +217,8 @@
   },
   "devDependencies": {
     "@stdlib/array-base-assert-contains": "^0.2.2",
+    "@stdlib/array-base-assert-has-equal-values": "github:stdlib-js/array-base-assert-has-equal-values#main",
+    "@stdlib/array-base-assert-has-equal-values-indexed": "github:stdlib-js/array-base-assert-has-equal-values-indexed#main",
     "@stdlib/array-base-assert-has-same-values": "^0.3.0",
     "@stdlib/array-base-assert-is-accessor-array": "^0.2.2",
     "@stdlib/array-base-assert-is-boolean-data-type": "^0.0.1",

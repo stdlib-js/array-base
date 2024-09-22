@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-07)
+## Unreleased (2024-09-22)
 
 <section class="packages">
 
@@ -20,9 +20,175 @@
 
 ##### Features
 
+-   [`42664da`](https://github.com/stdlib-js/stdlib/commit/42664dafb94e72a8b8eca80ede6669caaaf57e68) - add `nulls` to namespace
 -   [`297e4d5`](https://github.com/stdlib-js/stdlib/commit/297e4d5c9c1b015ccf8c7bb77c672e9ac1328898) - add `without` to namespace
 -   [`29641e1`](https://github.com/stdlib-js/stdlib/commit/29641e155d07e3aa7e71340d47ada3e43d1edaa5) - add `cunone` to namespace
 -   [`a596d0c`](https://github.com/stdlib-js/stdlib/commit/a596d0c68b97049ec249e9c51caf7e2d34190f4a) - add `removeAt` to namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-assert-unreleased">
+
+#### [@stdlib/array/base/assert](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/assert)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`81b39fe`](https://github.com/stdlib-js/stdlib/commit/81b39fec06b8575149b2ab1b834a7577e6ac5e5d) - add `hasEqualValuesIndexed` to namespace
+-   [`cc56538`](https://github.com/stdlib-js/stdlib/commit/cc5653806325fe7b63037dfa49108be8016de3fc) - add `hasEqualValues` to namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-assert-has-equal-values-unreleased">
+
+#### [@stdlib/array/base/assert/has-equal-values](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/assert/has-equal-values)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4cdf27e`](https://github.com/stdlib-js/stdlib/commit/4cdf27e87b904ab762b3e7c1034dd27f7466383c) - add `array/base/assert/has-equal-values`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-assert-has-equal-values-indexed-unreleased">
+
+#### [@stdlib/array/base/assert/has-equal-values-indexed](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/assert/has-equal-values-indexed)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`036794c`](https://github.com/stdlib-js/stdlib/commit/036794c19bd65d13a60c098a5423cf12e1be5d12) - add `array/base/assert/has-equal-values-indexed`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-cunone-by-unreleased">
+
+#### [@stdlib/array/base/cunone-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/cunone-by)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`24e9908`](https://github.com/stdlib-js/stdlib/commit/24e9908afc085d5d2aece1844a6e25b36332f246) - add `array/base/cunone-by` package
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-cunone-by-right-unreleased">
+
+#### [@stdlib/array/base/cunone-by-right](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/cunone-by-right)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e722c97`](https://github.com/stdlib-js/stdlib/commit/e722c9742d30f0e3c0ec6ebb349b30338facbdf0) - add `array/base/cunone-by-right`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-cusome-by-right-unreleased">
+
+#### [@stdlib/array/base/cusome-by-right](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/cusome-by-right)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`0bb460f`](https://github.com/stdlib-js/stdlib/commit/0bb460f9675f693bd4eb5826888e493cae8757fc) - add `array/base/cusome-by-right`
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`16bb447`](https://github.com/stdlib-js/stdlib/commit/16bb44733defec3009d7c49cbd8cb6eaaaa60ad2) - update TypeScript function signature and documentation
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-nulls-unreleased">
+
+#### [@stdlib/array/base/nulls](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/nulls)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6d91993`](https://github.com/stdlib-js/stdlib/commit/6d9199381c3e949420349ba3506ecd59c692be44) - add `array/base/nulls`
 
 </section>
 
@@ -118,11 +284,13 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   HarshaNP
+-   Kaif Mohd
 -   Philipp Burckhardt
--   ProCoderVP
+-   Vaibhav Patel
 
 </section>
 
@@ -134,7 +302,29 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
--   [`bff7edc`](https://github.com/stdlib-js/stdlib/commit/bff7edc7371b591931b00bbfa3c80233ad839c6f) - **docs:** update examples of `array/base` _(by ProCoderVP, Philipp Burckhardt)_
+-   [`42664da`](https://github.com/stdlib-js/stdlib/commit/42664dafb94e72a8b8eca80ede6669caaaf57e68) - **feat:** add `nulls` to namespace _(by Athan Reines)_
+-   [`6d91993`](https://github.com/stdlib-js/stdlib/commit/6d9199381c3e949420349ba3506ecd59c692be44) - **feat:** add `array/base/nulls` _(by Athan Reines)_
+-   [`b723a6e`](https://github.com/stdlib-js/stdlib/commit/b723a6eaec97adad2da4ffbecb532a3d1ae1e0ba) - **docs:** fix errors in comments and clean-up _(by Philipp Burckhardt)_
+-   [`eb82943`](https://github.com/stdlib-js/stdlib/commit/eb82943ec2ac2b3023377cbc320486d333f47e48) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`3c8bcb9`](https://github.com/stdlib-js/stdlib/commit/3c8bcb938befe35d784ba3fe0dea124dd4b20b36) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
+-   [`20dea8a`](https://github.com/stdlib-js/stdlib/commit/20dea8af2b14181aa75354f7e3aeb65b955904b9) - **docs:** remove extraneous newline _(by Athan Reines)_
+-   [`f387603`](https://github.com/stdlib-js/stdlib/commit/f387603e739f88a38af3263ce6ff675ad903ee8c) - **docs:** consistently use declarative instead of imperative sentences outside of intros _(by Philipp Burckhardt)_
+-   [`31fd427`](https://github.com/stdlib-js/stdlib/commit/31fd42744ec5d7073041f97c6f72350b8005c0fc) - **style:** remove unwanted empty lines _(by Philipp Burckhardt)_
+-   [`16bb447`](https://github.com/stdlib-js/stdlib/commit/16bb44733defec3009d7c49cbd8cb6eaaaa60ad2) - **fix:** update TypeScript function signature and documentation _(by Philipp Burckhardt)_
+-   [`0bb460f`](https://github.com/stdlib-js/stdlib/commit/0bb460f9675f693bd4eb5826888e493cae8757fc) - **feat:** add `array/base/cusome-by-right` _(by HarshaNP, Philipp Burckhardt)_
+-   [`e722c97`](https://github.com/stdlib-js/stdlib/commit/e722c9742d30f0e3c0ec6ebb349b30338facbdf0) - **feat:** add `array/base/cunone-by-right` _(by HarshaNP, Philipp Burckhardt)_
+-   [`24e9908`](https://github.com/stdlib-js/stdlib/commit/24e9908afc085d5d2aece1844a6e25b36332f246) - **feat:** add `array/base/cunone-by` package _(by Kaif Mohd, Philipp Burckhardt, Athan Reines)_
+-   [`a541897`](https://github.com/stdlib-js/stdlib/commit/a541897dec2cd902c186d9ad128b6efd8a3ca528) - **docs:** fix grammar _(by Athan Reines)_
+-   [`73a198b`](https://github.com/stdlib-js/stdlib/commit/73a198b42551ce9aaa142a17e9c77578205628d5) - **test:** add tests _(by Athan Reines)_
+-   [`4a14f03`](https://github.com/stdlib-js/stdlib/commit/4a14f034cc432c477ce41d452ea220803b45525c) - **test:** add tests _(by Athan Reines)_
+-   [`6bbe26f`](https://github.com/stdlib-js/stdlib/commit/6bbe26f751894cadb15279ceb6cf739475bb0612) - **test:** fix descriptions _(by Athan Reines)_
+-   [`81b39fe`](https://github.com/stdlib-js/stdlib/commit/81b39fec06b8575149b2ab1b834a7577e6ac5e5d) - **feat:** add `hasEqualValuesIndexed` to namespace _(by Athan Reines)_
+-   [`036794c`](https://github.com/stdlib-js/stdlib/commit/036794c19bd65d13a60c098a5423cf12e1be5d12) - **feat:** add `array/base/assert/has-equal-values-indexed` _(by Athan Reines)_
+-   [`cc56538`](https://github.com/stdlib-js/stdlib/commit/cc5653806325fe7b63037dfa49108be8016de3fc) - **feat:** add `hasEqualValues` to namespace _(by Athan Reines)_
+-   [`58d6b23`](https://github.com/stdlib-js/stdlib/commit/58d6b233f341a5cee452bd74953d260482242931) - **style:** disable lint rule _(by Athan Reines)_
+-   [`4cdf27e`](https://github.com/stdlib-js/stdlib/commit/4cdf27e87b904ab762b3e7c1034dd27f7466383c) - **feat:** add `array/base/assert/has-equal-values` _(by Athan Reines)_
+-   [`bff7edc`](https://github.com/stdlib-js/stdlib/commit/bff7edc7371b591931b00bbfa3c80233ad839c6f) - **docs:** update examples of `array/base` _(by Vaibhav Patel, Philipp Burckhardt)_
 -   [`6c76e49`](https://github.com/stdlib-js/stdlib/commit/6c76e49ef8864be363b016070187459ce8f3ef12) - **test:** refactor sample values _(by Athan Reines)_
 -   [`921a9fe`](https://github.com/stdlib-js/stdlib/commit/921a9fe9a5bd423dc5153e7aabf645fd05a175d8) - **test:** add boolean array tests _(by Athan Reines)_
 -   [`756afa3`](https://github.com/stdlib-js/stdlib/commit/756afa3daa3d10466283aacaf50d0adb1ba186fe) - **test:** add boolean array tests _(by Athan Reines)_
