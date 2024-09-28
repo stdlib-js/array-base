@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-22)
+## Unreleased (2024-09-28)
 
 <section class="packages">
 
@@ -45,6 +45,7 @@
 
 ##### Features
 
+-   [`43aa58f`](https://github.com/stdlib-js/stdlib/commit/43aa58f81dcad604f11a5715a1546c015b0a9623) - add `isByteOrder` to namespace
 -   [`81b39fe`](https://github.com/stdlib-js/stdlib/commit/81b39fec06b8575149b2ab1b834a7577e6ac5e5d) - add `hasEqualValuesIndexed` to namespace
 -   [`cc56538`](https://github.com/stdlib-js/stdlib/commit/cc5653806325fe7b63037dfa49108be8016de3fc) - add `hasEqualValues` to namespace
 
@@ -102,6 +103,106 @@
 
 <!-- /.package -->
 
+<section class="package" id="array-base-assert-is-byte-order-unreleased">
+
+#### [@stdlib/array/base/assert/is-byte-order](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/assert/is-byte-order)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b18478e`](https://github.com/stdlib-js/stdlib/commit/b18478e236e9cb6991d5a0f952d217e043e46587) - add `array/base/assert/is-byte-order`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-cuany-by-unreleased">
+
+#### [@stdlib/array/base/cuany-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/cuany-by)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`73266bf`](https://github.com/stdlib-js/stdlib/commit/73266bf9d7f82198bd752dafccedbc017d8c8bb1) - add `array/base/cuany-by` [(#2818)](https://github.com/stdlib-js/stdlib/pull/2818)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-cuany-by-right-unreleased">
+
+#### [@stdlib/array/base/cuany-by-right](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/cuany-by-right)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5742947`](https://github.com/stdlib-js/stdlib/commit/5742947f31198648b2f753e1f9322367c9e3ae06) - add `array/base/cuany-by-right` [(#2667)](https://github.com/stdlib-js/stdlib/pull/2667)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#2327](https://github.com/stdlib-js/stdlib/issues/2327)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-cuevery-by-unreleased">
+
+#### [@stdlib/array/base/cuevery-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/cuevery-by)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e3078e5`](https://github.com/stdlib-js/stdlib/commit/e3078e56df8858a8f79fb3f3ded3fc76da955db5) - add `array/base/cuevery-by` package
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="array-base-cunone-by-unreleased">
 
 #### [@stdlib/array/base/cunone-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/cunone-by)
@@ -146,6 +247,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="array-base-cusome-unreleased">
+
+#### [@stdlib/array/base/cusome](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/cusome)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`2091d38`](https://github.com/stdlib-js/stdlib/commit/2091d38aec245202fe1bbff462b12d0f5ed54ee1) - add `array/base/cusome`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="array-base-cusome-by-right-unreleased">
 
 #### [@stdlib/array/base/cusome-by-right](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/cusome-by-right)
@@ -167,6 +290,50 @@
 ##### Bug Fixes
 
 -   [`16bb447`](https://github.com/stdlib-js/stdlib/commit/16bb44733defec3009d7c49cbd8cb6eaaaa60ad2) - update TypeScript function signature and documentation
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-filled2d-unreleased">
+
+#### [@stdlib/array/base/filled2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/filled2d)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7f368f6`](https://github.com/stdlib-js/stdlib/commit/7f368f6c3f4cea444a304a62616cea36a5f143eb) - remove unused imports from TS declaration file
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-filled3d-unreleased">
+
+#### [@stdlib/array/base/filled3d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/filled3d)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7f368f6`](https://github.com/stdlib-js/stdlib/commit/7f368f6c3f4cea444a304a62616cea36a5f143eb) - remove unused imports from TS declaration file
 
 </section>
 
@@ -280,17 +447,31 @@
 
 <!-- /.packages -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#2327](https://github.com/stdlib-js/stdlib/issues/2327)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="contributors">
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Debashis Maharana
 -   HarshaNP
 -   Kaif Mohd
 -   Philipp Burckhardt
 -   Vaibhav Patel
+-   yaswanth
 
 </section>
 
@@ -302,6 +483,18 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
+-   [`7f368f6`](https://github.com/stdlib-js/stdlib/commit/7f368f6c3f4cea444a304a62616cea36a5f143eb) - **fix:** remove unused imports from TS declaration file _(by Philipp Burckhardt)_
+-   [`975147f`](https://github.com/stdlib-js/stdlib/commit/975147f3125c786ec1672acb3d2564ca16eaa790) - **docs:** fix TSDoc lint errors _(by Philipp Burckhardt)_
+-   [`7b02c16`](https://github.com/stdlib-js/stdlib/commit/7b02c160d8c9ecf6742ea0178c733f938e0c94c4) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`6207381`](https://github.com/stdlib-js/stdlib/commit/62073818e83d5bdd87b2b8ffea18a43767f1ae29) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`5742947`](https://github.com/stdlib-js/stdlib/commit/5742947f31198648b2f753e1f9322367c9e3ae06) - **feat:** add `array/base/cuany-by-right` [(#2667)](https://github.com/stdlib-js/stdlib/pull/2667) _(by Debashis Maharana, Philipp Burckhardt)_
+-   [`8f72b43`](https://github.com/stdlib-js/stdlib/commit/8f72b432c0fc81a78641d5689722ecc9671c6f02) - **style:** add missing spaces around parentheses _(by Philipp Burckhardt)_
+-   [`73266bf`](https://github.com/stdlib-js/stdlib/commit/73266bf9d7f82198bd752dafccedbc017d8c8bb1) - **feat:** add `array/base/cuany-by` [(#2818)](https://github.com/stdlib-js/stdlib/pull/2818) _(by yaswanth, Philipp Burckhardt)_
+-   [`e3078e5`](https://github.com/stdlib-js/stdlib/commit/e3078e56df8858a8f79fb3f3ded3fc76da955db5) - **feat:** add `array/base/cuevery-by` package _(by Kaif Mohd, Philipp Burckhardt)_
+-   [`2091d38`](https://github.com/stdlib-js/stdlib/commit/2091d38aec245202fe1bbff462b12d0f5ed54ee1) - **feat:** add `array/base/cusome` _(by yaswanth, Philipp Burckhardt)_
+-   [`43aa58f`](https://github.com/stdlib-js/stdlib/commit/43aa58f81dcad604f11a5715a1546c015b0a9623) - **feat:** add `isByteOrder` to namespace _(by Athan Reines)_
+-   [`b18478e`](https://github.com/stdlib-js/stdlib/commit/b18478e236e9cb6991d5a0f952d217e043e46587) - **feat:** add `array/base/assert/is-byte-order` _(by Athan Reines)_
 -   [`42664da`](https://github.com/stdlib-js/stdlib/commit/42664dafb94e72a8b8eca80ede6669caaaf57e68) - **feat:** add `nulls` to namespace _(by Athan Reines)_
 -   [`6d91993`](https://github.com/stdlib-js/stdlib/commit/6d9199381c3e949420349ba3506ecd59c692be44) - **feat:** add `array/base/nulls` _(by Athan Reines)_
 -   [`b723a6e`](https://github.com/stdlib-js/stdlib/commit/b723a6eaec97adad2da4ffbecb532a3d1ae1e0ba) - **docs:** fix errors in comments and clean-up _(by Philipp Burckhardt)_
@@ -4133,12 +4326,11 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Jaysukh Makvana
 -   Philipp Burckhardt
--   Planeshifter
 
 </section>
 
