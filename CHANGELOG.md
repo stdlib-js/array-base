@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-28)
+## Unreleased (2024-11-20)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 -   [`42664da`](https://github.com/stdlib-js/stdlib/commit/42664dafb94e72a8b8eca80ede6669caaaf57e68) - add `nulls` to namespace
 -   [`297e4d5`](https://github.com/stdlib-js/stdlib/commit/297e4d5c9c1b015ccf8c7bb77c672e9ac1328898) - add `without` to namespace
 -   [`29641e1`](https://github.com/stdlib-js/stdlib/commit/29641e155d07e3aa7e71340d47ada3e43d1edaa5) - add `cunone` to namespace
@@ -28,6 +29,18 @@
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
+
+    -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -45,6 +58,7 @@
 
 ##### Features
 
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 -   [`43aa58f`](https://github.com/stdlib-js/stdlib/commit/43aa58f81dcad604f11a5715a1546c015b0a9623) - add `isByteOrder` to namespace
 -   [`81b39fe`](https://github.com/stdlib-js/stdlib/commit/81b39fec06b8575149b2ab1b834a7577e6ac5e5d) - add `hasEqualValuesIndexed` to namespace
 -   [`cc56538`](https://github.com/stdlib-js/stdlib/commit/cc5653806325fe7b63037dfa49108be8016de3fc) - add `hasEqualValues` to namespace
@@ -52,6 +66,18 @@
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
+
+    -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -203,6 +229,40 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="array-base-cuevery-by-right-unreleased">
+
+#### [@stdlib/array/base/cuevery-by-right](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/cuevery-by-right)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5a50038`](https://github.com/stdlib-js/stdlib/commit/5a50038db6a457856adc51d5e6e3fd7161f45085) - add `array/base/cuevery-by-right` [(#2802)](https://github.com/stdlib-js/stdlib/pull/2802)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#2328](https://github.com/stdlib-js/stdlib/issues/2328)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="array-base-cunone-by-unreleased">
 
 #### [@stdlib/array/base/cunone-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/cunone-by)
@@ -262,6 +322,40 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-cusome-by-unreleased">
+
+#### [@stdlib/array/base/cusome-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/cusome-by)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`9835dae`](https://github.com/stdlib-js/stdlib/commit/9835dae5a4dba0aae50d8582b97ad69d17fefe6d) - add `array/base/cusome-by` [(#2953)](https://github.com/stdlib-js/stdlib/pull/2953)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#2326](https://github.com/stdlib-js/stdlib/issues/2326)
+
+</section>
+
+<!-- /.issues -->
 
 </details>
 
@@ -447,13 +541,25 @@ This release closes the following issue:
 
 <!-- /.packages -->
 
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
+
+    -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="issues">
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 3 issues were closed in this release:
 
-[#2327](https://github.com/stdlib-js/stdlib/issues/2327)
+[#2326](https://github.com/stdlib-js/stdlib/issues/2326), [#2327](https://github.com/stdlib-js/stdlib/issues/2327), [#2328](https://github.com/stdlib-js/stdlib/issues/2328)
 
 </section>
 
@@ -463,13 +569,15 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 9 people contributed to this release. Thank you to the following contributors:
 
+-   Aditya Sapra
 -   Athan Reines
 -   Debashis Maharana
 -   HarshaNP
 -   Kaif Mohd
 -   Philipp Burckhardt
+-   Soumajit Chatterjee
 -   Vaibhav Patel
 -   yaswanth
 
@@ -483,6 +591,14 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`c00f27a`](https://github.com/stdlib-js/stdlib/commit/c00f27afb4b1853a7f4377fbbab7aec1dab9e34c) - **docs:** improve examples of `array/base/assert` namespace _(by Soumajit Chatterjee, Philipp Burckhardt)_
+-   [`ca2fbd0`](https://github.com/stdlib-js/stdlib/commit/ca2fbd0beec71a0f41307b19939b2c8dd27c76a9) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`89e005a`](https://github.com/stdlib-js/stdlib/commit/89e005ad5004d32271fe7266e95eb96187c1946a) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`2c4e5d8`](https://github.com/stdlib-js/stdlib/commit/2c4e5d824e0c5dc8fd536bf79ff565cee100ce46) - **build:** disable additional lint rule in TS tests _(by Philipp Burckhardt)_
+-   [`aad48ea`](https://github.com/stdlib-js/stdlib/commit/aad48eab1f19217854f4ffbfaed2a8be664b0f47) - **chore:** resolve lint errors _(by Philipp Burckhardt)_
+-   [`5a50038`](https://github.com/stdlib-js/stdlib/commit/5a50038db6a457856adc51d5e6e3fd7161f45085) - **feat:** add `array/base/cuevery-by-right` [(#2802)](https://github.com/stdlib-js/stdlib/pull/2802) _(by HarshaNP, Philipp Burckhardt)_
+-   [`9835dae`](https://github.com/stdlib-js/stdlib/commit/9835dae5a4dba0aae50d8582b97ad69d17fefe6d) - **feat:** add `array/base/cusome-by` [(#2953)](https://github.com/stdlib-js/stdlib/pull/2953) _(by Aditya Sapra, Philipp Burckhardt)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
 -   [`7f368f6`](https://github.com/stdlib-js/stdlib/commit/7f368f6c3f4cea444a304a62616cea36a5f143eb) - **fix:** remove unused imports from TS declaration file _(by Philipp Burckhardt)_
 -   [`975147f`](https://github.com/stdlib-js/stdlib/commit/975147f3125c786ec1672acb3d2564ca16eaa790) - **docs:** fix TSDoc lint errors _(by Philipp Burckhardt)_
