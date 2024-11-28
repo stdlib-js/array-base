@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-21)
+## Unreleased (2024-11-28)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`9818fa6`](https://github.com/stdlib-js/stdlib/commit/9818fa6dd8c90e045a147bfd1ba83cb1f693d17b) - update namespace TypeScript declarations [(#3259)](https://github.com/stdlib-js/stdlib/pull/3259)
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 -   [`42664da`](https://github.com/stdlib-js/stdlib/commit/42664dafb94e72a8b8eca80ede6669caaaf57e68) - add `nulls` to namespace
 -   [`297e4d5`](https://github.com/stdlib-js/stdlib/commit/297e4d5c9c1b015ccf8c7bb77c672e9ac1328898) - add `without` to namespace
@@ -144,6 +145,74 @@
 </section>
 
 <!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-broadcasted-ternary3d-unreleased">
+
+#### [@stdlib/array/base/broadcasted-ternary3d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/broadcasted-ternary3d)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fb3c880`](https://github.com/stdlib-js/stdlib/commit/fb3c880b79a6861fe3da4b14eefadafc90d63eda) - add `array/base/braodcasted-ternary3d` [(#3228)](https://github.com/stdlib-js/stdlib/pull/3228)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3164](https://github.com/stdlib-js/stdlib/issues/3164)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-broadcasted-ternary4d-unreleased">
+
+#### [@stdlib/array/base/broadcasted-ternary4d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/broadcasted-ternary4d)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c712a8e`](https://github.com/stdlib-js/stdlib/commit/c712a8ec07db672a01355ddfca2192be25fe85ca) - add `array/base/broadcasted-ternary4d` [(#3232)](https://github.com/stdlib-js/stdlib/pull/3232)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3165](https://github.com/stdlib-js/stdlib/issues/3165)
+
+</section>
+
+<!-- /.issues -->
 
 </details>
 
@@ -439,6 +508,242 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="array-base-group-entries-unreleased">
+
+#### [@stdlib/array/base/group-entries](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/group-entries)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`844c9bb`](https://github.com/stdlib-js/stdlib/commit/844c9bb4e0ecb67410bb11c774341ea9d68167f7) - resolve TypeScript errors
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-group-entries-by-unreleased">
+
+#### [@stdlib/array/base/group-entries-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/group-entries-by)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`844c9bb`](https://github.com/stdlib-js/stdlib/commit/844c9bb4e0ecb67410bb11c774341ea9d68167f7) - resolve TypeScript errors
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-group-indices-unreleased">
+
+#### [@stdlib/array/base/group-indices](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/group-indices)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`844c9bb`](https://github.com/stdlib-js/stdlib/commit/844c9bb4e0ecb67410bb11c774341ea9d68167f7) - resolve TypeScript errors
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-group-indices-by-unreleased">
+
+#### [@stdlib/array/base/group-indices-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/group-indices-by)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`844c9bb`](https://github.com/stdlib-js/stdlib/commit/844c9bb4e0ecb67410bb11c774341ea9d68167f7) - resolve TypeScript errors
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-group-values-unreleased">
+
+#### [@stdlib/array/base/group-values](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/group-values)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`844c9bb`](https://github.com/stdlib-js/stdlib/commit/844c9bb4e0ecb67410bb11c774341ea9d68167f7) - resolve TypeScript errors
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-group-values-by-unreleased">
+
+#### [@stdlib/array/base/group-values-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/group-values-by)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`844c9bb`](https://github.com/stdlib-js/stdlib/commit/844c9bb4e0ecb67410bb11c774341ea9d68167f7) - resolve TypeScript errors
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-msk-unreleased">
+
+#### [@stdlib/array/base/msk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/msk)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`34ae5c9`](https://github.com/stdlib-js/stdlib/commit/34ae5c9570bf6428dc5bede92557ae56981554c2) - add `array/base/mskbinary5d` [(#3198)](https://github.com/stdlib-js/stdlib/pull/3198)
+-   [`cb27ec4`](https://github.com/stdlib-js/stdlib/commit/cb27ec42bd7e65c46877e57064d36ff9b38b502b) - add `array/base/mskbinary4d` [(#3196)](https://github.com/stdlib-js/stdlib/pull/3196)
+-   [`c328fc5`](https://github.com/stdlib-js/stdlib/commit/c328fc515fc925ee717ed9cd844cca83a61da806) - add `array/base/mskbinary3d` [(#3193)](https://github.com/stdlib-js/stdlib/pull/3193)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+A total of 3 issues were closed in this release:
+
+[#3178](https://github.com/stdlib-js/stdlib/issues/3178), [#3179](https://github.com/stdlib-js/stdlib/issues/3179), [#3180](https://github.com/stdlib-js/stdlib/issues/3180)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-mskunary4d-unreleased">
+
+#### [@stdlib/array/base/mskunary4d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/mskunary4d)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`28db4f2`](https://github.com/stdlib-js/stdlib/commit/28db4f2869749f6a6d6f7ae6476bd27f65052e96) - add `array/base/mskunary4d` [(#3208)](https://github.com/stdlib-js/stdlib/pull/3208)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3176](https://github.com/stdlib-js/stdlib/issues/3176)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-mskunary5d-unreleased">
+
+#### [@stdlib/array/base/mskunary5d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/mskunary5d)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b26d9d5`](https://github.com/stdlib-js/stdlib/commit/b26d9d5bd9e60a63ce017bbb470f0769b6dcc628) - add `array/base/mskunary5d` [(#3207)](https://github.com/stdlib-js/stdlib/pull/3207)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3177](https://github.com/stdlib-js/stdlib/issues/3177)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="array-base-nulls-unreleased">
 
 #### [@stdlib/array/base/nulls](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/nulls)
@@ -557,9 +862,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 3 issues were closed in this release:
+A total of 10 issues were closed in this release:
 
-[#2326](https://github.com/stdlib-js/stdlib/issues/2326), [#2327](https://github.com/stdlib-js/stdlib/issues/2327), [#2328](https://github.com/stdlib-js/stdlib/issues/2328)
+[#2326](https://github.com/stdlib-js/stdlib/issues/2326), [#2327](https://github.com/stdlib-js/stdlib/issues/2327), [#2328](https://github.com/stdlib-js/stdlib/issues/2328), [#3164](https://github.com/stdlib-js/stdlib/issues/3164), [#3165](https://github.com/stdlib-js/stdlib/issues/3165), [#3176](https://github.com/stdlib-js/stdlib/issues/3176), [#3177](https://github.com/stdlib-js/stdlib/issues/3177), [#3178](https://github.com/stdlib-js/stdlib/issues/3178), [#3179](https://github.com/stdlib-js/stdlib/issues/3179), [#3180](https://github.com/stdlib-js/stdlib/issues/3180)
 
 </section>
 
@@ -569,16 +874,19 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 9 people contributed to this release. Thank you to the following contributors:
+A total of 12 people contributed to this release. Thank you to the following contributors:
 
+-   Abhijit Raut
 -   Aditya Sapra
 -   Athan Reines
 -   Debashis Maharana
 -   HarshaNP
--   Kaif Mohd
+-   Mohammad Kaif
 -   Philipp Burckhardt
+-   Rylan Yang
 -   Soumajit Chatterjee
 -   Vaibhav Patel
+-   Vinit Pandit
 -   yaswanth
 
 </section>
@@ -591,7 +899,22 @@ A total of 9 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`9818fa6`](https://github.com/stdlib-js/stdlib/commit/9818fa6dd8c90e045a147bfd1ba83cb1f693d17b) - **feat:** update namespace TypeScript declarations [(#3259)](https://github.com/stdlib-js/stdlib/pull/3259) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`c712a8e`](https://github.com/stdlib-js/stdlib/commit/c712a8ec07db672a01355ddfca2192be25fe85ca) - **feat:** add `array/base/broadcasted-ternary4d` [(#3232)](https://github.com/stdlib-js/stdlib/pull/3232) _(by Vinit Pandit, Athan Reines)_
+-   [`28db4f2`](https://github.com/stdlib-js/stdlib/commit/28db4f2869749f6a6d6f7ae6476bd27f65052e96) - **feat:** add `array/base/mskunary4d` [(#3208)](https://github.com/stdlib-js/stdlib/pull/3208) _(by Abhijit Raut, Athan Reines)_
+-   [`fb3c880`](https://github.com/stdlib-js/stdlib/commit/fb3c880b79a6861fe3da4b14eefadafc90d63eda) - **feat:** add `array/base/braodcasted-ternary3d` [(#3228)](https://github.com/stdlib-js/stdlib/pull/3228) _(by Vinit Pandit, Athan Reines)_
+-   [`2af4b75`](https://github.com/stdlib-js/stdlib/commit/2af4b757cab1052ee7a788f2154f2c7b8c9aa9bb) - **docs:** add note _(by Athan Reines)_
+-   [`10641b6`](https://github.com/stdlib-js/stdlib/commit/10641b65eee7299d16d0c0239575eafc6b575557) - **docs:** add note _(by Athan Reines)_
+-   [`2c40c48`](https://github.com/stdlib-js/stdlib/commit/2c40c487c3f7cfcfa445d9855fb6c89b97ebf600) - **docs:** fix return values _(by Athan Reines)_
+-   [`dc93a3a`](https://github.com/stdlib-js/stdlib/commit/dc93a3ac7351a59e0f61e6384312d96655cc2edc) - **docs:** fix return values _(by Athan Reines)_
+-   [`b26d9d5`](https://github.com/stdlib-js/stdlib/commit/b26d9d5bd9e60a63ce017bbb470f0769b6dcc628) - **feat:** add `array/base/mskunary5d` [(#3207)](https://github.com/stdlib-js/stdlib/pull/3207) _(by Vinit Pandit, Athan Reines, Abhijit, stdlib-bot)_
+-   [`34ae5c9`](https://github.com/stdlib-js/stdlib/commit/34ae5c9570bf6428dc5bede92557ae56981554c2) - **feat:** add `array/base/mskbinary5d` [(#3198)](https://github.com/stdlib-js/stdlib/pull/3198) _(by Abhijit Raut)_
+-   [`cb27ec4`](https://github.com/stdlib-js/stdlib/commit/cb27ec42bd7e65c46877e57064d36ff9b38b502b) - **feat:** add `array/base/mskbinary4d` [(#3196)](https://github.com/stdlib-js/stdlib/pull/3196) _(by Abhijit Raut, Athan Reines)_
+-   [`c328fc5`](https://github.com/stdlib-js/stdlib/commit/c328fc515fc925ee717ed9cd844cca83a61da806) - **feat:** add `array/base/mskbinary3d` [(#3193)](https://github.com/stdlib-js/stdlib/pull/3193) _(by Rylan Yang, Athan Reines, stdlib-bot)_
+-   [`9ba0dbd`](https://github.com/stdlib-js/stdlib/commit/9ba0dbd839707695a05fda5d4f50d67c5aba52f7) - **chore:** use relative paths to load main package export _(by Philipp Burckhardt)_
+-   [`6c020d3`](https://github.com/stdlib-js/stdlib/commit/6c020d33665c4aec232196fd86214b296ddc7d36) - **chore:** use relative paths to load package.json file _(by Philipp Burckhardt)_
 -   [`b6a2b0b`](https://github.com/stdlib-js/stdlib/commit/b6a2b0b27dc8cc1e9fc02d9679a3ce468cf49b9d) - **docs:** update namespace table of contents [(#3192)](https://github.com/stdlib-js/stdlib/pull/3192) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`844c9bb`](https://github.com/stdlib-js/stdlib/commit/844c9bb4e0ecb67410bb11c774341ea9d68167f7) - **fix:** resolve TypeScript errors _(by Athan Reines)_
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`c00f27a`](https://github.com/stdlib-js/stdlib/commit/c00f27afb4b1853a7f4377fbbab7aec1dab9e34c) - **docs:** improve examples of `array/base/assert` namespace _(by Soumajit Chatterjee, Philipp Burckhardt)_
 -   [`ca2fbd0`](https://github.com/stdlib-js/stdlib/commit/ca2fbd0beec71a0f41307b19939b2c8dd27c76a9) - **chore:** minor clean-up _(by Philipp Burckhardt)_
@@ -608,7 +931,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 -   [`5742947`](https://github.com/stdlib-js/stdlib/commit/5742947f31198648b2f753e1f9322367c9e3ae06) - **feat:** add `array/base/cuany-by-right` [(#2667)](https://github.com/stdlib-js/stdlib/pull/2667) _(by Debashis Maharana, Philipp Burckhardt)_
 -   [`8f72b43`](https://github.com/stdlib-js/stdlib/commit/8f72b432c0fc81a78641d5689722ecc9671c6f02) - **style:** add missing spaces around parentheses _(by Philipp Burckhardt)_
 -   [`73266bf`](https://github.com/stdlib-js/stdlib/commit/73266bf9d7f82198bd752dafccedbc017d8c8bb1) - **feat:** add `array/base/cuany-by` [(#2818)](https://github.com/stdlib-js/stdlib/pull/2818) _(by yaswanth, Philipp Burckhardt)_
--   [`e3078e5`](https://github.com/stdlib-js/stdlib/commit/e3078e56df8858a8f79fb3f3ded3fc76da955db5) - **feat:** add `array/base/cuevery-by` package _(by Kaif Mohd, Philipp Burckhardt)_
+-   [`e3078e5`](https://github.com/stdlib-js/stdlib/commit/e3078e56df8858a8f79fb3f3ded3fc76da955db5) - **feat:** add `array/base/cuevery-by` package _(by Mohammad Kaif, Philipp Burckhardt)_
 -   [`2091d38`](https://github.com/stdlib-js/stdlib/commit/2091d38aec245202fe1bbff462b12d0f5ed54ee1) - **feat:** add `array/base/cusome` _(by yaswanth, Philipp Burckhardt)_
 -   [`43aa58f`](https://github.com/stdlib-js/stdlib/commit/43aa58f81dcad604f11a5715a1546c015b0a9623) - **feat:** add `isByteOrder` to namespace _(by Athan Reines)_
 -   [`b18478e`](https://github.com/stdlib-js/stdlib/commit/b18478e236e9cb6991d5a0f952d217e043e46587) - **feat:** add `array/base/assert/is-byte-order` _(by Athan Reines)_
@@ -624,7 +947,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 -   [`16bb447`](https://github.com/stdlib-js/stdlib/commit/16bb44733defec3009d7c49cbd8cb6eaaaa60ad2) - **fix:** update TypeScript function signature and documentation _(by Philipp Burckhardt)_
 -   [`0bb460f`](https://github.com/stdlib-js/stdlib/commit/0bb460f9675f693bd4eb5826888e493cae8757fc) - **feat:** add `array/base/cusome-by-right` _(by HarshaNP, Philipp Burckhardt)_
 -   [`e722c97`](https://github.com/stdlib-js/stdlib/commit/e722c9742d30f0e3c0ec6ebb349b30338facbdf0) - **feat:** add `array/base/cunone-by-right` _(by HarshaNP, Philipp Burckhardt)_
--   [`24e9908`](https://github.com/stdlib-js/stdlib/commit/24e9908afc085d5d2aece1844a6e25b36332f246) - **feat:** add `array/base/cunone-by` package _(by Kaif Mohd, Philipp Burckhardt, Athan Reines)_
+-   [`24e9908`](https://github.com/stdlib-js/stdlib/commit/24e9908afc085d5d2aece1844a6e25b36332f246) - **feat:** add `array/base/cunone-by` package _(by Mohammad Kaif, Philipp Burckhardt, Athan Reines)_
 -   [`a541897`](https://github.com/stdlib-js/stdlib/commit/a541897dec2cd902c186d9ad128b6efd8a3ca528) - **docs:** fix grammar _(by Athan Reines)_
 -   [`73a198b`](https://github.com/stdlib-js/stdlib/commit/73a198b42551ce9aaa142a17e9c77578205628d5) - **test:** add tests _(by Athan Reines)_
 -   [`4a14f03`](https://github.com/stdlib-js/stdlib/commit/4a14f034cc432c477ce41d452ea220803b45525c) - **test:** add tests _(by Athan Reines)_
