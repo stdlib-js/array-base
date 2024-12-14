@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-28)
+## Unreleased (2024-12-14)
 
 <section class="packages">
 
@@ -152,6 +152,142 @@
 
 <!-- /.package -->
 
+<section class="package" id="array-base-broadcasted-quaternary3d-unreleased">
+
+#### [@stdlib/array/base/broadcasted-quaternary3d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/broadcasted-quaternary3d)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6559e70`](https://github.com/stdlib-js/stdlib/commit/6559e70d5a7eaf8aa0cf5356aa4a12f857507bb2) - add `array/base/broadcasted/quaternary3d` [(#3230)](https://github.com/stdlib-js/stdlib/pull/3230)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3167](https://github.com/stdlib-js/stdlib/issues/3167)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-broadcasted-quaternary4d-unreleased">
+
+#### [@stdlib/array/base/broadcasted-quaternary4d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/broadcasted-quaternary4d)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f9466a9`](https://github.com/stdlib-js/stdlib/commit/f9466a9409c3c4f76ac36c7393787916316b0f7e) - add `array/base/broadcasted-quaternary4d` [(#3257)](https://github.com/stdlib-js/stdlib/pull/3257)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3168](https://github.com/stdlib-js/stdlib/issues/3168)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-broadcasted-quaternary5d-unreleased">
+
+#### [@stdlib/array/base/broadcasted-quaternary5d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/broadcasted-quaternary5d)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f71dbdc`](https://github.com/stdlib-js/stdlib/commit/f71dbdc7ea992486cdc2042c24a6d4a2b57c002e) - add `array/base/broadcasted/quaternary5d` [(#3301)](https://github.com/stdlib-js/stdlib/pull/3301)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3169](https://github.com/stdlib-js/stdlib/issues/3169)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-broadcasted-quinary4d-unreleased">
+
+#### [@stdlib/array/base/broadcasted-quinary4d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/broadcasted-quinary4d)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e74cfa7`](https://github.com/stdlib-js/stdlib/commit/e74cfa7ad107c99e45e1b5857c258f71de369bfb) - add `array/base/broadcasted-quinary4d` [(#3267)](https://github.com/stdlib-js/stdlib/pull/3267)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3171](https://github.com/stdlib-js/stdlib/issues/3171)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="array-base-broadcasted-ternary3d-unreleased">
 
 #### [@stdlib/array/base/broadcasted-ternary3d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/broadcasted-ternary3d)
@@ -209,6 +345,40 @@ This release closes the following issue:
 This release closes the following issue:
 
 [#3165](https://github.com/stdlib-js/stdlib/issues/3165)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-broadcasted-ternary5d-unreleased">
+
+#### [@stdlib/array/base/broadcasted-ternary5d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/broadcasted-ternary5d)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`982980c`](https://github.com/stdlib-js/stdlib/commit/982980c5e719d7ab8f227b9aea9507ab45b15957) - add `array/base/broadcasted-ternary5d` [(#3251)](https://github.com/stdlib-js/stdlib/pull/3251)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3166](https://github.com/stdlib-js/stdlib/issues/3166)
 
 </section>
 
@@ -788,6 +958,108 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="array-base-unary3d-by-unreleased">
+
+#### [@stdlib/array/base/unary3d-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/unary3d-by)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`70aaa8c`](https://github.com/stdlib-js/stdlib/commit/70aaa8ca5c7fa401321769137542c4001f529536) - add `array/base/unary3d-by` [(#3219)](https://github.com/stdlib-js/stdlib/pull/3219)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3173](https://github.com/stdlib-js/stdlib/issues/3173)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-unary4d-by-unreleased">
+
+#### [@stdlib/array/base/unary4d-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/unary4d-by)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`143b370`](https://github.com/stdlib-js/stdlib/commit/143b37022fe8b96b30a0b79466e310380ddd2628) - add `array/base/unary4d-by` [(#3220)](https://github.com/stdlib-js/stdlib/pull/3220)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3174](https://github.com/stdlib-js/stdlib/issues/3174)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-unary5d-by-unreleased">
+
+#### [@stdlib/array/base/unary5d-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/unary5d-by)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1788e0a`](https://github.com/stdlib-js/stdlib/commit/1788e0a90708cdf7b5be6e1b86b3f5d40093ebab) - add `array/base/unary5d-by` [(#3221)](https://github.com/stdlib-js/stdlib/pull/3221)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3175](https://github.com/stdlib-js/stdlib/issues/3175)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="array-base-with-unreleased">
 
 #### [@stdlib/array/base/with](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/with)
@@ -862,9 +1134,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 10 issues were closed in this release:
+A total of 18 issues were closed in this release:
 
-[#2326](https://github.com/stdlib-js/stdlib/issues/2326), [#2327](https://github.com/stdlib-js/stdlib/issues/2327), [#2328](https://github.com/stdlib-js/stdlib/issues/2328), [#3164](https://github.com/stdlib-js/stdlib/issues/3164), [#3165](https://github.com/stdlib-js/stdlib/issues/3165), [#3176](https://github.com/stdlib-js/stdlib/issues/3176), [#3177](https://github.com/stdlib-js/stdlib/issues/3177), [#3178](https://github.com/stdlib-js/stdlib/issues/3178), [#3179](https://github.com/stdlib-js/stdlib/issues/3179), [#3180](https://github.com/stdlib-js/stdlib/issues/3180)
+[#2326](https://github.com/stdlib-js/stdlib/issues/2326), [#2327](https://github.com/stdlib-js/stdlib/issues/2327), [#2328](https://github.com/stdlib-js/stdlib/issues/2328), [#3164](https://github.com/stdlib-js/stdlib/issues/3164), [#3165](https://github.com/stdlib-js/stdlib/issues/3165), [#3166](https://github.com/stdlib-js/stdlib/issues/3166), [#3167](https://github.com/stdlib-js/stdlib/issues/3167), [#3168](https://github.com/stdlib-js/stdlib/issues/3168), [#3169](https://github.com/stdlib-js/stdlib/issues/3169), [#3171](https://github.com/stdlib-js/stdlib/issues/3171), [#3173](https://github.com/stdlib-js/stdlib/issues/3173), [#3174](https://github.com/stdlib-js/stdlib/issues/3174), [#3175](https://github.com/stdlib-js/stdlib/issues/3175), [#3176](https://github.com/stdlib-js/stdlib/issues/3176), [#3177](https://github.com/stdlib-js/stdlib/issues/3177), [#3178](https://github.com/stdlib-js/stdlib/issues/3178), [#3179](https://github.com/stdlib-js/stdlib/issues/3179), [#3180](https://github.com/stdlib-js/stdlib/issues/3180)
 
 </section>
 
@@ -874,20 +1146,22 @@ A total of 10 issues were closed in this release:
 
 ### Contributors
 
-A total of 12 people contributed to this release. Thank you to the following contributors:
+A total of 14 people contributed to this release. Thank you to the following contributors:
 
 -   Abhijit Raut
 -   Aditya Sapra
 -   Athan Reines
 -   Debashis Maharana
+-   Gururaj Gurram
 -   HarshaNP
 -   Mohammad Kaif
+-   Neeraj Pathak
 -   Philipp Burckhardt
 -   Rylan Yang
 -   Soumajit Chatterjee
 -   Vaibhav Patel
 -   Vinit Pandit
--   yaswanth
+-   Yaswanth Kosuru
 
 </section>
 
@@ -899,6 +1173,25 @@ A total of 12 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`0c9faed`](https://github.com/stdlib-js/stdlib/commit/0c9faedab42d5b816921487891de6aef305aa54f) - **docs:** update namespace table of contents [(#3902)](https://github.com/stdlib-js/stdlib/pull/3902) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`2825b42`](https://github.com/stdlib-js/stdlib/commit/2825b42e8cd7483d15dfed1c6b389bfcb86d7ca0) - **docs:** update related packages sections [(#3898)](https://github.com/stdlib-js/stdlib/pull/3898) _(by stdlib-bot)_
+-   [`e74cfa7`](https://github.com/stdlib-js/stdlib/commit/e74cfa7ad107c99e45e1b5857c258f71de369bfb) - **feat:** add `array/base/broadcasted-quinary4d` [(#3267)](https://github.com/stdlib-js/stdlib/pull/3267) _(by Neeraj Pathak, Athan Reines, stdlib-bot)_
+-   [`d482810`](https://github.com/stdlib-js/stdlib/commit/d482810508b0a31e6acdf6c4914c40e2dd862ec2) - **docs:** fix description _(by Athan Reines)_
+-   [`f71dbdc`](https://github.com/stdlib-js/stdlib/commit/f71dbdc7ea992486cdc2042c24a6d4a2b57c002e) - **feat:** add `array/base/broadcasted/quaternary5d` [(#3301)](https://github.com/stdlib-js/stdlib/pull/3301) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
+-   [`263de1a`](https://github.com/stdlib-js/stdlib/commit/263de1acfc9faf6b355b54d4dbdc0048b1288fab) - **docs:** fix example _(by Athan Reines)_
+-   [`5cb36ef`](https://github.com/stdlib-js/stdlib/commit/5cb36ef4c6f8158585ac88867a8dec21ed3fa372) - **docs:** update related packages sections [(#3890)](https://github.com/stdlib-js/stdlib/pull/3890) _(by stdlib-bot)_
+-   [`f9466a9`](https://github.com/stdlib-js/stdlib/commit/f9466a9409c3c4f76ac36c7393787916316b0f7e) - **feat:** add `array/base/broadcasted-quaternary4d` [(#3257)](https://github.com/stdlib-js/stdlib/pull/3257) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
+-   [`77e8d40`](https://github.com/stdlib-js/stdlib/commit/77e8d406b9ad429c85c7c607140774afa55b2723) - **docs:** fix description _(by Athan Reines)_
+-   [`cf7d38a`](https://github.com/stdlib-js/stdlib/commit/cf7d38ae3e7bce92cf47778f7b1c3da731121d77) - **docs:** update related packages sections [(#3527)](https://github.com/stdlib-js/stdlib/pull/3527) _(by stdlib-bot)_
+-   [`6559e70`](https://github.com/stdlib-js/stdlib/commit/6559e70d5a7eaf8aa0cf5356aa4a12f857507bb2) - **feat:** add `array/base/broadcasted/quaternary3d` [(#3230)](https://github.com/stdlib-js/stdlib/pull/3230) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
+-   [`1788e0a`](https://github.com/stdlib-js/stdlib/commit/1788e0a90708cdf7b5be6e1b86b3f5d40093ebab) - **feat:** add `array/base/unary5d-by` [(#3221)](https://github.com/stdlib-js/stdlib/pull/3221) _(by Neeraj Pathak, Athan Reines, stdlib-bot)_
+-   [`143b370`](https://github.com/stdlib-js/stdlib/commit/143b37022fe8b96b30a0b79466e310380ddd2628) - **feat:** add `array/base/unary4d-by` [(#3220)](https://github.com/stdlib-js/stdlib/pull/3220) _(by Abhijit Raut, Athan Reines)_
+-   [`70aaa8c`](https://github.com/stdlib-js/stdlib/commit/70aaa8ca5c7fa401321769137542c4001f529536) - **feat:** add `array/base/unary3d-by` [(#3219)](https://github.com/stdlib-js/stdlib/pull/3219) _(by Neeraj Pathak, Athan Reines, stdlib-bot)_
+-   [`982980c`](https://github.com/stdlib-js/stdlib/commit/982980c5e719d7ab8f227b9aea9507ab45b15957) - **feat:** add `array/base/broadcasted-ternary5d` [(#3251)](https://github.com/stdlib-js/stdlib/pull/3251) _(by Vinit Pandit, Athan Reines)_
+-   [`bf5643f`](https://github.com/stdlib-js/stdlib/commit/bf5643fb1a3f32a60903d8e210f71571e609119f) - **docs:** update related packages sections [(#3404)](https://github.com/stdlib-js/stdlib/pull/3404) _(by stdlib-bot)_
+-   [`ac06419`](https://github.com/stdlib-js/stdlib/commit/ac06419c2a8358dfd80818823f571077eb58958e) - **docs:** update related packages sections [(#3387)](https://github.com/stdlib-js/stdlib/pull/3387) _(by stdlib-bot)_
+-   [`7e8187a`](https://github.com/stdlib-js/stdlib/commit/7e8187a766886c2fb9cdc356cf781f0a1802172c) - **docs:** update related packages sections [(#3368)](https://github.com/stdlib-js/stdlib/pull/3368) _(by stdlib-bot)_
+-   [`d24969e`](https://github.com/stdlib-js/stdlib/commit/d24969e35be1cfbff2e0d62d740c451e476ee444) - **chore:** update package meta data [(#3303)](https://github.com/stdlib-js/stdlib/pull/3303) _(by stdlib-bot, Athan Reines)_
 -   [`9818fa6`](https://github.com/stdlib-js/stdlib/commit/9818fa6dd8c90e045a147bfd1ba83cb1f693d17b) - **feat:** update namespace TypeScript declarations [(#3259)](https://github.com/stdlib-js/stdlib/pull/3259) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`c712a8e`](https://github.com/stdlib-js/stdlib/commit/c712a8ec07db672a01355ddfca2192be25fe85ca) - **feat:** add `array/base/broadcasted-ternary4d` [(#3232)](https://github.com/stdlib-js/stdlib/pull/3232) _(by Vinit Pandit, Athan Reines)_
 -   [`28db4f2`](https://github.com/stdlib-js/stdlib/commit/28db4f2869749f6a6d6f7ae6476bd27f65052e96) - **feat:** add `array/base/mskunary4d` [(#3208)](https://github.com/stdlib-js/stdlib/pull/3208) _(by Abhijit Raut, Athan Reines)_
@@ -930,9 +1223,9 @@ A total of 12 people contributed to this release. Thank you to the following con
 -   [`6207381`](https://github.com/stdlib-js/stdlib/commit/62073818e83d5bdd87b2b8ffea18a43767f1ae29) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`5742947`](https://github.com/stdlib-js/stdlib/commit/5742947f31198648b2f753e1f9322367c9e3ae06) - **feat:** add `array/base/cuany-by-right` [(#2667)](https://github.com/stdlib-js/stdlib/pull/2667) _(by Debashis Maharana, Philipp Burckhardt)_
 -   [`8f72b43`](https://github.com/stdlib-js/stdlib/commit/8f72b432c0fc81a78641d5689722ecc9671c6f02) - **style:** add missing spaces around parentheses _(by Philipp Burckhardt)_
--   [`73266bf`](https://github.com/stdlib-js/stdlib/commit/73266bf9d7f82198bd752dafccedbc017d8c8bb1) - **feat:** add `array/base/cuany-by` [(#2818)](https://github.com/stdlib-js/stdlib/pull/2818) _(by yaswanth, Philipp Burckhardt)_
+-   [`73266bf`](https://github.com/stdlib-js/stdlib/commit/73266bf9d7f82198bd752dafccedbc017d8c8bb1) - **feat:** add `array/base/cuany-by` [(#2818)](https://github.com/stdlib-js/stdlib/pull/2818) _(by Yaswanth Kosuru, Philipp Burckhardt)_
 -   [`e3078e5`](https://github.com/stdlib-js/stdlib/commit/e3078e56df8858a8f79fb3f3ded3fc76da955db5) - **feat:** add `array/base/cuevery-by` package _(by Mohammad Kaif, Philipp Burckhardt)_
--   [`2091d38`](https://github.com/stdlib-js/stdlib/commit/2091d38aec245202fe1bbff462b12d0f5ed54ee1) - **feat:** add `array/base/cusome` _(by yaswanth, Philipp Burckhardt)_
+-   [`2091d38`](https://github.com/stdlib-js/stdlib/commit/2091d38aec245202fe1bbff462b12d0f5ed54ee1) - **feat:** add `array/base/cusome` _(by Yaswanth Kosuru, Philipp Burckhardt)_
 -   [`43aa58f`](https://github.com/stdlib-js/stdlib/commit/43aa58f81dcad604f11a5715a1546c015b0a9623) - **feat:** add `isByteOrder` to namespace _(by Athan Reines)_
 -   [`b18478e`](https://github.com/stdlib-js/stdlib/commit/b18478e236e9cb6991d5a0f952d217e043e46587) - **feat:** add `array/base/assert/is-byte-order` _(by Athan Reines)_
 -   [`42664da`](https://github.com/stdlib-js/stdlib/commit/42664dafb94e72a8b8eca80ede6669caaaf57e68) - **feat:** add `nulls` to namespace _(by Athan Reines)_
@@ -1835,12 +2128,12 @@ A total of 4 issues were closed in this release:
 A total of 9 people contributed to this release. Thank you to the following contributors:
 
 -   Aditya Sapra
--   AgPriyanshu18
 -   Athan Reines
 -   Golden Kumar
 -   Jaysukh Makvana
 -   Philipp Burckhardt
 -   Pratik
+-   Priyanshu Agarwal
 -   Utkarsh
 -   Varad Gupta
 
@@ -1957,7 +2250,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 -   [`5cfd0a8`](https://github.com/stdlib-js/stdlib/commit/5cfd0a8712299d680aff7f9d8fca0c0ac69de56b) - **chore:** update package meta data [(#1462)](https://github.com/stdlib-js/stdlib/pull/1462) _(by stdlib-bot)_
 -   [`ecd3518`](https://github.com/stdlib-js/stdlib/commit/ecd3518101b9c013ff9279b7f56e64015606907d) - **feat:** add `array/base/count-if` [(#1372)](https://github.com/stdlib-js/stdlib/pull/1372) _(by Utkarsh, Philipp Burckhardt)_
 -   [`670aeab`](https://github.com/stdlib-js/stdlib/commit/670aeab1e433314ca3b0ebfb4dce16f267cff881) - **docs:** fix require path _(by Philipp Burckhardt)_
--   [`1ed81b7`](https://github.com/stdlib-js/stdlib/commit/1ed81b78fd6469d374c7b033f258e709934539b2) - **feat:** add `array/base/count-same-value-zero` [(#1384)](https://github.com/stdlib-js/stdlib/pull/1384) _(by AgPriyanshu18, Jaysukh Makvana, Philipp Burckhardt)_
+-   [`1ed81b7`](https://github.com/stdlib-js/stdlib/commit/1ed81b78fd6469d374c7b033f258e709934539b2) - **feat:** add `array/base/count-same-value-zero` [(#1384)](https://github.com/stdlib-js/stdlib/pull/1384) _(by Priyanshu Agarwal, Jaysukh Makvana, Philipp Burckhardt)_
 -   [`4253607`](https://github.com/stdlib-js/stdlib/commit/425360790cca3ef7b1747b3c1828ab5825306441) - **feat:** add `array/base/with` [(#1374)](https://github.com/stdlib-js/stdlib/pull/1374) _(by Pratik, Philipp Burckhardt)_
 
 </details>
