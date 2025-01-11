@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-14)
+## Unreleased (2025-01-11)
 
 <section class="packages">
 
@@ -20,6 +20,29 @@
 
 ##### Features
 
+-   [`04f5785`](https://github.com/stdlib-js/stdlib/commit/04f5785ed011a7b0701eba10274cf4308f16bbad) - add `scatterFilled` to namespace
+-   [`5682699`](https://github.com/stdlib-js/stdlib/commit/56826996a6bc1179b9b99e33f81c814100a8fb78) - add `scattered` to namespace
+-   [`af3a2de`](https://github.com/stdlib-js/stdlib/commit/af3a2dece5c5d061c2ca2e13693a867cd4e77a97) - add `fill` to namespace
+-   [`22271ae`](https://github.com/stdlib-js/stdlib/commit/22271ae80c22bf4ebf1888a2d1d665ba26731cea) - add `takeIndexed2` to namespace
+-   [`db712f5`](https://github.com/stdlib-js/stdlib/commit/db712f5b3e6538aac7806faa92b2aa80bc32ccb2) - add `indicesComplement` to namespace
+-   [`0c8eefd`](https://github.com/stdlib-js/stdlib/commit/0c8eefdb28a395cea9cf94489ba47bc6179c90a9) - add `mskfiltern` to namespace
+-   [`427e7fa`](https://github.com/stdlib-js/stdlib/commit/427e7fad20600af6da5288e581e1e447058b90d1) - add `mskfilterMap` to namespace
+-   [`dee7f2a`](https://github.com/stdlib-js/stdlib/commit/dee7f2a1ae43391156aba7c60344f666de01ef9c) - add `unary5dBy` to namespace
+-   [`b948d6b`](https://github.com/stdlib-js/stdlib/commit/b948d6bbe1eac800e624b7f82d00d29e3aa5e9aa) - add `unary4dBy` to namespace
+-   [`3da967d`](https://github.com/stdlib-js/stdlib/commit/3da967d0e5ae94146c2f4cf48417716568a50413) - add `unary3dBy` to namespace
+-   [`9da9c4a`](https://github.com/stdlib-js/stdlib/commit/9da9c4a68f556e401d607a41e344c99d1ee2961e) - add `mskunary5d` to namespace
+-   [`22acaad`](https://github.com/stdlib-js/stdlib/commit/22acaad024e3e43efd02282c9d48e816247ea78e) - add `mskunary4d` to namespace
+-   [`83216e8`](https://github.com/stdlib-js/stdlib/commit/83216e8b2b26cb4c2d68f1dee64ad8067cfc8e6e) - add `mskbinary5d` to namespace
+-   [`fa19a8d`](https://github.com/stdlib-js/stdlib/commit/fa19a8dc4c3a20c59c6f14f1de08ac4955b9622c) - add `mskbinary4d` to namespace
+-   [`3ee787e`](https://github.com/stdlib-js/stdlib/commit/3ee787ecdea6f5bdb2480f9f3e2b1606c6f9dffa) - add `mskbinary3d` to namespace
+-   [`ca5c355`](https://github.com/stdlib-js/stdlib/commit/ca5c355107aa609941a2a2aaf1e2ba0e7bd9e544) - add `bternary5d` to namespace
+-   [`8b18d20`](https://github.com/stdlib-js/stdlib/commit/8b18d207bd35acec47e05d4d0cdd127ebd889b98) - add `bternary4d` to namespace
+-   [`c2fc444`](https://github.com/stdlib-js/stdlib/commit/c2fc4449f083322815965ccf571b1d60feba970c) - add `bternary3d` to namespace
+-   [`b9f3e5c`](https://github.com/stdlib-js/stdlib/commit/b9f3e5cbd7edfd0420bda2f2b517027960ac6309) - add `bquinary4d` to namespace
+-   [`399fedf`](https://github.com/stdlib-js/stdlib/commit/399fedf0c79560029823aebbaef212f3f3fa5276) - add `bquaternary5d` to namespace
+-   [`5371876`](https://github.com/stdlib-js/stdlib/commit/53718765af888abe0c9dddf625b7fc0d4b7e4fd6) - add `bquaternary4d` to namespace
+-   [`43057b9`](https://github.com/stdlib-js/stdlib/commit/43057b91ab4c636208115bdd94ca7357ada180f7) - add `bquaternary3d` to namespace
+-   [`e43ffc6`](https://github.com/stdlib-js/stdlib/commit/e43ffc6c16da9dfd0f734a1ce1f6973278bcc323) - add `mskfilter2` to namespace
 -   [`9818fa6`](https://github.com/stdlib-js/stdlib/commit/9818fa6dd8c90e045a147bfd1ba83cb1f693d17b) - update namespace TypeScript declarations [(#3259)](https://github.com/stdlib-js/stdlib/pull/3259)
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 -   [`42664da`](https://github.com/stdlib-js/stdlib/commit/42664dafb94e72a8b8eca80ede6669caaaf57e68) - add `nulls` to namespace
@@ -59,6 +82,7 @@
 
 ##### Features
 
+-   [`d11aaf3`](https://github.com/stdlib-js/stdlib/commit/d11aaf3e4ea651384185655584eea9c5b8ca9ae2) - add `isSortedAscending` to namespace
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 -   [`43aa58f`](https://github.com/stdlib-js/stdlib/commit/43aa58f81dcad604f11a5715a1546c015b0a9623) - add `isByteOrder` to namespace
 -   [`81b39fe`](https://github.com/stdlib-js/stdlib/commit/81b39fec06b8575149b2ab1b834a7577e6ac5e5d) - add `hasEqualValuesIndexed` to namespace
@@ -141,6 +165,28 @@
 ##### Features
 
 -   [`b18478e`](https://github.com/stdlib-js/stdlib/commit/b18478e236e9cb6991d5a0f952d217e043e46587) - add `array/base/assert/is-byte-order`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-assert-is-sorted-ascending-unreleased">
+
+#### [@stdlib/array/base/assert/is-sorted-ascending](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/assert/is-sorted-ascending)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5a848eb`](https://github.com/stdlib-js/stdlib/commit/5a848ebda6a2ff9cc34cfa5cf93ffce65b8bab0e) - add `array/base/assert/is-sorted-ascending`
 
 </section>
 
@@ -634,6 +680,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="array-base-fill-unreleased">
+
+#### [@stdlib/array/base/fill](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/fill)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`837e86f`](https://github.com/stdlib-js/stdlib/commit/837e86f0d4acd61a3f9283e7c6c9e2036912b489) - add `array/base/fill`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="array-base-filled2d-unreleased">
 
 #### [@stdlib/array/base/filled2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/filled2d)
@@ -810,6 +878,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="array-base-indices-complement-unreleased">
+
+#### [@stdlib/array/base/indices-complement](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/indices-complement)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`348a463`](https://github.com/stdlib-js/stdlib/commit/348a463487c659b44178d5e669950b65206b9944) - add `array/base/indices-complement`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="array-base-msk-unreleased">
 
 #### [@stdlib/array/base/msk](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/msk)
@@ -839,6 +929,50 @@ A total of 3 issues were closed in this release:
 </section>
 
 <!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-mskfilter2-unreleased">
+
+#### [@stdlib/array/base/mskfilter2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/mskfilter2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a969216`](https://github.com/stdlib-js/stdlib/commit/a96921653ee316c7d19813467aef0d9f12e0e696) - add `array/base/mskfilter2`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-mskfiltern-unreleased">
+
+#### [@stdlib/array/base/mskfiltern](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/mskfiltern)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8dfa8c0`](https://github.com/stdlib-js/stdlib/commit/8dfa8c0424d01a0cfa81509052c69f1cbcfa0301) - add `array/base/mskfiltern`
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -947,6 +1081,94 @@ This release closes the following issue:
 ##### Features
 
 -   [`3dc813f`](https://github.com/stdlib-js/stdlib/commit/3dc813f651cb17221a93968b772795b7b9a1c5e6) - add `array/base/remove-at`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-scatter-filled-unreleased">
+
+#### [@stdlib/array/base/scatter-filled](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/scatter-filled)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5a3d80b`](https://github.com/stdlib-js/stdlib/commit/5a3d80bf345f51f260c07026c90e015f18745d21) - add `array/base/scatter-filled`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-scattered-unreleased">
+
+#### [@stdlib/array/base/scattered](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/scattered)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c779e6f`](https://github.com/stdlib-js/stdlib/commit/c779e6f17a6f799033bb57756e60d6754c525c92) - add `array/base/scattered`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-slice-unreleased">
+
+#### [@stdlib/array/base/slice](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/slice)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f910a92`](https://github.com/stdlib-js/stdlib/commit/f910a92d7da387a11ae960521cbaf0c0287a2225) - support boolean arrays
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-take-indexed2-unreleased">
+
+#### [@stdlib/array/base/take-indexed2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/take-indexed2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`2250000`](https://github.com/stdlib-js/stdlib/commit/2250000b351bdc1cd1142fe1d6000244c7ae62e3) - add `array/base/take-indexed2`
 
 </section>
 
@@ -1173,6 +1395,66 @@ A total of 14 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d11aaf3`](https://github.com/stdlib-js/stdlib/commit/d11aaf3e4ea651384185655584eea9c5b8ca9ae2) - **feat:** add `isSortedAscending` to namespace _(by Athan Reines)_
+-   [`5a848eb`](https://github.com/stdlib-js/stdlib/commit/5a848ebda6a2ff9cc34cfa5cf93ffce65b8bab0e) - **feat:** add `array/base/assert/is-sorted-ascending` _(by Athan Reines)_
+-   [`1d9e4dd`](https://github.com/stdlib-js/stdlib/commit/1d9e4dd5514ba4f3c1063dff732e37254dc0dd84) - **docs:** add missing comment _(by Athan Reines)_
+-   [`04f5785`](https://github.com/stdlib-js/stdlib/commit/04f5785ed011a7b0701eba10274cf4308f16bbad) - **feat:** add `scatterFilled` to namespace _(by Athan Reines)_
+-   [`5a3d80b`](https://github.com/stdlib-js/stdlib/commit/5a3d80bf345f51f260c07026c90e015f18745d21) - **feat:** add `array/base/scatter-filled` _(by Athan Reines)_
+-   [`4f2384c`](https://github.com/stdlib-js/stdlib/commit/4f2384ca679f06a365cb0bbc17e273746abc58bb) - **chore:** fix spelling _(by Athan Reines)_
+-   [`5682699`](https://github.com/stdlib-js/stdlib/commit/56826996a6bc1179b9b99e33f81c814100a8fb78) - **feat:** add `scattered` to namespace _(by Athan Reines)_
+-   [`c779e6f`](https://github.com/stdlib-js/stdlib/commit/c779e6f17a6f799033bb57756e60d6754c525c92) - **feat:** add `array/base/scattered` _(by Athan Reines)_
+-   [`af3a2de`](https://github.com/stdlib-js/stdlib/commit/af3a2dece5c5d061c2ca2e13693a867cd4e77a97) - **feat:** add `fill` to namespace _(by Athan Reines)_
+-   [`837e86f`](https://github.com/stdlib-js/stdlib/commit/837e86f0d4acd61a3f9283e7c6c9e2036912b489) - **feat:** add `array/base/fill` _(by Athan Reines)_
+-   [`f910a92`](https://github.com/stdlib-js/stdlib/commit/f910a92d7da387a11ae960521cbaf0c0287a2225) - **feat:** support boolean arrays _(by Athan Reines)_
+-   [`22271ae`](https://github.com/stdlib-js/stdlib/commit/22271ae80c22bf4ebf1888a2d1d665ba26731cea) - **feat:** add `takeIndexed2` to namespace _(by Athan Reines)_
+-   [`2250000`](https://github.com/stdlib-js/stdlib/commit/2250000b351bdc1cd1142fe1d6000244c7ae62e3) - **feat:** add `array/base/take-indexed2` _(by Athan Reines)_
+-   [`07906c5`](https://github.com/stdlib-js/stdlib/commit/07906c5508c1c7f596a6f19a13aed21cacbb058d) - **docs:** fix description _(by Athan Reines)_
+-   [`db712f5`](https://github.com/stdlib-js/stdlib/commit/db712f5b3e6538aac7806faa92b2aa80bc32ccb2) - **feat:** add `indicesComplement` to namespace _(by Athan Reines)_
+-   [`348a463`](https://github.com/stdlib-js/stdlib/commit/348a463487c659b44178d5e669950b65206b9944) - **feat:** add `array/base/indices-complement` _(by Athan Reines)_
+-   [`0c8eefd`](https://github.com/stdlib-js/stdlib/commit/0c8eefdb28a395cea9cf94489ba47bc6179c90a9) - **feat:** add `mskfiltern` to namespace _(by Athan Reines)_
+-   [`8dfa8c0`](https://github.com/stdlib-js/stdlib/commit/8dfa8c0424d01a0cfa81509052c69f1cbcfa0301) - **feat:** add `array/base/mskfiltern` _(by Athan Reines)_
+-   [`19c85a5`](https://github.com/stdlib-js/stdlib/commit/19c85a5814ca72d9ef97e5a86a29c771bac407c9) - **docs:** fix comment _(by Athan Reines)_
+-   [`0135004`](https://github.com/stdlib-js/stdlib/commit/0135004cab2bc62627d4dc492efa850856267587) - **docs:** fix comment _(by Athan Reines)_
+-   [`b985bf1`](https://github.com/stdlib-js/stdlib/commit/b985bf1ba9387c5adfac6a7aa4b63ec09868099a) - **docs:** fix comment _(by Athan Reines)_
+-   [`afdb544`](https://github.com/stdlib-js/stdlib/commit/afdb544c4e1447a4bb81276e91aa535c7f10d3f5) - **docs:** fix grammar _(by Athan Reines)_
+-   [`427e7fa`](https://github.com/stdlib-js/stdlib/commit/427e7fad20600af6da5288e581e1e447058b90d1) - **feat:** add `mskfilterMap` to namespace _(by Athan Reines)_
+-   [`cdac4cf`](https://github.com/stdlib-js/stdlib/commit/cdac4cfdbfd0895eaffd370f1d85726cf42be7f9) - **chore:** clean-up documentation and fix tests _(by Athan Reines)_
+-   [`dee7f2a`](https://github.com/stdlib-js/stdlib/commit/dee7f2a1ae43391156aba7c60344f666de01ef9c) - **feat:** add `unary5dBy` to namespace _(by Athan Reines)_
+-   [`b948d6b`](https://github.com/stdlib-js/stdlib/commit/b948d6bbe1eac800e624b7f82d00d29e3aa5e9aa) - **feat:** add `unary4dBy` to namespace _(by Athan Reines)_
+-   [`3da967d`](https://github.com/stdlib-js/stdlib/commit/3da967d0e5ae94146c2f4cf48417716568a50413) - **feat:** add `unary3dBy` to namespace _(by Athan Reines)_
+-   [`9da9c4a`](https://github.com/stdlib-js/stdlib/commit/9da9c4a68f556e401d607a41e344c99d1ee2961e) - **feat:** add `mskunary5d` to namespace _(by Athan Reines)_
+-   [`22acaad`](https://github.com/stdlib-js/stdlib/commit/22acaad024e3e43efd02282c9d48e816247ea78e) - **feat:** add `mskunary4d` to namespace _(by Athan Reines)_
+-   [`83216e8`](https://github.com/stdlib-js/stdlib/commit/83216e8b2b26cb4c2d68f1dee64ad8067cfc8e6e) - **feat:** add `mskbinary5d` to namespace _(by Athan Reines)_
+-   [`fa19a8d`](https://github.com/stdlib-js/stdlib/commit/fa19a8dc4c3a20c59c6f14f1de08ac4955b9622c) - **feat:** add `mskbinary4d` to namespace _(by Athan Reines)_
+-   [`3ee787e`](https://github.com/stdlib-js/stdlib/commit/3ee787ecdea6f5bdb2480f9f3e2b1606c6f9dffa) - **feat:** add `mskbinary3d` to namespace _(by Athan Reines)_
+-   [`ca5c355`](https://github.com/stdlib-js/stdlib/commit/ca5c355107aa609941a2a2aaf1e2ba0e7bd9e544) - **feat:** add `bternary5d` to namespace _(by Athan Reines)_
+-   [`8b18d20`](https://github.com/stdlib-js/stdlib/commit/8b18d207bd35acec47e05d4d0cdd127ebd889b98) - **feat:** add `bternary4d` to namespace _(by Athan Reines)_
+-   [`c2fc444`](https://github.com/stdlib-js/stdlib/commit/c2fc4449f083322815965ccf571b1d60feba970c) - **feat:** add `bternary3d` to namespace _(by Athan Reines)_
+-   [`b9f3e5c`](https://github.com/stdlib-js/stdlib/commit/b9f3e5cbd7edfd0420bda2f2b517027960ac6309) - **feat:** add `bquinary4d` to namespace _(by Athan Reines)_
+-   [`399fedf`](https://github.com/stdlib-js/stdlib/commit/399fedf0c79560029823aebbaef212f3f3fa5276) - **feat:** add `bquaternary5d` to namespace _(by Athan Reines)_
+-   [`5371876`](https://github.com/stdlib-js/stdlib/commit/53718765af888abe0c9dddf625b7fc0d4b7e4fd6) - **feat:** add `bquaternary4d` to namespace _(by Athan Reines)_
+-   [`43057b9`](https://github.com/stdlib-js/stdlib/commit/43057b91ab4c636208115bdd94ca7357ada180f7) - **feat:** add `bquaternary3d` to namespace _(by Athan Reines)_
+-   [`e43ffc6`](https://github.com/stdlib-js/stdlib/commit/e43ffc6c16da9dfd0f734a1ce1f6973278bcc323) - **feat:** add `mskfilter2` to namespace _(by Athan Reines)_
+-   [`a969216`](https://github.com/stdlib-js/stdlib/commit/a96921653ee316c7d19813467aef0d9f12e0e696) - **feat:** add `array/base/mskfilter2` _(by Athan Reines)_
+-   [`563a4f8`](https://github.com/stdlib-js/stdlib/commit/563a4f826ab757636ae08094fc6f62746042da4b) - **docs:** update related packages sections [(#4594)](https://github.com/stdlib-js/stdlib/pull/4594) _(by stdlib-bot)_
+-   [`f231799`](https://github.com/stdlib-js/stdlib/commit/f231799e1d40cfff7ceb79a6074166a08c4ba072) - **docs:** update related packages sections [(#4545)](https://github.com/stdlib-js/stdlib/pull/4545) _(by stdlib-bot)_
+-   [`321e49e`](https://github.com/stdlib-js/stdlib/commit/321e49e9965648f1b5eb6a840fe454959af0ec49) - **docs:** add missing periods to list items _(by Philipp Burckhardt)_
+-   [`bc279b5`](https://github.com/stdlib-js/stdlib/commit/bc279b5f310d68ca939e8c03de09ff23fbc4ae68) - **docs:** update related packages sections [(#4485)](https://github.com/stdlib-js/stdlib/pull/4485) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`0d8ee2d`](https://github.com/stdlib-js/stdlib/commit/0d8ee2dd2425d7414487f65940dfc4c25c79ad1d) - **docs:** update related packages sections [(#4334)](https://github.com/stdlib-js/stdlib/pull/4334) _(by stdlib-bot)_
+-   [`8f2808d`](https://github.com/stdlib-js/stdlib/commit/8f2808dec8c8a6508841e86453fba823823efc6c) - **docs:** update related packages sections [(#4302)](https://github.com/stdlib-js/stdlib/pull/4302) _(by stdlib-bot)_
+-   [`a6f3921`](https://github.com/stdlib-js/stdlib/commit/a6f3921560705503dcb5ee2575dd2f11417f58fb) - **docs:** update related packages sections [(#4242)](https://github.com/stdlib-js/stdlib/pull/4242) _(by stdlib-bot, Athan Reines)_
+-   [`f9fce59`](https://github.com/stdlib-js/stdlib/commit/f9fce5904d09fc2f61c1d7c21d26e59f7de17420) - **docs:** update related packages sections [(#4212)](https://github.com/stdlib-js/stdlib/pull/4212) _(by stdlib-bot)_
+-   [`4a70790`](https://github.com/stdlib-js/stdlib/commit/4a707903dfef7c2b56216000165706497d19a251) - **style:** add missing spaces _(by Philipp Burckhardt)_
+-   [`ed5c4cc`](https://github.com/stdlib-js/stdlib/commit/ed5c4cccc06ad98f4de90310bf24a5a373761b43) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`7d6450c`](https://github.com/stdlib-js/stdlib/commit/7d6450c671dd91fffbec536a216a76f9e094dad0) - **docs:** update related packages sections [(#4186)](https://github.com/stdlib-js/stdlib/pull/4186) _(by stdlib-bot)_
+-   [`d3d3d14`](https://github.com/stdlib-js/stdlib/commit/d3d3d14939ac77ab7d5a4476551108f8ff1c3f1f) - **docs:** update related packages sections [(#4149)](https://github.com/stdlib-js/stdlib/pull/4149) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`0ba282b`](https://github.com/stdlib-js/stdlib/commit/0ba282b89c384f06bbe3ff8ecd71982f05209606) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`c322b66`](https://github.com/stdlib-js/stdlib/commit/c322b6647751b73a9d0fe12bf5665e8e2243d4ca) - **docs:** update related packages sections [(#4070)](https://github.com/stdlib-js/stdlib/pull/4070) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`f317033`](https://github.com/stdlib-js/stdlib/commit/f3170337071651a2997d15ac194fc767570f2f75) - **docs:** update related packages sections [(#4040)](https://github.com/stdlib-js/stdlib/pull/4040) _(by stdlib-bot)_
+-   [`a1b543a`](https://github.com/stdlib-js/stdlib/commit/a1b543a2a1bdf4d1fb9438bd4a13cb971af62063) - **docs:** update related packages sections [(#4009)](https://github.com/stdlib-js/stdlib/pull/4009) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`f4eb2ab`](https://github.com/stdlib-js/stdlib/commit/f4eb2ab24e14f4fd5585765a8c303e6398a10958) - **docs:** fix comment _(by Athan Reines)_
+-   [`00fff89`](https://github.com/stdlib-js/stdlib/commit/00fff89d59d8b6b09d28224ef9a3980e72b6a76c) - **docs:** fix comment _(by Athan Reines)_
+-   [`b8c41df`](https://github.com/stdlib-js/stdlib/commit/b8c41df78cd2cdc9cd3c3c6b223759d32f4f6e14) - **docs:** update related packages sections [(#3915)](https://github.com/stdlib-js/stdlib/pull/3915) _(by stdlib-bot)_
 -   [`0c9faed`](https://github.com/stdlib-js/stdlib/commit/0c9faedab42d5b816921487891de6aef305aa54f) - **docs:** update namespace table of contents [(#3902)](https://github.com/stdlib-js/stdlib/pull/3902) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`2825b42`](https://github.com/stdlib-js/stdlib/commit/2825b42e8cd7483d15dfed1c6b389bfcb86d7ca0) - **docs:** update related packages sections [(#3898)](https://github.com/stdlib-js/stdlib/pull/3898) _(by stdlib-bot)_
 -   [`e74cfa7`](https://github.com/stdlib-js/stdlib/commit/e74cfa7ad107c99e45e1b5857c258f71de369bfb) - **feat:** add `array/base/broadcasted-quinary4d` [(#3267)](https://github.com/stdlib-js/stdlib/pull/3267) _(by Neeraj Pathak, Athan Reines, stdlib-bot)_
@@ -2132,7 +2414,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 -   Golden Kumar
 -   Jaysukh Makvana
 -   Philipp Burckhardt
--   Pratik
+-   Pratik Singh
 -   Priyanshu Agarwal
 -   Utkarsh
 -   Varad Gupta
@@ -2251,7 +2533,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 -   [`ecd3518`](https://github.com/stdlib-js/stdlib/commit/ecd3518101b9c013ff9279b7f56e64015606907d) - **feat:** add `array/base/count-if` [(#1372)](https://github.com/stdlib-js/stdlib/pull/1372) _(by Utkarsh, Philipp Burckhardt)_
 -   [`670aeab`](https://github.com/stdlib-js/stdlib/commit/670aeab1e433314ca3b0ebfb4dce16f267cff881) - **docs:** fix require path _(by Philipp Burckhardt)_
 -   [`1ed81b7`](https://github.com/stdlib-js/stdlib/commit/1ed81b78fd6469d374c7b033f258e709934539b2) - **feat:** add `array/base/count-same-value-zero` [(#1384)](https://github.com/stdlib-js/stdlib/pull/1384) _(by Priyanshu Agarwal, Jaysukh Makvana, Philipp Burckhardt)_
--   [`4253607`](https://github.com/stdlib-js/stdlib/commit/425360790cca3ef7b1747b3c1828ab5825306441) - **feat:** add `array/base/with` [(#1374)](https://github.com/stdlib-js/stdlib/pull/1374) _(by Pratik, Philipp Burckhardt)_
+-   [`4253607`](https://github.com/stdlib-js/stdlib/commit/425360790cca3ef7b1747b3c1828ab5825306441) - **feat:** add `array/base/with` [(#1374)](https://github.com/stdlib-js/stdlib/pull/1374) _(by Pratik Singh, Philipp Burckhardt)_
 
 </details>
 
