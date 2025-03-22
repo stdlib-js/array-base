@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-16)
+## Unreleased (2025-03-22)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`a612b3d`](https://github.com/stdlib-js/stdlib/commit/a612b3dee234a1218596793d2d3be311154eb799) - add `fillBy` to namespace
 -   [`e661213`](https://github.com/stdlib-js/stdlib/commit/e66121352ef767cdb87d19e938b1eccf7970fa3a) - update namespace TypeScript declarations [(#4706)](https://github.com/stdlib-js/stdlib/pull/4706)
 -   [`04f5785`](https://github.com/stdlib-js/stdlib/commit/04f5785ed011a7b0701eba10274cf4308f16bbad) - add `scatterFilled` to namespace
 -   [`5682699`](https://github.com/stdlib-js/stdlib/commit/56826996a6bc1179b9b99e33f81c814100a8fb78) - add `scattered` to namespace
@@ -189,6 +190,50 @@
 ##### Features
 
 -   [`5a848eb`](https://github.com/stdlib-js/stdlib/commit/5a848ebda6a2ff9cc34cfa5cf93ffce65b8bab0e) - add `array/base/assert/is-sorted-ascending`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-banded-filled2d-by-unreleased">
+
+#### [@stdlib/array/base/banded/filled2d-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/banded/filled2d-by)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6f20f70`](https://github.com/stdlib-js/stdlib/commit/6f20f707c3a94f5fb14b55144f52d2c1aa540c9f) - add `array/base/banded/filled2d-by`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-banded-to-compact-unreleased">
+
+#### [@stdlib/array/base/banded/to-compact](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/banded/to-compact)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ef1d278`](https://github.com/stdlib-js/stdlib/commit/ef1d278f2a382993d2cc63f83458778593767708) - add `array/base/banded/to-compact`
 
 </section>
 
@@ -698,6 +743,38 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`09ff0ce`](https://github.com/stdlib-js/stdlib/commit/09ff0ce53ae1c659591a4106c7f44b9df29bcdfd) - add missing index normalization and add associated tests
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-fill-by-unreleased">
+
+#### [@stdlib/array/base/fill-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/fill-by)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ab96811`](https://github.com/stdlib-js/stdlib/commit/ab968115af31dba0958736eeb1fc1fd73903c16c) - add `array/base/fill-by`
+
+</section>
+
+<!-- /.features -->
+
 </details>
 
 </section>
@@ -737,6 +814,38 @@ This release closes the following issue:
 ##### Bug Fixes
 
 -   [`7f368f6`](https://github.com/stdlib-js/stdlib/commit/7f368f6c3f4cea444a304a62616cea36a5f143eb) - remove unused imports from TS declaration file
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-for-each-unreleased">
+
+#### [@stdlib/array/base/for-each](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/for-each)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`072052b`](https://github.com/stdlib-js/stdlib/commit/072052b92dd00f2b36727c6b0364b64ddcc32ecb) - add `array/base/for-each` [(#5319)](https://github.com/stdlib-js/stdlib/pull/5319)
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`165c7fb`](https://github.com/stdlib-js/stdlib/commit/165c7fb75861f4c1ee28940aadbe44ba4f6e8268) - use the correct TypeScript callback signature and update docs for `array/base/for-each` [(#5448)](https://github.com/stdlib-js/stdlib/pull/5448)
 
 </section>
 
@@ -891,6 +1000,28 @@ This release closes the following issue:
 ##### Features
 
 -   [`348a463`](https://github.com/stdlib-js/stdlib/commit/348a463487c659b44178d5e669950b65206b9944) - add `array/base/indices-complement`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-map-unreleased">
+
+#### [@stdlib/array/base/map](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/map)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`9b2b107`](https://github.com/stdlib-js/stdlib/commit/9b2b10706d20bf18b5a862b0be1c3c53be30c9ce) - add `array/base/map` [(#5346)](https://github.com/stdlib-js/stdlib/pull/5346)
 
 </section>
 
@@ -1160,6 +1291,72 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="array-base-symmetric-banded-filled2d-by-unreleased">
+
+#### [@stdlib/array/base/symmetric-banded/filled2d-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/symmetric-banded/filled2d-by)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`41a2534`](https://github.com/stdlib-js/stdlib/commit/41a2534c6dd345a0dc73365826919ccbf1e9eca7) - add `array/base/symmetric-banded/filled2d-by`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-symmetric-banded-to-compact-unreleased">
+
+#### [@stdlib/array/base/symmetric-banded/to-compact](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/symmetric-banded/to-compact)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f9bb0d7`](https://github.com/stdlib-js/stdlib/commit/f9bb0d77a4ce5ad813c371f5d49d2cee7476b775) - add `array/base/symmetric-banded/to-compact`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-symmetric-filled2d-by-unreleased">
+
+#### [@stdlib/array/base/symmetric/filled2d-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/symmetric/filled2d-by)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`052b810`](https://github.com/stdlib-js/stdlib/commit/052b81032b766464a079bc88cc676e38dac0c35a) - add `array/base/symmetric/filled2d-by`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="array-base-take-indexed2-unreleased">
 
 #### [@stdlib/array/base/take-indexed2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/take-indexed2)
@@ -1370,7 +1567,7 @@ A total of 18 issues were closed in this release:
 
 ### Contributors
 
-A total of 14 people contributed to this release. Thank you to the following contributors:
+A total of 15 people contributed to this release. Thank you to the following contributors:
 
 -   Abhijit Raut
 -   Aditya Sapra
@@ -1379,6 +1576,7 @@ A total of 14 people contributed to this release. Thank you to the following con
 -   Gururaj Gurram
 -   HarshaNP
 -   Mohammad Kaif
+-   Muhammad Haris
 -   Neeraj Pathak
 -   Philipp Burckhardt
 -   Rylan Yang
@@ -1397,6 +1595,23 @@ A total of 14 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a612b3d`](https://github.com/stdlib-js/stdlib/commit/a612b3dee234a1218596793d2d3be311154eb799) - **feat:** add `fillBy` to namespace _(by Athan Reines)_
+-   [`ab96811`](https://github.com/stdlib-js/stdlib/commit/ab968115af31dba0958736eeb1fc1fd73903c16c) - **feat:** add `array/base/fill-by` _(by Athan Reines)_
+-   [`b41b329`](https://github.com/stdlib-js/stdlib/commit/b41b329153af54747648343fe20907feecac2639) - **test:** add tests _(by Athan Reines)_
+-   [`1f692ff`](https://github.com/stdlib-js/stdlib/commit/1f692ffb74ca5c9f27092829f71f8bc279edd5b7) - **docs:** add note and fix note _(by Athan Reines)_
+-   [`da6bf00`](https://github.com/stdlib-js/stdlib/commit/da6bf00e5a133d6cff6afc6c18c8a60a2e750a3d) - **docs:** add note _(by Athan Reines)_
+-   [`09ff0ce`](https://github.com/stdlib-js/stdlib/commit/09ff0ce53ae1c659591a4106c7f44b9df29bcdfd) - **fix:** add missing index normalization and add associated tests _(by Athan Reines)_
+-   [`9b2b107`](https://github.com/stdlib-js/stdlib/commit/9b2b10706d20bf18b5a862b0be1c3c53be30c9ce) - **feat:** add `array/base/map` [(#5346)](https://github.com/stdlib-js/stdlib/pull/5346) _(by Muhammad Haris, Athan Reines)_
+-   [`3938b26`](https://github.com/stdlib-js/stdlib/commit/3938b265e603116448c89fcaa58df70e79d40f59) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`ef1d278`](https://github.com/stdlib-js/stdlib/commit/ef1d278f2a382993d2cc63f83458778593767708) - **feat:** add `array/base/banded/to-compact` _(by Athan Reines)_
+-   [`f9bb0d7`](https://github.com/stdlib-js/stdlib/commit/f9bb0d77a4ce5ad813c371f5d49d2cee7476b775) - **feat:** add `array/base/symmetric-banded/to-compact` _(by Athan Reines)_
+-   [`1bb5ea9`](https://github.com/stdlib-js/stdlib/commit/1bb5ea9e19c1d89b1cb7504d8e369b7fea02e94d) - **test:** add test cases _(by Athan Reines)_
+-   [`6f20f70`](https://github.com/stdlib-js/stdlib/commit/6f20f707c3a94f5fb14b55144f52d2c1aa540c9f) - **feat:** add `array/base/banded/filled2d-by` _(by Athan Reines)_
+-   [`8e00e52`](https://github.com/stdlib-js/stdlib/commit/8e00e52bed8c7b4fec42c468bd021815a417b988) - **bench:** parameterize `k` _(by Athan Reines)_
+-   [`41a2534`](https://github.com/stdlib-js/stdlib/commit/41a2534c6dd345a0dc73365826919ccbf1e9eca7) - **feat:** add `array/base/symmetric-banded/filled2d-by` _(by Athan Reines)_
+-   [`052b810`](https://github.com/stdlib-js/stdlib/commit/052b81032b766464a079bc88cc676e38dac0c35a) - **feat:** add `array/base/symmetric/filled2d-by` _(by Athan Reines)_
+-   [`165c7fb`](https://github.com/stdlib-js/stdlib/commit/165c7fb75861f4c1ee28940aadbe44ba4f6e8268) - **fix:** use the correct TypeScript callback signature and update docs for `array/base/for-each` [(#5448)](https://github.com/stdlib-js/stdlib/pull/5448) _(by Muhammad Haris)_
+-   [`072052b`](https://github.com/stdlib-js/stdlib/commit/072052b92dd00f2b36727c6b0364b64ddcc32ecb) - **feat:** add `array/base/for-each` [(#5319)](https://github.com/stdlib-js/stdlib/pull/5319) _(by Muhammad Haris, Athan Reines)_
 -   [`3ae3c5f`](https://github.com/stdlib-js/stdlib/commit/3ae3c5f79f267ecc17041b6b10d8c543f5f0686c) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`60334d6`](https://github.com/stdlib-js/stdlib/commit/60334d6d17a9f29c0045c139b8ede24d1182b870) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`8da0e78`](https://github.com/stdlib-js/stdlib/commit/8da0e787b914f30db9bafcd1c0804ae2f1a99e36) - **refactor:** update paths _(by Gururaj Gurram)_
