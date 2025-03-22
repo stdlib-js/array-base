@@ -142,6 +142,7 @@ The namespace exports the following:
 -   <span class="signature">[`every( x )`][@stdlib/array/base/every]</span><span class="delimiter">: </span><span class="description">test whether all elements in an array are truthy.</span>
 -   <span class="signature">[`fancySliceAssign( x, y, s, strict )`][@stdlib/array/base/fancy-slice-assign]</span><span class="delimiter">: </span><span class="description">assign element values from a broadcasted input array to corresponding elements in an output array.</span>
 -   <span class="signature">[`fancySlice( x, s, strict )`][@stdlib/array/base/fancy-slice]</span><span class="delimiter">: </span><span class="description">return a shallow copy of a portion of an array.</span>
+-   <span class="signature">[`fillBy( x, start, end, fcn[, thisArg] )`][@stdlib/array/base/fill-by]</span><span class="delimiter">: </span><span class="description">fill all elements within a portion of an array according to a callback function.</span>
 -   <span class="signature">[`fill( x, value, start, end )`][@stdlib/array/base/fill]</span><span class="delimiter">: </span><span class="description">fill all elements within a portion of an array with a specified value.</span>
 -   <span class="signature">[`filledBy( len, clbk[, thisArg] )`][@stdlib/array/base/filled-by]</span><span class="delimiter">: </span><span class="description">create a filled "generic" array according to a provided callback function.</span>
 -   <span class="signature">[`filled( value, len )`][@stdlib/array/base/filled]</span><span class="delimiter">: </span><span class="description">create a filled "generic" array.</span>
@@ -531,6 +532,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/array/base/fancy-slice-assign]: https://github.com/stdlib-js/array-base-fancy-slice-assign
 
 [@stdlib/array/base/fancy-slice]: https://github.com/stdlib-js/array-base-fancy-slice
+
+[@stdlib/array/base/fill-by]: https://github.com/stdlib-js/array-base-fill-by
 
 [@stdlib/array/base/fill]: https://github.com/stdlib-js/array-base-fill
 
