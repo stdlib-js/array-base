@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`7899d23`](https://github.com/stdlib-js/stdlib/commit/7899d23195464e9fc0a10b1f0e57b5aa230de5e2) - update namespace TypeScript declarations [(#6459)](https://github.com/stdlib-js/stdlib/pull/6459)
 -   [`e8bb580`](https://github.com/stdlib-js/stdlib/commit/e8bb580f445dcbeeb03e458def428d9e820ab808) - add `lastIndexOfSameValue` to namespace
 -   [`e8a96a1`](https://github.com/stdlib-js/stdlib/commit/e8a96a17652f957f69c041a2f7292bee1b827aeb) - add `indexOfSameValue` to namespace
 -   [`4623339`](https://github.com/stdlib-js/stdlib/commit/46233390b61053807a2b8ce901c1f03974bd04f9) - update namespace TypeScript declarations [(#6275)](https://github.com/stdlib-js/stdlib/pull/6275)
@@ -1082,6 +1083,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`b68b283`](https://github.com/stdlib-js/stdlib/commit/b68b28358b19ba7e4d23d9a87acfb283c3c0ea3d) - add specialized support for complex number and boolean arrays
 -   [`c7f571e`](https://github.com/stdlib-js/stdlib/commit/c7f571ef00c124a120847f0c8fa59053c7c27dba) - add `array/base/index-of-same-value`
 
 </section>
@@ -1206,6 +1208,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`74d2527`](https://github.com/stdlib-js/stdlib/commit/74d2527745106957e4b6228975dceb3578adcc5a) - add specialized support for complex number and boolean arrays
 -   [`25fd7dd`](https://github.com/stdlib-js/stdlib/commit/25fd7dd71923e473865bb8c814fdef3981b17593) - add `array/base/last-index-of-same-value`
 
 </section>
@@ -1902,6 +1905,14 @@ A total of 15 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`7899d23`](https://github.com/stdlib-js/stdlib/commit/7899d23195464e9fc0a10b1f0e57b5aa230de5e2) - **feat:** update namespace TypeScript declarations [(#6459)](https://github.com/stdlib-js/stdlib/pull/6459) _(by stdlib-bot)_
+-   [`74d2527`](https://github.com/stdlib-js/stdlib/commit/74d2527745106957e4b6228975dceb3578adcc5a) - **feat:** add specialized support for complex number and boolean arrays _(by Athan Reines)_
+-   [`b27b960`](https://github.com/stdlib-js/stdlib/commit/b27b96086d569c9b6c99f7a5f2a24d74c8d41618) - **test:** add test cases _(by Athan Reines)_
+-   [`f57b1c2`](https://github.com/stdlib-js/stdlib/commit/f57b1c262867fcaa6dc94b1ce64ab36c619b91a8) - **refactor:** reduce overhead by using specialized utilities _(by Athan Reines)_
+-   [`534ddc0`](https://github.com/stdlib-js/stdlib/commit/534ddc015151231e4c9d5e9447b0a8966295876d) - **refactor:** reduce overhead by using specialized utilities _(by Athan Reines)_
+-   [`91c33f0`](https://github.com/stdlib-js/stdlib/commit/91c33f0eeb8bade27b26671a5280a7ec9758a688) - **refactor:** reduce overhead by using specialized utilities _(by Athan Reines)_
+-   [`c7f060f`](https://github.com/stdlib-js/stdlib/commit/c7f060f6549d45a4c7faa06b25ff55a882ee6299) - **test:** add test cases _(by Athan Reines)_
+-   [`b68b283`](https://github.com/stdlib-js/stdlib/commit/b68b28358b19ba7e4d23d9a87acfb283c3c0ea3d) - **feat:** add specialized support for complex number and boolean arrays _(by Athan Reines)_
 -   [`e8bb580`](https://github.com/stdlib-js/stdlib/commit/e8bb580f445dcbeeb03e458def428d9e820ab808) - **feat:** add `lastIndexOfSameValue` to namespace _(by Athan Reines)_
 -   [`25fd7dd`](https://github.com/stdlib-js/stdlib/commit/25fd7dd71923e473865bb8c814fdef3981b17593) - **feat:** add `array/base/last-index-of-same-value` _(by Athan Reines)_
 -   [`e8a96a1`](https://github.com/stdlib-js/stdlib/commit/e8a96a17652f957f69c041a2f7292bee1b827aeb) - **feat:** add `indexOfSameValue` to namespace _(by Athan Reines)_
