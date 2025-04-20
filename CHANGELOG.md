@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-01)
+## Unreleased (2025-04-20)
 
 <section class="packages">
 
@@ -20,6 +20,10 @@
 
 ##### Features
 
+-   [`28a1564`](https://github.com/stdlib-js/stdlib/commit/28a1564b9977c9c0aebb9806c2a4cbb10336b234) - add `reshape` to namespace
+-   [`7d4246f`](https://github.com/stdlib-js/stdlib/commit/7d4246ff5c4607dc228a37c36a9a792181ba2c11) - add `linspace2d` to namespace
+-   [`60bcff3`](https://github.com/stdlib-js/stdlib/commit/60bcff3e6b8998206890401c120501459c7bbf7d) - add `countIfs` to namespace
+-   [`8f14b84`](https://github.com/stdlib-js/stdlib/commit/8f14b84ea7dfb85088efe9ad99548c91c06c47d3) - add `banded`, `symmetric`, and `symmetricBanded` to namespace
 -   [`7899d23`](https://github.com/stdlib-js/stdlib/commit/7899d23195464e9fc0a10b1f0e57b5aa230de5e2) - update namespace TypeScript declarations [(#6459)](https://github.com/stdlib-js/stdlib/pull/6459)
 -   [`e8bb580`](https://github.com/stdlib-js/stdlib/commit/e8bb580f445dcbeeb03e458def428d9e820ab808) - add `lastIndexOfSameValue` to namespace
 -   [`e8a96a1`](https://github.com/stdlib-js/stdlib/commit/e8a96a17652f957f69c041a2f7292bee1b827aeb) - add `indexOfSameValue` to namespace
@@ -194,6 +198,28 @@
 ##### Features
 
 -   [`5a848eb`](https://github.com/stdlib-js/stdlib/commit/5a848ebda6a2ff9cc34cfa5cf93ffce65b8bab0e) - add `array/base/assert/is-sorted-ascending`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-banded-unreleased">
+
+#### [@stdlib/array/base/banded](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/banded)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8213823`](https://github.com/stdlib-js/stdlib/commit/8213823c17f02cc771671778ab3de0205256e33e) - add `array/base/banded` namespace
 
 </section>
 
@@ -480,6 +506,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-count-ifs-unreleased">
+
+#### [@stdlib/array/base/count-ifs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/count-ifs)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ae78e67`](https://github.com/stdlib-js/stdlib/commit/ae78e67351f0fdd6c42988d32d48bab0ae6ec65c) - add `array/base/count-ifs` [(#5952)](https://github.com/stdlib-js/stdlib/pull/5952)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -1221,6 +1269,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="array-base-linspace2d-unreleased">
+
+#### [@stdlib/array/base/linspace2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/linspace2d)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b0da3de`](https://github.com/stdlib-js/stdlib/commit/b0da3de9a0fa3d1e657ee5a05dcca053fe74e515) - `add array/base/linspace2d` [(#5464)](https://github.com/stdlib-js/stdlib/pull/5464)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="array-base-map-unreleased">
 
 #### [@stdlib/array/base/map](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/map)
@@ -1435,6 +1505,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="array-base-reshape-unreleased">
+
+#### [@stdlib/array/base/reshape](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/reshape)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`40de89d`](https://github.com/stdlib-js/stdlib/commit/40de89d0b84ab345f198d6a90696c0762efde887) - add `array/base/reshape` [(#5639)](https://github.com/stdlib-js/stdlib/pull/5639)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="array-base-scatter-filled-unreleased">
 
 #### [@stdlib/array/base/scatter-filled](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/scatter-filled)
@@ -1490,6 +1582,50 @@ This release closes the following issue:
 ##### Features
 
 -   [`f910a92`](https://github.com/stdlib-js/stdlib/commit/f910a92d7da387a11ae960521cbaf0c0287a2225) - support boolean arrays
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-symmetric-unreleased">
+
+#### [@stdlib/array/base/symmetric](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/symmetric)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`61b8b4b`](https://github.com/stdlib-js/stdlib/commit/61b8b4b9d65ccda7f6e4b39f7d7b0830b1d8c4f7) - add `array/base/symmetric` namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="array-base-symmetric-banded-unreleased">
+
+#### [@stdlib/array/base/symmetric-banded](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/base/symmetric-banded)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c58adef`](https://github.com/stdlib-js/stdlib/commit/c58adefe40e133648a8ccdbbea987fde9b6e9bd8) - add `array/base/symmetric-banded` namespace
 
 </section>
 
@@ -1905,6 +2041,17 @@ A total of 15 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`28a1564`](https://github.com/stdlib-js/stdlib/commit/28a1564b9977c9c0aebb9806c2a4cbb10336b234) - **feat:** add `reshape` to namespace _(by Athan Reines)_
+-   [`7d4246f`](https://github.com/stdlib-js/stdlib/commit/7d4246ff5c4607dc228a37c36a9a792181ba2c11) - **feat:** add `linspace2d` to namespace _(by Athan Reines)_
+-   [`60bcff3`](https://github.com/stdlib-js/stdlib/commit/60bcff3e6b8998206890401c120501459c7bbf7d) - **feat:** add `countIfs` to namespace _(by Athan Reines)_
+-   [`8f14b84`](https://github.com/stdlib-js/stdlib/commit/8f14b84ea7dfb85088efe9ad99548c91c06c47d3) - **feat:** add `banded`, `symmetric`, and `symmetricBanded` to namespace _(by Athan Reines)_
+-   [`c58adef`](https://github.com/stdlib-js/stdlib/commit/c58adefe40e133648a8ccdbbea987fde9b6e9bd8) - **feat:** add `array/base/symmetric-banded` namespace _(by Athan Reines)_
+-   [`61b8b4b`](https://github.com/stdlib-js/stdlib/commit/61b8b4b9d65ccda7f6e4b39f7d7b0830b1d8c4f7) - **feat:** add `array/base/symmetric` namespace _(by Athan Reines)_
+-   [`8213823`](https://github.com/stdlib-js/stdlib/commit/8213823c17f02cc771671778ab3de0205256e33e) - **feat:** add `array/base/banded` namespace _(by Athan Reines)_
+-   [`ae78e67`](https://github.com/stdlib-js/stdlib/commit/ae78e67351f0fdd6c42988d32d48bab0ae6ec65c) - **feat:** add `array/base/count-ifs` [(#5952)](https://github.com/stdlib-js/stdlib/pull/5952) _(by Muhammad Haris, Athan Reines)_
+-   [`b0da3de`](https://github.com/stdlib-js/stdlib/commit/b0da3de9a0fa3d1e657ee5a05dcca053fe74e515) - **feat:** `add array/base/linspace2d` [(#5464)](https://github.com/stdlib-js/stdlib/pull/5464) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
+-   [`40de89d`](https://github.com/stdlib-js/stdlib/commit/40de89d0b84ab345f198d6a90696c0762efde887) - **feat:** add `array/base/reshape` [(#5639)](https://github.com/stdlib-js/stdlib/pull/5639) _(by Muhammad Haris, Athan Reines)_
+-   [`e28064f`](https://github.com/stdlib-js/stdlib/commit/e28064f9d93a232d82297842a9a4bd2895952a55) - **docs:** update namespace TypeScript declarations [(#6478)](https://github.com/stdlib-js/stdlib/pull/6478) _(by stdlib-bot)_
 -   [`f2c38e2`](https://github.com/stdlib-js/stdlib/commit/f2c38e218661b2aa21fe58bf2e56ed7c57c2e013) - **docs:** update namespace table of contents [(#6480)](https://github.com/stdlib-js/stdlib/pull/6480) _(by stdlib-bot)_
 -   [`9998d76`](https://github.com/stdlib-js/stdlib/commit/9998d768131de91b59e2808ddf4ee552407d4175) - **docs:** update namespace table of contents [(#6461)](https://github.com/stdlib-js/stdlib/pull/6461) _(by stdlib-bot)_
 -   [`7899d23`](https://github.com/stdlib-js/stdlib/commit/7899d23195464e9fc0a10b1f0e57b5aa230de5e2) - **feat:** update namespace TypeScript declarations [(#6459)](https://github.com/stdlib-js/stdlib/pull/6459) _(by stdlib-bot)_
