@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-22)
+## Unreleased (2025-06-30)
 
 <section class="features">
 
@@ -135,6 +135,8 @@
 
 ### Bug Fixes
 
+-   [`d3426a4`](https://github.com/stdlib-js/stdlib/commit/d3426a41ee92d8024bf7fc03d200aa98fb62a6f0) - use correct dimensions for array
+-   [`aa59ef8`](https://github.com/stdlib-js/stdlib/commit/aa59ef8461be08dc612cf4826bb020915d362239) - pass in correct number of arguments
 -   [`09ff0ce`](https://github.com/stdlib-js/stdlib/commit/09ff0ce53ae1c659591a4106c7f44b9df29bcdfd) - add missing index normalization and add associated tests
 -   [`165c7fb`](https://github.com/stdlib-js/stdlib/commit/165c7fb75861f4c1ee28940aadbe44ba4f6e8268) - use the correct TypeScript callback signature and update docs for `array/base/for-each` [(#5448)](https://github.com/stdlib-js/stdlib/pull/5448)
 -   [`844c9bb`](https://github.com/stdlib-js/stdlib/commit/844c9bb4e0ecb67410bb11c774341ea9d68167f7) - resolve TypeScript errors
@@ -215,6 +217,19 @@ A total of 19 issues were closed in this release:
 
 <details>
 
+-   [`7c9afed`](https://github.com/stdlib-js/stdlib/commit/7c9afed6a288c9e7d3048dfa0ac8f085759d73f4) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`bc3632a`](https://github.com/stdlib-js/stdlib/commit/bc3632a5a7b48a8973b1418e861ddc45b3e8d0fa) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`b128b6a`](https://github.com/stdlib-js/stdlib/commit/b128b6a25775d9b319c83a9dbb521d8d9c45b8c2) - **chore:** fix ExpectType by supplying correct number of generic parameters _(by Philipp Burckhardt)_
+-   [`4ec1d6d`](https://github.com/stdlib-js/stdlib/commit/4ec1d6d67d746b2231ae18bfaaeb2ee5a9f40697) - **docs:** minor clean-up _(by Philipp Burckhardt)_
+-   [`d3426a4`](https://github.com/stdlib-js/stdlib/commit/d3426a41ee92d8024bf7fc03d200aa98fb62a6f0) - **fix:** use correct dimensions for array _(by Philipp Burckhardt)_
+-   [`27d6b62`](https://github.com/stdlib-js/stdlib/commit/27d6b6263dca9fe45e1977103f142226d09a08be) - **docs:** minor clean-up _(by Philipp Burckhardt)_
+-   [`2773163`](https://github.com/stdlib-js/stdlib/commit/2773163cd9baa364dcfe3c070afcc00bf4e98c27) - **chore:** update initial value and clean-up _(by Philipp Burckhardt)_
+-   [`aa59ef8`](https://github.com/stdlib-js/stdlib/commit/aa59ef8461be08dc612cf4826bb020915d362239) - **fix:** pass in correct number of arguments _(by Philipp Burckhardt)_
+-   [`28a6474`](https://github.com/stdlib-js/stdlib/commit/28a64749d12c05ecd840af6f5a4e14a343c6efc0) - **docs:** fix example code _(by Philipp Burckhardt)_
+-   [`21bfa5b`](https://github.com/stdlib-js/stdlib/commit/21bfa5b1ebed46573ed2b501de7dae2b927c4513) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`4951a9d`](https://github.com/stdlib-js/stdlib/commit/4951a9dabc0a1cd2a9a93d8db024538db302b801) - **refactor:** tighten types _(by Athan Reines)_
+-   [`3fa6ce1`](https://github.com/stdlib-js/stdlib/commit/3fa6ce1f3ef526cb91a02c2dffd2cbfd215b4f8c) - **refactor:** tighten types _(by Athan Reines)_
+-   [`979807b`](https://github.com/stdlib-js/stdlib/commit/979807b5577c8a68aa06ba159ad2d905742eaf46) - **bench:** fix invocation _(by Athan Reines)_
 -   [`d3e9442`](https://github.com/stdlib-js/stdlib/commit/d3e9442155e8d093988fed8988489fbe7b549dbf) - **docs:** update namespace table of contents [(#7062)](https://github.com/stdlib-js/stdlib/pull/7062) _(by stdlib-bot)_
 -   [`b0f11b1`](https://github.com/stdlib-js/stdlib/commit/b0f11b1a4ba47bed9c52c7825e27023223d4d9f4) - **remove:** remove `array/base/assert/any-is-entry-in` _(by Athan Reines)_
 -   [`05f79b6`](https://github.com/stdlib-js/stdlib/commit/05f79b6d47b81a2193101ee6476877c4ae860cce) - **remove:** remove `array/base/assert/any-is-entry` _(by Athan Reines)_
