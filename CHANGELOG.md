@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-30)
+## Unreleased (2025-07-26)
 
 <section class="features">
 
 ### Features
 
+-   [`44d590b`](https://github.com/stdlib-js/stdlib/commit/44d590b9dd5f64e263fc3687ba12a52c14bccb8d) - add `zip2object` to namespace
+-   [`455c0d4`](https://github.com/stdlib-js/stdlib/commit/455c0d44ca137051ceb8a331ef66890ee74bd45c) - add `array/base/zip2object`
+-   [`0b89b56`](https://github.com/stdlib-js/stdlib/commit/0b89b56db0aa040a643ef859ac71795462e947d5) - add `hasAlmostEqualValues` to namespace
+-   [`fee6898`](https://github.com/stdlib-js/stdlib/commit/fee68983980c006c27c7f1f5d1f3f11b20602974) - add `array/base/assert/has-almost-equal-values`
 -   [`79efa56`](https://github.com/stdlib-js/stdlib/commit/79efa566515a8c7453fb59b9e18050be37969830) - add `anyHasOwnProp`, `anyHasProp`, `anyIsEntry`, and `anyIsEntryIn` to namespace
 -   [`9d04faf`](https://github.com/stdlib-js/stdlib/commit/9d04fafb8ff8cbba366950b2659de2c652953597) - add `array/base/any-is-entry-in`
 -   [`1090b61`](https://github.com/stdlib-js/stdlib/commit/1090b61370d43c7224595f0038a086257fdb0113) - add `array/base/any-is-entry`
@@ -135,6 +139,7 @@
 
 ### Bug Fixes
 
+-   [`2a0ea7f`](https://github.com/stdlib-js/stdlib/commit/2a0ea7feb22806685fef9eac8a32d7012dab7adc) - use correct package names in package.json
 -   [`d3426a4`](https://github.com/stdlib-js/stdlib/commit/d3426a41ee92d8024bf7fc03d200aa98fb62a6f0) - use correct dimensions for array
 -   [`aa59ef8`](https://github.com/stdlib-js/stdlib/commit/aa59ef8461be08dc612cf4826bb020915d362239) - pass in correct number of arguments
 -   [`09ff0ce`](https://github.com/stdlib-js/stdlib/commit/09ff0ce53ae1c659591a4106c7f44b9df29bcdfd) - add missing index normalization and add associated tests
@@ -217,6 +222,12 @@ A total of 19 issues were closed in this release:
 
 <details>
 
+-   [`44d590b`](https://github.com/stdlib-js/stdlib/commit/44d590b9dd5f64e263fc3687ba12a52c14bccb8d) - **feat:** add `zip2object` to namespace _(by Athan Reines)_
+-   [`455c0d4`](https://github.com/stdlib-js/stdlib/commit/455c0d44ca137051ceb8a331ef66890ee74bd45c) - **feat:** add `array/base/zip2object` _(by Athan Reines)_
+-   [`5388bba`](https://github.com/stdlib-js/stdlib/commit/5388bba36044d2de93dacb0134c6e5539b02928c) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`0b89b56`](https://github.com/stdlib-js/stdlib/commit/0b89b56db0aa040a643ef859ac71795462e947d5) - **feat:** add `hasAlmostEqualValues` to namespace _(by Athan Reines)_
+-   [`fee6898`](https://github.com/stdlib-js/stdlib/commit/fee68983980c006c27c7f1f5d1f3f11b20602974) - **feat:** add `array/base/assert/has-almost-equal-values` _(by Athan Reines)_
+-   [`2a0ea7f`](https://github.com/stdlib-js/stdlib/commit/2a0ea7feb22806685fef9eac8a32d7012dab7adc) - **fix:** use correct package names in package.json _(by Philipp Burckhardt)_
 -   [`7c9afed`](https://github.com/stdlib-js/stdlib/commit/7c9afed6a288c9e7d3048dfa0ac8f085759d73f4) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`bc3632a`](https://github.com/stdlib-js/stdlib/commit/bc3632a5a7b48a8973b1418e861ddc45b3e8d0fa) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`b128b6a`](https://github.com/stdlib-js/stdlib/commit/b128b6a25775d9b319c83a9dbb521d8d9c45b8c2) - **chore:** fix ExpectType by supplying correct number of generic parameters _(by Philipp Burckhardt)_
