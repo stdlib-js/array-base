@@ -249,7 +249,9 @@
     "@stdlib/array-base-zeros4d": "^0.2.2",
     "@stdlib/array-base-zeros5d": "^0.2.2",
     "@stdlib/array-base-zerosnd": "^0.2.2",
+    "@stdlib/array-base-zip": "github:stdlib-js/array-base-zip#main",
     "@stdlib/array-base-zip2object": "github:stdlib-js/array-base-zip2object#main",
+    "@stdlib/array-base-zip2objects": "github:stdlib-js/array-base-zip2objects#main",
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
