@@ -252,6 +252,7 @@
     "@stdlib/array-base-zip": "github:stdlib-js/array-base-zip#main",
     "@stdlib/array-base-zip2object": "github:stdlib-js/array-base-zip2object#main",
     "@stdlib/array-base-zip2objects": "github:stdlib-js/array-base-zip2objects#main",
+    "@stdlib/array-base-zip2views": "github:stdlib-js/array-base-zip2views#main",
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
@@ -417,6 +418,7 @@
     "@stdlib/utils-constructor-name": "^0.2.2",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
     "@stdlib/utils-define-nonenumerable-read-write-accessor": "^0.2.2",
+    "@stdlib/utils-define-read-write-accessor": "^0.2.2",
     "@stdlib/utils-identity-function": "^0.2.2",
     "@stdlib/utils-keys": "^0.2.2",
     "@stdlib/utils-nary-function": "^0.2.2",
