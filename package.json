@@ -150,6 +150,7 @@
     "@stdlib/array-base-group-indices-by": "^0.2.2",
     "@stdlib/array-base-group-values": "^0.2.2",
     "@stdlib/array-base-group-values-by": "^0.2.2",
+    "@stdlib/array-base-group-values-on-key": "github:stdlib-js/array-base-group-values-on-key#main",
     "@stdlib/array-base-incrspace": "^0.2.2",
     "@stdlib/array-base-index-of": "^0.2.2",
     "@stdlib/array-base-index-of-same-value": "github:stdlib-js/array-base-index-of-same-value#main",
