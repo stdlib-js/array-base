@@ -207,6 +207,7 @@
     "@stdlib/array-base-quinary4d": "^0.2.2",
     "@stdlib/array-base-quinary5d": "^0.2.2",
     "@stdlib/array-base-reject": "^0.2.2",
+    "@stdlib/array-base-rekey": "github:stdlib-js/array-base-rekey#main",
     "@stdlib/array-base-remove-at": "github:stdlib-js/array-base-remove-at#main",
     "@stdlib/array-base-reshape": "github:stdlib-js/array-base-reshape#main",
     "@stdlib/array-base-resolve-getter": "^0.2.2",
