@@ -182,6 +182,8 @@
     "@stdlib/array-base-mskunary4d": "github:stdlib-js/array-base-mskunary4d#main",
     "@stdlib/array-base-mskunary5d": "github:stdlib-js/array-base-mskunary5d#main",
     "@stdlib/array-base-n-cartesian-product": "^0.2.2",
+    "@stdlib/array-base-nested2objects": "github:stdlib-js/array-base-nested2objects#main",
+    "@stdlib/array-base-nested2views": "github:stdlib-js/array-base-nested2views#main",
     "@stdlib/array-base-none": "^0.3.0",
     "@stdlib/array-base-none-by": "^0.2.2",
     "@stdlib/array-base-none-by-right": "^0.2.2",
