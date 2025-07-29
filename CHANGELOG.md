@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-28)
+## Unreleased (2025-07-29)
 
 <section class="features">
 
 ### Features
 
+-   [`c8567dc`](https://github.com/stdlib-js/stdlib/commit/c8567dc46194708845553af0631c54cc81b25170) - add `rekeyViews` to namespace
+-   [`768090d`](https://github.com/stdlib-js/stdlib/commit/768090def5056f9bb863878fd253b35e23a1f786) - add `array/base/rekey-views`
 -   [`d5a7391`](https://github.com/stdlib-js/stdlib/commit/d5a73912f19ca4825ce2f361fa4a37d193030ee3) - add `rekey` to namespace
 -   [`74dc3c3`](https://github.com/stdlib-js/stdlib/commit/74dc3c37f9b0c66051ba2ab143035cb3a4460970) - add `array/base/rekey`
 -   [`25a75d7`](https://github.com/stdlib-js/stdlib/commit/25a75d7ca2026a01c949a10d04a3a668b40e2e13) - add `groupValuesOnKey` to namespace
@@ -157,6 +159,9 @@
 
 ### Bug Fixes
 
+-   [`d3b0f25`](https://github.com/stdlib-js/stdlib/commit/d3b0f251b37fdc27cd3a02ac794dddba0b2f7b36) - correct loop bounds in toJSON method for `nested2views`
+-   [`fbc5910`](https://github.com/stdlib-js/stdlib/commit/fbc5910c2290928c2fdc730a6b166b39e637d304) - remove unnecessary loop in toJSON method for entries2views
+-   [`8cdfd62`](https://github.com/stdlib-js/stdlib/commit/8cdfd621717a7a41428526107a42364a921b07ae) - ensure proper cache invalidation
 -   [`f53879d`](https://github.com/stdlib-js/stdlib/commit/f53879de98a2f80792d3d97c7748fd7425800aac) - ensure support for outer accessor arrays
 -   [`5741019`](https://github.com/stdlib-js/stdlib/commit/57410198f53879784c97784af6bbe0b482b235ae) - ensure accessor support for provided fields
 -   [`2a0ea7f`](https://github.com/stdlib-js/stdlib/commit/2a0ea7feb22806685fef9eac8a32d7012dab7adc) - use correct package names in package.json
@@ -242,6 +247,11 @@ A total of 19 issues were closed in this release:
 
 <details>
 
+-   [`c8567dc`](https://github.com/stdlib-js/stdlib/commit/c8567dc46194708845553af0631c54cc81b25170) - **feat:** add `rekeyViews` to namespace _(by Athan Reines)_
+-   [`768090d`](https://github.com/stdlib-js/stdlib/commit/768090def5056f9bb863878fd253b35e23a1f786) - **feat:** add `array/base/rekey-views` _(by Athan Reines)_
+-   [`d3b0f25`](https://github.com/stdlib-js/stdlib/commit/d3b0f251b37fdc27cd3a02ac794dddba0b2f7b36) - **fix:** correct loop bounds in toJSON method for `nested2views` _(by Philipp Burckhardt)_
+-   [`fbc5910`](https://github.com/stdlib-js/stdlib/commit/fbc5910c2290928c2fdc730a6b166b39e637d304) - **fix:** remove unnecessary loop in toJSON method for entries2views _(by Philipp Burckhardt)_
+-   [`8cdfd62`](https://github.com/stdlib-js/stdlib/commit/8cdfd621717a7a41428526107a42364a921b07ae) - **fix:** ensure proper cache invalidation _(by Athan Reines)_
 -   [`d5a7391`](https://github.com/stdlib-js/stdlib/commit/d5a73912f19ca4825ce2f361fa4a37d193030ee3) - **feat:** add `rekey` to namespace _(by Athan Reines)_
 -   [`74dc3c3`](https://github.com/stdlib-js/stdlib/commit/74dc3c37f9b0c66051ba2ab143035cb3a4460970) - **feat:** add `array/base/rekey` _(by Athan Reines)_
 -   [`25a75d7`](https://github.com/stdlib-js/stdlib/commit/25a75d7ca2026a01c949a10d04a3a668b40e2e13) - **feat:** add `groupValuesOnKey` to namespace _(by Athan Reines)_
