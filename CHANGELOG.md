@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-22)
+## Unreleased (2025-11-07)
 
 <section class="features">
 
@@ -257,6 +257,9 @@ A total of 19 issues were closed in this release:
 
 <details>
 
+-   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
+-   [`70338eb`](https://github.com/stdlib-js/stdlib/commit/70338ebaa5b29427ab5f6bff68039b8a1ea45556) - **docs:** fix missing heading _(by Athan Reines)_
+-   [`880433d`](https://github.com/stdlib-js/stdlib/commit/880433d386145e3e29b687d20a16db4a3f7703e4) - **docs:** fix missing heading _(by Athan Reines)_
 -   [`2b52cb2`](https://github.com/stdlib-js/stdlib/commit/2b52cb2762dd0c715a444a6dd65f7de8cfcbcf3f) - **docs:** propagate fixes in TSDoc example code to namespace declarations [(#8126)](https://github.com/stdlib-js/stdlib/pull/8126) _(by stdlib-bot)_
 -   [`5cf5331`](https://github.com/stdlib-js/stdlib/commit/5cf533172ba0fb480dcdbbe03861cfc14aded211) - **feat:** update `array/base` TypeScript declarations _(by Philipp Burckhardt)_
 -   [`c92ba2d`](https://github.com/stdlib-js/stdlib/commit/c92ba2d92c3ae4ea40f9b86fc5d620d7f9579f55) - **docs:** clean-up code in TSDoc examples and remove self-requires _(by Philipp Burckhardt)_
@@ -527,7 +530,7 @@ A total of 19 issues were closed in this release:
 -   [`89e005a`](https://github.com/stdlib-js/stdlib/commit/89e005ad5004d32271fe7266e95eb96187c1946a) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`2c4e5d8`](https://github.com/stdlib-js/stdlib/commit/2c4e5d824e0c5dc8fd536bf79ff565cee100ce46) - **build:** disable additional lint rule in TS tests _(by Philipp Burckhardt)_
 -   [`aad48ea`](https://github.com/stdlib-js/stdlib/commit/aad48eab1f19217854f4ffbfaed2a8be664b0f47) - **chore:** resolve lint errors _(by Philipp Burckhardt)_
--   [`5a50038`](https://github.com/stdlib-js/stdlib/commit/5a50038db6a457856adc51d5e6e3fd7161f45085) - **feat:** add `array/base/cuevery-by-right` [(#2802)](https://github.com/stdlib-js/stdlib/pull/2802) _(by HarshaNP, Philipp Burckhardt)_
+-   [`5a50038`](https://github.com/stdlib-js/stdlib/commit/5a50038db6a457856adc51d5e6e3fd7161f45085) - **feat:** add `array/base/cuevery-by-right` [(#2802)](https://github.com/stdlib-js/stdlib/pull/2802) _(by Gitty Harsha, Philipp Burckhardt)_
 -   [`9835dae`](https://github.com/stdlib-js/stdlib/commit/9835dae5a4dba0aae50d8582b97ad69d17fefe6d) - **feat:** add `array/base/cusome-by` [(#2953)](https://github.com/stdlib-js/stdlib/pull/2953) _(by Aditya Sapra, Philipp Burckhardt)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
 -   [`7f368f6`](https://github.com/stdlib-js/stdlib/commit/7f368f6c3f4cea444a304a62616cea36a5f143eb) - **fix:** remove unused imports from TS declaration file _(by Philipp Burckhardt)_
@@ -551,8 +554,8 @@ A total of 19 issues were closed in this release:
 -   [`f387603`](https://github.com/stdlib-js/stdlib/commit/f387603e739f88a38af3263ce6ff675ad903ee8c) - **docs:** consistently use declarative instead of imperative sentences outside of intros _(by Philipp Burckhardt)_
 -   [`31fd427`](https://github.com/stdlib-js/stdlib/commit/31fd42744ec5d7073041f97c6f72350b8005c0fc) - **style:** remove unwanted empty lines _(by Philipp Burckhardt)_
 -   [`16bb447`](https://github.com/stdlib-js/stdlib/commit/16bb44733defec3009d7c49cbd8cb6eaaaa60ad2) - **fix:** update TypeScript function signature and documentation _(by Philipp Burckhardt)_
--   [`0bb460f`](https://github.com/stdlib-js/stdlib/commit/0bb460f9675f693bd4eb5826888e493cae8757fc) - **feat:** add `array/base/cusome-by-right` _(by HarshaNP, Philipp Burckhardt)_
--   [`e722c97`](https://github.com/stdlib-js/stdlib/commit/e722c9742d30f0e3c0ec6ebb349b30338facbdf0) - **feat:** add `array/base/cunone-by-right` _(by HarshaNP, Philipp Burckhardt)_
+-   [`0bb460f`](https://github.com/stdlib-js/stdlib/commit/0bb460f9675f693bd4eb5826888e493cae8757fc) - **feat:** add `array/base/cusome-by-right` _(by Gitty Harsha, Philipp Burckhardt)_
+-   [`e722c97`](https://github.com/stdlib-js/stdlib/commit/e722c9742d30f0e3c0ec6ebb349b30338facbdf0) - **feat:** add `array/base/cunone-by-right` _(by Gitty Harsha, Philipp Burckhardt)_
 -   [`24e9908`](https://github.com/stdlib-js/stdlib/commit/24e9908afc085d5d2aece1844a6e25b36332f246) - **feat:** add `array/base/cunone-by` package _(by Mohammad Kaif, Philipp Burckhardt, Athan Reines)_
 -   [`a541897`](https://github.com/stdlib-js/stdlib/commit/a541897dec2cd902c186d9ad128b6efd8a3ca528) - **docs:** fix grammar _(by Athan Reines)_
 -   [`73a198b`](https://github.com/stdlib-js/stdlib/commit/73a198b42551ce9aaa142a17e9c77578205628d5) - **test:** add tests _(by Athan Reines)_
@@ -595,8 +598,8 @@ A total of 17 people contributed to this release. Thank you to the following con
 -   Aditya Sapra
 -   Athan Reines
 -   Debashis Maharana
+-   Gitty Harsha
 -   Gururaj Gurram
--   HarshaNP
 -   Mohammad Kaif
 -   Muhammad Haris
 -   Neeraj Pathak
