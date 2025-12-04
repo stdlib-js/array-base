@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-07)
+## Unreleased (2025-12-04)
 
 <section class="features">
 
@@ -257,6 +257,37 @@ A total of 19 issues were closed in this release:
 
 <details>
 
+-   [`411223a`](https://github.com/stdlib-js/stdlib/commit/411223a6481a811970e1dd14feeeef758789cc3d) - **docs:** carry over example code fixes to namespace declarations _(by Philipp Burckhardt)_
+-   [`09b5fe0`](https://github.com/stdlib-js/stdlib/commit/09b5fe06008d4361b47b5f506bda4eafc7aa9d37) - **bench:** refactor to use string interpolation in `array/base/bifurcate-entries-by` [(#8694)](https://github.com/stdlib-js/stdlib/pull/8694) _(by Aman Singh)_
+-   [`4ce0979`](https://github.com/stdlib-js/stdlib/commit/4ce097938211ea17c855b0e70a4ecb4329810542) - **bench:** refactor to use string interpolation in `array/base/bifurcate-entries` [(#8692)](https://github.com/stdlib-js/stdlib/pull/8692) _(by Aman Singh)_
+-   [`68083d6`](https://github.com/stdlib-js/stdlib/commit/68083d60de8199eb42bf63fbae39838e3b23bdd7) - **bench:** refactor to use string interpolation in `array/base/assert/has-equal-values` [(#8691)](https://github.com/stdlib-js/stdlib/pull/8691) _(by Rohit R Bhat)_
+-   [`ac0438f`](https://github.com/stdlib-js/stdlib/commit/ac0438f675d717acdd81ffe3965e681999f352b9) - **bench:** refactor to use string interpolation in `array/base/assert/has-almost-equal-values` [(#8690)](https://github.com/stdlib-js/stdlib/pull/8690) _(by Rohit R Bhat)_
+-   [`b527ab1`](https://github.com/stdlib-js/stdlib/commit/b527ab1153bf572ec1e89e6c479528c52f1a811d) - **bench:** refactor to use string interpolation in `array/base/arraylike2object` [(#8689)](https://github.com/stdlib-js/stdlib/pull/8689) _(by Rohit R Bhat)_
+-   [`61b2514`](https://github.com/stdlib-js/stdlib/commit/61b2514faeb8b0bc5ba985cc60e1ffe2de68dba6) - **bench:** refactor to use string interpolation in `array/base/any-is-entry-in` [(#8682)](https://github.com/stdlib-js/stdlib/pull/8682) _(by Aman Singh)_
+-   [`4c8449f`](https://github.com/stdlib-js/stdlib/commit/4c8449fefd90216408e4eb8d1b03bdca98a78be1) - **docs:** improve doctests for complex number instances in `array/base/resolve-getter` [(#8695)](https://github.com/stdlib-js/stdlib/pull/8695) _(by Divyanshu, Athan Reines)_
+-   [`db85f69`](https://github.com/stdlib-js/stdlib/commit/db85f697acea61131500a6dc823835b19d76bdc7) - **docs:** improve doctests for complex number instances in `array/base/at` [(#8654)](https://github.com/stdlib-js/stdlib/pull/8654) _(by Aryan kumar, Athan Reines)_
+-   [`d07452d`](https://github.com/stdlib-js/stdlib/commit/d07452d17c9e97ff292fb8882044000aeed0fe1c) - **docs:** improve doctests for complex number instances in `array/base/resolve-getter` [(#8669)](https://github.com/stdlib-js/stdlib/pull/8669) _(by Aryan kumar, Athan Reines, stdlib-bot)_
+-   [`95d33f1`](https://github.com/stdlib-js/stdlib/commit/95d33f1571a6bc992d1ef8d222477cb8d211fe06) - **docs:** improve doctests for complex number instances in `array/base/last` [(#8668)](https://github.com/stdlib-js/stdlib/pull/8668) _(by Aryan kumar)_
+-   [`f774fb9`](https://github.com/stdlib-js/stdlib/commit/f774fb91d2d1704ee91588613a0ac0d68c766c6c) - **bench:** refactor to use string interpolation in `array/base/accessors` [(#8665)](https://github.com/stdlib-js/stdlib/pull/8665) _(by Rohit R Bhat)_
+-   [`e7b7521`](https://github.com/stdlib-js/stdlib/commit/e7b75217911ae3e84967293e40893e9f4a36075b) - **bench:** refactor to use string interpolation in `array/base/accessor-getter` [(#8659)](https://github.com/stdlib-js/stdlib/pull/8659) _(by Rohit R Bhat)_
+-   [`dc36299`](https://github.com/stdlib-js/stdlib/commit/dc36299e2dbbda5ab1482e5777334567529e5459) - **bench:** refactor to use string interpolation in `array/base/accessor-setter` [(#8662)](https://github.com/stdlib-js/stdlib/pull/8662) _(by Rohit R Bhat)_
+-   [`ea0d5a6`](https://github.com/stdlib-js/stdlib/commit/ea0d5a623b80a5963e7079cd58cf29e7b01b5d57) - **bench:** refactor to use string interpolation in `array/base/any-is-entry` [(#8663)](https://github.com/stdlib-js/stdlib/pull/8663) _(by Aman Singh)_
+-   [`565c8eb`](https://github.com/stdlib-js/stdlib/commit/565c8eb009e4aff052e40dfe1a282d3c9936cfac) - **bench:** refactor to use string interpolation in `array/base/any-has-property` [(#8660)](https://github.com/stdlib-js/stdlib/pull/8660) _(by Aman Singh)_
+-   [`f20a4e4`](https://github.com/stdlib-js/stdlib/commit/f20a4e40425bc0e8eb292cca68453950d6df89d6) - **bench:** refactor to use string interpolation in `array/base/any-has-own-property` [(#8653)](https://github.com/stdlib-js/stdlib/pull/8653) _(by Aman Singh)_
+-   [`3517633`](https://github.com/stdlib-js/stdlib/commit/3517633448701ec6c74a6b84a32e6cabce1f5d58) - **bench:** refactor to use string interpolation in `array/base/any-by-right` [(#8652)](https://github.com/stdlib-js/stdlib/pull/8652) _(by Aman Singh)_
+-   [`9c3b5b8`](https://github.com/stdlib-js/stdlib/commit/9c3b5b898d6c0691177e75900bba8125ad89b22f) - **bench:** refactor to use string interpolation in `array/base/any-by` [(#8650)](https://github.com/stdlib-js/stdlib/pull/8650) _(by Aman Singh)_
+-   [`d745259`](https://github.com/stdlib-js/stdlib/commit/d745259e39acdcc3f80b3b569185491daef92145) - **docs:** add missing spaces and update parameter type _(by Philipp Burckhardt)_
+-   [`e7054b7`](https://github.com/stdlib-js/stdlib/commit/e7054b7e99fbf83588f207bc7f7fd4d713ba93c1) - **bench:** refactor to use string interpolation in `array/base/any` [(#8649)](https://github.com/stdlib-js/stdlib/pull/8649) _(by Aman Singh)_
+-   [`3c1ebd1`](https://github.com/stdlib-js/stdlib/commit/3c1ebd167342711cdb0ed712c9591a8033aa8497) - **docs:** improve doctests for complex number instances in `array/base/accessor-setter` [(#8645)](https://github.com/stdlib-js/stdlib/pull/8645) _(by Divyanshu)_
+-   [`b4bc4a9`](https://github.com/stdlib-js/stdlib/commit/b4bc4a97a705a981e343345f4c2b0d5aee7104ff) - **docs:** improve doctests for complex number instances in `array/base/accessor-getter` [(#8644)](https://github.com/stdlib-js/stdlib/pull/8644) _(by Divyanshu)_
+-   [`322eefc`](https://github.com/stdlib-js/stdlib/commit/322eefcff2e0d83f4e302c02bd57cee2a442b8f0) - **docs:** fix interface name in `array/base/one-to` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`f223373`](https://github.com/stdlib-js/stdlib/commit/f223373e1c5b86f2ba763cb92472b03096485604) - **chore:** simplify declarations _(by Athan Reines)_
+-   [`d22a58e`](https://github.com/stdlib-js/stdlib/commit/d22a58eaa5cea695ecb9809f85edea36d1199c74) - **refactor:** simplify declarations _(by Athan Reines)_
+-   [`b66cf8e`](https://github.com/stdlib-js/stdlib/commit/b66cf8efdf5b793040fce1236fa3adcdcd5067a7) - **docs:** update examples _(by Athan Reines)_
+-   [`eb00b1b`](https://github.com/stdlib-js/stdlib/commit/eb00b1b80848018e05fbc2a20d5985e747557977) - **docs:** fix example _(by Athan Reines)_
+-   [`985e111`](https://github.com/stdlib-js/stdlib/commit/985e1117c5836c62d3d9fca351c4815cfa099913) - **docs:** refactor example _(by Athan Reines)_
+-   [`3f7b1ed`](https://github.com/stdlib-js/stdlib/commit/3f7b1ed405cdb77a3357d424f462e8d3b2276df5) - **docs:** fix code in TSDoc examples _(by Philipp Burckhardt)_
+-   [`47088cc`](https://github.com/stdlib-js/stdlib/commit/47088cc299d84289a904dd2e7d2cdf0aee9057aa) - **docs:** fix TSDoc comments example code and return annotation values _(by Philipp Burckhardt)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`70338eb`](https://github.com/stdlib-js/stdlib/commit/70338ebaa5b29427ab5f6bff68039b8a1ea45556) - **docs:** fix missing heading _(by Athan Reines)_
 -   [`880433d`](https://github.com/stdlib-js/stdlib/commit/880433d386145e3e29b687d20a16db4a3f7703e4) - **docs:** fix missing heading _(by Athan Reines)_
@@ -592,18 +623,22 @@ A total of 19 issues were closed in this release:
 
 ### Contributors
 
-A total of 17 people contributed to this release. Thank you to the following contributors:
+A total of 21 people contributed to this release. Thank you to the following contributors:
 
 -   Abhijit Raut
 -   Aditya Sapra
+-   Aman Singh
+-   Aryan kumar
 -   Athan Reines
 -   Debashis Maharana
+-   Divyanshu
 -   Gitty Harsha
 -   Gururaj Gurram
 -   Mohammad Kaif
 -   Muhammad Haris
 -   Neeraj Pathak
 -   Philipp Burckhardt
+-   Rohit R Bhat
 -   Rylan Yang
 -   Sachin Raj
 -   Shabareesh Shetty
