@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-04)
+## Unreleased (2026-01-16)
 
 <section class="features">
 
 ### Features
 
+-   [`6338030`](https://github.com/stdlib-js/stdlib/commit/63380300fa123617bf4d460483ab1e70d2611da3) - update `array/base/assert` TypeScript declarations [(#9196)](https://github.com/stdlib-js/stdlib/pull/9196)
+-   [`ca51243`](https://github.com/stdlib-js/stdlib/commit/ca5124377589a8051527e4bc3b87173723c88f51) - add `hasAlmostSameValues` to namespace
+-   [`24426d2`](https://github.com/stdlib-js/stdlib/commit/24426d292e18009d0d4acd3615e8f520b92b0c1b) - add `array/base/assert/has-almost-same-values`
 -   [`5cf5331`](https://github.com/stdlib-js/stdlib/commit/5cf533172ba0fb480dcdbbe03861cfc14aded211) - update `array/base` TypeScript declarations
 -   [`029ac45`](https://github.com/stdlib-js/stdlib/commit/029ac457518cedb513351f5196fa078ad0a78ede) - update `array/base/symmetric` TypeScript declarations
 -   [`b090daa`](https://github.com/stdlib-js/stdlib/commit/b090daacf3b51a2afa50c08a06973ac13724e9df) - update `array/base/symmetric-banded` TypeScript declarations
@@ -243,9 +246,9 @@
 
 ### Closed Issues
 
-A total of 19 issues were closed in this release:
+A total of 20 issues were closed in this release:
 
-[#2326](https://github.com/stdlib-js/stdlib/issues/2326), [#2327](https://github.com/stdlib-js/stdlib/issues/2327), [#2328](https://github.com/stdlib-js/stdlib/issues/2328), [#3164](https://github.com/stdlib-js/stdlib/issues/3164), [#3165](https://github.com/stdlib-js/stdlib/issues/3165), [#3166](https://github.com/stdlib-js/stdlib/issues/3166), [#3167](https://github.com/stdlib-js/stdlib/issues/3167), [#3168](https://github.com/stdlib-js/stdlib/issues/3168), [#3169](https://github.com/stdlib-js/stdlib/issues/3169), [#3171](https://github.com/stdlib-js/stdlib/issues/3171), [#3173](https://github.com/stdlib-js/stdlib/issues/3173), [#3174](https://github.com/stdlib-js/stdlib/issues/3174), [#3175](https://github.com/stdlib-js/stdlib/issues/3175), [#3176](https://github.com/stdlib-js/stdlib/issues/3176), [#3177](https://github.com/stdlib-js/stdlib/issues/3177), [#3178](https://github.com/stdlib-js/stdlib/issues/3178), [#3179](https://github.com/stdlib-js/stdlib/issues/3179), [#3180](https://github.com/stdlib-js/stdlib/issues/3180), [#7030](https://github.com/stdlib-js/stdlib/issues/7030)
+[#2326](https://github.com/stdlib-js/stdlib/issues/2326), [#2327](https://github.com/stdlib-js/stdlib/issues/2327), [#2328](https://github.com/stdlib-js/stdlib/issues/2328), [#3164](https://github.com/stdlib-js/stdlib/issues/3164), [#3165](https://github.com/stdlib-js/stdlib/issues/3165), [#3166](https://github.com/stdlib-js/stdlib/issues/3166), [#3167](https://github.com/stdlib-js/stdlib/issues/3167), [#3168](https://github.com/stdlib-js/stdlib/issues/3168), [#3169](https://github.com/stdlib-js/stdlib/issues/3169), [#3171](https://github.com/stdlib-js/stdlib/issues/3171), [#3173](https://github.com/stdlib-js/stdlib/issues/3173), [#3174](https://github.com/stdlib-js/stdlib/issues/3174), [#3175](https://github.com/stdlib-js/stdlib/issues/3175), [#3176](https://github.com/stdlib-js/stdlib/issues/3176), [#3177](https://github.com/stdlib-js/stdlib/issues/3177), [#3178](https://github.com/stdlib-js/stdlib/issues/3178), [#3179](https://github.com/stdlib-js/stdlib/issues/3179), [#3180](https://github.com/stdlib-js/stdlib/issues/3180), [#7030](https://github.com/stdlib-js/stdlib/issues/7030), [#9767](https://github.com/stdlib-js/stdlib/issues/9767)
 
 </section>
 
@@ -257,6 +260,70 @@ A total of 19 issues were closed in this release:
 
 <details>
 
+-   [`72af2aa`](https://github.com/stdlib-js/stdlib/commit/72af2aacb1ff59c6e96de88b5994790ca756aca4) - **chore:** fix spelling errors in `array` [(#9768)](https://github.com/stdlib-js/stdlib/pull/9768) _(by Shubham, Philipp Burckhardt)_
+-   [`bfc8c3a`](https://github.com/stdlib-js/stdlib/commit/bfc8c3a7bcebf1a049c9e457ab440f540fd5c7a9) - **chore:** use one asterisk for license comment in TS files _(by Philipp Burckhardt)_
+-   [`bfab153`](https://github.com/stdlib-js/stdlib/commit/bfab1532d8a54a05baac781a2913db458a1e8570) - **bench:** refactor to use string interpolation in `array/base/bifurcate-values-by` [(#9607)](https://github.com/stdlib-js/stdlib/pull/9607) _(by Bhargav Dabhade)_
+-   [`ff76be4`](https://github.com/stdlib-js/stdlib/commit/ff76be4bd7eb9ced1fc74441b9766d1e5e6d6d31) - **bench:** use string interpolation for benchmark names [(#9517)](https://github.com/stdlib-js/stdlib/pull/9517) _(by KovidhRaj)_
+-   [`0ac2495`](https://github.com/stdlib-js/stdlib/commit/0ac2495ffcce896b3dfc737aca766b70f0ad9cb6) - **bench:** refactor to use string interpolation in `array/base/assert/is-accessor-array` [(#9458)](https://github.com/stdlib-js/stdlib/pull/9458) _(by KovidhRaj, Athan Reines, stdlib-bot)_
+-   [`6ce0275`](https://github.com/stdlib-js/stdlib/commit/6ce0275d3eec598ce3ecb8da74a1c82f0de3a482) - **docs:** remove incorrect hyphens from JSDoc `returns` annotations _(by Philipp Burckhardt)_
+-   [`b45d635`](https://github.com/stdlib-js/stdlib/commit/b45d6355de87bcd65764a9c07f5551e2423e83cb) - **bench:** refactor to use string interpolation in `array/base/filled5d-by` [(#9283)](https://github.com/stdlib-js/stdlib/pull/9283) _(by Rohit R Bhat)_
+-   [`5bfa5e8`](https://github.com/stdlib-js/stdlib/commit/5bfa5e8ac36fe7abb9c8799560fb90c787999360) - **bench:** refactor to use string interpolation in `array/base/zeros4d` [(#9277)](https://github.com/stdlib-js/stdlib/pull/9277) _(by anee3)_
+-   [`1c08d9e`](https://github.com/stdlib-js/stdlib/commit/1c08d9e6efa0af32176a2fcfbbbd4a10002cd66c) - **bench:** refactor to use string interpolation in `array/base/zeros5d` [(#9266)](https://github.com/stdlib-js/stdlib/pull/9266) _(by anee3, Athan Reines)_
+-   [`fff219f`](https://github.com/stdlib-js/stdlib/commit/fff219fbf68d726e25e56c304bbd8b4274f0b2df) - **bench:** refactor to use string interpolation in `array/base/filled3d-by` [(#9185)](https://github.com/stdlib-js/stdlib/pull/9185) _(by Rohit R Bhat)_
+-   [`6338030`](https://github.com/stdlib-js/stdlib/commit/63380300fa123617bf4d460483ab1e70d2611da3) - **feat:** update `array/base/assert` TypeScript declarations [(#9196)](https://github.com/stdlib-js/stdlib/pull/9196) _(by stdlib-bot)_
+-   [`de9dec4`](https://github.com/stdlib-js/stdlib/commit/de9dec49411a9f71d800970e9324e87dca52098b) - **docs:** update namespace table of contents [(#9205)](https://github.com/stdlib-js/stdlib/pull/9205) _(by stdlib-bot)_
+-   [`ca51243`](https://github.com/stdlib-js/stdlib/commit/ca5124377589a8051527e4bc3b87173723c88f51) - **feat:** add `hasAlmostSameValues` to namespace _(by Athan Reines)_
+-   [`24426d2`](https://github.com/stdlib-js/stdlib/commit/24426d292e18009d0d4acd3615e8f520b92b0c1b) - **feat:** add `array/base/assert/has-almost-same-values` _(by Athan Reines)_
+-   [`40e817d`](https://github.com/stdlib-js/stdlib/commit/40e817dca3683fef6bfaf07526e8428ac3d089d8) - **bench:** refactor to use string interpolation in `array/base/filled4d` [(#9186)](https://github.com/stdlib-js/stdlib/pull/9186) _(by Rohit R Bhat)_
+-   [`ce79dc0`](https://github.com/stdlib-js/stdlib/commit/ce79dc05e70a1a631c3d23c2f0d2127420537b38) - **bench:** refactor to use string interpolation in `array/base/filled4d-by` [(#9188)](https://github.com/stdlib-js/stdlib/pull/9188) _(by Rohit R Bhat)_
+-   [`ae947b7`](https://github.com/stdlib-js/stdlib/commit/ae947b78961fba28af4cdc2f4ba54fa5df8b35b3) - **bench:** refactor to use string interpolation in `array/base/filled5d` [(#9189)](https://github.com/stdlib-js/stdlib/pull/9189) _(by Rohit R Bhat)_
+-   [`028d3db`](https://github.com/stdlib-js/stdlib/commit/028d3db4147f5e4735d81babd193a65c983d87c9) - **bench:** refactor to use string interpolation in `array/base/take3d` [(#9053)](https://github.com/stdlib-js/stdlib/pull/9053) _(by DivitJain26, Athan Reines)_
+-   [`66dec1e`](https://github.com/stdlib-js/stdlib/commit/66dec1ea2a3186a8b461abc11ad69f1e42b1c478) - **bench:** refactor to use string interpolation in `array/base/take2d` [(#9051)](https://github.com/stdlib-js/stdlib/pull/9051) _(by DivitJain26, Athan Reines)_
+-   [`2be0aaf`](https://github.com/stdlib-js/stdlib/commit/2be0aaf5336c2ec9e2194f1e9e3087ad56cfdb85) - **bench:** refactor to use string interpolation in `array/base/take-map` [(#9050)](https://github.com/stdlib-js/stdlib/pull/9050) _(by DivitJain26)_
+-   [`140d915`](https://github.com/stdlib-js/stdlib/commit/140d9159047d42d7c6e4cc455a6e26f5f47edfd5) - **bench:** refactor to use string interpolation in `array/base/take-indexed2` [(#9049)](https://github.com/stdlib-js/stdlib/pull/9049) _(by DivitJain26)_
+-   [`646dd31`](https://github.com/stdlib-js/stdlib/commit/646dd311efc708a3ec45134b6e8fc1ccb1a92470) - **bench:** refactor to use string interpolation in `array/base/take-indexed` [(#9048)](https://github.com/stdlib-js/stdlib/pull/9048) _(by DivitJain26, Athan Reines)_
+-   [`b2b3432`](https://github.com/stdlib-js/stdlib/commit/b2b343206f3a2d3b398354b493003c1fec519761) - **bench:** refactor to use string interpolation `array/base/filled3d` [(#8995)](https://github.com/stdlib-js/stdlib/pull/8995) _(by Rohit R Bhat)_
+-   [`9ee9547`](https://github.com/stdlib-js/stdlib/commit/9ee95477edb00d544ab96cf8aadc655a8ff18f9e) - **bench:** refactor to use string interpolation in `array/base/broadcasted-quaternary3d` [(#8957)](https://github.com/stdlib-js/stdlib/pull/8957) _(by Sujal charati)_
+-   [`a5e79dd`](https://github.com/stdlib-js/stdlib/commit/a5e79ddd6eda016a0e3628f719f674f140e362e2) - **bench:** refactor to use string interpolation in `array/base/atnd` [(#8955)](https://github.com/stdlib-js/stdlib/pull/8955) _(by Sujal charati, Athan Reines)_
+-   [`9a19f44`](https://github.com/stdlib-js/stdlib/commit/9a19f4491b96074f4728ff47b6a3ec73d6d0e27c) - **bench:** refactor to use string interpolation in `array/base/cunone` [(#8947)](https://github.com/stdlib-js/stdlib/pull/8947) _(by Aman Singh)_
+-   [`07f9e6e`](https://github.com/stdlib-js/stdlib/commit/07f9e6e124eb63218ec9229faa5b4da0385bc5a7) - **bench:** refactor to use string interpolation in `array/base/filled2d-by` [(#8994)](https://github.com/stdlib-js/stdlib/pull/8994) _(by Rohit R Bhat)_
+-   [`e7292ba`](https://github.com/stdlib-js/stdlib/commit/e7292bab3952c64edf9b66f89a8a2d803f0fbaf8) - **bench:** refactor to use string interpolation in `array/base/take` [(#9026)](https://github.com/stdlib-js/stdlib/pull/9026) _(by DivitJain26, Philipp Burckhardt)_
+-   [`3138d95`](https://github.com/stdlib-js/stdlib/commit/3138d952a5f61a9f145424e7a4611e9727d8ab49) - **bench:** refactor to use string interpolation in `array/base/filled-by` [(#8901)](https://github.com/stdlib-js/stdlib/pull/8901) _(by Rohit R Bhat)_
+-   [`c377b56`](https://github.com/stdlib-js/stdlib/commit/c377b5679b136519dda29dd875dc4465693957e3) - **bench:** refactor to use string interpolation in `array/base/filled2d` [(#8902)](https://github.com/stdlib-js/stdlib/pull/8902) _(by Rohit R Bhat, Philipp Burckhardt)_
+-   [`4e547d4`](https://github.com/stdlib-js/stdlib/commit/4e547d4b67f772a0950a4f2c6b1744620c827667) - **bench:** refactor to use string interpolation in `array/base/cusome-by` [(#8903)](https://github.com/stdlib-js/stdlib/pull/8903) _(by Aman Singh)_
+-   [`b942e0e`](https://github.com/stdlib-js/stdlib/commit/b942e0e9a0a88d7b2f4f8557eaee1f9e76c156e8) - **bench:** refactor to use string interpolation in `array/base/fill` [(#8898)](https://github.com/stdlib-js/stdlib/pull/8898) _(by Rohit R Bhat, Athan Reines)_
+-   [`2bf7cbf`](https://github.com/stdlib-js/stdlib/commit/2bf7cbf148aab4f2506f08aefc367749fae12293) - **bench:** refactor to use string interpolation in `array/base/fill-by` [(#8899)](https://github.com/stdlib-js/stdlib/pull/8899) _(by Rohit R Bhat, Athan Reines)_
+-   [`e823a35`](https://github.com/stdlib-js/stdlib/commit/e823a3537257e5bfb6f0c59cb983fd8ca7752ff2) - **bench:** refactor to use string interpolation in `array/base/filled` [(#8900)](https://github.com/stdlib-js/stdlib/pull/8900) _(by Rohit R Bhat, Athan Reines)_
+-   [`1b8be24`](https://github.com/stdlib-js/stdlib/commit/1b8be2499186830f3350dbced11d7c6ef0baa644) - **bench:** refactor to use string interpolation in `array/base/cusome` [(#8881)](https://github.com/stdlib-js/stdlib/pull/8881) _(by Aman Singh)_
+-   [`286d36b`](https://github.com/stdlib-js/stdlib/commit/286d36b62d7d7254b7261296a784a9931ea76e6f) - **bench:** refactor to use string interpolation in `array/base/cuevery` [(#8867)](https://github.com/stdlib-js/stdlib/pull/8867) _(by Aman Singh)_
+-   [`dbed163`](https://github.com/stdlib-js/stdlib/commit/dbed1634dd8b7ead7c189cfd463e3c13eb3fab02) - **bench:** refactor to use string interpolation in `array/base/accessor` [(#8865)](https://github.com/stdlib-js/stdlib/pull/8865) _(by ashutoshsao, Athan Reines)_
+-   [`38b0080`](https://github.com/stdlib-js/stdlib/commit/38b0080b91acf8fd7c654097a5c4576fb5dea5e7) - **bench:** refactor to use string interpolation in `array/base/broadcasted-binary5d` [(#8838)](https://github.com/stdlib-js/stdlib/pull/8838) _(by Kate Suraev)_
+-   [`3b91149`](https://github.com/stdlib-js/stdlib/commit/3b911493a58cfc9b75cd6fc05b8d349a7753e377) - **bench:** refactor to use string interpolation in `array/base/broadcasted-binary4d` [(#8839)](https://github.com/stdlib-js/stdlib/pull/8839) _(by Kate Suraev)_
+-   [`79d8751`](https://github.com/stdlib-js/stdlib/commit/79d87513f078e1ba278a00b9345e7bb17d96ab52) - **bench:** refactor to use string interpolation in `array/base/broadcasted-quaternary2d` [(#8840)](https://github.com/stdlib-js/stdlib/pull/8840) _(by Kate Suraev)_
+-   [`c8d88a1`](https://github.com/stdlib-js/stdlib/commit/c8d88a11332fedb85d5dc664fcd4ee496b26dd00) - **bench:** refactor to use string interpolation in `array/base/cuany-by-right` [(#8863)](https://github.com/stdlib-js/stdlib/pull/8863) _(by Aman Singh)_
+-   [`d00c1ad`](https://github.com/stdlib-js/stdlib/commit/d00c1adc5eec7c5fc80c211d1ba8b6d6f9cd9336) - **bench:** refactor to use string interpolation in `array/base/cuany-by` [(#8861)](https://github.com/stdlib-js/stdlib/pull/8861) _(by Aman Singh)_
+-   [`dd20818`](https://github.com/stdlib-js/stdlib/commit/dd20818a40cdd215a614a7cb1ec580c95f8fde80) - **bench:** refactor to use string interpolation in `array/base/assert/contains` [(#8844)](https://github.com/stdlib-js/stdlib/pull/8844) _(by ashutoshsao)_
+-   [`257b05e`](https://github.com/stdlib-js/stdlib/commit/257b05e78857f4b4ff76b3764565eadd8ce75946) - **bench:** refactor to use string interpolation in `array/base/assert/has-same-values` [(#8847)](https://github.com/stdlib-js/stdlib/pull/8847) _(by ashutoshsao)_
+-   [`cb96e8f`](https://github.com/stdlib-js/stdlib/commit/cb96e8f86be54682f17fc6a4f47338aea2ad30a9) - **bench:** refactor to use string interpolation in `array/base/assert/has-equal-values-indexed` [(#8846)](https://github.com/stdlib-js/stdlib/pull/8846) _(by ashutoshsao)_
+-   [`7764a25`](https://github.com/stdlib-js/stdlib/commit/7764a25a72cab240473982486844795e42787673) - **bench:** refactor to use string interpolation in `array/base/bifurcate-indices-by` [(#8850)](https://github.com/stdlib-js/stdlib/pull/8850) _(by ashutoshsao)_
+-   [`e7f3da3`](https://github.com/stdlib-js/stdlib/commit/e7f3da39694b2faadcf4204b9e772fe40d57f506) - **bench:** refactor to use string interpolation in `array/base/fliplr2d` [(#8857)](https://github.com/stdlib-js/stdlib/pull/8857) _(by Ullas)_
+-   [`9836337`](https://github.com/stdlib-js/stdlib/commit/9836337952ec885367411bbea26d393aff18aef1) - **bench:** refactor to use string interpolation in `array/base/bifurcate-indices` [(#8851)](https://github.com/stdlib-js/stdlib/pull/8851) _(by ashutoshsao)_
+-   [`b8beb65`](https://github.com/stdlib-js/stdlib/commit/b8beb6541969d801b04d8937a8a10d5aa184b796) - **bench:** refactor to use string interpolation in `array/base/cuany` [(#8853)](https://github.com/stdlib-js/stdlib/pull/8853) _(by Aman Singh)_
+-   [`53365b8`](https://github.com/stdlib-js/stdlib/commit/53365b8c311a4ea4bdc1b886fe890ad7bfc61d1c) - **bench:** refactor to use string interpolation in `array/base/copy` [(#8821)](https://github.com/stdlib-js/stdlib/pull/8821) _(by Aman Singh)_
+-   [`582ef31`](https://github.com/stdlib-js/stdlib/commit/582ef3182ea40031f2bff23af519b1a7e7952d57) - **refactor:** wrap `blas/ext/base/gjoin` _(by Athan Reines)_
+-   [`5f49874`](https://github.com/stdlib-js/stdlib/commit/5f498740352d6ac14ac7a8df0284e640c21c2f12) - **bench:** refactor to use string interpolation in `array/base/binary3d` [(#8803)](https://github.com/stdlib-js/stdlib/pull/8803) _(by Kate Suraev)_
+-   [`34c2666`](https://github.com/stdlib-js/stdlib/commit/34c2666e48e25c5a508aeae1337f666a3b404684) - **bench:** refactor to use string interpolation in `array/base/binary4d` [(#8804)](https://github.com/stdlib-js/stdlib/pull/8804) _(by Kate Suraev)_
+-   [`e61d351`](https://github.com/stdlib-js/stdlib/commit/e61d351ccb623f92717c726b0dad660df25e9eb6) - **bench:** refactor to use string interpolation in `array/base/binary5d` [(#8805)](https://github.com/stdlib-js/stdlib/pull/8805) _(by Kate Suraev)_
+-   [`a2b58c3`](https://github.com/stdlib-js/stdlib/commit/a2b58c373dc63124d0ba75dd22697b11c998d361) - **bench:** refactor to use string interpolation in `array/base/binarynd` [(#8806)](https://github.com/stdlib-js/stdlib/pull/8806) _(by Kate Suraev)_
+-   [`f11ec58`](https://github.com/stdlib-js/stdlib/commit/f11ec582954487ae134d60517caf8ab6b908208e) - **bench:** refactor to use string interpolation in `array/base/broadcast-array` [(#8807)](https://github.com/stdlib-js/stdlib/pull/8807) _(by Kate Suraev)_
+-   [`6dcee29`](https://github.com/stdlib-js/stdlib/commit/6dcee29958b1d4e11445247099549a8fcf06710c) - **bench:** refactor to use string interpolation in `array/base/broadcasted-binary2d` [(#8808)](https://github.com/stdlib-js/stdlib/pull/8808) _(by Kate Suraev)_
+-   [`e90c33d`](https://github.com/stdlib-js/stdlib/commit/e90c33d923ee90a55993a02d5b3802a8f83c7ee4) - **bench:** refactor to use string interpolation in `array/base/broadcasted-binary3d` [(#8809)](https://github.com/stdlib-js/stdlib/pull/8809) _(by Kate Suraev)_
+-   [`b7e39fd`](https://github.com/stdlib-js/stdlib/commit/b7e39fd40f3113966cdb40d479f73825cd23b1e4) - **bench:** refactor to use string interpolation in `array/base/binary2d` [(#8802)](https://github.com/stdlib-js/stdlib/pull/8802) _(by Kate Suraev)_
+-   [`981c470`](https://github.com/stdlib-js/stdlib/commit/981c4701b0560daeb42f6235c837a661fc82beaa) - **bench:** refactor to use string interpolation in `array/base/banded/filled2d-by` [(#8801)](https://github.com/stdlib-js/stdlib/pull/8801) _(by Kate Suraev)_
+-   [`4c6da75`](https://github.com/stdlib-js/stdlib/commit/4c6da75d5efe773301912258d2b10f7e7121f4e0) - **bench:** refactor to use string interpolation in `array/base/assert/is-complex64array` [(#8784)](https://github.com/stdlib-js/stdlib/pull/8784) _(by Rohit R Bhat)_
+-   [`e7258ae`](https://github.com/stdlib-js/stdlib/commit/e7258ae18bab179392875a2aa810646f33da80e6) - **bench:** refactor to use string interpolation in `array/base/assert/is-complex128array` [(#8782)](https://github.com/stdlib-js/stdlib/pull/8782) _(by Rohit R Bhat)_
+-   [`71af1a0`](https://github.com/stdlib-js/stdlib/commit/71af1a07d17630e96be2349ac6d4ee76db3e1270) - **docs:** fix type _(by Athan Reines)_
+-   [`9b50472`](https://github.com/stdlib-js/stdlib/commit/9b504729537c53298de78068c1b02dbb64170c88) - **bench:** refactor to use string interpolation in `array/base/assert/is-sorted-ascending` [(#8749)](https://github.com/stdlib-js/stdlib/pull/8749) _(by Rohit R Bhat)_
 -   [`411223a`](https://github.com/stdlib-js/stdlib/commit/411223a6481a811970e1dd14feeeef758789cc3d) - **docs:** carry over example code fixes to namespace declarations _(by Philipp Burckhardt)_
 -   [`09b5fe0`](https://github.com/stdlib-js/stdlib/commit/09b5fe06008d4361b47b5f506bda4eafc7aa9d37) - **bench:** refactor to use string interpolation in `array/base/bifurcate-entries-by` [(#8694)](https://github.com/stdlib-js/stdlib/pull/8694) _(by Aman Singh)_
 -   [`4ce0979`](https://github.com/stdlib-js/stdlib/commit/4ce097938211ea17c855b0e70a4ecb4329810542) - **bench:** refactor to use string interpolation in `array/base/bifurcate-entries` [(#8692)](https://github.com/stdlib-js/stdlib/pull/8692) _(by Aman Singh)_
@@ -623,17 +690,21 @@ A total of 19 issues were closed in this release:
 
 ### Contributors
 
-A total of 21 people contributed to this release. Thank you to the following contributors:
+A total of 30 people contributed to this release. Thank you to the following contributors:
 
 -   Abhijit Raut
 -   Aditya Sapra
 -   Aman Singh
 -   Aryan kumar
 -   Athan Reines
+-   Bhargav Dabhade
 -   Debashis Maharana
+-   DivitJain26
 -   Divyanshu
 -   Gitty Harsha
 -   Gururaj Gurram
+-   Kate Suraev
+-   KovidhRaj
 -   Mohammad Kaif
 -   Muhammad Haris
 -   Neeraj Pathak
@@ -642,10 +713,15 @@ A total of 21 people contributed to this release. Thank you to the following con
 -   Rylan Yang
 -   Sachin Raj
 -   Shabareesh Shetty
+-   Shubham
 -   Soumajit Chatterjee
+-   Sujal charati
+-   Ullas
 -   Vaibhav Patel
 -   Vinit Pandit
 -   Yaswanth Kosuru
+-   anee3
+-   ashutoshsao
 
 </section>
 
