@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.4.0">
 
-## Unreleased (2026-01-16)
+## 0.4.0 (2026-01-31)
 
 <section class="features">
 
@@ -260,6 +260,10 @@ A total of 20 issues were closed in this release:
 
 <details>
 
+-   [`7fbc3d9`](https://github.com/stdlib-js/stdlib/commit/7fbc3d91696d37d3f3f37377d14bd8e5e4d22358) - **bench:** use string interpolation in benchmark descriptions [(#9601)](https://github.com/stdlib-js/stdlib/pull/9601) _(by KovidhRaj)_
+-   [`bcac5a8`](https://github.com/stdlib-js/stdlib/commit/bcac5a8416e8cc611010ee290899cd72177087b1) - **bench:** refactor to use string interpolation in various `assert` packages [(#9786)](https://github.com/stdlib-js/stdlib/pull/9786) _(by Anant Sharma, Athan Reines)_
+-   [`c11b35c`](https://github.com/stdlib-js/stdlib/commit/c11b35c2be07283d370662abf5438b9935b49fff) - **bench:** refactor to use string interpolation in `array/base/fillednd` [(#9779)](https://github.com/stdlib-js/stdlib/pull/9779) _(by Rohit R Bhat)_
+-   [`7b347fa`](https://github.com/stdlib-js/stdlib/commit/7b347facd7397468a643699e102d2c3b6e379198) - **style:** resolve lint failure _(by Athan Reines)_
 -   [`72af2aa`](https://github.com/stdlib-js/stdlib/commit/72af2aacb1ff59c6e96de88b5994790ca756aca4) - **chore:** fix spelling errors in `array` [(#9768)](https://github.com/stdlib-js/stdlib/pull/9768) _(by Shubham, Philipp Burckhardt)_
 -   [`bfc8c3a`](https://github.com/stdlib-js/stdlib/commit/bfc8c3a7bcebf1a049c9e457ab440f540fd5c7a9) - **chore:** use one asterisk for license comment in TS files _(by Philipp Burckhardt)_
 -   [`bfab153`](https://github.com/stdlib-js/stdlib/commit/bfab1532d8a54a05baac781a2913db458a1e8570) - **bench:** refactor to use string interpolation in `array/base/bifurcate-values-by` [(#9607)](https://github.com/stdlib-js/stdlib/pull/9607) _(by Bhargav Dabhade)_
@@ -690,11 +694,12 @@ A total of 20 issues were closed in this release:
 
 ### Contributors
 
-A total of 30 people contributed to this release. Thank you to the following contributors:
+A total of 31 people contributed to this release. Thank you to the following contributors:
 
 -   Abhijit Raut
 -   Aditya Sapra
 -   Aman Singh
+-   Anant Sharma
 -   Aryan kumar
 -   Athan Reines
 -   Bhargav Dabhade
