@@ -2,6 +2,48 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-02)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`b721461`](https://github.com/stdlib-js/stdlib/commit/b721461895b04dd66f0915c76347244a7cc56148) - **docs:** revert style changes _(by Athan Reines)_
+-   [`3024bb3`](https://github.com/stdlib-js/stdlib/commit/3024bb37f70bf55295d9c4bf81107ff57c15ff8a) - **docs:** fix section comments and lint errors in `array` and `assert` READMEs _(by Philipp Burckhardt)_
+-   [`157ea4e`](https://github.com/stdlib-js/stdlib/commit/157ea4e1fe500feee3e8252c9e03162da1b53db7) - **chore:** use relative paths _(by Philipp Burckhardt)_
+-   [`e9e7da0`](https://github.com/stdlib-js/stdlib/commit/e9e7da08db53d90feb98a6926e29d388c5de117e) - **bench:** refactor to use string interpolation in `array/base/broadcasted-quaternary4d` [(#10436)](https://github.com/stdlib-js/stdlib/pull/10436) _(by anee3)_
+-   [`c695d88`](https://github.com/stdlib-js/stdlib/commit/c695d883771b97f493c0d370973fbd2bd39d521e) - **bench:** refactor to use string interpolation in `array/base/broadcasted-quinary2d` [(#10438)](https://github.com/stdlib-js/stdlib/pull/10438) _(by anee3)_
+-   [`1c5a33e`](https://github.com/stdlib-js/stdlib/commit/1c5a33ead802b48aa8b7eab6d816923df6ce8aa9) - **bench:** refactor to use string interpolation in `array/base/fillednd-by` [(#10334)](https://github.com/stdlib-js/stdlib/pull/10334) _(by Rohit R Bhat)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 4 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+-   Rohit R Bhat
+-   anee3
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.4.1">
 
 ## 0.4.1 (2026-02-08)
