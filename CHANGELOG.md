@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-02)
+## Unreleased (2026-03-16)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#10801](https://github.com/stdlib-js/stdlib/issues/10801)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,10 @@
 
 <details>
 
+-   [`12db091`](https://github.com/stdlib-js/stdlib/commit/12db091f535461d7b4a0df5d3d47627ad9234da2) - **chore:** fix JavaScript lint errors [(#10804)](https://github.com/stdlib-js/stdlib/pull/10804) _(by Aniket Sonawane)_
+-   [`4ef61be`](https://github.com/stdlib-js/stdlib/commit/4ef61be14fae1ba8a9f1bc2d6ef0caaf648ee5be) - **bench:** refactor to use string interpolation in `array/base/flatten-by` [(#10678)](https://github.com/stdlib-js/stdlib/pull/10678) _(by Siddhartha Mondal)_
+-   [`c1b4d2c`](https://github.com/stdlib-js/stdlib/commit/c1b4d2c8d7097c74e941eb9ebbee8e4f8c6f2b29) - **bench:** refactor to use string interpolation in `array/base/filter` [(#10644)](https://github.com/stdlib-js/stdlib/pull/10644) _(by Rohit R Bhat)_
+-   [`71a3394`](https://github.com/stdlib-js/stdlib/commit/71a339452ce742461f52af49a9767fdacfe87ee7) - **bench:** refactor to use string interpolation in `array/base/first` [(#10647)](https://github.com/stdlib-js/stdlib/pull/10647) _(by Rohit R Bhat)_
 -   [`b721461`](https://github.com/stdlib-js/stdlib/commit/b721461895b04dd66f0915c76347244a7cc56148) - **docs:** revert style changes _(by Athan Reines)_
 -   [`3024bb3`](https://github.com/stdlib-js/stdlib/commit/3024bb37f70bf55295d9c4bf81107ff57c15ff8a) - **docs:** fix section comments and lint errors in `array` and `assert` READMEs _(by Philipp Burckhardt)_
 -   [`157ea4e`](https://github.com/stdlib-js/stdlib/commit/157ea4e1fe500feee3e8252c9e03162da1b53db7) - **chore:** use relative paths _(by Philipp Burckhardt)_
@@ -29,11 +45,13 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
+-   Aniket Sonawane
 -   Athan Reines
 -   Philipp Burckhardt
 -   Rohit R Bhat
+-   Siddhartha Mondal
 -   anee3
 
 </section>
