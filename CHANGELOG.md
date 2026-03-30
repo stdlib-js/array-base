@@ -4,7 +4,20 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-16)
+## Unreleased (2026-03-30)
+
+<section class="features">
+
+### Features
+
+-   [`9165bd6`](https://github.com/stdlib-js/stdlib/commit/9165bd6bd22746c8e69c14e75fd931485515a194) - add `falses` to namespace
+-   [`836f561`](https://github.com/stdlib-js/stdlib/commit/836f5610785c2b1eb8efd5d5234fec349dac8f1d) - add `array/base/falses`
+-   [`afb3293`](https://github.com/stdlib-js/stdlib/commit/afb32938742a510a3357156736067ee8fdaba07d) - add `trues` to namespace
+-   [`1579050`](https://github.com/stdlib-js/stdlib/commit/1579050c61243f45711b9b4708c8c5fda7ad9c06) - add `array/base/trues`
+
+</section>
+
+<!-- /.features -->
 
 <section class="issues">
 
@@ -24,6 +37,10 @@ This release closes the following issue:
 
 <details>
 
+-   [`9165bd6`](https://github.com/stdlib-js/stdlib/commit/9165bd6bd22746c8e69c14e75fd931485515a194) - **feat:** add `falses` to namespace _(by Athan Reines)_
+-   [`836f561`](https://github.com/stdlib-js/stdlib/commit/836f5610785c2b1eb8efd5d5234fec349dac8f1d) - **feat:** add `array/base/falses` _(by Athan Reines)_
+-   [`afb3293`](https://github.com/stdlib-js/stdlib/commit/afb32938742a510a3357156736067ee8fdaba07d) - **feat:** add `trues` to namespace _(by Athan Reines)_
+-   [`1579050`](https://github.com/stdlib-js/stdlib/commit/1579050c61243f45711b9b4708c8c5fda7ad9c06) - **feat:** add `array/base/trues` _(by Athan Reines)_
 -   [`12db091`](https://github.com/stdlib-js/stdlib/commit/12db091f535461d7b4a0df5d3d47627ad9234da2) - **chore:** fix JavaScript lint errors [(#10804)](https://github.com/stdlib-js/stdlib/pull/10804) _(by Aniket Sonawane)_
 -   [`4ef61be`](https://github.com/stdlib-js/stdlib/commit/4ef61be14fae1ba8a9f1bc2d6ef0caaf648ee5be) - **bench:** refactor to use string interpolation in `array/base/flatten-by` [(#10678)](https://github.com/stdlib-js/stdlib/pull/10678) _(by Siddhartha Mondal)_
 -   [`c1b4d2c`](https://github.com/stdlib-js/stdlib/commit/c1b4d2c8d7097c74e941eb9ebbee8e4f8c6f2b29) - **bench:** refactor to use string interpolation in `array/base/filter` [(#10644)](https://github.com/stdlib-js/stdlib/pull/10644) _(by Rohit R Bhat)_
