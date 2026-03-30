@@ -37,6 +37,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`5e93594`](https://github.com/stdlib-js/stdlib/commit/5e93594dd241e229cc3605b53dfa4290168526fc) - **docs:** update namespace table of contents [(#11214)](https://github.com/stdlib-js/stdlib/pull/11214) _(by stdlib-bot)_
 -   [`9165bd6`](https://github.com/stdlib-js/stdlib/commit/9165bd6bd22746c8e69c14e75fd931485515a194) - **feat:** add `falses` to namespace _(by Athan Reines)_
 -   [`836f561`](https://github.com/stdlib-js/stdlib/commit/836f5610785c2b1eb8efd5d5234fec349dac8f1d) - **feat:** add `array/base/falses` _(by Athan Reines)_
 -   [`afb3293`](https://github.com/stdlib-js/stdlib/commit/afb32938742a510a3357156736067ee8fdaba07d) - **feat:** add `trues` to namespace _(by Athan Reines)_
