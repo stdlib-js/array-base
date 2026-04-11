@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-30)
+## Unreleased (2026-04-11)
 
 <section class="features">
 
@@ -38,6 +38,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`a467bf0`](https://github.com/stdlib-js/stdlib/commit/a467bf0083da8f346611e53a684a78212f76d426) - **chore:** fix typos and incorrect test values [(#11270)](https://github.com/stdlib-js/stdlib/pull/11270) _(by Philipp Burckhardt)_
 -   [`1596184`](https://github.com/stdlib-js/stdlib/commit/159618429a64de56dbe457f7bb901a117d5e9af2) - **feat:** update `array/base` TypeScript declarations [(#11213)](https://github.com/stdlib-js/stdlib/pull/11213) _(by stdlib-bot)_
 -   [`5e93594`](https://github.com/stdlib-js/stdlib/commit/5e93594dd241e229cc3605b53dfa4290168526fc) - **docs:** update namespace table of contents [(#11214)](https://github.com/stdlib-js/stdlib/pull/11214) _(by stdlib-bot)_
 -   [`9165bd6`](https://github.com/stdlib-js/stdlib/commit/9165bd6bd22746c8e69c14e75fd931485515a194) - **feat:** add `falses` to namespace _(by Athan Reines)_
