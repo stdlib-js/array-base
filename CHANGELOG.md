@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-06)
+## Unreleased (2026-05-11)
 
 <section class="features">
 
 ### Features
 
+-   [`91f9e66`](https://github.com/stdlib-js/stdlib/commit/91f9e662810fe97879caefabb9fdd92c3ee7d3ec) - add `toFilled` to namespace
+-   [`e007cc9`](https://github.com/stdlib-js/stdlib/commit/e007cc9a39f4a47b7de07c3b13b147f9c8a454a4) - add `array/base/to-filled` [(#11954)](https://github.com/stdlib-js/stdlib/pull/11954)
 -   [`1596184`](https://github.com/stdlib-js/stdlib/commit/159618429a64de56dbe457f7bb901a117d5e9af2) - update `array/base` TypeScript declarations [(#11213)](https://github.com/stdlib-js/stdlib/pull/11213)
 -   [`9165bd6`](https://github.com/stdlib-js/stdlib/commit/9165bd6bd22746c8e69c14e75fd931485515a194) - add `falses` to namespace
 -   [`836f561`](https://github.com/stdlib-js/stdlib/commit/836f5610785c2b1eb8efd5d5234fec349dac8f1d) - add `array/base/falses`
@@ -38,6 +40,9 @@ This release closes the following issue:
 
 <details>
 
+-   [`91f9e66`](https://github.com/stdlib-js/stdlib/commit/91f9e662810fe97879caefabb9fdd92c3ee7d3ec) - **feat:** add `toFilled` to namespace _(by Athan Reines)_
+-   [`e007cc9`](https://github.com/stdlib-js/stdlib/commit/e007cc9a39f4a47b7de07c3b13b147f9c8a454a4) - **feat:** add `array/base/to-filled` [(#11954)](https://github.com/stdlib-js/stdlib/pull/11954) _(by Muhammad Haris, Athan Reines)_
+-   [`02f0b0f`](https://github.com/stdlib-js/stdlib/commit/02f0b0fc4c6b8913d3bb30a33de136627757843d) - **docs:** fix `Complex64Array` import in `array/base/take` [(#12066)](https://github.com/stdlib-js/stdlib/pull/12066) _(by Karan Anand)_
 -   [`bca55a9`](https://github.com/stdlib-js/stdlib/commit/bca55a9363c921a4a04dd3b2c38a518cb10cac11) - **docs:** fix `arraylike2object` example in `array/base` namespace declarations [(#11971)](https://github.com/stdlib-js/stdlib/pull/11971) _(by Karan Anand)_
 -   [`923db7f`](https://github.com/stdlib-js/stdlib/commit/923db7f63656e408cf390029bd7985b4e736b518) - **docs:** improve doctests for complex number instances in `array/base/accessors` [(#11970)](https://github.com/stdlib-js/stdlib/pull/11970) _(by Karan Anand)_
 -   [`8decd39`](https://github.com/stdlib-js/stdlib/commit/8decd399a17fed37bad4642b0a8efc4b2cb7a5a8) - **docs:** fix accessor example arguments in `array/base/arraylike2object` [(#11969)](https://github.com/stdlib-js/stdlib/pull/11969) _(by Karan Anand)_
@@ -72,11 +77,12 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
 -   Aniket Sonawane
 -   Athan Reines
 -   Karan Anand
+-   Muhammad Haris
 -   Philipp Burckhardt
 -   Rohit R Bhat
 -   Siddhartha Mondal
