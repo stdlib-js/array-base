@@ -292,6 +292,7 @@ The namespace exports the following:
 -   <span class="signature">[`ternary5d( arrays, shape, fcn )`][@stdlib/array/base/ternary5d]</span><span class="delimiter">: </span><span class="description">apply a ternary callback to elements in three five-dimensional nested input arrays and assign results to elements in a five-dimensional nested output array.</span>
 -   <span class="signature">[`toAccessorArray( arr )`][@stdlib/array/base/to-accessor-array]</span><span class="delimiter">: </span><span class="description">convert an array-like object to a minimal array-like object supporting the accessor protocol.</span>
 -   <span class="signature">[`toDeduped( x, limit, equalNaNs )`][@stdlib/array/base/to-deduped]</span><span class="delimiter">: </span><span class="description">copy elements to a new "generic" array after removing consecutive duplicated values.</span>
+-   <span class="signature">[`toFilled( x, value, start, end )`][@stdlib/array/base/to-filled]</span><span class="delimiter">: </span><span class="description">return a new array with all elements within a specified range replaced with a provided value.</span>
 -   <span class="signature">[`toInsertedAt( x, index, value )`][@stdlib/array/base/to-inserted-at]</span><span class="delimiter">: </span><span class="description">return a new array containing every element from an input array and with a provided value inserted at a specified index.</span>
 -   <span class="signature">[`toReversed( x )`][@stdlib/array/base/to-reversed]</span><span class="delimiter">: </span><span class="description">return a new array with elements in reverse order.</span>
 -   <span class="signature">[`trues( len )`][@stdlib/array/base/trues]</span><span class="delimiter">: </span><span class="description">create a "generic" array filled with `true` values.</span>
@@ -872,6 +873,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/array/base/to-accessor-array]: https://github.com/stdlib-js/array-base-to-accessor-array
 
 [@stdlib/array/base/to-deduped]: https://github.com/stdlib-js/array-base-to-deduped
+
+[@stdlib/array/base/to-filled]: https://github.com/stdlib-js/array-base-to-filled
 
 [@stdlib/array/base/to-inserted-at]: https://github.com/stdlib-js/array-base-to-inserted-at
 
