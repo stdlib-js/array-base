@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-11)
+## Unreleased (2026-05-13)
 
 <section class="features">
 
@@ -41,6 +41,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`a1aabee`](https://github.com/stdlib-js/stdlib/commit/a1aabee8d9e187f3c9bc35be085a2a434f15a515) - **chore:** normalize `main` field to `./lib` in `array/base` and `array/float16` package.json [(#12110)](https://github.com/stdlib-js/stdlib/pull/12110) _(by Philipp Burckhardt)_
 -   [`513fc61`](https://github.com/stdlib-js/stdlib/commit/513fc61205a9a4748a1e4ecc58c664a11f443ec4) - **feat:** update `array/base` TypeScript declarations [(#12090)](https://github.com/stdlib-js/stdlib/pull/12090) _(by stdlib-bot)_
 -   [`c534f97`](https://github.com/stdlib-js/stdlib/commit/c534f971488b2a5ebacca4dccf73a9d9b4e09bc7) - **docs:** update namespace table of contents [(#12092)](https://github.com/stdlib-js/stdlib/pull/12092) _(by stdlib-bot)_
 -   [`91f9e66`](https://github.com/stdlib-js/stdlib/commit/91f9e662810fe97879caefabb9fdd92c3ee7d3ec) - **feat:** add `toFilled` to namespace _(by Athan Reines)_
