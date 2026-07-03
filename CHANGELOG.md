@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-23)
+## Unreleased (2026-07-03)
 
 <section class="features">
 
 ### Features
 
+-   [`c38afb1`](https://github.com/stdlib-js/stdlib/commit/c38afb1481f0785a09095561486cb0e987609d37) - add float16 dtype support for `array/base/getter` [(#13223)](https://github.com/stdlib-js/stdlib/pull/13223)
+-   [`565a326`](https://github.com/stdlib-js/stdlib/commit/565a326bc43d0b0521752f94c321662fe90c58d8) - add initial `float16` support
 -   [`513fc61`](https://github.com/stdlib-js/stdlib/commit/513fc61205a9a4748a1e4ecc58c664a11f443ec4) - update `array/base` TypeScript declarations [(#12090)](https://github.com/stdlib-js/stdlib/pull/12090)
 -   [`91f9e66`](https://github.com/stdlib-js/stdlib/commit/91f9e662810fe97879caefabb9fdd92c3ee7d3ec) - add `toFilled` to namespace
 -   [`e007cc9`](https://github.com/stdlib-js/stdlib/commit/e007cc9a39f4a47b7de07c3b13b147f9c8a454a4) - add `array/base/to-filled` [(#11954)](https://github.com/stdlib-js/stdlib/pull/11954)
@@ -27,9 +29,9 @@
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#10801](https://github.com/stdlib-js/stdlib/issues/10801)
+[#10801](https://github.com/stdlib-js/stdlib/issues/10801), [#12890](https://github.com/stdlib-js/stdlib/issues/12890)
 
 </section>
 
@@ -41,6 +43,12 @@ This release closes the following issue:
 
 <details>
 
+-   [`7fbca26`](https://github.com/stdlib-js/stdlib/commit/7fbca26c260e75cc31902488cf09f43163a58c17) - **chore:** remove extra space and fix license header [(#13228)](https://github.com/stdlib-js/stdlib/pull/13228) _(by Philipp Burckhardt)_
+-   [`c38afb1`](https://github.com/stdlib-js/stdlib/commit/c38afb1481f0785a09095561486cb0e987609d37) - **feat:** add float16 dtype support for `array/base/getter` [(#13223)](https://github.com/stdlib-js/stdlib/pull/13223) _(by Gururaj Gurram, Athan Reines)_
+-   [`a45fc67`](https://github.com/stdlib-js/stdlib/commit/a45fc6763b36e4f137674c8e66c652549b293341) - **test:** update test _(by Athan Reines)_
+-   [`565a326`](https://github.com/stdlib-js/stdlib/commit/565a326bc43d0b0521752f94c321662fe90c58d8) - **feat:** add initial `float16` support _(by Athan Reines)_
+-   [`ed5107b`](https://github.com/stdlib-js/stdlib/commit/ed5107b9f6d4e5f74a2a6205f6382cfddef0367b) - **docs:** fix return annotation _(by Athan Reines)_
+-   [`794978c`](https://github.com/stdlib-js/stdlib/commit/794978cdb1260c55085e2e2a27f65fe899bcdff8) - **chore:** fix JavaScript lint errors [(#13015)](https://github.com/stdlib-js/stdlib/pull/13015) _(by titanniya542-spec)_
 -   [`00885d3`](https://github.com/stdlib-js/stdlib/commit/00885d3e6afd8118ce2b6e5f7a1c544d5b6d4ffb) - **bench:** refactor to use string interpolation in `array` [(#11411)](https://github.com/stdlib-js/stdlib/pull/11411) _(by Karan Anand, Athan Reines)_
 -   [`d660241`](https://github.com/stdlib-js/stdlib/commit/d660241b4827a4c598b2334173552247ad4b839f) - **bench:** refactor to use string interpolation in `array` [(#11414)](https://github.com/stdlib-js/stdlib/pull/11414) _(by Karan Anand, Athan Reines)_
 -   [`a1aabee`](https://github.com/stdlib-js/stdlib/commit/a1aabee8d9e187f3c9bc35be085a2a434f15a515) - **chore:** normalize `main` field to `./lib` in `array/base` and `array/float16` package.json [(#12110)](https://github.com/stdlib-js/stdlib/pull/12110) _(by Philipp Burckhardt)_
@@ -83,16 +91,18 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 8 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   Aniket Sonawane
 -   Athan Reines
+-   Gururaj Gurram
 -   Karan Anand
 -   Muhammad Haris
 -   Philipp Burckhardt
 -   Rohit R Bhat
 -   Siddhartha Mondal
 -   anee3
+-   titanniya542-spec
 
 </section>
 
