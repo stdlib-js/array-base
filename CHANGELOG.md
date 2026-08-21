@@ -4,12 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-03)
+## Unreleased (2026-08-21)
 
 <section class="features">
 
 ### Features
 
+-   [`7fe03ab`](https://github.com/stdlib-js/stdlib/commit/7fe03ab3710db4701e1e77e8169ebf6f8dcb6236) - add float16 support in `array/base/assert/is-complex-typed-array` [(#13243)](https://github.com/stdlib-js/stdlib/pull/13243)
+-   [`49dd389`](https://github.com/stdlib-js/stdlib/commit/49dd389fcd29bf8dcf237b6694dbf4c35f65d5a6) - add float16 dtype support in `array/base/assert/is-data-type` [(#13244)](https://github.com/stdlib-js/stdlib/pull/13244)
+-   [`f765960`](https://github.com/stdlib-js/stdlib/commit/f765960c33022d964a5fde355f3a38caf7a17021) - add float16 support in `array/base/assert/is-accessor-array` [(#13242)](https://github.com/stdlib-js/stdlib/pull/13242)
+-   [`d78d6f3`](https://github.com/stdlib-js/stdlib/commit/d78d6f3c29cc0132542f6679599c93ddafabae19) - add float16 support in `array/base/assert/is-complex-floating-point-data-type` [(#13241)](https://github.com/stdlib-js/stdlib/pull/13241)
+-   [`e0dc901`](https://github.com/stdlib-js/stdlib/commit/e0dc901387fe527854525a12ac5049cbc002c5ed) - add float16 support in `array/base/assert/is-floating-point-data-type` [(#13245)](https://github.com/stdlib-js/stdlib/pull/13245)
 -   [`c38afb1`](https://github.com/stdlib-js/stdlib/commit/c38afb1481f0785a09095561486cb0e987609d37) - add float16 dtype support for `array/base/getter` [(#13223)](https://github.com/stdlib-js/stdlib/pull/13223)
 -   [`565a326`](https://github.com/stdlib-js/stdlib/commit/565a326bc43d0b0521752f94c321662fe90c58d8) - add initial `float16` support
 -   [`513fc61`](https://github.com/stdlib-js/stdlib/commit/513fc61205a9a4748a1e4ecc58c664a11f443ec4) - update `array/base` TypeScript declarations [(#12090)](https://github.com/stdlib-js/stdlib/pull/12090)
@@ -43,6 +48,17 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`72b23ea`](https://github.com/stdlib-js/stdlib/commit/72b23ea594cad1265cd358ade0e366d682f5858d) - **chore:** clean-up [(#14383)](https://github.com/stdlib-js/stdlib/pull/14383) _(by Philipp Burckhardt)_
+-   [`513eef6`](https://github.com/stdlib-js/stdlib/commit/513eef6f9c2c70bff4dc3c0a719d4c6dbfe2e8a4) - **docs:** add missing space and fix punctuation [(#14226)](https://github.com/stdlib-js/stdlib/pull/14226) _(by Philipp Burckhardt)_
+-   [`f1eeb72`](https://github.com/stdlib-js/stdlib/commit/f1eeb7279dd2bd1dbec48234ac146791a97a406d) - **chore:** update keywords [(#13334)](https://github.com/stdlib-js/stdlib/pull/13334) _(by Philipp Burckhardt)_
+-   [`c33404a`](https://github.com/stdlib-js/stdlib/commit/c33404ab42f5cd06257f3f02843fa23393884e80) - **style:** remove extra space and address lint failures [(#13263)](https://github.com/stdlib-js/stdlib/pull/13263) _(by Philipp Burckhardt)_
+-   [`e954cb2`](https://github.com/stdlib-js/stdlib/commit/e954cb27d752f444cc937a94278a68ac1e22c58d) - **docs:** update `array/base/assert` TS declarations example code [(#13254)](https://github.com/stdlib-js/stdlib/pull/13254) _(by stdlib-bot)_
+-   [`7fe03ab`](https://github.com/stdlib-js/stdlib/commit/7fe03ab3710db4701e1e77e8169ebf6f8dcb6236) - **feat:** add float16 support in `array/base/assert/is-complex-typed-array` [(#13243)](https://github.com/stdlib-js/stdlib/pull/13243) _(by Gururaj Gurram)_
+-   [`49dd389`](https://github.com/stdlib-js/stdlib/commit/49dd389fcd29bf8dcf237b6694dbf4c35f65d5a6) - **feat:** add float16 dtype support in `array/base/assert/is-data-type` [(#13244)](https://github.com/stdlib-js/stdlib/pull/13244) _(by Gururaj Gurram, Athan Reines)_
+-   [`f765960`](https://github.com/stdlib-js/stdlib/commit/f765960c33022d964a5fde355f3a38caf7a17021) - **feat:** add float16 support in `array/base/assert/is-accessor-array` [(#13242)](https://github.com/stdlib-js/stdlib/pull/13242) _(by Gururaj Gurram)_
+-   [`b71a63d`](https://github.com/stdlib-js/stdlib/commit/b71a63d212d3943412faa229884d0ee56ee429da) - **style:** remove stray spaces [(#13248)](https://github.com/stdlib-js/stdlib/pull/13248) _(by Philipp Burckhardt)_
+-   [`d78d6f3`](https://github.com/stdlib-js/stdlib/commit/d78d6f3c29cc0132542f6679599c93ddafabae19) - **feat:** add float16 support in `array/base/assert/is-complex-floating-point-data-type` [(#13241)](https://github.com/stdlib-js/stdlib/pull/13241) _(by Gururaj Gurram)_
+-   [`e0dc901`](https://github.com/stdlib-js/stdlib/commit/e0dc901387fe527854525a12ac5049cbc002c5ed) - **feat:** add float16 support in `array/base/assert/is-floating-point-data-type` [(#13245)](https://github.com/stdlib-js/stdlib/pull/13245) _(by Gururaj Gurram)_
 -   [`7fbca26`](https://github.com/stdlib-js/stdlib/commit/7fbca26c260e75cc31902488cf09f43163a58c17) - **chore:** remove extra space and fix license header [(#13228)](https://github.com/stdlib-js/stdlib/pull/13228) _(by Philipp Burckhardt)_
 -   [`c38afb1`](https://github.com/stdlib-js/stdlib/commit/c38afb1481f0785a09095561486cb0e987609d37) - **feat:** add float16 dtype support for `array/base/getter` [(#13223)](https://github.com/stdlib-js/stdlib/pull/13223) _(by Gururaj Gurram, Athan Reines)_
 -   [`a45fc67`](https://github.com/stdlib-js/stdlib/commit/a45fc6763b36e4f137674c8e66c652549b293341) - **test:** update test _(by Athan Reines)_
