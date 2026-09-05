@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-21)
+## Unreleased (2026-09-05)
 
 <section class="features">
 
 ### Features
 
+-   [`1038f59`](https://github.com/stdlib-js/stdlib/commit/1038f593e4cd4b7167f99bc8aee9e5106416b03a) - add float16 dtype support to `array/base/*` [(#14896)](https://github.com/stdlib-js/stdlib/pull/14896)
 -   [`7fe03ab`](https://github.com/stdlib-js/stdlib/commit/7fe03ab3710db4701e1e77e8169ebf6f8dcb6236) - add float16 support in `array/base/assert/is-complex-typed-array` [(#13243)](https://github.com/stdlib-js/stdlib/pull/13243)
 -   [`49dd389`](https://github.com/stdlib-js/stdlib/commit/49dd389fcd29bf8dcf237b6694dbf4c35f65d5a6) - add float16 dtype support in `array/base/assert/is-data-type` [(#13244)](https://github.com/stdlib-js/stdlib/pull/13244)
 -   [`f765960`](https://github.com/stdlib-js/stdlib/commit/f765960c33022d964a5fde355f3a38caf7a17021) - add float16 support in `array/base/assert/is-accessor-array` [(#13242)](https://github.com/stdlib-js/stdlib/pull/13242)
@@ -48,6 +49,10 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`2aec233`](https://github.com/stdlib-js/stdlib/commit/2aec2333cf1589f4eb5c980ecca74feba93c97de) - **docs:** update example [(#14992)](https://github.com/stdlib-js/stdlib/pull/14992) _(by stdlib-bot)_
+-   [`30e3116`](https://github.com/stdlib-js/stdlib/commit/30e31169773fecb73cef596931064d92513d993c) - **chore:** clean-up [(#14969)](https://github.com/stdlib-js/stdlib/pull/14969) _(by Philipp Burckhardt)_
+-   [`1038f59`](https://github.com/stdlib-js/stdlib/commit/1038f593e4cd4b7167f99bc8aee9e5106416b03a) - **feat:** add float16 dtype support to `array/base/*` [(#14896)](https://github.com/stdlib-js/stdlib/pull/14896) _(by Gururaj Gurram, Athan Reines)_
+-   [`607bbc6`](https://github.com/stdlib-js/stdlib/commit/607bbc6e104c273e5b26cabfb21a8c06f3d5d375) - **build:** avoid false positives in ESLint rule `jsdoc-doctest-decimal-point` [(#14644)](https://github.com/stdlib-js/stdlib/pull/14644) _(by Philipp Burckhardt, Athan Reines)_
 -   [`72b23ea`](https://github.com/stdlib-js/stdlib/commit/72b23ea594cad1265cd358ade0e366d682f5858d) - **chore:** clean-up [(#14383)](https://github.com/stdlib-js/stdlib/pull/14383) _(by Philipp Burckhardt)_
 -   [`513eef6`](https://github.com/stdlib-js/stdlib/commit/513eef6f9c2c70bff4dc3c0a719d4c6dbfe2e8a4) - **docs:** add missing space and fix punctuation [(#14226)](https://github.com/stdlib-js/stdlib/pull/14226) _(by Philipp Burckhardt)_
 -   [`f1eeb72`](https://github.com/stdlib-js/stdlib/commit/f1eeb7279dd2bd1dbec48234ac146791a97a406d) - **chore:** update keywords [(#13334)](https://github.com/stdlib-js/stdlib/pull/13334) _(by Philipp Burckhardt)_
