@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-05)
+## Unreleased (2026-11-15)
 
 <section class="features">
 
 ### Features
 
+-   [`5945917`](https://github.com/stdlib-js/stdlib/commit/59459177f3a0662a39714b8b89be4f6aefd2eed0) - add `uint64` and `int64` support for `array/base/assert/has-equal-values` [(#14238)](https://github.com/stdlib-js/stdlib/pull/14238)
+-   [`e6ef385`](https://github.com/stdlib-js/stdlib/commit/e6ef3852ca447bfd266c34dc8250b66c261a2096) - add float16 dtype support to `array/base/assert/*` [(#15453)](https://github.com/stdlib-js/stdlib/pull/15453)
+-   [`7bb89c2`](https://github.com/stdlib-js/stdlib/commit/7bb89c2db43b096eadb6c6405174569d843582f1) - add float16 dtype support to `array/base/assert/has-almost-same-values` [(#15028)](https://github.com/stdlib-js/stdlib/pull/15028)
+-   [`9dcb954`](https://github.com/stdlib-js/stdlib/commit/9dcb95400559523692b16d156e31df5a72308105) - add float16 dtype support to `array/base/assert/has-almost-equal-values` [(#15027)](https://github.com/stdlib-js/stdlib/pull/15027)
 -   [`1038f59`](https://github.com/stdlib-js/stdlib/commit/1038f593e4cd4b7167f99bc8aee9e5106416b03a) - add float16 dtype support to `array/base/*` [(#14896)](https://github.com/stdlib-js/stdlib/pull/14896)
 -   [`7fe03ab`](https://github.com/stdlib-js/stdlib/commit/7fe03ab3710db4701e1e77e8169ebf6f8dcb6236) - add float16 support in `array/base/assert/is-complex-typed-array` [(#13243)](https://github.com/stdlib-js/stdlib/pull/13243)
 -   [`49dd389`](https://github.com/stdlib-js/stdlib/commit/49dd389fcd29bf8dcf237b6694dbf4c35f65d5a6) - add float16 dtype support in `array/base/assert/is-data-type` [(#13244)](https://github.com/stdlib-js/stdlib/pull/13244)
@@ -49,6 +53,14 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`f91b31b`](https://github.com/stdlib-js/stdlib/commit/f91b31b6f7b190b4929ec93cd691416e5db67db3) - **docs:** update namespace table of contents [(#16635)](https://github.com/stdlib-js/stdlib/pull/16635) _(by stdlib-bot)_
+-   [`7dc1831`](https://github.com/stdlib-js/stdlib/commit/7dc18312d916c5f20e5b63dd45b44307093336d0) - **docs:** fix heading levels [(#16624)](https://github.com/stdlib-js/stdlib/pull/16624) _(by Philipp Burckhardt)_
+-   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
+-   [`5945917`](https://github.com/stdlib-js/stdlib/commit/59459177f3a0662a39714b8b89be4f6aefd2eed0) - **feat:** add `uint64` and `int64` support for `array/base/assert/has-equal-values` [(#14238)](https://github.com/stdlib-js/stdlib/pull/14238) _(by Divit Jain, Athan Reines)_
+-   [`e6ef385`](https://github.com/stdlib-js/stdlib/commit/e6ef3852ca447bfd266c34dc8250b66c261a2096) - **feat:** add float16 dtype support to `array/base/assert/*` [(#15453)](https://github.com/stdlib-js/stdlib/pull/15453) _(by Gururaj Gurram)_
+-   [`7bb89c2`](https://github.com/stdlib-js/stdlib/commit/7bb89c2db43b096eadb6c6405174569d843582f1) - **feat:** add float16 dtype support to `array/base/assert/has-almost-same-values` [(#15028)](https://github.com/stdlib-js/stdlib/pull/15028) _(by Gururaj Gurram)_
+-   [`9dcb954`](https://github.com/stdlib-js/stdlib/commit/9dcb95400559523692b16d156e31df5a72308105) - **feat:** add float16 dtype support to `array/base/assert/has-almost-equal-values` [(#15027)](https://github.com/stdlib-js/stdlib/pull/15027) _(by Gururaj Gurram)_
 -   [`2aec233`](https://github.com/stdlib-js/stdlib/commit/2aec2333cf1589f4eb5c980ecca74feba93c97de) - **docs:** update example [(#14992)](https://github.com/stdlib-js/stdlib/pull/14992) _(by stdlib-bot)_
 -   [`30e3116`](https://github.com/stdlib-js/stdlib/commit/30e31169773fecb73cef596931064d92513d993c) - **chore:** clean-up [(#14969)](https://github.com/stdlib-js/stdlib/pull/14969) _(by Philipp Burckhardt)_
 -   [`1038f59`](https://github.com/stdlib-js/stdlib/commit/1038f593e4cd4b7167f99bc8aee9e5106416b03a) - **feat:** add float16 dtype support to `array/base/*` [(#14896)](https://github.com/stdlib-js/stdlib/pull/14896) _(by Gururaj Gurram, Athan Reines)_
@@ -112,10 +124,11 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 10 people contributed to this release. Thank you to the following contributors:
+A total of 11 people contributed to this release. Thank you to the following contributors:
 
 -   Aniket Sonawane
 -   Athan Reines
+-   Divit Jain
 -   Gururaj Gurram
 -   Karan Anand
 -   Muhammad Haris
