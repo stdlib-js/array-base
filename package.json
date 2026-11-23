@@ -461,7 +461,7 @@
     "@stdlib/strided-base-reinterpret-complex64": "^0.2.2",
     "@stdlib/strided-base-reinterpret-int64": "github:stdlib-js/strided-base-reinterpret-int64#main",
     "@stdlib/strided-base-reinterpret-uint64": "github:stdlib-js/strided-base-reinterpret-uint64#main",
-    "@stdlib/string-format": "^0.2.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3",
     "@stdlib/string-from-code-point": "^0.2.3",
     "@stdlib/utils-constant-function": "^0.2.3",
     "@stdlib/utils-constructor-name": "^0.2.3",
